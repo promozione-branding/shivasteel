@@ -23,7 +23,7 @@ const stats = [
   },
   {
     icon: <BriefcaseBusiness className="h-16 w-16 text-red-500" />,
-    number: "900+",
+    number: "500+",
     title: "Our Running Projects",
     description:
       "Around the world more than 900 projects are running successfully.",

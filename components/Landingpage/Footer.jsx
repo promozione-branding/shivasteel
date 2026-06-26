@@ -36,11 +36,8 @@ export default function Footer() {
           </div>
 
           {/* Description */}
-          <p className="mt-10 text-[17px] leading-[2] text-[#2f2e2e] ">
-            Significantly pushed und the frugal lemur one and
-            meretricious lucrative inside before swept
-            magnificently expand our Industries via. Lorem
-            ipsum dolor sit amet adipscing.
+          <p className="mt-10 text-[16px] leading-[2] text-[#2f2e2e] ">
+         We at Shiva Steel Fabricators are involved in the wholesale trade, Supplier, and provision of services for a superior quality range of products that include MS Sheet, Cable Tray, Colour, GI Decking Sheet, GP Sheet / GI Sheet, MS Pipe , MS Sheet, MS Heavy Plate, Mild Steel Chequered Plate, MS Cold Rolled Coils, MS Hot Rolled Coil, and so on.
           </p>
 
           {/* Social */}
@@ -73,55 +70,25 @@ export default function Footer() {
         {/* Right Section */}
         <div className="px-8 lg:px-16  py-20 relative">
           <div className="grid md:grid-cols-4 gap-16">
-            
-            {/* Industry */}
+
+
+
+     {/* About */}
             <div>
               <div className="flex items-center gap-4 mb-10">
                 <span className="w-6 h-[2px] bg-[#ff7d17]" />
                 <h3 className="text-[22px] font-bold text-[#222]">
-                  Our Industry
-                </h3>
-              </div>
-
-              <ul className="space-y-6">
-                {[
-                  "Automation Industry",
-                  "Power and Energy",
-                  "Civil Engineering",
-                  "Healthy & safety",
-                  "Plant Hire",
-                  "Petroleum Industry",
-                ].map((item) => (
-                  <li key={item}>
-                    <Link
-                      href="#"
-                      className="flex items-center gap-4 text-[18px] text-[#444] hover:text-[#ff7d17]"
-                    >
-                      <span className="w-2 h-2 rounded-full bg-[#2b6cb0]" />
-                      {item}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* About */}
-            <div>
-              <div className="flex items-center gap-4 mb-10">
-                <span className="w-6 h-[2px] bg-[#ff7d17]" />
-                <h3 className="text-[22px] font-bold text-[#222]">
-                  About Erdunt
+                 Quick Links
                 </h3>
               </div>
 
               <ul className="space-y-6">
                 {[
                   "About Us",
-                  "Faqs",
-                  "Our Team",
-                  "Testimonials",
-                  "News List View",
-                  "Contact",
+                  "Our Products",
+                  "News & Events",
+             
+                  "Contact Us",
                 ].map((item) => (
                   <li key={item}>
                     <Link
@@ -136,6 +103,40 @@ export default function Footer() {
               </ul>
             </div>
 
+
+            
+            {/* Industry */}
+            <div>
+              <div className="flex items-center gap-4 mb-10">
+                <span className="w-6 h-[2px] bg-[#ff7d17]" />
+                <h3 className="text-[22px] font-bold text-[#222]">
+                  Our Products
+                </h3>
+              </div>
+
+              <ul className="space-y-6">
+                {[
+                  "	GP Plain Sheet",
+                  "	Mild Steel Round Pipe",
+                  "	MS Sheet Plate",
+                  "	Mild Steel Sheet",
+                  "	Mild Steel Round Pipe",
+                  "	Mild Steel Flat Bar",
+                ].map((item) => (
+                  <li key={item}>
+                    <Link
+                      href="#"
+                      className="flex items-center gap-4 text-[18px] text-[#444] hover:text-[#ff7d17]"
+                    >
+                      <span className="w-2 h-2 rounded-full bg-[#2b6cb0]" />
+                      {item}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+       
             {/* Contact */}
             <div>
               <div className="flex items-center gap-4 mb-10">
@@ -146,25 +147,35 @@ export default function Footer() {
               </div>
 
               <div className="space-y-0">
-                <div className="flex gap-6 py-5 border-b border-[#e6e6e6]">
+                <div className="flex gap-6 py-2 border-b border-[#e6e6e6]">
                   <Phone
                     size={28}
                     className="text-[#ff7d17] shrink-0 mt-1"
                   />
                   <p className="text-[18px] text-[#444]">
-                    +1-(934)-256-7850
+                 
++91-9069906984
                   </p>
                 </div>
 
-                <div className="flex gap-6 py-5 border-b border-[#e6e6e6]">
+     <div className="flex gap-6 py-5 border-b border-[#e6e6e6]">
+                  <Phone
+                    size={28}
+                    className="text-[#ff7d17] shrink-0 mt-1"
+                  />
+                  <p className="text-[18px] text-[#444]">
+                 
++91-98736 56785
+
+                  </p>
+                </div>
+                <div className="flex gap-4 py-3 border-b border-[#e6e6e6]">
                   <MapPin
                     size={28}
                     className="text-[#ff7d17] shrink-0 mt-1"
                   />
-                  <p className="text-[18px] text-[#444] leading-8">
-                    950 Alpaca, Virginia
-                    <br />
-                    32809 - United States
+                  <p className="text-[16px] text-[#444] leading-8">
+                X-43, Loha Mandi, Block X, Naraina Industrial Area Phase 1, Naraina, New Delhi, Delhi, 110028
                   </p>
                 </div>
 
@@ -174,19 +185,11 @@ export default function Footer() {
                     className="text-[#ff7d17] shrink-0 mt-1"
                   />
                   <p className="text-[18px] text-[#444]">
-                    info@example.com
+                   shivasteel2019@gmail.com
                   </p>
                 </div>
 
-                <div className="flex gap-6 py-5">
-                  <Clock3
-                    size={28}
-                    className="text-[#ff7d17] shrink-0 mt-1"
-                  />
-                  <p className="text-[18px] text-[#444]">
-                    Monday to Fri: 9:am to 6pm
-                  </p>
-                </div>
+            
               </div>
             </div>
 

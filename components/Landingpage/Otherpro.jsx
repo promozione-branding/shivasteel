@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+import { Navigation,Autoplay } from "swiper/modules";
 
 import { ArrowRight, ArrowLeft } from "lucide-react";
 import Image from "next/image";
@@ -38,7 +38,7 @@ const products = [
     image: "/coil.png",
   },
   {
-    title: "GP Sheet / gi sheet",
+    title: "GP Sheet / GI Sheet",
     production: "1500+",
     image: "/gisheet.png",
   },
@@ -106,7 +106,7 @@ const products = [
         Our Steel Product Portfolio
         </span>
 
-        <h2 className="mt-2 text-[18px] leading-[1.09]  text-black max-w-[800px]">
+        <h2 className="mt-2 text-[18px]   text-black max-w-[950px]">
       We provide high-quality structural steel products and fabrication materials that meet the demanding requirements of modern construction and industrial applications. Every product is sourced from trusted manufacturers to ensure superior performance, reliability, and long-term value.
         </h2>
       </div>
@@ -132,14 +132,21 @@ const products = [
 
     <Swiper
 
-      modules={[Navigation]}
-      navigation={{
-        prevEl: ".product-prev",
-        nextEl: ".product-next",
-      }}
-      spaceBetween={35}
-      slidesPerView={2.25}
-      className="overflow-visible"
+    modules={[Navigation, Autoplay]}
+  navigation={{
+    prevEl: ".product-prev",
+    nextEl: ".product-next",
+  }}
+  autoplay={{
+    delay: 3000,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
+  }}
+  loop={true}
+  speed={800}
+  spaceBetween={35}
+  slidesPerView={2.25}
+  className="overflow-visible"
     >
       {products.map((product, index) => (
         <SwiperSlide key={index}>

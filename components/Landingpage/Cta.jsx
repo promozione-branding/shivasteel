@@ -6,7 +6,7 @@ export default function ConstructionCTA() {
     <section className="relative h-[250px] overflow-hidden bg-black">
       {/* RIGHT IMAGE PANEL */}
       <div className="absolute top-0 right-0 h-full w-[42%]">
-        
+
         <Image
           src="/cta.avif"
           alt=""
@@ -32,14 +32,13 @@ export default function ConstructionCTA() {
           <div className="flex items-center gap-10">
             <Settings
               size={120}
-              className="text-[#FF5A1F]"
+              
+              className="text-[#FF5A1F] animate-rotate-slow"
               strokeWidth={1.5}
             />
 
-            <h2 className="max-w-[760px] text-[40px] leading-[1.1] font-extrabold text-white">
-              We Finished $15 billion of Different
-             
-              Construction Projects Yearly
+            <h2 className="max-w-[700px] text-[30px] leading-[1.1]  text-white">
+   Connect with our steel specialists to discuss your project requirements. We offer customized steel products, bulk supply, and dependable nationwide delivery.
             </h2>
           </div>
 

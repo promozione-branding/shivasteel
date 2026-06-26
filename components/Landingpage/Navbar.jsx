@@ -63,7 +63,8 @@ export default function Navbar() {
         className="flex items-center gap-2 hover:text-blue-200 transition"
       >
         <Mail className="h-3.5 w-3.5" />
-        info@shivasteelfabricators.com
+       shivasteel2019@gmail.com
+
       </a>
 
       <div className="flex items-center gap-2">
@@ -79,7 +80,7 @@ export default function Navbar() {
       <MapPin className="h-3.5 w-3.5 text-emerald-400" />
 
       <span>
-        Bawana Industrial Area, Delhi - 110039
+     Industrial Area Phase 1, Naraina, New Delhi, Delhi, 110028
       </span>
 
     </div>

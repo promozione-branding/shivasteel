@@ -112,7 +112,7 @@ export default function WhyChooseUs() {
             {/* Floating Card */}
             <div className="absolute -bottom-6 -left-6 rounded-2xl bg-white p-6 shadow-xl border border-slate-100">
               <h4 className="text-3xl font-bold text-orange-600">
-                15+
+                25+
               </h4>
               <p className="text-slate-600">
                 Years of Industry Experience

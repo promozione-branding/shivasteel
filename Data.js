@@ -8,7 +8,7 @@ export const categories = [
   
   {
     id: "gp-sheet-gi-sheet",
-    name: "GP Sheet / Gi sheet",
+    name: "GP Sheet / GI sheet",
     metaTitle: "Biodegradable Garbage Bags – Eco-Friendly Waste Solutions | Sangam Plastic Industries",
     metaDescription:
       "Explore premium biodegradable garbage bags designed for eco-friendly waste management. Strong, compostable and sustainable bags for home, office, and industrial use.",

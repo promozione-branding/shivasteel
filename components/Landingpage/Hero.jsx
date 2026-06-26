@@ -21,14 +21,14 @@ import "swiper/css/effect-fade";
 
 const slides = [
   {
-    image: "/bg1.avif",
+    image: "/check.jfif",
     tag: "INDUSTRIAL EXCELLENCE",
     title: "Premium GI Sheets ",
     highlight: "for Every Industry",
     desc: "High-quality GI Sheets for roofing, fabrication, cladding, and construction applications with superior corrosion resistance and long-lasting durability.",
   },
   {
-    image: "/bg3.webp",
+    image: "/check2.jfif",
     tag: "TRUSTED SUPPLIER",
     title: "Strong & Reliable",
     highlight: " Cable Tray Solutions",
@@ -198,9 +198,9 @@ export default function HeroSection() {
       <div className="absolute bottom-0 left-0 w-full z-30 bg-blue-950 border-t border-white/10">
         <div className="max-w-[1400px] mx-auto grid grid-cols-2 md:grid-cols-4">
           {[
-            ["40+", "Years of Experience"],
-            ["1000+", "Projects Completed"],
-            ["500+", "Satisfied Clients"],
+            ["25+", "Years of Experience"],
+            ["500+", "Projects Completed"],
+            ["50+", "Globel Partners"],
             ["100%", "Quality Assured"],
           ].map((item, i) => (
             <div

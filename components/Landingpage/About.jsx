@@ -109,11 +109,11 @@ export default function AboutSection() {
               longevity.
             </p>
 
-            <div className="grid grid-cols-2 gap-6 mt-10">
+            <div className="grid grid-cols-3 gap-6 mt-10">
 
               <div>
                 <h4 className="text-4xl font-bold text-[#ff5a1f]">
-                  15+
+                  25+
                 </h4>
                 <p className="text-gray-600">
                   Years Experience
@@ -122,10 +122,19 @@ export default function AboutSection() {
 
               <div>
                 <h4 className="text-4xl font-bold text-[#ff5a1f]">
-                  1000+
+                  500+
                 </h4>
                 <p className="text-gray-600">
                   Projects Delivered
+                </p>
+              </div>
+
+                 <div>
+                <h4 className="text-4xl font-bold text-[#ff5a1f]">
+                  100+
+                </h4>
+                <p className="text-gray-600">
+                  Quality Satisfaction
                 </p>
               </div>
 
