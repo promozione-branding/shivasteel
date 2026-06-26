@@ -73,35 +73,11 @@ const features = [
 
       {/* ================= HERO ================= */}
 
-      <section className="relative w-full h-[55vh] md:h-[80vh] overflow-hidden">
-        <Image
-          src="/bgall.png"
-          alt="Garbage Bag Manufacturer"
-          fill
-          priority
-          className="object-cover"
-        />
-
-        <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/40 to-transparent" />
-
-        <div className="relative     z-10 flex h-full items-center max-w-7xl mx-auto px-6">
-          <div className="text-white max-w-2xl rounded">
-
-
-            <h1 className="text-3xl md:text-5xl font-bold leading-tight mt-3">
-              {product.name}
-            </h1>
-
-            <p className="mt-4 p-2 bg-white text-orange-600">
-             Trusted Supplier of Premium Steel Coils, Sheets & Structural Steel Solutions
-            </p>
-          </div>
-        </div>
-      </section>
+   
 
       {/* ================= PRODUCT ================= */}
 
-    <section className="relative overflow-hidden bg-gradient-to-b from-slate-50 via-white to-slate-100 py-10">
+    <section className="relative  pt-45 overflow-hidden bg-gradient-to-b from-slate-50 via-white to-slate-100 py-10">
 
   {/* Background */}
   <div className="absolute -top-20 -left-20 h-80 w-80 rounded-full bg-blue-100 blur-3xl opacity-40"></div>
@@ -160,7 +136,7 @@ const features = [
         </span>
 
         <h2 className="mt-5 text-4xl font-bold text-slate-900">
-          Product Specifications
+         {product.name}
         </h2>
 
         <p className="mt-4 text-slate-500 leading-8">
@@ -233,7 +209,7 @@ const features = [
 
           <div className="rounded-2xl bg-white p-5 text-center shadow-md">
             <h4 className="text-2xl font-bold text-blue-700">
-              15+
+              25+
             </h4>
             <p className="text-sm text-slate-500">
               Years Experience

@@ -55,7 +55,7 @@ export default function WhyChooseUs() {
           
           {/* Content Side */}
           <div>
-            <span className="inline-flex rounded-full bg-orange-100 px-4 py-2 text-sm font-semibold text-orange-700">
+            <span className="inline-flex rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-700">
               Why Choose Us
             </span>
 
@@ -77,8 +77,8 @@ export default function WhyChooseUs() {
 
                 return (
                   <div key={index} className="flex gap-4">
-                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-orange-50">
-                      <Icon className="h-6 w-6 text-orange-600" />
+                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-blue-50">
+                      <Icon className="h-6 w-6 text-blue-600" />
                     </div>
 
                     <div>
@@ -111,7 +111,7 @@ export default function WhyChooseUs() {
 
             {/* Floating Card */}
             <div className="absolute -bottom-6 -left-6 rounded-2xl bg-white p-6 shadow-xl border border-slate-100">
-              <h4 className="text-3xl font-bold text-orange-600">
+              <h4 className="text-3xl font-bold text-blue-600">
                 25+
               </h4>
               <p className="text-slate-600">

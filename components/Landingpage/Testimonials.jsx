@@ -58,14 +58,14 @@ export default function Testimonials() {
     <section className="relative overflow-hidden bg-slate-950 py-10">
       {/* Background Effects */}
       <div className="absolute inset-0">
-        <div className="absolute top-20 left-20 h-72 w-72 rounded-full bg-orange-500/20 blur-3xl" />
+        <div className="absolute top-20 left-20 h-72 w-72 rounded-full bg-blue-500/20 blur-3xl" />
         <div className="absolute bottom-20 right-20 h-72 w-72 rounded-full bg-amber-500/20 blur-3xl" />
       </div>
 
       <div className="container relative mx-auto px-6">
         {/* Heading */}
         <div className="mx-auto mb-10 max-w-3xl text-center">
-          <span className="mb-4 inline-block rounded-full border border-orange-500/30 bg-orange-500/10 px-4 py-2 text-sm font-medium text-orange-400">
+          <span className="mb-4 inline-block rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-2 text-sm font-medium text-blue-400">
             Client Testimonials
           </span>
 
@@ -85,11 +85,11 @@ export default function Testimonials() {
           {testimonials.map((item, index) => (
             <div
               key={index}
-              className="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-7 backdrop-blur-xl transition-all duration-500 hover:-translate-y-2 hover:border-orange-500/40 hover:bg-white/10"
+              className="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-7 backdrop-blur-xl transition-all duration-500 hover:-translate-y-2 hover:border-blue-500/40 hover:bg-white/10"
             >
               {/* Quote Icon */}
               <div className="mb-6 flex items-center justify-between">
-                <div className="rounded-2xl bg-gradient-to-br from-orange-500 to-amber-500 p-3 shadow-lg shadow-orange-500/20">
+                <div className="rounded-2xl bg-gradient-to-br from-blue-500 to-amber-500 p-3 shadow-lg shadow-blue-500/20">
                   <Quote className="h-5 w-5 text-white" />
                 </div>
 
@@ -110,7 +110,7 @@ export default function Testimonials() {
 
               {/* User */}
               <div className="flex items-center gap-4 border-t border-white/10 pt-5">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-r from-orange-500 to-amber-500 font-bold text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-r from-blue-500 to-amber-500 font-bold text-white">
                   {item.name
                     .split(" ")
                     .map((n) => n[0])
@@ -125,7 +125,7 @@ export default function Testimonials() {
 
               {/* Hover Glow */}
               <div className="absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-                <div className="absolute inset-0 bg-gradient-to-br from-orange-500/5 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-transparent" />
               </div>
             </div>
           ))}

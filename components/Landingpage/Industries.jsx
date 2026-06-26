@@ -41,7 +41,7 @@ export default function IndustriesWeServe() {
       <div className="container mx-auto px-20">
         {/* Header */}
         <div className="mx-auto mb-16 max-w-4xl text-center">
-          <span className="mb-4 inline-block rounded-full bg-orange-100 px-4 py-2 text-sm font-semibold text-orange-600">
+          <span className="mb-4 inline-block rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-600">
             INDUSTRIES WE SERVE
           </span>
 
@@ -106,19 +106,7 @@ export default function IndustriesWeServe() {
                       </p>
                     </div>
 
-                    <div className="mt-2">
-                      <div className="mb-6 h-px bg-slate-200" />
-
-                      <button className="group flex items-center gap-3 text-orange-600">
-                        <LogIn
-                          size={22}
-                          className="text-blue-700 transition-transform duration-300 group-hover:-translate-x-1"
-                        />
-                        <span className="font-medium uppercase underline underline-offset-4">
-                          Read More
-                        </span>
-                      </button>
-                    </div>
+                
                   </div>
                 </div>
               </div>

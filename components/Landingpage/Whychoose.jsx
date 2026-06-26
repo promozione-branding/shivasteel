@@ -11,7 +11,7 @@ const Whychoose = () => {
       
       {/* Left Content */}
       <div>
-        <span className="text-orange-500 font-semibold uppercase tracking-wider">
+        <span className="text-blue-500 font-semibold uppercase tracking-wider">
          Trust Factor
         </span>
 
@@ -70,7 +70,7 @@ const Whychoose = () => {
             className="group bg-[#f8f8f8] hover:bg-[#191617] border border-gray-200 rounded-2xl p-6 transition-all duration-300"
           >
             <div className="flex items-start gap-4">
-              <div className="w-10 h-10 rounded-full bg-orange-500 text-white flex items-center justify-center font-bold flex-shrink-0">
+              <div className="w-10 h-10 rounded-full bg-blue-500 text-white flex items-center justify-center font-bold flex-shrink-0">
                 {String(index + 1).padStart(2, "0")}
               </div>
 

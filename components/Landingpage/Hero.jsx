@@ -23,12 +23,12 @@ const slides = [
   {
     image: "/check.jfif",
     tag: "INDUSTRIAL EXCELLENCE",
-    title: "Premium GI Sheets ",
+    title: "Premium TMT Bars & Rods ",
     highlight: "for Every Industry",
     desc: "High-quality GI Sheets for roofing, fabrication, cladding, and construction applications with superior corrosion resistance and long-lasting durability.",
   },
   {
-    image: "/check2.jfif",
+    image: "/cabletray.jpeg",
     tag: "TRUSTED SUPPLIER",
     title: "Strong & Reliable",
     highlight: " Cable Tray Solutions",
@@ -37,7 +37,7 @@ const slides = [
   {
     image: "/bg4.jfif",
     tag: "QUALITY ASSURED",
-    title: "Premium GP Coils for ",
+    title: "Premium Steel Pipes for ",
     highlight: "Industrial Applications",
     desc: "Durable GP Coils with excellent finish and corrosion resistance, ideal for fabrication, roofing, engineering, and manufacturing projects.",
   },
@@ -49,7 +49,7 @@ export default function HeroSection() {
   return (
     <section className="relative mt-10 overflow-hidden">
       <Swiper
-        modules={[Autoplay, Pagination, EffectFade]}
+        modules={[Autoplay, EffectFade]}
         effect="fade"
         loop
         speed={1200}
@@ -75,10 +75,10 @@ export default function HeroSection() {
             >
               {/* Overlay */}
              <>
-  <div className="absolute inset-0 bg-gradient-to-r from-[#061220]/95 via-[#061220]/75 to-[#061220]/45" />
+  <div className="absolute inset-0 bg-gradient-to-r from-[#061220]/75 via-[#061220]/55 to-[#061220]/25" />
 
   {/* Orange Glow */}
-  <div className="absolute left-20 top-40 w-[500px] h-[500px] rounded-full bg-orange-500/20 blur-[150px]" />
+  <div className="absolute left-20 top-40 w-[500px] h-[500px] rounded-full bg-blue-500/20 blur-[150px]" />
 
   {/* Blue Glow */}
   <div className="absolute right-0 bottom-0 w-[450px] h-[450px] rounded-full bg-blue-500/20 blur-[150px]" />
@@ -94,30 +94,28 @@ export default function HeroSection() {
 
 
 
-                    <span className="uppercase text-[#ff5a1f] font-bold tracking-[2px] text-sm">
+                    <span className="uppercase text-blue-800 font-bold tracking-[2px] text-sm">
                       {slide.tag}
                     </span>
 
-                    <h1 className="mt-4 text-white text-[42px] md:text-[64px] leading-[1.1] font-extrabold">
-                      {slide.title}
-                    
-                     {" "}
-                      <span className="text-[#ff5a1f]">
-                        {slide.highlight}
-                      </span>
-                    </h1>
+              <h1 className="mt-4 text-white text-[42px] md:text-[64px] leading-[1.1] font-extrabold">
+  {slide.title}{" "}
+  <span className="bg-gradient-to-r from-sky-500 via-blue-600 to-blue-700 bg-clip-text text-transparent">
+    {slide.highlight}
+  </span>
+</h1>
 
                     <p className="mt-8 text-white text-lg max-w-[600px] leading-8">
                       {slide.desc}
                     </p>
 
                     <div className="flex flex-wrap gap-5 mt-10">
-                      <button className="bg-[#ff5a1f] hover:bg-[#e44c12] text-white px-10 py-4 rounded-md flex items-center gap-3 font-semibold transition-all">
+                      <button className="bg-blue-800 hover:bg-[#e44c12] text-white px-10 py-4 rounded-md flex items-center gap-3 font-semibold transition-all">
                         Send Inquiry
                         <ArrowRight size={18} />
                       </button>
 
-                      <button className="border border-white/30 hover:bg-white/10 text-white px-10 py-4 rounded-md flex items-center gap-3 font-semibold transition-all">
+                      <button className="border border-white hover:bg-white/10 text-white px-10 py-4 rounded-md flex items-center gap-3 font-semibold transition-all">
                         <Phone size={18} />
                         Call Now
                       </button>
@@ -129,63 +127,73 @@ export default function HeroSection() {
                   </div>
 
                   {/* FIXED FORM */}
-                  <div className="flex justify-center lg:justify-end">
-                    <div className="bg-white rounded-xl shadow-2xl w-full max-w-[420px] p-8">
-                      <h3 className="text-center text-[#ff5a1f] text-2xl font-bold mb-8">
-                        Get Best Price Today
-                      </h3>
+               <div className="flex justify-center lg:justify-end">
+  <div className="relative w-full max-w-[430px] overflow-hidden rounded-3xl bg-gradient-to-br from-[#0B4F8A] via-[#0A6FB6] to-[#0B8FCC] p-[1px] shadow-[0_25px_70px_rgba(0,102,204,0.35)]">
 
-                      <div className="space-y-4">
-                        <div className="relative">
-                          <User
-                            size={18}
-                            className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500"
-                          />
-                          <input
-                            placeholder="Your Name"
-                            className="w-full h-14 pl-12 border rounded-md"
-                          />
-                        </div>
+    {/* Glass Card */}
+    <div className="rounded-[22px] bg-white p-8">
 
-                        <div className="relative">
-                          <PhoneCall
-                            size={18}
-                            className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500"
-                          />
-                          <input
-                            placeholder="Phone Number"
-                            className="w-full h-14 pl-12 border rounded-md"
-                          />
-                        </div>
+      <h3 className="mb-2 text-center text-3xl font-bold bg-gradient-to-r from-[#0B4F8A] via-[#0A6FB6] to-[#0B8FCC] bg-clip-text text-transparent">
+        Get Best Price Today
+      </h3>
 
-                        <div className="relative">
-                          <Mail
-                            size={18}
-                            className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500"
-                          />
-                          <input
-                            placeholder="Email Address"
-                            className="w-full h-14 pl-12 border rounded-md"
-                          />
-                        </div>
+    
 
-                        <select className="w-full h-14 border rounded-md px-4">
-                          <option>
-                            Select Product / Requirement
-                          </option>
-                        </select>
+      <div className="space-y-5">
 
-                        <button className="w-full h-14 bg-[#ff5a1f] hover:bg-[#e44c12] text-white font-semibold rounded-md">
-                          Request Quote Now
-                        </button>
+        <div className="relative">
+          <User
+            size={18}
+            className="absolute left-4 top-1/2 -translate-y-1/2 text-[#0A6FB6]"
+          />
+          <input
+            placeholder="Your Name"
+            className="h-14 w-full rounded-xl border border-slate-200 pl-12 transition focus:border-[#0A6FB6] focus:ring-4 focus:ring-blue-100 outline-none"
+          />
+        </div>
 
-                        <div className="flex items-center justify-center gap-2 text-xs text-gray-500">
-                          <Lock size={14} />
-                          We respect your privacy. Your details are safe with us.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+        <div className="relative">
+          <PhoneCall
+            size={18}
+            className="absolute left-4 top-1/2 -translate-y-1/2 text-[#0A6FB6]"
+          />
+          <input
+            placeholder="Phone Number"
+            className="h-14 w-full rounded-xl border border-slate-200 pl-12 transition focus:border-[#0A6FB6] focus:ring-4 focus:ring-blue-100 outline-none"
+          />
+        </div>
+
+        <div className="relative">
+          <Mail
+            size={18}
+            className="absolute left-4 top-1/2 -translate-y-1/2 text-[#0A6FB6]"
+          />
+          <input
+            placeholder="Email Address"
+            className="h-14 w-full rounded-xl border border-slate-200 pl-12 transition focus:border-[#0A6FB6] focus:ring-4 focus:ring-blue-100 outline-none"
+          />
+        </div>
+
+        <select className="h-14 w-full rounded-xl border border-slate-200 px-4 outline-none transition focus:border-[#0A6FB6] focus:ring-4 focus:ring-blue-100">
+          <option>Select Product / Requirement</option>
+        </select>
+
+        <button className="group flex h-14 w-full items-center justify-center rounded-xl bg-gradient-to-r from-[#0B4F8A] via-[#0A6FB6] to-[#0B8FCC] text-white font-semibold shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_15px_40px_rgba(10,111,182,0.45)]">
+          Request Quote Now
+          <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">
+            →
+          </span>
+        </button>
+
+        <div className="flex items-center justify-center gap-2 text-xs text-slate-500 pt-2">
+          <Lock size={14} />
+          Your information is safe & confidential.
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
 
                 </div>
               </div>
@@ -200,7 +208,7 @@ export default function HeroSection() {
           {[
             ["25+", "Years of Experience"],
             ["500+", "Projects Completed"],
-            ["50+", "Globel Partners"],
+            ["50+", "Global Partners"],
             ["100%", "Quality Assured"],
           ].map((item, i) => (
             <div

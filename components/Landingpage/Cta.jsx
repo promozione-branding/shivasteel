@@ -33,7 +33,7 @@ export default function ConstructionCTA() {
             <Settings
               size={120}
               
-              className="text-[#FF5A1F] animate-rotate-slow"
+              className="text-blue-600 animate-rotate-slow"
               strokeWidth={1.5}
             />
 
@@ -43,7 +43,7 @@ export default function ConstructionCTA() {
           </div>
 
           {/* CTA */}
-          <button className="mr-20 flex h-[70px] items-center gap-4 bg-[#FF5A1F] px-12 text-[20px] font-bold uppercase text-black transition-all ">
+          <button className="mr-20 flex h-[70px] items-center gap-4 bg-gradient-to-r from-[#0B4F8A] via-[#0A6FB6] to-[#0B8FCC] px-12 text-[20px] font-bold uppercase text-white transition-all ">
             <ArrowRight size={22} />
             Get Start Today
           </button>

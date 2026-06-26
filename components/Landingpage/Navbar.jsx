@@ -205,12 +205,12 @@ export default function Navbar() {
               href={`/category/${active.id}`}
               className="group inline-flex items-center gap-2 mt-2"
             >
-              <h3 className="text-2xl font-bold text-slate-900 group-hover:text-[#FF5A1F] transition">
+              <h3 className="text-2xl font-bold text-slate-900 group-hover:text-bluetransition">
                 {active.name}
               </h3>
 
               <svg
-                className="w-5 h-5 text-slate-400 group-hover:text-[#FF5A1F] group-hover:translate-x-1 transition"
+                className="w-5 h-5 text-slate-400 group-hover:text-bluegroup-hover:translate-x-1 transition"
                 fill="none"
                 stroke="currentColor"
                 strokeWidth="2"
@@ -227,7 +227,7 @@ export default function Navbar() {
 
           <Link
             href={`/category/${active.id}`}
-            className="text-sm font-medium text-[#FF5A1F] hover:text-[#FF5A1F]"
+            className="text-sm font-medium text-bluehover:text-[#FF5A1F]"
           >
             View Category →
           </Link>
@@ -260,13 +260,13 @@ export default function Navbar() {
 
               <div className="p-5">
 
-                <h4 className="font-semibold text-slate-900 text-sm leading-6 line-clamp-2 group-hover:text-[#FF5A1F] transition">
+                <h4 className="font-semibold text-slate-900 text-sm leading-6 line-clamp-2 group-hover:text-bluetransition">
                   {p.name}
                 </h4>
 
                 <div className="mt-4 flex items-center justify-between">
 
-                  <span className="text-[11px] bg-[#FF5A1F]/20 text-[#FF5A1F] rounded-full px-3 py-1">
+                  <span className="text-[11px] bg-[#FF5A1F]/20 text-bluerounded-full px-3 py-1">
                     Industrial Grade
                   </span>
 
@@ -302,7 +302,7 @@ export default function Navbar() {
 
           <Link
             href="/products"
-            className="rounded-full bg-slate-900 px-6 py-3 text-white hover:bg-[#FF5A1F] transition"
+            className="rounded-full bg-slate-900 px-6 py-3 text-white hover:bg-bluetransition"
           >
             View All Products
           </Link>

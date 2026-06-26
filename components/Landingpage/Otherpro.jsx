@@ -23,7 +23,7 @@ const products = [
     image: "/cabletray.png",
   },
   {
-    title: "MS pipe",
+    title: "MS Pipe",
     production: "5000+",
     image: "/pipe.png",
   },
@@ -33,7 +33,7 @@ const products = [
     image: "/iron-tmt-bar-500x500-removebg-preview.png",
   },
   {
-    title: "Gp Coils",
+    title: "GP Coils",
     production: "2500+",
     image: "/coil.png",
   },
@@ -102,7 +102,7 @@ const products = [
     <div className="flex justify-between items-start mb-8">
 
       <div>
-        <span className="text-[50px] font-medium text-[#FF5A1F]">
+        <span className="text-[50px] font-medium text-blue-800">
         Our Steel Product Portfolio
         </span>
 
@@ -113,7 +113,7 @@ const products = [
 
       <div className="flex items-center gap-5">
 
-        <button className="bg-[#FF5A1F] text-white px-8 py-4 rounded-full text-lg font-medium">
+        <button className="bg-gradient-to-r from-[#0B4F8A] via-[#0A6FB6] to-[#0B8FCC] text-white px-8 py-4 rounded-full text-lg font-medium">
           Enquire Now
         </button>
 
@@ -163,12 +163,12 @@ const products = [
               </h3>
 
             <div className="mt-5 flex items-center gap-10">
-  <button className="border-2 border-[#FF5A1F] rounded-full px-6 py-3 flex items-center gap-3 text-lg whitespace-nowrap">
+  <button className="border-2 border-blue-600 [#FF5A1F] rounded-full px-6 py-3 flex items-center gap-3 text-lg whitespace-nowrap">
     Know More
   </button>
 
   <div>
-    <h4 className="text-[60px] leading-none font-light text-[#FF5A1F]">
+    <h4 className="text-[60px] leading-none font-light text-blue-600">
       {product.production}
     </h4>
 

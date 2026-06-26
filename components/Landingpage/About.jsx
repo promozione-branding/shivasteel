@@ -79,13 +79,13 @@ export default function AboutSection() {
           {/* LEFT CONTENT */}
 
           <div>
-            <span className="inline-flex items-center px-4 py-2 rounded-full bg-orange-100 text-[#ff5a1f] font-semibold text-sm">
+            <span className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 font-semibold text-sm">
               ABOUT SHIVA STEEL FABRICATOR
             </span>
 
             <h2 className="mt-4 text-4xl  font-bold text-slate-900 leading-tight">
               One-Stop Destination for
-              <span className="text-[#ff5a1f]">
+              <span className="text-blue-700">
                 {" "}Steel Products &
                 Fabrication Solutions
               </span>
@@ -112,28 +112,28 @@ export default function AboutSection() {
             <div className="grid grid-cols-3 gap-6 mt-10">
 
               <div>
-                <h4 className="text-4xl font-bold text-[#ff5a1f]">
+                <h4 className="text-4xl font-bold text-blue-800">
                   25+
                 </h4>
-                <p className="text-gray-600">
+                <p className="text-black">
                   Years Experience
                 </p>
               </div>
 
               <div>
-                <h4 className="text-4xl font-bold text-[#ff5a1f]">
+                <h4 className="text-4xl font-bold text-blue-800">
                   500+
                 </h4>
-                <p className="text-gray-600">
+                <p className="text-black">
                   Projects Delivered
                 </p>
               </div>
 
                  <div>
-                <h4 className="text-4xl font-bold text-[#ff5a1f]">
+                <h4 className="text-4xl font-bold text-blue-800">
                   100+
                 </h4>
-                <p className="text-gray-600">
+                <p className="text-black">
                   Quality Satisfaction
                 </p>
               </div>

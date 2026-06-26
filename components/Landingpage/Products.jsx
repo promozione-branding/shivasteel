@@ -38,15 +38,15 @@ export default function ProductShowcase() {
       <div className="mx-auto w-full px-19">
         {/* Heading */}
         <div className="mb-14 text-center">
-          <span className="mb-3 inline-block rounded-full bg-orange-100 px-4 py-2 text-sm font-semibold text-orange-600">
+          <span className="mb-3 inline-block rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-600">
             OUR PRODUCTS
           </span>
 
-          <h2 className="text-4xl font-bold text-slate-900 md:text-5xl">
-            Showcase the Products
+          <h2 className="text-4xl font-bold text-blue-800 md:text-5xl">
+           Our Steel Product Portfolio
           </h2>
 
-          <div className="mx-auto mt-5 h-1 w-24 rounded-full bg-orange-500" />
+          <div className="mx-auto mt-5 h-1 w-24 rounded-full bg-cyan-500" />
         </div>
 
         {/* Slider */}
@@ -85,7 +85,7 @@ export default function ProductShowcase() {
 
          
                   <div className="absolute bottom-0 left-0 p-6">
-                    <h3 className="text-2xl font-bold text-orange-500">
+                    <h3 className="text-2xl font-bold text-blue-500">
                       {product.title}
                     </h3>
                   </div>
@@ -97,7 +97,7 @@ export default function ProductShowcase() {
                     Premium Quality Steel Product
                   </span>
 
-                  <button className="flex h-12 w-12 items-center justify-center rounded-full bg-orange-500 text-white transition-all duration-300 hover:rotate-45">
+                  <button className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-500 text-white transition-all duration-300 hover:rotate-45">
                     <ArrowRight size={20} />
                   </button>
                 </div>

@@ -21,7 +21,7 @@ export default function Footer() {
       <div className="grid lg:grid-cols-[300px_1fr] min-h-[650px]">
         
         {/* Left Section */}
-        <div className="bg-[#eef0f7] px-7  py-10 flex flex-col">
+        <div className="bg-[#eef0f7] px-7  py-4 flex flex-col">
           {/* Logo */}
           <div>
             <div className="flex items-center gap-4">
@@ -36,7 +36,7 @@ export default function Footer() {
           </div>
 
           {/* Description */}
-          <p className="mt-10 text-[16px] leading-[2] text-[#2f2e2e] ">
+          <p className="mt-8 text-[15px] leading-[2] text-[#2f2e2e] ">
          We at Shiva Steel Fabricators are involved in the wholesale trade, Supplier, and provision of services for a superior quality range of products that include MS Sheet, Cable Tray, Colour, GI Decking Sheet, GP Sheet / GI Sheet, MS Pipe , MS Sheet, MS Heavy Plate, Mild Steel Chequered Plate, MS Cold Rolled Coils, MS Hot Rolled Coil, and so on.
           </p>
 
@@ -44,7 +44,7 @@ export default function Footer() {
           <div className="mt-auto  pt-13">
             <div className="flex flex-col items-center gap-6">
               <h4 className="font-bold text-[22px] text-[#222]">
-                Connect With Us
+                Connect With Us 
               </h4>
 
               <div className="flex gap-3">
@@ -57,7 +57,7 @@ export default function Footer() {
                   <a
                     key={i}
                     href="#"
-                    className="w-12 h-12 rounded-full bg-white flex items-center justify-center text-[#ff7d17] transition"
+                    className="w-12 h-12 rounded-full bg-white flex items-center justify-center text-blue transition"
                   >
                     {icon}
                   </a>
@@ -76,7 +76,7 @@ export default function Footer() {
      {/* About */}
             <div>
               <div className="flex items-center gap-4 mb-10">
-                <span className="w-6 h-[2px] bg-[#ff7d17]" />
+                <span className="w-6 h-[2px] bg-blue" />
                 <h3 className="text-[22px] font-bold text-[#222]">
                  Quick Links
                 </h3>
@@ -93,7 +93,7 @@ export default function Footer() {
                   <li key={item}>
                     <Link
                       href="#"
-                      className="flex items-center gap-4 text-[18px] text-[#444] hover:text-[#ff7d17]"
+                      className="flex items-center gap-4 text-[18px] text-[#444] hover:text-blue"
                     >
                       <span className="w-2 h-2 rounded-full bg-[#2b6cb0]" />
                       {item}
@@ -108,7 +108,7 @@ export default function Footer() {
             {/* Industry */}
             <div>
               <div className="flex items-center gap-4 mb-10">
-                <span className="w-6 h-[2px] bg-[#ff7d17]" />
+                <span className="w-6 h-[2px] bg-blue" />
                 <h3 className="text-[22px] font-bold text-[#222]">
                   Our Products
                 </h3>
@@ -126,7 +126,7 @@ export default function Footer() {
                   <li key={item}>
                     <Link
                       href="#"
-                      className="flex items-center gap-4 text-[18px] text-[#444] hover:text-[#ff7d17]"
+                      className="flex items-center gap-4 text-[18px] text-[#444] hover:text-blue"
                     >
                       <span className="w-2 h-2 rounded-full bg-[#2b6cb0]" />
                       {item}
@@ -140,7 +140,7 @@ export default function Footer() {
             {/* Contact */}
             <div>
               <div className="flex items-center gap-4 mb-10">
-                <span className="w-6 h-[2px] bg-[#ff7d17]" />
+                <span className="w-6 h-[2px] bg-blue" />
                 <h3 className="text-[22px] font-bold text-[#222]">
                   Contact
                 </h3>
@@ -150,7 +150,7 @@ export default function Footer() {
                 <div className="flex gap-6 py-2 border-b border-[#e6e6e6]">
                   <Phone
                     size={28}
-                    className="text-[#ff7d17] shrink-0 mt-1"
+                    className="text-blue shrink-0 mt-1"
                   />
                   <p className="text-[18px] text-[#444]">
                  
@@ -161,7 +161,7 @@ export default function Footer() {
      <div className="flex gap-6 py-5 border-b border-[#e6e6e6]">
                   <Phone
                     size={28}
-                    className="text-[#ff7d17] shrink-0 mt-1"
+                    className="text-blue shrink-0 mt-1"
                   />
                   <p className="text-[18px] text-[#444]">
                  
@@ -172,7 +172,7 @@ export default function Footer() {
                 <div className="flex gap-4 py-3 border-b border-[#e6e6e6]">
                   <MapPin
                     size={28}
-                    className="text-[#ff7d17] shrink-0 mt-1"
+                    className="text-blue shrink-0 mt-1"
                   />
                   <p className="text-[16px] text-[#444] leading-8">
                 X-43, Loha Mandi, Block X, Naraina Industrial Area Phase 1, Naraina, New Delhi, Delhi, 110028
@@ -182,7 +182,7 @@ export default function Footer() {
                 <div className="flex gap-6 py-5 border-b border-[#e6e6e6]">
                   <Mail
                     size={28}
-                    className="text-[#ff7d17] shrink-0 mt-1"
+                    className="text-blue shrink-0 mt-1"
                   />
                   <p className="text-[18px] text-[#444]">
                    shivasteel2019@gmail.com
