@@ -9,7 +9,7 @@ const Page = () => {
 
   // Flatten all products from all categories
   const allProducts = categories.flatMap((cat) =>
-    cat.products.map((p) => ({ ...p, categoryId: cat.id }))
+    cat.products?.map((p) => ({ ...p, categoryId: cat.id }))
   );
 
   return (
@@ -30,22 +30,22 @@ const Page = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {allProducts.map((product) => (
             <Link
-              key={product.id}
-              href={`/products/${product.id}`}
+              key={product?.id}
+              href={`/products/${product?.id}`}
               className="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition"
             >
               <Image
-                src={product.image[0]?.src || "/placeholder.png"} // ✅ Use first image or placeholder
-                alt={product.image[0]?.alt || product.name}
+                src={product?.image[0]?.src || "/placeholder.png"} // ✅ Use first image or placeholder
+                alt={product?.image[0]?.alt || product?.name}
                 width={300}
                 height={200}
-                title={product.name} 
+                title={product?.name} 
                 className="w-full h-70   object-contain"
               />
               <div className="p-3">
-                <h2 className="text-lg text-center font-semibold">{product.name}</h2>
-                {product.price && (
-                  <p className="text-gray-600">{product.price}</p>
+                <h2 className="text-lg text-center font-semibold">{product?.name}</h2>
+                {product?.price && (
+                  <p className="text-gray-600">{product?.price}</p>
                 )}
               </div>
             </Link>

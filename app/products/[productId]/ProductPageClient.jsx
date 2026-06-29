@@ -20,6 +20,7 @@ export default function ProductPage({ params }) {
   const [isFormOpen, setIsFormOpen] = useState(false);
 
   const allProducts = categories.flatMap((c) => c.products);
+  console.log(allProducts);
   const product = allProducts.find((p) => p.id === productId);
 
   const [activeImage, setActiveImage] = useState(product?.image[0]);
