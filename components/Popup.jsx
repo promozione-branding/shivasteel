@@ -235,19 +235,37 @@ Contact: ${phone}`;
               onChange={(e) => setProduct(e.target.value)}
               className="w-1/2 max-md:w-full p-3 rounded-md text-black text-sm border-2 focus:outline-none bg-blue-50"
             >
-              <option value="">Select Product</option>
-
-              <option value="Biodegradable Garbage Bags">
-                Biodegradable Garbage Bags
-              </option>
-
-              <option value="Disposable Garbage Bags">
-                Disposable Garbage Bags
-              </option>
-
-              <option value="Biomedical Waste Bags">
-                Biomedical garbage bags
-              </option>
+             <option value="">Select Product</option>
+                  <option value="GI Sheet">
+                    GI Sheet
+                  </option>
+                  <option value="Mild Steel Pipe">
+                    Mild Steel Pipe
+                  </option>
+                  <option value="MS Plates">
+                    MS Plates
+                  </option>
+                  <option value="GP Sheets">
+                    MS Sheets
+                  </option>
+                  <option value="Mild Steel Bars">
+                    Mild Steel Bars
+                  </option>
+                  <option value="Metal Coil">
+                   Metal Coil
+                  </option>
+                  <option value="Mild Steel Angle">
+                    Mild Steel Angle
+                  </option>
+                  <option value="TMT Bars">
+                   TMT Bars
+                  </option>
+                  <option value="Cable Tray">
+                   Cable Tray
+                  </option>
+                  <option value="TMT Bars">
+                   TMT Bars
+                  </option>
             </select>
           </div>
 

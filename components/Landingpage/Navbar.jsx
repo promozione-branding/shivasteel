@@ -226,7 +226,7 @@ export default function Navbar() {
           </div>
 
           <Link
-            href={`/category/${active.id}`}
+            href={`/categories/${active.id}`}
             className="text-sm font-medium text-bluehover:text-[#FF5A1F]"
           >
             View Category →
@@ -322,7 +322,7 @@ export default function Navbar() {
 
             </div>
 
-            <Link href="/projects" className="hover:text-slate-900">
+            <Link href="/our-blogs" className="hover:text-slate-900">
            News & Events
             </Link>
 

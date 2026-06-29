@@ -9,14 +9,26 @@ import {
   HardHat,
   Wrench,
 } from "lucide-react";
-import { CheckCircle2 } from "lucide-react";
+
 import Otherpro from "@/components/Landingpage/Otherpro"
 import { Target, Eye } from "lucide-react";
 import Cta from "@/components/Landingpage/Cta"
+import { CheckCircle2 } from "lucide-react";
 export default function AboutHero() {
 
 
 
+const points = [
+    "Premium Quality Steel Products",
+    "Competitive Pricing",
+    "Wide Product Range",
+    "Timely Delivery",
+    "Industry Expertise",
+    "Bulk Supply Capability",
+    "Customer-Centric Service",
+
+    "Trusted Business Relationships",
+  ];
 
 
 
@@ -400,6 +412,71 @@ export default function AboutHero() {
           </div>
 
         </div>
+
+      </div>
+    </section>
+
+
+
+     <section className="relative py-10 bg-gradient-to-b from-white via-slate-50 to-white overflow-hidden">
+
+      {/* Background Effects */}
+      <div className="absolute -top-24 -left-24 h-96 w-96 bg-blue-100 blur-3xl opacity-40 rounded-full" />
+      <div className="absolute bottom-0 right-0 h-96 w-96 bg-slate-200 blur-3xl opacity-40 rounded-full" />
+
+      <div className="relative max-w-7xl mx-auto px-6">
+
+        {/* HEADER */}
+        <div className="text-center mb-14">
+
+          <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-blue-50 text-blue-700 text-sm font-semibold">
+            Why Choose Us
+          </span>
+
+          <h2 className="mt-5 text-3xl sm:text-5xl font-bold text-slate-900 leading-tight">
+            Why Choose Shiva Steel Fabricators?
+          </h2>
+
+          <p className="mt-4 text-slate-600 max-w-3xl mx-auto text-sm sm:text-base leading-7">
+            Choosing the right steel supplier is essential for the success of any project.
+            Here's why customers trust us.
+          </p>
+
+        </div>
+
+        {/* GRID */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+  {points.map((item, i) => (
+    <div
+      key={i}
+      className="group relative bg-white border border-slate-100 rounded-2xl p-6 shadow-sm
+                 hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+    >
+
+      {/* soft hover glow */}
+      <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-blue-500/0 via-blue-500/0 to-blue-500/0 group-hover:from-blue-500/5 group-hover:via-blue-500/10 group-hover:to-blue-500/5 transition-all duration-300" />
+
+      <div className="relative flex items-start gap-4">
+
+        {/* ICON */}
+        <div className="flex h-11 w-11 items-center justify-center rounded-full bg-blue-50 text-blue-600 shrink-0 group-hover:bg-blue-100 transition">
+          <CheckCircle2 size={20} />
+        </div>
+
+        {/* TEXT */}
+        <p className="text-slate-700 text-[20px] flex justify-center items-center leading-6 font-medium">
+          {item}
+        </p>
+
+      </div>
+
+    </div>
+  ))}
+
+</div>
+
+   
 
       </div>
     </section>

@@ -179,20 +179,36 @@ const handleSubmit = async (e) => {
                   defaultValue=""
                   className="w-full md:w-1/2 p-3 rounded-md text-black text-sm border-2 border-white focus:outline-none bg-blue-50"
                 >
-                  <option value="">
-                    Select Product
+                 <option value="">Select Product</option>
+                  <option value="GI Sheet">
+                    GI Sheet
                   </option>
-
-                  <option value="Biodegradable Garbage Bags">
-                    Biodegradable Garbage Bags
+                  <option value="Mild Steel Pipe">
+                    Mild Steel Pipe
                   </option>
-
-                  <option value="Disposable Garbage Bags">
-                    Disposable Garbage Bags
+                  <option value="MS Plates">
+                    MS Plates
                   </option>
-
-                  <option value="Biomedical Garbage Bags">
-                    Biomedical Garbage Bags
+                  <option value="GP Sheets">
+                    MS Sheets
+                  </option>
+                  <option value="Mild Steel Bars">
+                    Mild Steel Bars
+                  </option>
+                  <option value="Metal Coil">
+                   Metal Coil
+                  </option>
+                  <option value="Mild Steel Angle">
+                    Mild Steel Angle
+                  </option>
+                  <option value="TMT Bars">
+                   TMT Bars
+                  </option>
+                  <option value="Cable Tray">
+                   Cable Tray
+                  </option>
+                  <option value="TMT Bars">
+                   TMT Bars
                   </option>
                 </select>
               </div>

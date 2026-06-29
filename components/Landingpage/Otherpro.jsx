@@ -201,7 +201,7 @@ const products = [
           alt="Decoration"
           width={160}
           height={160}
-          className="absolute animate-rotate-slow left-2 bottom-2 sm:left-[10px] sm:bottom-[15px] w-20 sm:w-[160px] pointer-events-none"
+          className="absolute rounded-full animate-rotate-slow left-2 bottom-2 sm:left-[10px] sm:bottom-[15px] w-20 sm:w-[160px] pointer-events-none"
         />
 
         {/* PRODUCT IMAGE */}

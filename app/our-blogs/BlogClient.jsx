@@ -33,12 +33,12 @@ export default function BlogsPage() {
     <>
       {/* Hero Section */}
       <section
-        style={{ backgroundImage: "url('/bag/bg-other.webp')" }}
+        style={{ backgroundImage: "url('/contactbg.jfif')" }}
         className="w-full bg-cover h-[50vh] md:h-[90vh]  relative"
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center ">
-           <p className="text-emerald-700 text-lg ">Home / Blogs</p>
+           <p className="text-white text-lg ">Home / Blogs</p>
           <h2 className="text-white text-6xl font-bold z-10 ">
             Our Blogs
           </h2>

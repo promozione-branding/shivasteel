@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import AboutClient from "./AboutClient";
 
 export const metadata = {
@@ -7,4 +8,15 @@ export const metadata = {
 
 export default function AboutUsPage() {
   return <AboutClient />;
+=======
+import ContactClient from "./AboutClient";
+
+export const metadata = {
+  title: "Contact Us –",
+  description: "fd",
+};
+
+export default function AboutHero() {
+  return <ContactClient />;
+>>>>>>> 10a1ac2 (changes)
 }

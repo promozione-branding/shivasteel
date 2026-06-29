@@ -94,7 +94,7 @@ export default function HeroSection() {
                     {/* BUTTONS */}
                     <div className="flex flex-col sm:flex-row flex-wrap gap-4 mt-8 sm:mt-10 justify-center lg:justify-start">
 
-                      <button className="bg-blue-800 hover:bg-orange-600 text-white px-6 sm:px-10 py-3 sm:py-4 rounded-md flex items-center justify-center gap-3 font-semibold">
+                      <button className="bg-blue-800 hover:bg-blue-600 text-white px-6 sm:px-10 py-3 sm:py-4 rounded-md flex items-center justify-center gap-3 font-semibold">
                         Send Inquiry
                         <ArrowRight size={18} />
                       </button>
@@ -136,7 +136,37 @@ export default function HeroSection() {
                           </div>
 
                           <select className="h-12 sm:h-14 w-full rounded-xl border px-4 outline-none">
-                            <option>Select Product / Requirement</option>
+                           <option value="">Select Product</option>
+                  <option value="GI Sheet">
+                    GI Sheet
+                  </option>
+                  <option value="Mild Steel Pipe">
+                    Mild Steel Pipe
+                  </option>
+                  <option value="MS Plates">
+                    MS Plates
+                  </option>
+                  <option value="GP Sheets">
+                    MS Sheets
+                  </option>
+                  <option value="Mild Steel Bars">
+                    Mild Steel Bars
+                  </option>
+                  <option value="Metal Coil">
+                   Metal Coil
+                  </option>
+                  <option value="Mild Steel Angle">
+                    Mild Steel Angle
+                  </option>
+                  <option value="TMT Bars">
+                   TMT Bars
+                  </option>
+                  <option value="Cable Tray">
+                   Cable Tray
+                  </option>
+                  <option value="TMT Bars">
+                   TMT Bars
+                  </option>
                           </select>
 
                           <button className="w-full h-12 sm:h-14 rounded-xl bg-gradient-to-r from-[#0B4F8A] via-[#0A6FB6] to-[#0B8FCC] text-white font-semibold">

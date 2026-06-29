@@ -444,21 +444,21 @@ const features = [
 
         <div
           key={index}
-          className="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-2 md:p-4 backdrop-blur-xl transition-all duration-500 hover:-translate-y-3 hover:border-blue-400/40 hover:bg-white/10 hover:shadow-[0_25px_60px_rgba(0,140,255,.18)]"
+          className="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-2 md:p-3 backdrop-blur-xl transition-all duration-500 hover:-translate-y-3 hover:border-blue-400/40 hover:bg-white/10 hover:shadow-[0_25px_60px_rgba(0,140,255,.18)]"
         >
 
           {/* Top Glow */}
           <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-500 scale-x-0 transition-transform duration-500 group-hover:scale-x-100" />
 
-          <div className="flex h-13 w-13 md:h-18 md:w-18 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-500 text-white shadow-xl">
+          <div className="flex h-13 w-13  items-center justify-center rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-500 text-white shadow-xl">
             {item.icon}
           </div>
 
-          <h3 className="mt-5 text-sm md:text-2xl font-bold text-white">
+          <h3 className="mt-3 text-sm md:text-2xl font-bold text-white">
             {item.title}
           </h3>
 
-          <p className="mt-3 md:mt-5 leading-5 md:leading-8 text-[12px] md:text-2xl text-slate-300">
+          <p className="mt-3  leading-5 md:leading-8 text-[12px] md:text-lg   text-slate-300">
             {item.desc}
           </p>
 

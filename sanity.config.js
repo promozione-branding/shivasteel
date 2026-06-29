@@ -81,8 +81,8 @@ const blog = {
 
 
 export default defineConfig({
-  name: "sangam-studio",
-  title: "sangam Studio",
+  name: "shivasteel-studio",
+  title: "shivasteel Studio",
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "production",
   apiVersion: "2024-06-01",
