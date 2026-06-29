@@ -1,280 +1,113 @@
 "use client";
 
-import AboutPageWhyChoose from "@/components/Landingpage/AboutPageWhyChoose";
-import Reveal from "@/components/Landingpage/Reveal";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
+import {
+  Building2,
+  Factory,
+  HardHat,
+  Wrench,
+} from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
+import Otherpro from "@/components/Landingpage/Otherpro"
+import { Target, Eye } from "lucide-react";
+import Cta from "@/components/Landingpage/Cta"
+export default function AboutHero() {
 
-export default function AboutPage() {
+
+
+
+
+
+
+ const industries = [
+    {
+      icon: <HardHat size={30} />,
+      title: "Residential Construction",
+    },
+    {
+      icon: <Building2 size={30} />,
+      title: "Commercial Building",
+    },
+    {
+      icon: <Factory size={30} />,
+      title: "Industrial Plant",
+    },
+    {
+      icon: <Wrench size={30} />,
+      title: "Infrastructure Development",
+    },
+  ];
+
+
+
+
   return (
-    <>
-      {/* HERO */}
-      <section
-        style={{ backgroundImage: "url('/bg1.webp')" }}
-        className="w-full  bg-cover bg-center h-[50vh] md:h-[90vh] relative"
-      >
-        <div className="px-5 mt-20 absolute inset-0 text-center flex items-center justify-center ">
-          <h2 className=" text-black bg-white p-2 text-2xl md:text-6xl font-bold z-10">
-            About Us
-          </h2>
-        </div>
 
-        <div className="absolute inset-0 bg-black/30"></div>
 
-        <div className="absolute inset-0 bg-black/30"></div>
-      </section>
+<>
 
-      {/* ABOUT CONTENT */}
-      <section className="py-6 md:py-15 bg-[#F8FAFC]">
-        <div className=" mx-auto px-6 md:px-16 grid md:grid-cols-2 gap-10 md:gap-16 items-center">
-          <div className=" text-black">
-            <Reveal>
-              {" "}
-              <h2 className="text-4xl leading-snug font-semibold mb-5">
-                Your Trusted Partner for Quality Steel Products & Fabrication
-                Solutions
-              </h2>
-            </Reveal>
 
-            <div className="text-justify text-lg">
-              <Reveal>
-                <p>
-                  Welcome to Shiva Steel Fabricator, a trusted name in the steel
-                  industry, dedicated to supplying premium-quality steel
-                  products and delivering reliable fabrication solutions for
-                  construction, engineering, industrial, and infrastructure
-                  projects. With a strong commitment to quality, integrity, and
-                  customer satisfaction, we have established ourselves as a
-                  preferred supplier for businesses seeking dependable steel
-                  materials at competitive prices.
-                </p>
-              </Reveal>
 
-              <Reveal delay={0.2}>
-                <p className="mt-2">
-                  Our extensive product portfolio includes MS Pipes, MS Plates,
-                  MS Angles, MS Beams, MS Channels, MS GP Sheets, MS GI Sheets,
-                  Chequered Plates, Heavy Plates, Boiler Plates, Cable Trays,
-                  and Perforated Cable Trays. Every product we offer is sourced
-                  and supplied in accordance with industry standards to ensure
-                  exceptional strength, durability, and long-lasting
-                  performance.
-                </p>
-              </Reveal>
+    <section className="relative overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <Image
+          src="/contactbg.jfif" // Replace with your image
+          alt="Shiva Steel Fabricator"
+          fill
+          priority
+          className="object-cover"
+        />
 
-              {/* <Reveal delay={0.4}>
-                <p>
-                  As a reputed Disposable Bio Dustbin Bag Manufacturer, we focus
-                  on producing high-quality bags that ensure hygiene, strength,
-                  and environmental responsibility. Our bio dustbin bags are
-                  widely used in households, offices, hotels, and institutions,
-                  helping maintain cleanliness while supporting sustainable
-                  waste practices.
-                </p>
-              </Reveal> */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/80 to-red-950/60" />
+      </div>
 
-              {/* <Reveal delay={0.6}>
-                <p>
-                  At Sangam Plastic Industries, customer satisfaction,
-                  consistent quality, and long-term reliability remain at the
-                  core of everything we do. We are committed to being your
-                  trusted partner for all waste management and garbage bag
-                  manufacturing needs.
-                </p>
-              </Reveal> */}
-            </div>
-          </div>
+      {/* Decorative Blur */}
+      <div className="absolute -left-32 top-10 h-80 w-80 rounded-full bg-red-600/20 blur-[70px]" />
+      <div className="absolute right-0 bottom-0 h-96 w-96 rounded-full bg-red-500/10 blur-[50px]" />
 
-          <Reveal>
-            <img src="/bg1.avif" className="w-full h-full" />
-          </Reveal>
-        </div>
-      </section>
+      <div className="relative mx-auto flex h-[100vh] max-w-7xl items-center px-6 py-24">
 
-      {/* VISION */}
-      <section className="py-8 md:py-12 bg-white">
-        <div className="max-w-7xl mx-auto px-6 relative  grid md:grid-cols-2 gap-8 md:gap-16 items-center">
-          {/* LEFT CONTENT */}
-          <div>
-            <Reveal>
-              <h2 className="text-4xl font-semibold mb-5 md:mb-10">
-                Our Vision
-              </h2>
-            </Reveal>
+        <div className="max-w-4xl">
 
-            <div className="border-l-4 text-lg border-blue-600 pl-8 space-y-5 text-gray-600">
-              <Reveal>
-                <p>
-                  Our vision is to establish Shiva Steel Fabricator as a trusted
-                  and recognized leader in the steel supply and fabrication
-                  industry. We aspire to be known for our commitment to quality,
-                  innovation, and excellence while consistently meeting the
-                  evolving needs of our customers and industry. We envision
-                  contributing to the growth of the construction, engineering,
-                  and industrial sectors by supplying reliable steel products
-                  and delivering outstanding service. Through continuous
-                  improvement, sustainable business practices, and
-                  customer-focused solutions, we aim to create long-term value
-                  for our clients and business partners.
-                </p>
-              </Reveal>
-            </div>
-          </div>
+          <span className="inline-flex rounded-full border border-red-500/40 bg-red-600/20 px-6 py-2 text-sm font-semibold uppercase tracking-[0.3em] text-red-400">
+            About Shiva Steel Fabricator
+          </span>
 
-          {/* RIGHT IMAGE */}
-          <Reveal delay={0.3}>
-            <img
-              src="/check.jpg"
-              className="w-full h-[450px] object-cover bg-emerald-50 rounded-3xl shadow-xl"
-            />
-          </Reveal>
+          <h1 className="mt-15 text-4xl font-black leading-tight text-white ">
+            Your Trusted Partner for Quality Steel Products &amp; Fabrication
+            Solutions
+          </h1>
 
-          {/* <img
-            src="/bag/trash.png"
-            className="hidden md:block absolute w-60 h-40 right-90 top-0  object-cover "
-          /> */}
-        </div>
-      </section>
+          <p className="mt-8 max-w-3xl text-lg leading-9 text-white">
+            Welcome to Shiva Steel Fabricator, a trusted name in the steel
+            industry, dedicated to supplying premium-quality steel products and
+            delivering reliable fabrication solutions for construction,
+            engineering, industrial, and infrastructure projects. With a strong
+            commitment to quality, integrity, and customer satisfaction, we have
+            established ourselves as a preferred supplier for businesses seeking
+            dependable steel materials at competitive prices.
+          </p>
 
-      {/* MISSION */}
-      <section className="relative py-8 md:py-12 bg-[#F8FAFC] overflow-hidden">
-        <div className="absolute -top-40 -left-40 w-[500px] h-[500px] bg-green-200 rounded-full blur-[160px] opacity-40"></div>
+          <div className="mt-12 flex flex-wrap gap-5">
 
-        <div className="relative max-w-7xl mx-auto px-6 md:px-12">
-          <Reveal>
-            <h2 className="text-4xl md:text-5xl font-semibold mb-6 md:mb-12 text-center">
-              Our Mission
-            </h2>
-          </Reveal>
+            <Link
+              href="/contact"
+              className="rounded-full bg-cyan-700 px-8 py-4 font-semibold text-white transition hover:scale-105 hover:bg-red-700"
+            >
+              Get Free Quote
+            </Link>
 
-          <div className="grid md:grid-cols-2 gap-5 md:gap-10">
-            {/* CARD 1 */}
-            <Reveal>
-              <div className="group relative overflow-hidden bg-white/70 backdrop-blur-md p-10 rounded-3xl border border-gray-200 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 h-[350px]">
-                {/* SLIDING OVERLAY */}
-                <div className="absolute inset-0 -translate-y-full group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-700 ease-out bg-gradient-to-b from-green-100/40 via-green-50/30 to-transparent backdrop-blur-sm rounded-3xl"></div>
+            <Link
+              href="/products"
+              className="flex items-center gap-2 rounded-full border border-white/20 px-8 py-4 font-semibold text-white transition hover:bg-white hover:text-black"
+            >
+              Explore Products
+              <ArrowRight size={18} />
+            </Link>
 
-                <span className="absolute top-0 left-0 w-full h-1 bg-blue-600 rounded-t-3xl"></span>
-
-                <div className="relative z-10 w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6 text-blue-600 text-xl font-bold">
-                  01
-                </div>
-
-                <p className="relative z-10 text-black leading-relaxed text-lg">
-                  At Shiva Steel Fabricator, our mission is to provide
-                  premium-quality steel products and reliable fabrication
-                  solutions that meet the diverse requirements of construction,
-                  engineering, manufacturing, and infrastructure projects. We
-                  are dedicated to delivering products that combine strength,
-                  durability, and value, ensuring every customer receives the
-                  highest standard of quality.
-                </p>
-              </div>
-            </Reveal>
-
-            {/* CARD 2 */}
-            <Reveal delay={0.2}>
-              <div className="group relative overflow-hidden bg-white/70 backdrop-blur-md p-10 rounded-3xl border border-gray-200 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 h-[350px]">
-                {/* SLIDING OVERLAY */}
-                <div className="absolute inset-0 -translate-y-full group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-700 ease-out bg-gradient-to-b from-green-100/40 via-green-50/30 to-transparent backdrop-blur-sm rounded-3xl"></div>
-
-                <span className="absolute top-0 left-0 w-full h-1 bg-blue-600 rounded-t-3xl"></span>
-
-                <div className="relative z-10 w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6 text-blue-600 text-xl font-bold">
-                  02
-                </div>
-
-                <p className="relative z-10 text-black leading-relaxed text-lg">
-                  We strive to build lasting relationships through exceptional
-                  customer service, competitive pricing, and timely delivery. By
-                  maintaining professionalism, transparency, and integrity in
-                  every aspect of our business, we aim to become the preferred
-                  partner for businesses seeking dependable steel solutions.
-                </p>
-              </div>
-            </Reveal>
-
-            {/* CARD 3 */}
-            {/* <Reveal delay={0.4}>
-              <div className="group relative overflow-hidden bg-white/70 backdrop-blur-md p-10 rounded-3xl border border-gray-200 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 h-[350px]">
-                {/* SLIDING OVERLAY */}
-            {/* <div className="absolute inset-0 -translate-y-full group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-700 ease-out bg-gradient-to-b from-green-100/40 via-green-50/30 to-transparent backdrop-blur-sm rounded-3xl"></div>
-
-                <span className="absolute top-0 left-0 w-full h-1 bg-green-600 rounded-t-3xl"></span>
-
-                <div className="relative z-10 w-14 h-14 bg-green-100 rounded-xl flex items-center justify-center mb-6 text-green-600 text-xl font-bold">
-                  03
-                </div> */}
-
-            {/* <p className="relative z-10 text-black leading-relaxed text-sm">
-                  Promoting Sustainability and Innovation: We are committed to
-                  environmentally responsible manufacturing by using recyclable
-                  materials and sustainable production practices. Through
-                  continuous innovation in product design and manufacturing
-                  processes, we strive to deliver advanced waste management
-                  solutions that support a cleaner, safer, and healthier
-                  environment.
-                </p> */}
-            {/* </div> */}
-            {/* </Reveal> */}
-          </div>
-        </div>
-      </section>
-
-     <AboutPageWhyChoose/>
-
-       <section className="relative bg-white py-16 overflow-hidden">
-
-      {/* Background Glow */}
-      <div className="absolute -top-20 -left-20 h-72 w-72 rounded-full bg-blue-100 blur-3xl opacity-50" />
-      <div className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-slate-200 blur-3xl opacity-40" />
-
-      <div className="relative max-w-6xl mx-auto px-6">
-
-        {/* Heading */}
-        <div className="text-center mb-10">
-
-         
-
-          <h2 className="mt-4 text-3xl sm:text-4xl font-bold text-slate-900">
-            Our Commitment to <span className="text-blue-600">Quality</span>
-          </h2>
-
-        </div>
-
-        {/* Content Box */}
-        {/* <div className="bg-white shadow-xl rounded-3xl p-6 sm:p-10 border border-slate-100">
-
-          {/* <p className="text-base sm:text-lg leading-7 sm:leading-9 text-slate-600">
-            Quality is at the core of everything we do. From sourcing premium-grade materials
-            to ensuring timely delivery, we strive to maintain the highest standards in every
-            aspect of our business. Our steel products are known for their durability, strength,
-            corrosion resistance, and consistent performance, making them suitable for demanding
-            industrial and construction applications.
-          </p> */}
-
-        {/* </div> */} 
-
-        {/* Feature Highlights */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-10">
-
-          <div className="p-6 rounded-2xl bg-slate-50 text-center">
-            <h3 className="text-xl font-bold text-blue-700">Premium Materials</h3>
-            <p className="text-slate-600 mt-2 text-sm">
-              We source only high-grade steel for long-lasting performance.
-            </p>
-          </div>
-
-          <div className="p-6 rounded-2xl bg-slate-50 text-center">
-            <h3 className="text-xl font-bold text-blue-700">Strict Quality Control</h3>
-            <p className="text-slate-600 mt-2 text-sm">
-              Every product undergoes multiple quality checks before dispatch.
-            </p>
-          </div>
-
-          <div className="p-6 rounded-2xl bg-slate-50 text-center">
-            <h3 className="text-xl font-bold text-blue-700">Reliable Delivery</h3>
-            <p className="text-slate-600 mt-2 text-sm">
-              Timely and safe delivery across PAN India network.
-            </p>
           </div>
 
         </div>
@@ -282,62 +115,308 @@ export default function AboutPage() {
       </div>
     </section>
 
-      <section className="relative py-12 overflow-hidden">
-        <div className="absolute inset-0">
-          <img
-            src="/bag/cta.jpg"
-            alt="Garbage Bags"
-            className="w-full h-full object-cover scale-105"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/80 to-black/90" />
-        </div>
 
-        <div className="absolute -top-20 -left-20 w-72 h-72 bg-green-600/30 rounded-full blur-[120px]" />
-        <div className="absolute -bottom-20 -right-20 w-72 h-72 bg-emerald-500/20 rounded-full blur-[120px]" />
 
-        {/* Content */}
-        <div className="relative max-w-6xl mx-auto px-6">
-          <div className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-3xl p-10 md:p-16 text-center text-white shadow-2xl">
-            <Reveal>
-              <h2 className="text-4xl md:text-5xl font-semibold mb-4 md:mb-6 leading-tight">
-                Ready to Build with Quality Steel?
-              </h2>
-            </Reveal>
+   <section className="relative overflow-hidden bg-white py-10">
+      {/* Background Elements */}
+      <div className="absolute -left-24 top-0 h-96 w-96 rounded-full bg-blue-50 blur-3xl" />
+      <div className="absolute -right-24 bottom-0 h-96 w-96 rounded-full bg-slate-100 blur-3xl" />
 
-            <Reveal delay={0.2}>
-              <p className="text-white max-w-3xl mx-auto leading-relaxed mb-8 text-md md:text-xl">
-                Partner with{" "}
-                <span className="text-blue-400 font-medium">
-                  Shiva Steel Fabricator
-                </span>
-                , or premium-quality steel products, competitive pricing, and
-                dependable service. Whether you need MS Pipes, MS Plates, GI
-                Sheets, GP Sheets, Cable Trays, or other steel products, we're
-                here to support your project with timely delivery and trusted
-                solutions.
+      <div className="relative mx-auto w-full px-24 ">
+        <div className="grid items-center gap-20 lg:grid-cols-2">
+          {/* Image Side */}
+          <div className="relative">
+            {/* Main Image */}
+            <div className="overflow-hidden rounded-[35px] shadow-[0_30px_80px_rgba(0,0,0,0.12)]">
+              <Image
+                src="/aboutimg.avif" // Replace with your image
+                alt="Shiva Steel Fabricator"
+                width={650}
+                height={750}
+                className="h-full w-full object-cover transition duration-700 hover:scale-105"
+              />
+            </div>
+
+            {/* Floating Card */}
+            <div className="absolute -bottom-8 right-6 rounded-3xl border border-white/60 bg-white/95 p-8 shadow-2xl backdrop-blur-xl">
+              <h3 className="text-5xl font-black text-blue-800">
+                Premium
+              </h3>
+
+              <p className="mt-2 text-lg font-medium text-slate-600">
+                Quality Steel Products
               </p>
-            </Reveal>
+            </div>
 
-            <Reveal delay={0.4}>
-              <div className="flex flex-col sm:flex-row justify-center gap-6">
-                <a
-                  href="/contact"
-                  className="px-8 py-4 bg-blue-600 hover:bg-blue-700 transition rounded-full font-medium shadow-lg hover:scale-105 duration-300"
-                >
-                  Request a Quote
-                </a>
+            {/* Decorative Shape */}
+            <div className="absolute -left-10 top-12 -z-10 h-64 w-64 rounded-full bg-red-100 blur-3xl" />
+          </div>
 
-                <a
-                  href="/products"
-                  className="px-8 py-4 border border-white/30 hover:border-blue-400 hover:text-blue-400 transition rounded-full font-medium backdrop-blur-md"
+          {/* Content Side */}
+          <div>
+            <span className="inline-flex rounded-full bg-blue-50 px-5 py-2 text-sm font-bold uppercase tracking-[0.25em] text-blue-900">
+              About Shiva Steel Fabricator
+            </span>
+
+            <h2 className="mt-4 text-3xl font-black leading-tight text-slate-900 ">
+              Your Trusted Partner for Quality Steel Products &
+              Fabrication Solutions
+            </h2>
+
+            {/* YOUR CONTENT - UNCHANGED */}
+            <p className="mt-2 text-lg leading-9 text-black text-justify">
+              Welcome to Shiva Steel Fabricator, a trusted name in the steel
+              industry, dedicated to supplying premium-quality steel products
+              and delivering reliable fabrication solutions for construction,
+              engineering, industrial, and infrastructure projects. With a
+              strong commitment to quality, integrity, and customer
+              satisfaction, we have established ourselves as a preferred
+              supplier for businesses seeking dependable steel materials at
+              competitive prices.  Our extensive product portfolio includes MS Pipes, MS Plates, MS
+              Angles, MS Beams, MS Channels, MS GP Sheets, MS GI Sheets,
+              Chequered Plates, Heavy Plates, Boiler Plates, Cable Trays, and
+              Perforated Cable Trays. Every product we offer is sourced and
+              supplied in accordance with industry standards to ensure
+              exceptional strength, durability, and long-lasting performance.
+            </p>
+
+            
+
+            {/* Feature Cards */}
+            <div className="mt-2 grid gap-5 sm:grid-cols-2">
+              {[
+                "Premium Quality Steel Products",
+                "Reliable Fabrication Solutions",
+                "Industry Standard Materials",
+                "Long-Lasting Performance",
+              ].map((item) => (
+                <div
+                  key={item}
+                  className="flex items-start gap-4 rounded-2xl border border-slate-200 bg-slate-50 p-5 transition duration-300 hover:-translate-y-2 hover:border-red-200 hover:bg-white hover:shadow-xl"
                 >
-                  Explore Our Products
-                </a>
-              </div>
-            </Reveal>
+                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50">
+                    <CheckCircle2 className="text-blue-900" size={22} />
+                  </div>
+
+                  <p className="font-semibold leading-7 text-slate-700">
+                    {item}
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
+
+
+<Otherpro/>
+
+ <section className="relative overflow-hidden bg-slate-50 py-10">
+      {/* Background */}
+      <div className="absolute -left-32 top-20 h-80 w-80 rounded-full bg-blue-100 blur-3xl" />
+      <div className="absolute -right-24 bottom-10 h-96 w-96 rounded-full bg-slate-200 blur-3xl" />
+
+      <div className="relative mx-auto w-full px-22">
+
+        <div className="grid items-center gap-20 lg:grid-cols-2">
+
+          {/* Content */}
+          <div>
+
+            <span className="inline-flex rounded-full bg-blue-50 px-5 py-2 text-sm font-bold uppercase tracking-[0.25em] text-blue-800">
+              Who We Are
+            </span>
+
+            <h2 className="mt-3 text-4xl font-black leading-tight text-slate-900 ">
+              Building Strong Relationships Through Quality Steel
+            </h2>
+
+            {/* ===== ORIGINAL CONTENT (UNCHANGED) ===== */}
+
+            <p className="mt-5 text-lg leading-9 text-black text-justify">
+              At Shiva Steel Fabricator, we believe that quality materials are
+              the foundation of every successful project. Our team works closely
+              with contractors, builders, fabricators, engineers, and
+              industrial clients to understand their requirements and provide
+              the right steel products for every application.
+              Whether you require materials for a residential construction
+              project, a commercial building, an industrial plant, or
+              large-scale infrastructure development, we are committed to
+              delivering products that meet your expectations in quality,
+              reliability, and value.
+            </p>
+
+          
+
+            {/* Industries */}
+            <div className="mt-6 grid gap-5 sm:grid-cols-2">
+
+              {industries.map((item, index) => (
+
+                <div
+                  key={index}
+                  className="group rounded-2xl border border-slate-200 bg-white p-3 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:border-red-200 hover:shadow-xl"
+                >
+                  <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-blue-800 transition group-hover:bg-blue-900 group-hover:text-white">
+                    {item.icon}
+                  </div>
+
+                  <h3 className="mt-2 text-md font-bold text-slate-900">
+                    {item.title}
+                  </h3>
+
+                </div>
+
+              ))}
+
+            </div>
+
+          </div>
+
+          {/* Image Side */}
+
+          <div className="relative">
+
+            {/* Main Image */}
+
+            <div className="overflow-hidden rounded-[35px] shadow-[0_30px_80px_rgba(0,0,0,0.15)]">
+
+              <Image
+                src="/tmt.jpg"
+                alt="Who We Are"
+                width={1000}
+                height={750}
+                className="h-full w-full object-cover transition duration-700 hover:scale-105"
+              />
+
+            </div>
+
+            {/* Floating Card */}
+
+         
+
+            {/* Decorative Card */}
+
+            <div className="absolute -top-6 -right-6 rounded-3xl bg-blue-800 p-8 text-white shadow-2xl">
+
+              <Factory size={45} />
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+  <section className="relative overflow-hidden bg-white py-10">
+      {/* Background */}
+      <div className="absolute -top-20 -left-20 h-80 w-80 rounded-full bg-blue-100 blur-3xl opacity-60" />
+      <div className="absolute -bottom-20 -right-20 h-96 w-96 rounded-full bg-slate-100 blur-3xl opacity-70" />
+
+      <div className="relative mx-auto w-full px-22">
+
+        {/* Heading */}
+
+        <div className="mx-auto mb-8 max-w-3xl text-center">
+
+          <span className="inline-flex rounded-full bg-blue-50 px-5 py-2 text-sm font-bold uppercase tracking-[0.25em] text-blue-800">
+            Our Foundation
+          </span>
+
+          <h2 className="mt-3 text-4xl font-black text-slate-900 md:text-5xl">
+            Mission & Vision
+          </h2>
+
+          <div className="mx-auto mt-4 h-1 w-24 rounded-full bg-blue-800" />
+
+        </div>
+
+        {/* Cards */}
+
+        <div className="grid gap-10 lg:grid-cols-2">
+
+          {/* Mission */}
+
+          <div className="group relative overflow-hidden rounded-[32px] border border-slate-200 bg-white p-6 shadow-xl transition duration-500 hover:-translate-y-3 hover:border-blue-200 hover:shadow-2xl">
+
+            <div className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-blue-50 transition duration-500 group-hover:scale-125" />
+
+            <div className="relative">
+
+              <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-800 text-white shadow-lg">
+                <Target size={34} />
+              </div>
+
+              <h3 className="mt-5 text-3xl font-black text-slate-900">
+                Our Mission
+              </h3>
+
+              <div className="mt-3  text-lg leading-9 text-black">
+
+                <p>
+                  At Shiva Steel Fabricator, our mission is to provide premium-quality steel products and reliable fabrication solutions that meet the diverse requirements of construction, engineering, manufacturing, and infrastructure projects. We are dedicated to delivering products that combine strength, durability, and value, ensuring every customer receives the highest standard of quality.  We strive to build lasting relationships through exceptional customer service, competitive pricing, and timely delivery. By maintaining professionalism, transparency, and integrity in every aspect of our business, we aim to become the preferred partner for businesses seeking dependable steel solutions.
+                </p>
+
+              
+
+              </div>
+
+            </div>
+
+          </div>
+
+          {/* Vision */}
+
+          <div className="group relative overflow-hidden rounded-[32px] border border-slate-200 bg-white p-6 shadow-xl transition duration-500 hover:-translate-y-3 hover:border-red-200 hover:shadow-2xl">
+
+            <div className="absolute -left-10 -bottom-10 h-40 w-40 rounded-full bg-blue-50 transition duration-500 group-hover:scale-125" />
+
+            <div className="relative">
+
+              <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-slate-900 text-white shadow-lg">
+                <Eye size={34} />
+              </div>
+
+              <h3 className="mt-5 text-3xl font-black text-slate-900">
+                Our Vision
+              </h3>
+
+              <div className="mt-4 space-y-6 text-lg leading-9 text-black">
+
+                <p>
+                  Our vision is to establish Shiva Steel Fabricator as a trusted and recognized leader in the steel supply and fabrication industry. We aspire to be known for our commitment to quality, innovation, and excellence while consistently meeting the evolving needs of our customers and industry.    We envision contributing to the growth of the construction, engineering, and industrial sectors by supplying reliable steel products and delivering outstanding service. Through continuous improvement, sustainable business practices, and customer-focused solutions, we aim to create long-term value for our clients and business partners.
+                </p>
+
+              
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+<Cta/>
+
+</>
+
+
+
+
+
+
+
+
+
+
+
   );
 }

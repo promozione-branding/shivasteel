@@ -100,7 +100,7 @@ export default function Navbar() {
           <nav className="hidden md:flex items-center gap-10 text-xl text-black tracking-wider font-semibold">
 
             <Link href="/" className="hover:text-slate-900">Home</Link>
-            <Link href="/#" className="hover:text-slate-900">About Us</Link>
+            <Link href="/about" className="hover:text-slate-900">About Us</Link>
 
             {/* PRODUCTS */}
             <div
@@ -326,7 +326,7 @@ export default function Navbar() {
            News & Events
             </Link>
 
-            <Link href="/#" className="hover:text-slate-900">
+            <Link href="/contact" className="hover:text-slate-900">
               Contact Us
             </Link>
           </nav>

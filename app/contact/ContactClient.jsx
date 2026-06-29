@@ -22,8 +22,8 @@ export default function ContactPage() {
 
     try {
       const formData = {
-        platform: "Sangam Garbage Bag Contact Form",
-        platformEmail: "info@sangamgarbagebags.com",
+        platform: "Shiva Steel Fabricator Contact page form",
+        platformEmail: "shivasteel2019@gmail.com",
         name,
         phone,
         email,
@@ -78,16 +78,16 @@ export default function ContactPage() {
     <div>
       {/* HERO SECTION */}
       <section
-        style={{ backgroundImage: "url('/bag/bg-other.webp')" }}
+        style={{ backgroundImage: "url('/bg3.webp')" }}
         className="w-full h-[55vh] md:h-[80vh] bg-cover bg-center relative flex items-center justify-center"
       >
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative text-center text-white px-6">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Contact Sangam Garbage Bag Manufacturer
+            Contact Shiva Steel Fabricator
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto">
-            Premium Quality Garbage Bags Manufacturer & Supplier in India
+            Your Trusted Partner for Quality Steel Products & Fabrication Solutions
           </p>
         </div>
       </section>
@@ -96,29 +96,29 @@ export default function ContactPage() {
       <section className="bg-gray-100 py-10 md:py-16 px-6 md:px-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-9 md:mb-16">
           {/* Phone */}
-          <div className="bg-green-700 text-white p-6 md:p-8 rounded-2xl shadow-lg text-center">
+          <div className="bg-[#1b3583] text-white p-6 md:p-8 rounded-2xl shadow-lg text-center">
             <Phone size={40} className="mx-auto mb-4" />
             <h3 className="text-xl font-bold mb-2">Call Us</h3>
-            <p className="text-lg">+91-8810422935</p>
+            <p className="text-lg">+91-97165 21402</p>
             <p className="text-lg">+91-9810057441</p>
+            <p className="text-lg">+91-98736 56785</p>
           </div>
 
           {/* Email */}
-          <div className="bg-white border-2 border-green-700 p-6 md:p-8 rounded-2xl shadow-lg text-center">
-            <Mail size={40} className="mx-auto mb-4 text-green-700" />
-            <h3 className="text-xl font-bold text-green-700 mb-2">
+          <div className="bg-white border-2 border-[bg-[#1b3583]] p-6 md:p-8 rounded-2xl shadow-lg text-center">
+            <Mail size={40} className="mx-auto mb-4 text-[bg-[#1b3583]]" />
+            <h3 className="text-xl font-bold text-[bg-[#1b3583]] mb-2">
               Email Address
             </h3>
-            <p className="text-gray-800 text-lg">info@polywell.co.in</p>
+            <p className="text-gray-800 text-lg">shivasteel2019@gmail.com</p>
           </div>
 
           {/* Address */}
-          <div className="bg-green-700 text-white p-6 md:p-8 rounded-2xl shadow-lg text-center">
+          <div className="bg-[#1b3583] text-white p-6 md:p-8 rounded-2xl shadow-lg text-center">
             <MapPin size={40} className="mx-auto mb-4" />
             <h3 className="text-xl font-bold mb-2">Factory Address</h3>
             <p>
-              Address - 110, Satya Bhawan, 36 Community Center, Wazirpur
-              Industrial Area, New Delhi-110052
+              X-43, Loha Mandi, Block X, Naraina Industrial Area Phase 1, Naraina, New Delhi, Delhi, 110028
             </p>
           </div>
         </div>
@@ -164,19 +164,40 @@ export default function ContactPage() {
                 />
 
                 <select
-                  className="border rounded-lg px-4 py-3 w-full bg-green-700 text-white font-semibold"
+                  className="border rounded-lg px-4 py-3 w-full bg-[#1b3583] text-white font-semibold"
                   value={requirement}
                   onChange={(e) => setRequirement(e.target.value)}
                 >
                   <option value="">Select Product</option>
-                  <option value="Black Garbage Bags">
-                    Biodegradable Garbage Bags
+                  <option value="GI Sheet">
+                    GI Sheet
                   </option>
-                  <option value="Green Garbage Bags">
-                    Disposable Garbage Bags
+                  <option value="Mild Steel Pipe">
+                    Mild Steel Pipe
                   </option>
-                  <option value="Biomedical Waste Bags">
-                    Biomedical garbage bags
+                  <option value="MS Plates">
+                    MS Plates
+                  </option>
+                  <option value="GP Sheets">
+                    MS Sheets
+                  </option>
+                  <option value="Mild Steel Bars">
+                    Mild Steel Bars
+                  </option>
+                  <option value="Metal Coil">
+                   Metal Coil
+                  </option>
+                  <option value="Mild Steel Angle">
+                    Mild Steel Angle
+                  </option>
+                  <option value="TMT Bars">
+                   TMT Bars
+                  </option>
+                  <option value="Cable Tray">
+                   Cable Tray
+                  </option>
+                  <option value="TMT Bars">
+                   TMT Bars
                   </option>
                 </select>
               </div>
@@ -201,13 +222,13 @@ export default function ContactPage() {
               <button
                 type="submit"
                 disabled={loading}
-                className="bg-green-700 hover:bg-green-800 transition text-white px-6 py-3 rounded-lg font-semibold w-full"
+                className="bg-[#1b3583] hover:bg-blue-800 transition text-white px-6 py-3 rounded-lg font-semibold w-full"
               >
                 {loading ? "Submitting..." : "Submit Inquiry"}
               </button>
 
               {status === "success" && (
-                <p className="text-green-600 font-semibold mt-2">
+                <p className="text-blue-600 font-semibold mt-2">
                   Thank you! Our team will contact you shortly.
                 </p>
               )}
@@ -222,10 +243,10 @@ export default function ContactPage() {
           {/* map */}
           <div className="mt-5">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.2848900849685!2d77.1662442!3d28.702004099999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0223846e0903%3A0x6b8f0fbb73c40b4c!2sSangam%20Plastic%20Industries%20Pvt.%20Ltd.!5e1!3m2!1sen!2sin!4v1771318884119!5m2!1sen!2sin"
+              src="https://maps.google.com/maps?q=Shiva%20Steel%20Fabricator%2C%20X-43%2C%20Loha%20Mandi%2C%20Block%20X%2C%20Naraina%20Industrial%20Area%20Phase%201%2C%20Naraina%2C%20New%20Delhi%2C%20Delhi%2C%20110028&t=m&z=10&output=embed&iwloc=near"
               allowFullScreen=""
               loading="lazy"
-              className="w-full h-100"
+              className="w-full h-130"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
