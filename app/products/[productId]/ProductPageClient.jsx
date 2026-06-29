@@ -78,13 +78,13 @@ const features = [
 
       {/* ================= PRODUCT ================= */}
 
-    <section className="relative  pt-45 overflow-hidden bg-gradient-to-b from-slate-50 via-white to-slate-100 py-10">
+    <section className="relative  md:pt-45 overflow-hidden bg-gradient-to-b from-slate-50 via-white to-slate-100 py-10">
 
   {/* Background */}
   <div className="absolute -top-20 -left-20 h-80 w-80 rounded-full bg-blue-100 blur-3xl opacity-40"></div>
   <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-slate-200 blur-3xl opacity-50"></div>
 
-  <div className="relative w-full mx-auto px-16">
+  <div className="relative w-full mx-auto px-5 md:px-16">
 
     <div className="grid lg:grid-cols-2 gap-16 items-start">
 
@@ -92,11 +92,11 @@ const features = [
 
       <div className="sticky top-28">
 
-        <div className="relative rounded-[36px] border border-slate-200 bg-white shadow-[0_35px_80px_rgba(15,23,42,.08)] overflow-hidden">
+        <div className="relative rounded-[36px]   bg-blue-100 shadow-[0_35px_80px_rgba(15,23,42,.08)] overflow-hidden">
 
           {/* Premium Badge */}
 
-          <div className="absolute top-6 left-6 z-20">
+          <div className="absolute top-6 right-6 z-20">
 
             <span className="rounded-full bg-blue-700 px-5 py-2 text-xs font-semibold uppercase tracking-widest text-white shadow-lg">
               Premium Quality
@@ -105,7 +105,7 @@ const features = [
           </div>
 
           <div
-            className="relative h-[520px] lg:h-[650px] overflow-hidden bg-gradient-to-br from-slate-50 to-white cursor-zoom-in"
+            className="relative h-[520px] lg:h-[650px] w-full overflow-hidden bg-gradient-to-br from-slate-50 to-white cursor-zoom-in"
             onMouseEnter={() => setIsZoomed(true)}
             onMouseLeave={() => setIsZoomed(false)}
             onMouseMove={handleMouseMove}
@@ -114,7 +114,7 @@ const features = [
               src={activeImage.src}
               alt={activeImage.alt}
               fill
-              className="object-contain transition-transform duration-500"
+              className="object-fill transition-transform duration-500"
               style={{
                 transformOrigin: origin,
                 transform: isZoomed
@@ -136,11 +136,11 @@ const features = [
           Technical Specifications
         </span>
 
-        <h2 className="mt-5 text-4xl font-bold text-slate-900">
+        <h2 className="mt-10 text-center md:text-start md:mt-5 text-4xl font-bold text-slate-900">
          {product.name}
         </h2>
 
-        <p className="mt-4 text-slate-500 leading-8">
+        <p className="mt-4 text-slate-500 leading-6 text-center md:text-start md:leading-8">
           Every product supplied by Shiva Steel Fabricators undergoes
           stringent quality inspection to ensure durability, precision,
           and long-term industrial performance.
@@ -148,15 +148,15 @@ const features = [
 
         {/* SPEC CARD */}
 
-        <div className="mt-10 rounded-3xl border border-slate-200 bg-white p-8 shadow-xl">
+        <div className=" mt-5 md:mt-10 rounded-3xl border border-slate-200 bg-white p-5 md:p-8 shadow-xl">
 
-          <div className="grid gap-5">
+          <div className="grid  gap-3 md:gap-5">
 
             {product.specs?.map((spec, i) => (
 
               <div
                 key={i}
-                className="flex items-center justify-between rounded-2xl border border-slate-100 bg-slate-50 px-5 py-4 transition hover:border-blue-200 hover:bg-blue-50"
+                className="flex items-center justify-between rounded-2xl border border-slate-100 bg-slate-50 px-3 py-2 md:px-5 md:py-4 transition hover:border-blue-200 hover:bg-blue-50"
               >
 
                 <span className="font-semibold text-slate-900">
@@ -177,11 +177,11 @@ const features = [
 
         {/* CTA */}
 
-        <div className="mt-10 flex   gap-6">
+        <div className="mt-10 flex justify-center items-center gap-2 md:gap-6">
 
           <button
             onClick={() => setIsFormOpen(true)}
-            className="group px-4 rounded-2xl bg-gradient-to-r from-blue-800 to-blue-950 py-4 text-lg font-semibold text-white shadow-xl transition hover:-translate-y-1"
+            className="group px-2 md:px-4 rounded-2xl bg-gradient-to-r from-blue-800 to-blue-950 py-4 text-lg font-semibold text-white shadow-xl transition hover:-translate-y-1"
           >
             Request Quote →
           </button>
@@ -208,7 +208,7 @@ const features = [
 
         <div className="mt-10 grid grid-cols-3 gap-4">
 
-          <div className="rounded-2xl bg-white p-5 text-center shadow-md">
+          <div className="rounded-2xl flex justify-center items-center flex-col bg-white p-3 md:p-5 text-center shadow-md">
             <h4 className="text-2xl font-bold text-blue-700">
               25+
             </h4>
@@ -217,7 +217,7 @@ const features = [
             </p>
           </div>
 
-          <div className="rounded-2xl bg-white p-5 text-center shadow-md">
+          <div className="rounded-2xl flex justify-center items-center flex-col bg-white p-3 md:p-5 text-center shadow-md">
             <h4 className="text-2xl font-bold text-blue-700">
               ISO
             </h4>
@@ -226,11 +226,11 @@ const features = [
             </p>
           </div>
 
-          <div className="rounded-2xl bg-white p-5 text-center shadow-md">
+          <div className="rounded-2xl flex justify-center items-center flex-col bg-white p-3 md:p-5 text-center shadow-md">
             <h4 className="text-2xl font-bold text-blue-700">
               PAN
             </h4>
-            <p className="text-sm text-slate-500">
+            <p className="text-sm text-center text-slate-500">
               India Supply
             </p>
           </div>
@@ -254,7 +254,7 @@ const features = [
 
 
       {/* ===== DESCRIPTION ===== */}
-    <section className="relative  bg-gradient-to-b from-slate-50 via-white to-slate-100 py-15">
+    <section className="relative  bg-gradient-to-b from-slate-50 via-white to-slate-100 py-5 md:py-15">
 
   {/* background */}
   <div className="absolute inset-0">
@@ -262,13 +262,13 @@ const features = [
     <div className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-slate-200 blur-3xl opacity-40" />
   </div>
 
-  <div className="relative w-full mx-auto px-10">
+  <div className="relative w-full mx-auto px-3 md:px-10">
 
-    <div className="relative grid lg:grid-cols-[1.6fr_.8fr] gap-10">
+    <div className="relative grid lg:grid-cols-[1.6fr_.8fr] gap-5 md:gap-10">
 
       {/* LEFT */}
 
-      <div className="rounded-3xl bg-white p-10 shadow-xl">
+      <div className="rounded-3xl bg-white p-5 md:p-10 shadow-xl">
 
         <span className="inline-flex rounded-full bg-blue-100 px-4 py-1 text-sm font-semibold text-blue-700">
           Product Information
@@ -278,7 +278,7 @@ const features = [
           Product Overview
         </h2>
 
-        <div className="mt-8 space-y-8">
+        <div className="mt-6 md:mt-8 space-y-8">
 
           {Array.isArray(product.description) &&
             product.description.map((block, i) => {
@@ -287,7 +287,7 @@ const features = [
                 return (
                   <h3
                     key={i}
-                    className="text-2xl font-bold text-slate-900 border-l-4 border-blue-600 pl-4"
+                    className="text-2xl font-bold text-slate-900 border-l-4 border-blue-600 pl-2 md:pl-4"
                   >
                     {block.text}
                   </h3>
@@ -313,7 +313,7 @@ const features = [
                         </div>
 
                         <p
-                          className="leading-8 text-slate-600"
+                          className="leading-6 md:leading-8 text-slate-600"
                           dangerouslySetInnerHTML={{
                             __html: item,
                           }}
@@ -336,7 +336,7 @@ const features = [
 
       <div className="lg:sticky lg:top-28 h-fit">
 
-        <div className="rounded-3xl border bg-white p-8 shadow-xl">
+        <div className="rounded-3xl border bg-white p-5 md:p-8 shadow-xl">
 
           <h3 className="text-3xl font-bold">
             Request Quote
@@ -350,23 +350,23 @@ const features = [
 
             <input
               placeholder="Full Name"
-              className="w-full rounded-xl border p-4 outline-none focus:border-blue-600"
+              className="w-full rounded-xl border p-2 md:p-4 outline-none focus:border-blue-600"
             />
 
             <input
               placeholder="Phone Number"
-              className="w-full rounded-xl border p-4 outline-none focus:border-blue-600"
+              className="w-full rounded-xl border p-2 md:p-4 outline-none focus:border-blue-600"
             />
 
             <input
               placeholder="Email Address"
-              className="w-full rounded-xl border p-4 outline-none focus:border-blue-600"
+              className="w-full rounded-xl border p-2 md:p-4 outline-none focus:border-blue-600"
             />
 
             <textarea
               rows={5}
               placeholder="Your Requirement"
-              className="w-full rounded-xl border p-4 outline-none focus:border-blue-600"
+              className="w-full rounded-xl border p-2 md:p-4 outline-none focus:border-blue-600"
             />
 
             <button
@@ -377,7 +377,7 @@ const features = [
 
           </form>
 
-          <div className="mt-8 rounded-2xl bg-slate-50 p-5">
+          <div className="mt-8 hidden md:block rounded-2xl bg-slate-50 p-5">
 
             <h4 className="font-semibold text-slate-900">
               Why Choose Us?
@@ -422,7 +422,7 @@ const features = [
     />
   </div>
 
-  <div className="relative w-full mx-auto px-16">
+  <div className="relative w-full mx-auto px-6 md:px-16">
 
     <div className="text-center mb-10">
 
@@ -430,7 +430,7 @@ const features = [
         Why Choose Shiva Steel Fabricators
       </span>
 
-      <h2 className="mt-5 text-4xl md:text-5xl font-bold text-white">
+      <h2 className="mt-5 text-2xl md:text-5xl font-bold text-white">
         Trusted Steel Partner for Every Industry
       </h2>
 
@@ -438,31 +438,31 @@ const features = [
 
     </div>
 
-    <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
+    <div className="grid grid-cols-2 gap-4 md:gap-8 md:grid-cols-2 xl:grid-cols-4">
 
       {features.map((item, index) => (
 
         <div
           key={index}
-          className="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-4 backdrop-blur-xl transition-all duration-500 hover:-translate-y-3 hover:border-blue-400/40 hover:bg-white/10 hover:shadow-[0_25px_60px_rgba(0,140,255,.18)]"
+          className="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-2 md:p-4 backdrop-blur-xl transition-all duration-500 hover:-translate-y-3 hover:border-blue-400/40 hover:bg-white/10 hover:shadow-[0_25px_60px_rgba(0,140,255,.18)]"
         >
 
           {/* Top Glow */}
           <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-500 scale-x-0 transition-transform duration-500 group-hover:scale-x-100" />
 
-          <div className="flex h-18 w-18 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-500 text-white shadow-xl">
+          <div className="flex h-13 w-13 md:h-18 md:w-18 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-500 text-white shadow-xl">
             {item.icon}
           </div>
 
-          <h3 className="mt-5 text-2xl font-bold text-white">
+          <h3 className="mt-5 text-sm md:text-2xl font-bold text-white">
             {item.title}
           </h3>
 
-          <p className="mt-5 leading-8 text-slate-300">
+          <p className="mt-3 md:mt-5 leading-5 md:leading-8 text-[12px] md:text-2xl text-slate-300">
             {item.desc}
           </p>
 
-          <div className="mt-8 flex items-center text-sm font-semibold text-cyan-300">
+          <div className="mt-2 md:mt-8 flex items-center text-sm font-semibold text-cyan-300">
             Learn More
             <span className="ml-2 transition-transform duration-300 group-hover:translate-x-2">
               →

@@ -35,7 +35,7 @@ image: "/2.webp",
 export default function ProductShowcase() {
   return (
     <section className="bg-slate-50 py-10">
-      <div className="mx-auto w-full px-19">
+      <div className="mx-auto w-full px-5 md:px-19">
         {/* Heading */}
         <div className="mb-14 text-center">
           <span className="mb-3 inline-block rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-600">

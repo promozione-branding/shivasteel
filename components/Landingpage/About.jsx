@@ -71,8 +71,8 @@ export default function AboutSection() {
 };
 
   return (
-    <section className="py-14 bg-white overflow-hidden">
-      <div className="w-full md:px-20 mx-auto ">
+    <section className="py-5 md:py-14 bg-white overflow-hidden">
+      <div className="w-full px-5 md:px-20 mx-auto ">
 
         <div className="grid lg:grid-cols-2 gap-5 items-center">
 
@@ -83,7 +83,7 @@ export default function AboutSection() {
               ABOUT SHIVA STEEL FABRICATOR
             </span>
 
-            <h2 className="mt-4 text-4xl  font-bold text-slate-900 leading-tight">
+            <h2 className="mt-4 text-2xl md:text-4xl  font-bold text-slate-900 leading-tight">
               One-Stop Destination for
               <span className="text-blue-700">
                 {" "}Steel Products &
@@ -91,7 +91,7 @@ export default function AboutSection() {
               </span>
             </h2>
 
-            <p className="mt-4 text-black text-lg leading-8 text-justify">
+            <p className="mt-4 text-black text-lg leading-7 md:leading-8 text-justify">
               Welcome to Shiva Steel Fabricator, a trusted name in the
               steel fabrication and supply industry. We specialize in
               providing premium-quality MS Pipe, MS Plate, MS Angle,
@@ -100,7 +100,7 @@ export default function AboutSection() {
               Cable Tray and Perforated Cable Tray.
             </p>
 
-            <p className="mt-4 text-black text-lg leading-8 text-justify">
+            <p className="mt-4 text-black text-lg leading-7 md:leading-8 text-justify">
               With years of industry experience, we are committed to
               delivering durable steel products, precision fabrication
               solutions and reliable customer service. Our products are
@@ -109,41 +109,41 @@ export default function AboutSection() {
               longevity.
             </p>
 
-            <div className="grid grid-cols-3 gap-6 mt-10">
+            <div className="grid grid-cols-3 sm:grid-cols-3 gap-6 mt-10 text-center">
 
-              <div>
-                <h4 className="text-4xl font-bold text-blue-800">
-                  25+
-                </h4>
-                <p className="text-black">
-                  Years Experience
-                </p>
-              </div>
+  <div>
+    <h4 className="text-3xl sm:text-4xl font-bold text-blue-800">
+      25+
+    </h4>
+    <p className="text-black text-sm sm:text-base">
+      Years Experience
+    </p>
+  </div>
 
-              <div>
-                <h4 className="text-4xl font-bold text-blue-800">
-                  500+
-                </h4>
-                <p className="text-black">
-                  Projects Delivered
-                </p>
-              </div>
+  <div>
+    <h4 className="text-3xl sm:text-4xl font-bold text-blue-800">
+      500+
+    </h4>
+    <p className="text-black text-sm sm:text-base">
+      Projects Delivered
+    </p>
+  </div>
 
-                 <div>
-                <h4 className="text-4xl font-bold text-blue-800">
-                  100+
-                </h4>
-                <p className="text-black">
-                  Quality Satisfaction
-                </p>
-              </div>
+  <div>
+    <h4 className="text-3xl sm:text-4xl font-bold text-blue-800">
+      100+
+    </h4>
+    <p className="text-black text-sm sm:text-base">
+      Quality Satisfaction
+    </p>
+  </div>
 
-            </div>
+</div>
           </div>
 
           {/* RIGHT VIDEOS */}
 
-          <div className="relative h-[650px] flex items-center mr-13 justify-center">
+          <div className="hidden md:flex relative h-[650px] px-3  items-center mr-13 justify-center">
 
             {videos.map((video, index) => {
               const pos = getPosition(index);

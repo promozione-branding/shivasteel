@@ -17,22 +17,22 @@ const Page = () => {
       {/* Hero Section */}
       <section
         style={{ backgroundImage: "url('/bag/bg-other.webp')" }}
-        className="w-full bg-cover bg-center h-[50vh]  md:h-[90vh] relative"
+        className="w-full bg-cover bg-center h-[30vh]  md:h-[70vh] relative"
       >
         {/* <div className="absolute inset-0 bg-black opacity-10"></div> */}
         <div className="absolute inset-0 flex items-center justify-center">
-          <h2 className="text-green-600 bg-white p-2 text-2xl md:text-7xl font-bold z-10">All Products</h2>
+          <h2 className="text-green-600 bg-white p-2 text-4xl md:text-7xl font-bold z-10 mt-30 md:mt-20">All Products</h2>
         </div>
       </section>
 
       {/* Products Grid */}
       <div className="max-w-7xl px-10 py-10 mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {allProducts.map((product) => (
             <Link
               key={product?.id}
               href={`/products/${product?.id}`}
-              className="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition"
+              className="border w-40 md:w-full rounded-lg overflow-hidden shadow-sm hover:shadow-md transition"
             >
               <Image
                 src={product?.image[0]?.src || "/placeholder.png"} // ✅ Use first image or placeholder
@@ -40,7 +40,7 @@ const Page = () => {
                 width={300}
                 height={200}
                 title={product?.name} 
-                className="w-full h-70   object-contain"
+                className="w-full   object-cover"
               />
               <div className="p-3">
                 <h2 className="text-lg text-center font-semibold">{product?.name}</h2>

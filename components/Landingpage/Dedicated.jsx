@@ -50,7 +50,7 @@ export default function WhyChooseUs() {
 
   return (
     <section className="py-8 bg-white">
-      <div className="container mx-auto px-16">
+      <div className="container mx-auto px-5 md:px-16">
         <div className="grid items-center gap-16 lg:grid-cols-2">
           
           {/* Content Side */}
@@ -110,7 +110,7 @@ export default function WhyChooseUs() {
 </div>
 
             {/* Floating Card */}
-            <div className="absolute -bottom-6 -left-6 rounded-2xl bg-white p-6 shadow-xl border border-slate-100">
+            <div className="absolute -bottom-6 right-0 md:-left-6 rounded-2xl bg-white p-4 md:p-6 shadow-xl border border-slate-100">
               <h4 className="text-3xl font-bold text-blue-600">
                 25+
               </h4>

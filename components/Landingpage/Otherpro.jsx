@@ -99,30 +99,30 @@ const products = [
   <div className="max-w-[1650px] mx-auto px-10 relative z-10">
 
     {/* HEADER */}
-    <div className="flex justify-between items-start mb-8">
+    <div className="flex flex-col sm:flex-row justify-between items-start gap-6 mb-8">
 
       <div>
-        <span className="text-[50px] font-medium text-blue-800">
-        Our Steel Product Portfolio
+        <span className="text-2xl sm:text-[50px] font-medium text-blue-800 block leading-tight">
+          Our Steel Product Portfolio
         </span>
 
-        <h2 className="mt-2 text-[18px]   text-black max-w-[950px]">
-      We provide high-quality structural steel products and fabrication materials that meet the demanding requirements of modern construction and industrial applications. Every product is sourced from trusted manufacturers to ensure superior performance, reliability, and long-term value.
+        <h2 className="mt-2 text-sm sm:text-[18px] text-black max-w-full sm:max-w-[950px] leading-6">
+          We provide high-quality structural steel products and fabrication materials that meet the demanding requirements of modern construction.
         </h2>
       </div>
 
-      <div className="flex items-center gap-5">
+      <div className="flex flex-wrap sm:flex-nowrap items-center gap-3 sm:gap-5">
 
-        <button className="bg-gradient-to-r from-[#0B4F8A] via-[#0A6FB6] to-[#0B8FCC] text-white px-8 py-4 rounded-full text-lg font-medium">
+        <button className="bg-gradient-to-r from-[#0B4F8A] via-[#0A6FB6] to-[#0B8FCC] text-white py-2 px-4 sm:px-8 sm:py-4 rounded-full text-sm sm:text-lg font-medium">
           Enquire Now
         </button>
 
-        <button className="product-prev w-16 h-16 rounded-full border-2 border-black flex items-center justify-center">
-          <ArrowLeft size={28} />
+        <button className="product-prev w-10 h-10 sm:w-16 sm:h-16 rounded-full border-2 border-black flex items-center justify-center">
+          ←
         </button>
 
-        <button className="product-next w-16 h-16 rounded-full border-2 border-black flex items-center justify-center">
-          <ArrowRight size={28} />
+        <button className="product-next w-10 h-10 sm:w-16 sm:h-16 rounded-full border-2 border-black flex items-center justify-center">
+          →
         </button>
 
       </div>
@@ -131,8 +131,7 @@ const products = [
     {/* SLIDER */}
 
     <Swiper
-
-    modules={[Navigation, Autoplay]}
+  modules={[Navigation, Autoplay]}
   navigation={{
     prevEl: ".product-prev",
     nextEl: ".product-next",
@@ -145,73 +144,88 @@ const products = [
   loop={true}
   speed={800}
   spaceBetween={35}
-  slidesPerView={2.25}
+
+  /* ✅ MOBILE FIRST */
+  slidesPerView={1}
+
+  breakpoints={{
+    640: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 1.5,
+    },
+    1024: {
+      slidesPerView: 2.25,
+    },
+  }}
+
   className="overflow-visible"
-    >
-      {products.map((product, index) => (
-        <SwiperSlide key={index}>
-          <div className="relative h-[500px] bg-[#ececec] overflow-visible">
+>
+  {products.map((product, index) => (
+    <SwiperSlide key={index}>
+      
+      {/* CARD */}
+      <div className="relative h-[360px] sm:h-[500px] bg-[#ececec] overflow-hidden">
 
-            {/* decorative blocks */}
+        {/* CONTENT */}
+        <div className="p-6 sm:p-10">
 
-        
+          <h3 className="text-2xl sm:text-[46px] font-bold text-black">
+            {product.title}
+          </h3>
 
-            <div className="p-10">
+          {/* BUTTON + STATS */}
+          <div className="mt-5 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-10">
 
-              <h3 className="text-[46px] font-bold text-black">
-                {product.title}
-              </h3>
+            <button className="border-2 border-blue-600 rounded-full px-5 py-2 sm:px-6 sm:py-3 flex items-center gap-3 text-sm sm:text-lg whitespace-nowrap">
+              Know More
+            </button>
 
-            <div className="mt-5 flex items-center gap-10">
-  <button className="border-2 border-blue-600 [#FF5A1F] rounded-full px-6 py-3 flex items-center gap-3 text-lg whitespace-nowrap">
-    Know More
-  </button>
+            <div>
+              <h4 className="text-3xl sm:text-[60px] leading-none font-light text-blue-600">
+                {product.production}
+              </h4>
 
-  <div>
-    <h4 className="text-[60px] leading-none font-light text-blue-600">
-      {product.production}
-    </h4>
-
-    <p className="text-[18px] text-black">
-      Product Supply
-    </p>
-  </div>
-</div>
-
+              <p className="text-sm sm:text-[18px] text-black">
+                Product Supply
+              </p>
             </div>
 
-            {/* stats */}
-
-          <Image
-  src="/ChatGPT Image Jun 25, 2026, 02_37_20 PM.png"
-  alt="Decoration"
-  width={160}
-  height={160}
-  className="absolute animate-rotate-slow left-[10px] bottom-[15px] rounded-full   pointer-events-none"
-/>
-
-            {/* image */}
-
-            <img
-              src={product.image}
-              alt={product.title}
-              className="
-                absolute
-                right-0
-                bottom-[-40px]
-                w-[440px]
-                object-contain
-                z-30
-                pointer-events-none
-              "
-            />
-
           </div>
-        </SwiperSlide>
-      ))}
-    </Swiper>
+        </div>
+
+        {/* DECORATION */}
+        <Image
+          src="/ChatGPT Image Jun 25, 2026, 02_37_20 PM.png"
+          alt="Decoration"
+          width={160}
+          height={160}
+          className="absolute animate-rotate-slow left-2 bottom-2 sm:left-[10px] sm:bottom-[15px] w-20 sm:w-[160px] pointer-events-none"
+        />
+
+        {/* PRODUCT IMAGE */}
+        <img
+          src={product.image}
+          alt={product.title}
+          className="
+            absolute
+            right-0
+            bottom-0
+            w-[180px]
+            sm:w-[440px]
+            object-contain
+            z-30
+            pointer-events-none
+          "
+        />
+
+      </div>
+    </SwiperSlide>
+  ))}
+</Swiper>
   </div>
-</section>
+</section>  
 
 
   );

@@ -5,7 +5,7 @@ const Whychoose = () => {
     <div>
       
 
-<section className="py-24 bg-white">
+<section className="py-8 md:py-24 bg-white">
   <div className="w-full mx-auto px-6 lg:px-15">
     <div className="grid lg:grid-cols-2 gap-16 items-start">
       

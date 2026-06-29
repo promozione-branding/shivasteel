@@ -38,9 +38,9 @@ const industries = [
 export default function IndustriesWeServe() {
   return (
     <section className="bg-[#f7f7f7] py-10">
-      <div className="container mx-auto px-20">
+      <div className="container mx-auto px-4 md:px-20">
         {/* Header */}
-        <div className="mx-auto mb-16 max-w-4xl text-center">
+        <div className="mx-auto mb-6 md:mb-16 max-w-4xl text-center">
           <span className="mb-4 inline-block rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-600">
             INDUSTRIES WE SERVE
           </span>
@@ -98,7 +98,7 @@ export default function IndustriesWeServe() {
                         {industry.title}
                       </h3>
 
-                      <p className="text-md leading-9 text-slate-600">
+                      <p className="text-md leading-6 md:leading-9 text-slate-600">
                         At Shiva Steel Fabricator, we cater to the diverse
                         steel requirements of various industries by supplying
                         high-quality steel products that meet demanding project

@@ -79,7 +79,7 @@ export default function Navbar() {
 
       <MapPin className="h-3.5 w-3.5 text-emerald-400" />
 
-      <span>
+      <span className="font-bold">
      Industrial Area Phase 1, Naraina, New Delhi, Delhi, 110028
       </span>
 
@@ -89,7 +89,7 @@ export default function Navbar() {
 </div>
 
         {/* MAIN NAV */}
-        <div className="w-full mx-auto px-20 h-24 flex items-center justify-between">
+        <div className="w-full mx-auto px-6 md:px-20 h-24 flex items-center justify-between">
 
           {/* LOGO */}
           <Link href="/" className="flex flex-col leading-tight">
@@ -146,7 +146,7 @@ export default function Navbar() {
                 key={cat.id}
                 href={`/categories/${cat.id}`}
                 onMouseEnter={() => setActiveCategory(cat.id)}
-                className={`group flex items-center justify-between px-6 py-4 transition-all
+                className={`group flex items-center justify-between px-6 py-2 transition-all
 
                 ${
                     activeCategory === cat.id
@@ -338,12 +338,12 @@ export default function Navbar() {
   href="https://wa.me/919873656785"
   target="_blank"
   rel="noopener noreferrer"
-  className="group relative flex h-11 w-11 items-center justify-center overflow-hidden rounded-full border border-green-200 bg-gradient-to-br from-green-500 to-emerald-600 text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-2xl"
+  className="group relative flex h-16 w-16 items-center justify-center overflow-hidden rounded-full border border-green-200 bg-gradient-to-br from-green-500 to-emerald-600 text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-2xl"
 >
   {/* Shine Effect */}
   <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/30 to-transparent transition-transform duration-700 group-hover:translate-x-full" />
 
-  <FaWhatsapp className="relative z-10 text-[20px] transition-transform duration-300 group-hover:scale-110" />
+  <FaWhatsapp className="relative z-10 text-[50px] transition-transform duration-300 group-hover:scale-110" />
 </a>
 
 
@@ -378,7 +378,7 @@ export default function Navbar() {
             className="md:hidden"
             onClick={() => setMobileOpen(!mobileOpen)}
           >
-            {mobileOpen ? <X /> : <Menu />}
+            {mobileOpen ? <X className="h-10 w-10" /> : <Menu className="h-10 w-10" />}
           </button>
         </div>
 
