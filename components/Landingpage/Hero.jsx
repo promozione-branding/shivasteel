@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+
 import {
   Phone,
   ArrowRight,
@@ -9,6 +9,10 @@ import {
   Lock,
   PhoneCall,
 } from "lucide-react";
+
+import { useState } from "react";
+import axios from "axios";
+import toast from "react-hot-toast";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, EffectFade } from "swiper/modules";
@@ -42,6 +46,81 @@ const slides = [
 ];
 
 export default function HeroSection() {
+
+const [loading, setLoading] = useState(false);
+
+const [form, setForm] = useState({
+  name: "",
+  phone: "",
+  email: "",
+  product: "",
+});
+
+const handleChange = (e) => {
+  setForm({
+    ...form,
+    [e.target.name]: e.target.value,
+  });
+};
+
+const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  if (!form.name || !form.phone || !form.product) {
+    toast.error("Please fill all required fields");
+    return;
+  }
+
+  if (!/^[6-9]\d{9}$/.test(form.phone)) {
+    toast.error("Enter a valid phone number");
+    return;
+  }
+
+  try {
+    setLoading(true);
+
+    const formData = {
+      platform: "Steel Hero Form",
+      platformEmail: "care@inquirybazaar.com",
+      name: form.name,
+      phone: form.phone,
+      email: form.email || "N/A",
+      place: "N/A",
+      product: form.product,
+      message: `Interested Product: ${form.product}`,
+    };
+
+    const { data } = await axios.post(
+      "https://brandbnalo.com/api/form/add",
+      formData
+    );
+
+    if (data.success) {
+      toast.success("Inquiry Submitted Successfully");
+
+      setForm({
+        name: "",
+        phone: "",
+        email: "",
+        product: "",
+      });
+    } else {
+      toast.error("Failed to submit inquiry");
+    }
+  } catch (error) {
+    console.log(error);
+    toast.error("Server Error");
+  } finally {
+    setLoading(false);
+  }
+};
+
+
+
+
+
+
+
   const [activeSlide, setActiveSlide] = useState(0);
 const [isFormOpen, setIsFormOpen] = useState(false);
   return (
@@ -118,67 +197,93 @@ const [isFormOpen, setIsFormOpen] = useState(false);
                           Get Best Price Today
                         </h3>
 
-                        <div className="space-y-4 sm:space-y-5 mt-5">
+                       <form
+  onSubmit={handleSubmit}
+  className="space-y-4 sm:space-y-5 mt-5"
+>
 
                           <div className="relative">
                             <User className="absolute left-4 top-1/2 -translate-y-1/2 text-[#0A6FB6]" size={18} />
-                            <input className="h-12 sm:h-14 w-full rounded-xl border pl-12 outline-none" placeholder="Your Name" />
+                       <input
+  name="name"
+  value={form.name}
+  onChange={handleChange}
+  className="h-12 sm:h-14 w-full rounded-xl border pl-12 outline-none"
+  placeholder="Your Name"
+/>
                           </div>
 
                           <div className="relative">
                             <PhoneCall className="absolute left-4 top-1/2 -translate-y-1/2 text-[#0A6FB6]" size={18} />
-                            <input className="h-12 sm:h-14 w-full rounded-xl border pl-12 outline-none" placeholder="Phone Number" />
+                         <input
+  name="phone"
+  value={form.phone}
+  onChange={(e) =>
+    setForm({
+      ...form,
+      phone: e.target.value.replace(/\D/g, ""),
+    })
+  }
+  maxLength={10}
+  className="h-12 sm:h-14 w-full rounded-xl border pl-12 outline-none"
+  placeholder="Phone Number"
+/>
                           </div>
 
                           <div className="relative">
                             <Mail className="absolute left-4 top-1/2 -translate-y-1/2 text-[#0A6FB6]" size={18} />
-                            <input className="h-12 sm:h-14 w-full rounded-xl border pl-12 outline-none" placeholder="Email Address" />
+                        <input
+  type="email"
+  name="email"
+  value={form.email}
+  onChange={handleChange}
+  className="h-12 sm:h-14 w-full rounded-xl border pl-12 outline-none"
+  placeholder="Email Address"
+/>
                           </div>
 
-                          <select className="h-12 sm:h-14 w-full rounded-xl border px-4 outline-none">
-                           <option value="">Select Product</option>
-                  <option value="GI Sheet">
-                    GI Sheet
-                  </option>
-                  <option value="Mild Steel Pipe">
-                    Mild Steel Pipe
-                  </option>
-                  <option value="MS Plates">
-                    MS Plates
-                  </option>
-                  <option value="GP Sheets">
-                    MS Sheets
-                  </option>
-                  <option value="Mild Steel Bars">
-                    Mild Steel Bars
-                  </option>
-                  <option value="Metal Coil">
-                   Metal Coil
-                  </option>
-                  <option value="Mild Steel Angle">
-                    Mild Steel Angle
-                  </option>
-                  <option value="TMT Bars">
-                   TMT Bars
-                  </option>
-                  <option value="Cable Tray">
-                   Cable Tray
-                  </option>
-                  <option value="TMT Bars">
-                   TMT Bars
-                  </option>
-                          </select>
+                        <select
+  name="product"
+  value={form.product}
+  onChange={handleChange}
+  className="h-12 sm:h-14 w-full rounded-xl border px-4 outline-none"
+>
+  <option value="">Select Product</option>
+  <option value="GI Sheet">GI Sheet</option>
+  <option value="Mild Steel Pipe">Mild Steel Pipe</option>
+  <option value="MS Plates">MS Plates</option>
+  <option value="MS Sheets">MS Sheets</option>
+  <option value="Mild Steel Bars">Mild Steel Bars</option>
+  <option value="Metal Coil">Metal Coil</option>
+  <option value="Mild Steel Angle">Mild Steel Angle</option>
+  <option value="TMT Bars">TMT Bars</option>
+  <option value="Cable Tray">Cable Tray</option>
+</select>
 
-                          <button className="w-full h-12 sm:h-14 rounded-xl bg-gradient-to-r from-[#0B4F8A] via-[#0A6FB6] to-[#0B8FCC] text-white font-semibold">
-                            Request Quote Now →
-                          </button>
+                       <button
+  type="submit"
+  disabled={loading}
+  className="w-full h-12 sm:h-14 rounded-xl bg-gradient-to-r from-[#0B4F8A] via-[#0A6FB6] to-[#0B8FCC] text-white font-semibold disabled:opacity-70"
+>
+  {loading ? "Submitting..." : "Request Quote Now →"}
+</button>
 
                           <div className="flex items-center justify-center gap-2 text-xs text-slate-500">
                             <Lock size={14} />
                             Your information is safe & confidential.
                           </div>
 
-                        </div>
+                     </form>
+
+
+
+
+
+
+
+
+
+
 
                       </div>
                     </div>

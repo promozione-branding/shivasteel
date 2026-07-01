@@ -36,11 +36,11 @@ export default function Footer() {
           <div>
             <div className="flex items-center justify-center lg:justify-start">
               <Image
-                src="/logo.webp"
+                src="/logo-removebg-preview (1).png"
                 alt="Shiva Steel Fabricators logo"
-                width={180}
+                width={160}
                 height={90}
-                className="h-20 w-auto sm:h-24"
+                className="h-20 w-auto sm:h-27"
               />
             </div>
 
@@ -127,26 +127,49 @@ export default function Footer() {
               <h3 className="mb-4 text-lg font-bold text-[#111] sm:text-[22px]">
                 Contact
               </h3>
-              <div className="space-y-4 text-[#555]">
-                <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
-                  <Phone className="mt-0.5 shrink-0 text-blue-600" size={18} />
-                  <p className="text-sm sm:text-[15px]">+91-9069906984</p>
-                </div>
-                <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
-                  <Phone className="mt-0.5 shrink-0 text-blue-600" size={18} />
-                  <p className="text-sm sm:text-[15px]">+91-98736 56785</p>
-                </div>
-                <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
-                  <MapPin className="mt-0.5 shrink-0 text-blue-600" size={18} />
-                  <p className="text-sm leading-6 sm:text-[15px]">
-                    X-43, Loha Mandi, Naraina Industrial Area, New Delhi
-                  </p>
-                </div>
-                <div className="flex items-start gap-3 pb-1">
-                  <Mail className="mt-0.5 shrink-0 text-blue-600" size={18} />
-                  <p className="text-sm sm:text-[15px]">shivasteel2019@gmail.com</p>
-                </div>
-              </div>
+            <div className="space-y-4 text-[#555]">
+  <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
+    <Phone className="mt-0.5 shrink-0 text-blue-600" size={18} />
+    <a
+      href="tel:+919069906984"
+      className="text-sm sm:text-[15px] hover:text-blue-600 transition-colors"
+    >
+      +91-9069906984
+    </a>
+  </div>
+
+  <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
+    <Phone className="mt-0.5 shrink-0 text-blue-600" size={18} />
+    <a
+      href="tel:+919873656785"
+      className="text-sm sm:text-[15px] hover:text-blue-600 transition-colors"
+    >
+      +91-98736 56785
+    </a>
+  </div>
+
+  <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
+    <MapPin className="mt-0.5 shrink-0 text-blue-600" size={18} />
+    <a
+      href="https://maps.google.com/?q=X-43,+Loha+Mandi,+Naraina+Industrial+Area,+New+Delhi"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-sm leading-6 sm:text-[15px] hover:text-blue-600 transition-colors"
+    >
+      X-43, Loha Mandi, Naraina Industrial Area, New Delhi
+    </a>
+  </div>
+
+  <div className="flex items-start gap-3 pb-1">
+    <Mail className="mt-0.5 shrink-0 text-blue-600" size={18} />
+    <a
+      href="mailto:shivasteel2019@gmail.com"
+      className="text-sm sm:text-[15px] hover:text-blue-600 transition-colors"
+    >
+      shivasteel2019@gmail.com
+    </a>
+  </div>
+</div>
             </div>
 
             <div className="flex flex-col items-center rounded-2xl border border-slate-200 bg-[#fffaf1] p-5 text-center shadow-sm lg:items-start lg:text-left">

@@ -1,5 +1,5 @@
 "use client";
-
+import {  useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
@@ -10,7 +10,7 @@ import {
   Wrench,
   Phone,
 } from "lucide-react";
-
+import Enquiry from "@/components/Enquiry";
 import Otherpro from "@/components/Landingpage/Otherpro"
 import { Target, Eye } from "lucide-react";
 import Cta from "@/components/Landingpage/Cta"
@@ -18,7 +18,7 @@ import { CheckCircle2 } from "lucide-react";
 export default function AboutHero() {
 
 
-
+const [isFormOpen, setIsFormOpen] = useState(false);
 const points = [
     "Premium Quality Steel Products",
     "Competitive Pricing",
@@ -98,15 +98,15 @@ const points = [
 
           <div className="mt-12 flex flex-wrap gap-5">
 
-                                 <button className="bg-blue-800 hover:bg-blue-600 text-white px-6 sm:px-10 py-3 sm:py-4 rounded-md flex items-center justify-center gap-3 font-semibold">
+                                 <button onClick={() => setIsFormOpen(true)} className="bg-blue-800 hover:bg-blue-600 text-white px-6 sm:px-10 py-3 sm:py-4 rounded-md flex items-center justify-center gap-3 font-semibold">
                         Send Inquiry
                         <ArrowRight size={18} />
                       </button>
 
-                      <button className="border border-white text-white px-6 sm:px-10 py-3 sm:py-4 rounded-md flex items-center justify-center gap-3 font-semibold hover:bg-white/10">
+                      <a href="tel:+919873656785" className="border border-white text-white px-6 sm:px-10 py-3 sm:py-4 rounded-md flex items-center justify-center gap-3 font-semibold hover:bg-white/10">
                         <Phone size={18} />
                         Call Now
-                      </button>
+                      </a>
 
           </div>
 
@@ -468,6 +468,9 @@ const points = [
     </section>
 
 <Cta/>
+ {isFormOpen && (
+        <Enquiry isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
+      )}
 
 </>
 

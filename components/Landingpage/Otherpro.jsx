@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation,Autoplay } from "swiper/modules";
-
+import Link from "next/link";
 import { ArrowRight, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import "swiper/css";
@@ -178,9 +178,14 @@ const products = [
           {/* BUTTON + STATS */}
           <div className="mt-5 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-10">
 
-            <button className="border-2 border-blue-600 rounded-full px-5 py-2 sm:px-6 sm:py-3 flex items-center gap-3 text-sm sm:text-lg whitespace-nowrap">
+<Link href="/products">
+    <button className="border-2 border-blue-600 rounded-full px-5 py-2 sm:px-6 sm:py-3 flex items-center gap-3 text-sm sm:text-lg whitespace-nowrap">
               Know More
             </button>
+
+</Link>
+
+        
 
             <div>
               <h4 className="text-3xl sm:text-[60px] leading-none font-light text-blue-600">
