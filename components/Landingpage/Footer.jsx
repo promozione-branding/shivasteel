@@ -150,11 +150,11 @@ export default function Footer() {
             </div>
 
             <div className="flex flex-col items-center rounded-2xl border border-slate-200 bg-[#fffaf1] p-5 text-center shadow-sm lg:items-start lg:text-left">
-              <h3 className="text-lg font-bold text-[#f9a826] sm:text-[18px]">
+              <h3 className="text-base text-center font-bold text-[#f9a826] sm:text-[18px]">
                 Trust Elite Certificate
               </h3>
 
-              <div className="mt-4 flex justify-center lg:justify-start">
+              <div className="mt-4 flex justify-center items-center mx-auto ">
                 <Image
                   src="/TRUST-ELITE.webp"
                   alt="Trust Elite"
@@ -164,7 +164,7 @@ export default function Footer() {
                 />
               </div>
 
-              <p className="mt-4 text-sm leading-6 text-[#333] sm:text-[15px]">
+              <p className="mt-4 text-center text-sm leading-6 text-[#333] sm:text-[15px]">
                 We are proud to present the Trust Elite Certificate of Excellence
                 to Shiva Steel Fabricators for exceptional service and trust.
               </p>
