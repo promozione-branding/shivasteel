@@ -16,7 +16,7 @@ import { Autoplay, Pagination, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
-
+import Enquiry from "@/components/Enquiry";
 const slides = [
   {
     image: "/check.jfif",
@@ -43,7 +43,7 @@ const slides = [
 
 export default function HeroSection() {
   const [activeSlide, setActiveSlide] = useState(0);
-
+const [isFormOpen, setIsFormOpen] = useState(false);
   return (
     <section className="relative mt-6 sm:mt-10 overflow-hidden">
 
@@ -94,15 +94,15 @@ export default function HeroSection() {
                     {/* BUTTONS */}
                     <div className="flex flex-col sm:flex-row flex-wrap gap-4 mt-8 sm:mt-10 justify-center lg:justify-start">
 
-                      <button className="bg-blue-800 hover:bg-blue-600 text-white px-6 sm:px-10 py-3 sm:py-4 rounded-md flex items-center justify-center gap-3 font-semibold">
+                      <button  onClick={() => setIsFormOpen(true)} className="bg-blue-800 hover:bg-blue-600 text-white px-6 sm:px-10 py-3 sm:py-4 rounded-md flex items-center justify-center gap-3 font-semibold">
                         Send Inquiry
                         <ArrowRight size={18} />
                       </button>
 
-                      <button className="border border-white text-white px-6 sm:px-10 py-3 sm:py-4 rounded-md flex items-center justify-center gap-3 font-semibold hover:bg-white/10">
+                      <a href="tel:+919069906984" className="border border-white text-white px-6 sm:px-10 py-3 sm:py-4 rounded-md flex items-center justify-center gap-3 font-semibold hover:bg-white/10">
                         <Phone size={18} />
                         Call Now
-                      </button>
+                      </a>
 
                     </div>
                   </div>
@@ -226,6 +226,11 @@ export default function HeroSection() {
 
   </div>
 </div>
+
+
+ {isFormOpen && (
+        <Enquiry isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
+      )}
 
     </section>
   );

@@ -4,32 +4,36 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import { ArrowRight } from "lucide-react";
-
+import Link from "next/link";
 import "swiper/css";
 import "swiper/css/navigation";
 
 const products = [
   {
-    title: "GP Plain Sheet",
-    image: "/1.webp",
+    title: "SAIL TMT Bars",
+    image: "/Sail TMT Bars.webp",
+    link: "/products/sail-tmt-bars",
   },
   {
-    title: "Mild Steel Round Pipe",
-    image: "/2.webp",
+    title: "GI Plain Sheet",
+    image: "/GI Plain Sheet.png",
+    link: "/products/gi-plain-sheet",
   },
   {
-    title: "MS Sheet Plate",
-   image: "/1.webp",
+    title: "Industrial GP Sheets",
+    image: "/Industrial GP Sheets (2).webp",
+    link: "/products/industrial-gp-sheets",
   },
   {
-    title: "Mild Steel Sheet",
-image: "/2.webp",
+    title: "TATA Mild Steel Sheet",
+    image: "/TATA Mild Steel Sheet (1).webp",
+    link: "/products/tata-mild-steel-sheet",
   },
   {
-    title: "Mild Steel Round Pipe",
-   image: "/3.webp",
+    title: "Stainless Steel Electric Cable Tray",
+    image: "/Stainless Steel Electric Cable Tray (1).webp",
+    link: "/products/stainless-steel-electric-cable-tray",
   },
- 
 ];
 
 export default function ProductShowcase() {
@@ -38,7 +42,7 @@ export default function ProductShowcase() {
       <div className="mx-auto w-full px-5 md:px-19">
         {/* Heading */}
         <div className="mb-14 text-center">
-          <span className="mb-3 inline-block rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-600">
+          <span className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 font-semibold text-sm uppercase">
             OUR PRODUCTS
           </span>
 
@@ -72,37 +76,32 @@ export default function ProductShowcase() {
           }}
         >
           {products.map((product, index) => (
-            <SwiperSlide key={index}>
-              <div className="group overflow-hidden rounded-2xl bg-white shadow-lg transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl">
-                {/* Image */}
-                <div className="relative h-[430px] overflow-hidden">
-                  <Image
-                    src={product.image}
-                    alt={product.title}
-                    fill
-                    className="object-cover transition-transform duration-700 "
-                  />
+         <SwiperSlide key={index}>
+  <Link href={product.link}>
+    <div className="group overflow-hidden rounded-2xl bg-white shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl cursor-pointer">
+      {/* Image */}
+      <div className="relative h-[430px] overflow-hidden">
+        <Image
+          src={product.image}
+          alt={product.title}
+          fill
+          className="object-contain transition-transform duration-500 group-hover:scale-105"
+        />
+      </div>
 
-         
-                  <div className="absolute bottom-0 left-0 p-6">
-                    <h3 className="text-2xl font-bold text-blue-500">
-                      {product.title}
-                    </h3>
-                  </div>
-                </div>
+      {/* Content */}
+      <div className="flex items-center justify-between p-4">
+        <span className="text-black text-xl font-bold">
+          {product.title}
+        </span>
 
-                {/* Content */}
-                <div className="flex items-center justify-between p-2">
-                  <span className="font-medium text-slate-600">
-                    Premium Quality Steel Product
-                  </span>
-
-                  <button className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-500 text-white transition-all duration-300 hover:rotate-45">
-                    <ArrowRight size={20} />
-                  </button>
-                </div>
-              </div>
-            </SwiperSlide>
+        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-500 text-white transition-all duration-300 group-hover:rotate-45">
+          <ArrowRight size={20} />
+        </div>
+      </div>
+    </div>
+  </Link>
+</SwiperSlide>
           ))}
         </Swiper>
 

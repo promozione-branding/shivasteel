@@ -7,10 +7,10 @@ const Whatsapp = () => {
     <>
       
       <a
-        href="https://wa.me/+918810422935"
+        href="https://wa.me/+919873656785"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Chat on WhatsApp with sangam plastic "
+        aria-label="Chat on WhatsApp  "
         className="fixed bottom-5 right-4 z-50 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition animate-bounce"
       >
         <FaWhatsapp size={30} />
@@ -18,8 +18,8 @@ const Whatsapp = () => {
 
 
       <a
-        href="tel:+918810422935"
-        aria-label="Call sangam plastic"
+        href="tel:+919873656785"
+        aria-label="Call Us"
         className="fixed bottom-21 right-4 z-50 bg-red-500 text-white p-3 rounded-full shadow-lg hover:bg-red-600 transition animate-bounce"
       >
         <FaPhoneAlt size={27} />

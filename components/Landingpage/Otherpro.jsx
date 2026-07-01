@@ -8,12 +8,12 @@ import { Navigation,Autoplay } from "swiper/modules";
 import { ArrowRight, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import "swiper/css";
-
+import Enquiry from "@/components/Enquiry";
 export default function ProductPortfolio() {
   const [active, setActive] = useState(0);
 
 
-
+const [isFormOpen, setIsFormOpen] = useState(false);
 const products = [
 
 
@@ -28,7 +28,7 @@ const products = [
     image: "/pipe.png",
   },
   {
-    title: "Steel Pipe",
+    title: "TMT Bars",
     production: "3500+",
     image: "/iron-tmt-bar-500x500-removebg-preview.png",
   },
@@ -113,7 +113,7 @@ const products = [
 
       <div className="flex flex-wrap sm:flex-nowrap items-center gap-3 sm:gap-5">
 
-        <button className="bg-gradient-to-r from-[#0B4F8A] via-[#0A6FB6] to-[#0B8FCC] text-white py-2 px-4 sm:px-8 sm:py-4 rounded-full text-sm sm:text-lg font-medium">
+        <button  onClick={() => setIsFormOpen(true)} className="bg-gradient-to-r from-[#0B4F8A] via-[#0A6FB6] to-[#0B8FCC] text-white py-2 px-4 sm:px-8 sm:py-4 rounded-full text-sm sm:text-lg font-medium">
           Enquire Now
         </button>
 
@@ -225,6 +225,12 @@ const products = [
   ))}
 </Swiper>
   </div>
+
+
+ {isFormOpen && (
+        <Enquiry isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
+      )}
+
 </section>  
 
 

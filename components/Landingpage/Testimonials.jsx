@@ -65,11 +65,11 @@ export default function Testimonials() {
       <div className="container relative mx-auto px-6">
         {/* Heading */}
         <div className="mx-auto mb-10 max-w-3xl text-center">
-          <span className="mb-4 inline-block rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-2 text-sm font-medium text-blue-400">
+          <span className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 font-semibold text-sm uppercase">
             Client Testimonials
           </span>
 
-          <h2 className="text-4xl font-bold text-white md:text-5xl">
+          <h2 className="text-4xl mt-4 font-bold text-white md:text-5xl">
             Trusted by Industry Leaders
           </h2>
 

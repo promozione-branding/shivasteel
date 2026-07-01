@@ -55,7 +55,7 @@ export default function WhyChooseUs() {
           
           {/* Content Side */}
           <div>
-            <span className="inline-flex rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-700">
+            <span className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 font-semibold text-sm uppercase">
               Why Choose Us
             </span>
 

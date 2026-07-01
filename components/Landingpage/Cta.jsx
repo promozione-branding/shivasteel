@@ -44,10 +44,10 @@ export default function ConstructionCTA() {
           </div>
 
           {/* CTA BUTTON */}
-          <button className="flex items-center justify-center gap-3 bg-gradient-to-r from-[#0B4F8A] via-[#0A6FB6] to-[#0B8FCC] px-6 sm:px-12 py-3 sm:py-0 h-[50px] sm:h-[70px] text-sm sm:text-[20px] font-bold uppercase text-white transition-all w-full sm:w-auto">
+          <a  href="tel:+919873656785" className="flex items-center justify-center gap-3 bg-gradient-to-r from-[#0B4F8A] via-[#0A6FB6] to-[#0B8FCC] px-6 sm:px-12 py-3 sm:py-0 h-[50px] sm:h-[70px] text-sm sm:text-[20px] font-bold uppercase text-white transition-all w-full sm:w-auto">
             <ArrowRight size={18} />
             Get Start Today
-          </button>
+          </a>
 
         </div>
       </div>

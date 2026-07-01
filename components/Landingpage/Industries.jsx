@@ -41,11 +41,11 @@ export default function IndustriesWeServe() {
       <div className="container mx-auto px-4 md:px-20">
         {/* Header */}
         <div className="mx-auto mb-6 md:mb-16 max-w-4xl text-center">
-          <span className="mb-4 inline-block rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-600">
+          <span className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 font-semibold text-sm uppercase">
             INDUSTRIES WE SERVE
           </span>
 
-          <h2 className="text-4xl font-bold text-slate-900 md:text-5xl">
+          <h2 className="text-4xl mt-3 font-bold text-slate-900 md:text-5xl">
             Industries We Serve
           </h2>
 

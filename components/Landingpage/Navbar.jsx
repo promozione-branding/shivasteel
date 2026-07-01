@@ -42,7 +42,7 @@ export default function Navbar() {
     <div className="flex items-center gap-6">
 
       <a
-        href="tel:+919876543210"
+        href="tel:+919873656785"
         className="flex items-center gap-2 hover:text-blue-200 transition"
       >
         <Phone className="h-3.5 w-3.5" />
@@ -50,7 +50,7 @@ export default function Navbar() {
       </a>
 
        <a
-        href="tel:+919876543210"
+        href="tel:+919069906984"
         className="flex items-center gap-2 hover:text-blue-200 transition"
       >
         <Phone className="h-3.5 w-3.5" />
@@ -59,7 +59,7 @@ export default function Navbar() {
       </a>
 
       <a
-        href="mailto:info@shivasteelfabricators.com"
+        href="mailto:shivasteel2019@gmail.com"
         className="flex items-center gap-2 hover:text-blue-200 transition"
       >
         <Mail className="h-3.5 w-3.5" />

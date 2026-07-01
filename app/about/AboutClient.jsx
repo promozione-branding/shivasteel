@@ -8,6 +8,7 @@ import {
   Factory,
   HardHat,
   Wrench,
+  Phone,
 } from "lucide-react";
 
 import Otherpro from "@/components/Landingpage/Otherpro"
@@ -84,41 +85,28 @@ const points = [
 
         <div className="max-w-4xl">
 
-          <span className="inline-flex rounded-full border border-red-500/40 bg-red-600/20 px-6 py-2 text-sm font-semibold uppercase tracking-[0.3em] text-red-400">
-            About Shiva Steel Fabricator
-          </span>
+       
 
-          <h1 className="mt-15 text-4xl font-black leading-tight text-white ">
-            Your Trusted Partner for Quality Steel Products &amp; Fabrication
-            Solutions
-          </h1>
+          <h2 className="mt-20 text-4xl font-black leading-tight text-white ">
+          Building Strong Foundations with Quality Steel Solutions
 
-          <p className="mt-8 max-w-3xl text-lg leading-9 text-white">
-            Welcome to Shiva Steel Fabricator, a trusted name in the steel
-            industry, dedicated to supplying premium-quality steel products and
-            delivering reliable fabrication solutions for construction,
-            engineering, industrial, and infrastructure projects. With a strong
-            commitment to quality, integrity, and customer satisfaction, we have
-            established ourselves as a preferred supplier for businesses seeking
-            dependable steel materials at competitive prices.
+          </h2>
+
+          <p className="mt-8 max-w-3xl text-left text-lg leading-9 text-white">
+           At Shiva Steel Fabricator, we are committed to delivering premium-quality steel products and reliable fabrication solutions for construction, engineering, industrial, and infrastructure projects. With a focus on quality, competitive pricing, and timely delivery, we have earned the trust of contractors, builders, fabricators, and businesses across various industries.
           </p>
 
           <div className="mt-12 flex flex-wrap gap-5">
 
-            <Link
-              href="/contact"
-              className="rounded-full bg-cyan-700 px-8 py-4 font-semibold text-white transition hover:scale-105 hover:bg-red-700"
-            >
-              Get Free Quote
-            </Link>
+                                 <button className="bg-blue-800 hover:bg-blue-600 text-white px-6 sm:px-10 py-3 sm:py-4 rounded-md flex items-center justify-center gap-3 font-semibold">
+                        Send Inquiry
+                        <ArrowRight size={18} />
+                      </button>
 
-            <Link
-              href="/products"
-              className="flex items-center gap-2 rounded-full border border-white/20 px-8 py-4 font-semibold text-white transition hover:bg-white hover:text-black"
-            >
-              Explore Products
-              <ArrowRight size={18} />
-            </Link>
+                      <button className="border border-white text-white px-6 sm:px-10 py-3 sm:py-4 rounded-md flex items-center justify-center gap-3 font-semibold hover:bg-white/10">
+                        <Phone size={18} />
+                        Call Now
+                      </button>
 
           </div>
 
@@ -166,9 +154,7 @@ const points = [
 
           {/* Content Side */}
           <div>
-            <span className="inline-flex rounded-full bg-blue-50 px-5 py-2 text-sm font-bold uppercase tracking-[0.25em] text-blue-900">
-              About Shiva Steel Fabricator
-            </span>
+          
 
             <h2 className="mt-4 text-3xl font-black leading-tight text-slate-900 ">
               Your Trusted Partner for Quality Steel Products &
@@ -176,7 +162,7 @@ const points = [
             </h2>
 
             {/* YOUR CONTENT - UNCHANGED */}
-            <p className="mt-2 text-lg leading-9 text-black text-justify">
+            <p className="mt-2 text-lg leading-9 text-black ">
               Welcome to Shiva Steel Fabricator, a trusted name in the steel
               industry, dedicated to supplying premium-quality steel products
               and delivering reliable fabrication solutions for construction,
@@ -236,7 +222,7 @@ const points = [
           {/* Content */}
           <div>
 
-            <span className="inline-flex rounded-full bg-blue-50 px-5 py-2 text-sm font-bold uppercase tracking-[0.25em] text-blue-800">
+            <span className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 font-semibold text-sm uppercase">
               Who We Are
             </span>
 
@@ -244,9 +230,9 @@ const points = [
               Building Strong Relationships Through Quality Steel
             </h2>
 
-            {/* ===== ORIGINAL CONTENT (UNCHANGED) ===== */}
+            {/* ===== ORIGINAL */}
 
-            <p className="mt-5 text-lg leading-9 text-black text-justify">
+            <p className="mt-5 text-lg leading-9 text-black ">
               At Shiva Steel Fabricator, we believe that quality materials are
               the foundation of every successful project. Our team works closely
               with contractors, builders, fabricators, engineers, and
@@ -335,7 +321,7 @@ const points = [
 
         <div className="mx-auto mb-8 max-w-3xl text-center">
 
-          <span className="inline-flex rounded-full bg-blue-50 px-5 py-2 text-sm font-bold uppercase tracking-[0.25em] text-blue-800">
+          <span className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 font-semibold text-sm uppercase">
             Our Foundation
           </span>
 
@@ -429,7 +415,7 @@ const points = [
         {/* HEADER */}
         <div className="text-center mb-14">
 
-          <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-blue-50 text-blue-700 text-sm font-semibold">
+          <span className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 font-semibold text-sm uppercase">
             Why Choose Us
           </span>
 

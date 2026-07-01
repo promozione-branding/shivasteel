@@ -11,7 +11,7 @@ const Whychoose = () => {
       
       {/* Left Content */}
       <div>
-        <span className="text-blue-500 font-semibold uppercase tracking-wider">
+        <span className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 font-semibold text-sm uppercase">
          Trust Factor
         </span>
 
