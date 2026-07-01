@@ -53,7 +53,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="mt-8 rounded-2xl border border-white/70 bg-white/70 p-5 backdrop-blur-sm">
+          <div className="mt-8 rounded-2xl border mb-4 border-white/70 bg-white/70 p-5 backdrop-blur-sm">
             <h4 className="text-center text-lg font-semibold text-[#222] lg:text-left ">
               Connect With Us On LinkedIn
             </h4>

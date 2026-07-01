@@ -82,7 +82,7 @@ export default function ContactPage() {
         className="w-full h-[55vh] md:h-[80vh] bg-cover bg-center relative flex items-center justify-center"
       >
         <div className="absolute inset-0 bg-black/60"></div>
-        <div className="relative text-center text-white px-6">
+        <div className="relative mt-20 text-center text-white px-6">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Contact Shiva Steel Fabricator
           </h1>
@@ -126,7 +126,7 @@ export default function ContactPage() {
         {/* FORM + MAP */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
           {/* FORM */}
-          <div className="bg-white p-10 rounded-2xl shadow-xl">
+          <div className="bg-white p-5 md:p-10 rounded-2xl shadow-xl">
             <h2 className="text-3xl font-bold mb-6 text-gray-900">
               Send Us Your Requirement
             </h2>
