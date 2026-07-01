@@ -62,7 +62,7 @@ const Page = () => {
                     e.stopPropagation();
                     setIsFormOpen(true)
                   }}
-                  className="bg-blue-700  font-bold px-3 py-2 text-white rounded-2xl"
+                  className="bg-[#1a327d]  font-bold px-3 py-2 text-white rounded-2xl"
                 >
                   Get a Qoute
                 </button>
