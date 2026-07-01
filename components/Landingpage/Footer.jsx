@@ -53,7 +53,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="mt-8 rounded-2xl border border-white/70 bg-white/70 p-5 backdrop-blur-sm">
+          <div className="mt-8 rounded-2xl border mb-4 border-white/70 bg-white/70 p-5 backdrop-blur-sm">
             <h4 className="text-center text-lg font-semibold text-[#222] lg:text-left ">
               Connect With Us On LinkedIn
             </h4>
@@ -150,14 +150,12 @@ export default function Footer() {
 
   <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
     <MapPin className="mt-0.5 shrink-0 text-blue-600" size={18} />
-    <a
-      href="https://maps.google.com/?q=X-43,+Loha+Mandi,+Naraina+Industrial+Area,+New+Delhi"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-sm leading-6 sm:text-[15px] hover:text-blue-600 transition-colors"
+    <div
+   
+      className="text-sm leading-6 sm:text-[15px]  transition-colors"
     >
       X-43, Loha Mandi, Naraina Industrial Area, New Delhi
-    </a>
+    </div>
   </div>
 
   <div className="flex items-start gap-3 pb-1">
