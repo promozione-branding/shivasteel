@@ -361,7 +361,7 @@ export const categories = [
         ],
         image: [
           {
-            src: "0.5mm GI Sheets (1).webp",
+            src: "0.5mm-GI.webp",
             alt: "Premium Quality 0.5mm GI Sheets",
           },
         ],

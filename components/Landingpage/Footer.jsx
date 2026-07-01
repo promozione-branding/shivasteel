@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { FaFacebookF, FaLinkedinIn, FaSkype, FaTwitter } from "react-icons/fa";
+import {categories} from "@/Data"
 
 const quickLinks = [
    { label: "Home", href: "/" },
@@ -85,14 +86,14 @@ export default function Footer() {
                 Our Products
               </h3>
            <ul className="space-y-3 text-[15px] text-[#555] sm:text-[16px]">
-  {productLinks.map((item) => (
-    <li key={item.label}>
+  {categories.map((item) => (
+    <li key={`/categories/${item.id}`}>
       <Link
-        href={item.href}
+        href={`/categories/${item.id}`}
         className="flex items-center gap-3 transition hover:text-blue-600"
       >
         <span className="h-2.5 w-2.5 rounded-full bg-blue-600" />
-        {item.label}
+        {item.name}
       </Link>
     </li>
   ))}
