@@ -67,7 +67,7 @@ export default function AboutHero() {
               Building Strong Foundations with Quality Steel Solutions
             </h2>
 
-            <p className="mt-8 max-w-3xl text-left text-lg leading-9 text-white">
+            <p className="mt-8 max-w-3xl text-left text-lg leading-6 md:leading-9 text-white">
               At Shiva Steel Fabricator, we are committed to delivering
               premium-quality steel products and reliable fabrication solutions
               for construction, engineering, industrial, and infrastructure
