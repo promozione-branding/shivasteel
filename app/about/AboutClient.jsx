@@ -70,7 +70,7 @@ export default function AboutHero() {
         <div className="absolute right-0 bottom-0 h-96 w-96 rounded-full bg-red-500/10 blur-[50px]" />
 
         <div className="relative mx-auto flex h-[100vh] max-w-7xl items-center px-6 py-24">
-          <div className="max-w-4xl">
+          <div className="max-w-3xl">
             <h2 className="mt-20 text-4xl font-black leading-tight text-white ">
               Building Strong Foundations with Quality Steel Solutions
             </h2>

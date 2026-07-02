@@ -13,7 +13,7 @@ const brands = [
     "/client/3.jfif",
       "/client/4.jfif",
         "/client/5.jfif",
-          "/client/6.png",
+          "/client/dee.jfif",
            
 ];
 
@@ -74,9 +74,9 @@ const brands = [
   width={200}
   height={180}
   className="
-    h-23
+    h-33
     w-auto
-    object-contain
+    object-cover
  
     transition-all
     duration-500
