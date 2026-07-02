@@ -41,12 +41,12 @@ export default function ProductShowcase() {
     <section className="bg-slate-50 py-10">
       <div className="mx-auto w-full px-5 md:px-19">
         {/* Heading */}
-        <div className="mb-14 text-center">
-          <span className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 font-semibold text-sm uppercase">
+        <div className="mb-5 md:mb-10 text-center">
+          <span className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 font-semibold text-sm uppercase mb-2">
             OUR PRODUCTS
           </span>
 
-          <h2 className="text-4xl font-bold text-blue-800 md:text-5xl">
+          <h2 className="text-3xl font-bold text-blue-800 md:text-5xl">
            Our Steel Product Portfolio
           </h2>
 
@@ -80,7 +80,7 @@ export default function ProductShowcase() {
   <Link href={product.link}>
     <div className="group overflow-hidden rounded-2xl bg-white shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl cursor-pointer">
       {/* Image */}
-      <div className="relative h-[430px] overflow-hidden">
+      <div className="relative h-[330px] md:h-[430px] overflow-hidden">
         <Image
           src={product.image}
           alt={product.title}

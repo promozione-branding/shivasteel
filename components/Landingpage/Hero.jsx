@@ -140,7 +140,7 @@ const [isFormOpen, setIsFormOpen] = useState(false);
           <SwiperSlide key={index}>
 
             <div
-              className="relative h-[650px] sm:h-[750px] lg:h-[800px] bg-cover bg-center"
+              className="relative h-[600px] sm:h-[750px] lg:h-[800px] bg-cover bg-center"
               style={{ backgroundImage: `url(${slide.image})` }}
             >
 

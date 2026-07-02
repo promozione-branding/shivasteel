@@ -18,7 +18,7 @@ const brands = [
 ];
 
   return (
-    <section className="relative py-3 md:py-10 bg-white border-y border-cyan-200 overflow-hidden">
+    <section className="relative py-4 bg-white border-y border-cyan-200 overflow-hidden">
       <div className="w-full px-10 mx-auto ">
         <h3 className="text-center text-blue-950 font-bold tracking-[0.25em] text-sm mb-10">
           TRUSTED BY LEADING INDUSTRIES

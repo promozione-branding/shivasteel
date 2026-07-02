@@ -45,11 +45,11 @@ export default function IndustriesWeServe() {
             INDUSTRIES WE SERVE
           </span>
 
-          <h2 className="text-4xl mt-3 font-bold text-slate-900 md:text-5xl">
+          <h2 className="text-3xl mt-3 font-bold text-slate-900 md:text-5xl">
             Industries We Serve
           </h2>
 
-          <p className="mt-6 text-lg leading-8 text-slate-600">
+          <p className="mt-2 md:mt-6 text-sm md:text-lg  text-slate-600">
             At Shiva Steel Fabricator, we cater to the diverse steel
             requirements of various industries by supplying high-quality steel
             products that meet demanding project specifications. Our commitment

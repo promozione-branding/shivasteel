@@ -31,8 +31,9 @@ const socialIcons = [ FaLinkedinIn];
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#f7f7f7] px-4  ">
+    <footer className="w-full bg-[#f7f7f7] md:px-4  ">
       <div className="mx-auto flex w-full flex-col overflow-hidden rounded-[28px] border border-slate-200 bg-white shadow-[0_20px_60px_rgba(0,0,0,0.06)] lg:flex-row">
+        
         <div className="flex flex-col justify-between bg-[#eef0f7] px-6  lg:w-[340px] lg:px-8 lg:py-5 xl:w-[380px]">
           <div>
             <div className="flex items-center justify-center lg:justify-start">
@@ -45,7 +46,7 @@ export default function Footer() {
               />
             </div>
 
-            <p className="mt-6 text-sm leading-7 text-[#2f2e2e] sm:text-[15px] lg:mt-8">
+            <p className="md:mt-6 text-xs leading-7 text-[#2f2e2e] sm:text-[15px] lg:mt-8">
               We at Shiva Steel Fabricators are involved in wholesale trade,
               supplier, and provision of services for a superior quality range
               of MS Sheet, Cable Tray, Colour, GI Decking Sheet, GP Sheet, MS
@@ -54,7 +55,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="mt-8 rounded-2xl border mb-4 border-white/70 bg-white/70 p-5 backdrop-blur-sm">
+          <div className="mt-3 md:mt-8 rounded-2xl border mb-4 border-white/70 bg-white/70 p-3 backdrop-blur-sm">
             <h4 className="text-center text-lg font-semibold text-[#222] lg:text-left ">
               Connect With Us On LinkedIn
             </h4>

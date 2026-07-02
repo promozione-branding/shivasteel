@@ -13,7 +13,8 @@ import {
   FaTruckMoving,
   FaCogs,
 } from "react-icons/fa";
-
+import axios from "axios";
+import toast from "react-hot-toast";
 
 export default function ProductPage({ params }) {
   const { productId } = React.use(params);
@@ -26,6 +27,88 @@ export default function ProductPage({ params }) {
   const [activeImage, setActiveImage] = useState(product?.image[0]);
   const [isZoomed, setIsZoomed] = useState(false);
   const [origin, setOrigin] = useState("50% 50%");
+
+
+const [loading, setLoading] = useState(false);
+
+const [form, setForm] = useState({
+  name: "",
+  email: "",
+  phone: "",
+  requirement: "",
+});
+
+const handleChange = (e) => {
+  setForm({
+    ...form,
+    [e.target.name]: e.target.value,
+  });
+};
+
+
+
+
+const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  if (!form.name.trim()) {
+    return toast.error("Please enter your name");
+  }
+
+  if (!form.phone.trim()) {
+    return toast.error("Please enter your phone number");
+  }
+
+  try {
+    setLoading(true);
+
+    const payload = {
+      platform: "Shiva Steel  product page form",
+      platformEmail: "shivasteel2019@gmail.com", 
+
+      name: form.name,
+      phone: form.phone,
+      email: form.email || "N/A",
+
+      place: "N/A",
+
+      product: product.name,
+
+      message:
+        form.requirement ||
+        `Inquiry for ${product.name}`,
+    };
+
+    const { data } = await axios.post(
+      "https://brandbnalo.com/api/form/add",
+      payload
+    );
+
+    if (data.success) {
+      toast.success("Inquiry Submitted Successfully");
+
+      setForm({
+        name: "",
+        email: "",
+        phone: "",
+        requirement: "",
+      });
+    } else {
+      toast.error("Submission Failed");
+    }
+  } catch (err) {
+    console.log(err);
+
+    toast.error("Server Error");
+  } finally {
+    setLoading(false);
+  }
+};
+
+
+
+
+
 
   if (!product) {
     redirect("/");
@@ -92,7 +175,7 @@ const features = [
 
       <div className="sticky top-28">
 
-        <div className="relative rounded-[36px]   bg-blue-100 shadow-[0_35px_80px_rgba(15,23,42,.08)] overflow-hidden">
+        <div className="relative    bg-blue-100 shadow-[0_35px_80px_rgba(15,23,42,.08)] overflow-hidden">
 
           {/* Premium Badge */}
 
@@ -105,7 +188,7 @@ const features = [
           </div>
 
           <div
-            className="relative h-[520px] lg:h-[650px] w-full overflow-hidden bg-gradient-to-br from-slate-50 to-white cursor-zoom-in"
+            className="relative h-[320px] md:h-[650px] w-full overflow-hidden bg-gradient-to-br from-slate-50 to-white cursor-zoom-in"
             onMouseEnter={() => setIsZoomed(true)}
             onMouseLeave={() => setIsZoomed(false)}
             onMouseMove={handleMouseMove}
@@ -114,7 +197,7 @@ const features = [
               src={activeImage.src}
               alt={activeImage.alt}
               fill
-              className="object-fill transition-transform duration-500"
+              className="object-contain md:object-fill transition-transform duration-500"
               style={{
                 transformOrigin: origin,
                 transform: isZoomed
@@ -177,19 +260,19 @@ const features = [
 
         {/* CTA */}
 
-        <div className="mt-10 flex justify-center items-center gap-2 md:gap-6">
+        <div className="mt-6 md:mt-10 flex justify-center items-center gap-2 md:gap-6">
 
           <button
             onClick={() => setIsFormOpen(true)}
-            className="group px-2 md:px-4 rounded-2xl bg-gradient-to-r from-blue-800 to-blue-950 py-4 text-lg font-semibold text-white shadow-xl transition hover:-translate-y-1"
+            className="group px-2 md:px-4 rounded-2xl bg-gradient-to-r from-blue-800 to-blue-950 py-4 text-sm md:text-lg font-semibold text-white shadow-xl transition hover:-translate-y-1"
           >
             Request Quote →
           </button>
 
           <a
-            href={`https://wa.me/918810422935?text=Hello I am interested in ${product.name}`}
+            href={`https://wa.me/919873656785?text=Hello I am interested in ${product.name}`}
             target="_blank"
-            className="rounded-2xl px-4 border border-green-500 py-4 text-center font-semibold text-green-600 transition hover:bg-green-500 hover:text-white"
+            className="rounded-2xl px-4 border border-green-500 py-4 text-center font-semibold text-green-600 text-sm transition hover:bg-green-500 hover:text-white"
           >
             WhatsApp Enquiry
           </a>
@@ -197,7 +280,7 @@ const features = [
           <a
             href="/brochure.pdf"
             download
-            className="rounded-2xl px-4 border border-slate-300 bg-black py-4 text-center font-semibold transition hover:bg-slate-900 text-white"
+            className="rounded-2xl px-4 border border-slate-300 bg-black py-4 text-center font-semibold text-sm transition hover:bg-slate-900 text-white"
           >
             Download Brochure
           </a>
@@ -254,7 +337,7 @@ const features = [
 
 
       {/* ===== DESCRIPTION ===== */}
-    <section className="relative  bg-gradient-to-b from-slate-50 via-white to-slate-100 py-5 md:py-15">
+    <section className="relative  bg-gradient-to-b from-slate-50 via-white to-slate-100 md:py-15">
 
   {/* background */}
   <div className="absolute inset-0">
@@ -274,7 +357,7 @@ const features = [
           Product Information
         </span>
 
-        <h2 className="mt-5 text-4xl font-bold text-slate-900">
+        <h2 className="mt-5 text-2xl md:text-4xl font-bold text-slate-900">
           Product Overview
         </h2>
 
@@ -287,7 +370,7 @@ const features = [
                 return (
                   <h3
                     key={i}
-                    className="text-2xl font-bold text-slate-900 border-l-4 border-blue-600 pl-2 md:pl-4"
+                    className="text-xl font-bold text-slate-900 border-l-4 border-blue-600 pl-2 md:pl-4"
                   >
                     {block.text}
                   </h3>
@@ -304,7 +387,7 @@ const features = [
                         className="flex gap-4 items-start "
                       >
 
-                        <div className="mt-1 h-9 w-9 rounded-full bg-blue-50 flex items-center justify-center">
+                        <div className="mt-1 h-9 w-9 rounded-full  flex items-center justify-center">
 
                           <span className="material-symbols-outlined text-blue-700">
                             check
@@ -313,7 +396,7 @@ const features = [
                         </div>
 
                         <p
-                          className="leading-6 md:leading-8 text-slate-600"
+                          className="leading-6 md:leading-8 text-black"
                           dangerouslySetInnerHTML={{
                             __html: item,
                           }}
@@ -346,34 +429,54 @@ const features = [
             Fill the form and our expert will contact you shortly.
           </p>
 
-          <form className="mt-3 space-y-4">
+       <form
+  onSubmit={handleSubmit}
+  className="mt-3 space-y-4"
+>
 
-            <input
-              placeholder="Full Name"
-              className="w-full rounded-xl border p-2 md:p-4 outline-none focus:border-blue-600"
-            />
+        <input
+  name="name"
+  value={form.name}
+  onChange={handleChange}
+  placeholder="Full Name"
+  className="w-full rounded-xl border p-4 outline-none focus:border-blue-600"
+/>
 
-            <input
-              placeholder="Phone Number"
-              className="w-full rounded-xl border p-2 md:p-4 outline-none focus:border-blue-600"
-            />
+           <input
+  name="phone"
+  value={form.phone}
+  onChange={handleChange}
+  maxLength={10}
+  pattern="[0-9]{10}"
+  minLength={10}
+  placeholder="Phone Number"
+  className="w-full rounded-xl border p-4 outline-none focus:border-blue-600"
+/>
 
-            <input
-              placeholder="Email Address"
-              className="w-full rounded-xl border p-2 md:p-4 outline-none focus:border-blue-600"
-            />
+       <input
+  name="email"
+  value={form.email}
+  onChange={handleChange}
+  placeholder="Email Address"
+  className="w-full rounded-xl border p-4 outline-none focus:border-blue-600"
+/>
 
-            <textarea
-              rows={5}
-              placeholder="Your Requirement"
-              className="w-full rounded-xl border p-2 md:p-4 outline-none focus:border-blue-600"
-            />
+        <textarea
+  rows={5}
+  name="requirement"
+  value={form.requirement}
+  onChange={handleChange}
+  placeholder="Your Requirement"
+  className="w-full rounded-xl border p-4 outline-none focus:border-blue-600"
+/>
 
-            <button
-              className="w-full rounded-xl bg-gradient-to-r from-blue-700 to-blue-900 py-4 font-semibold text-white shadow-lg hover:scale-[1.02] transition"
-            >
-              Get Instant Quote
-            </button>
+          <button
+  type="submit"
+  disabled={loading}
+  className="w-full rounded-xl bg-gradient-to-r from-blue-700 to-blue-900 py-4 font-semibold text-white shadow-lg hover:scale-[1.02] transition disabled:opacity-60 disabled:cursor-not-allowed"
+>
+  {loading ? "Submitting..." : "Get Instant Quote"}
+</button>
 
           </form>
 

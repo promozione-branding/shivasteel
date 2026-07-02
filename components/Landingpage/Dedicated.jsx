@@ -51,7 +51,7 @@ export default function WhyChooseUs() {
   return (
     <section className="py-8 bg-white">
       <div className="container mx-auto px-5 md:px-16">
-        <div className="grid items-center gap-16 lg:grid-cols-2">
+        <div className="grid items-center gap-5 md:gap-16 lg:grid-cols-2">
           
           {/* Content Side */}
           <div>
@@ -59,11 +59,11 @@ export default function WhyChooseUs() {
               Why Choose Us
             </span>
 
-            <h2 className="mt-4 text-4xl font-bold text-slate-900 md:text-5xl leading-tight">
+            <h2 className="mt-4 text-2xl font-bold text-slate-900 md:text-5xl leading-tight">
               Why Businesses Trust Shiva Steel Fabricator
             </h2>
 
-            <p className="mt-4 text-lg leading-relaxed text-slate-800">
+            <p className="mt-4 text-md leading-relaxed text-slate-800">
               At Shiva Steel Fabricator, we are committed to delivering quality
               steel products and exceptional service that businesses can rely on.
               Our dedication to product quality, customer satisfaction, and
