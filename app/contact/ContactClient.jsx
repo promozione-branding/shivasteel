@@ -116,10 +116,10 @@ export default function ContactPage() {
   </a>
 
   <a
-    href="tel:+919810057441"
+    href="tel:+919069906984"
     className="block text-lg hover:underline hover:text-blue-200 transition"
   >
-    +91-98100 57441
+    +91-9069906984
   </a>
 
  
