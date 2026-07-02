@@ -14,38 +14,43 @@ export default function ProductPortfolio() {
 
 
 const [isFormOpen, setIsFormOpen] = useState(false);
+
+
 const products = [
-
-
-   {
+  {
     title: "Cable Tray",
     production: "1500+",
     image: "/cabletray.png",
+    link: "/categories/cable-tray",
   },
   {
     title: "MS Pipe",
     production: "5000+",
     image: "/pipe.png",
+    link: "/categories/mild-steel-pipe",
   },
   {
     title: "TMT Bars",
     production: "3500+",
     image: "/iron-tmt-bar-500x500-removebg-preview.png",
+    link: "/categories/tmt-bars",
   },
   {
     title: "GP Coils",
     production: "2500+",
     image: "/coil.png",
+    link: "/categories/metal-coil",
   },
   {
     title: "GP Sheet / GI Sheet",
     production: "1500+",
     image: "/gisheet.png",
+    link: "/categories/gi-sheet",
   },
-  
 ];
 
   useEffect(() => {
+
     const timer = setInterval(() => {
       setActive((prev) => (prev + 1) % products.length);
     }, 5000);
@@ -178,11 +183,11 @@ const products = [
           {/* BUTTON + STATS */}
           <div className="mt-5 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-10">
 
-<Link href="/products">
-    <button className="border-2 border-blue-600 rounded-full px-5 py-2 sm:px-6 sm:py-3 flex items-center gap-3 text-sm sm:text-lg whitespace-nowrap">
-              Know More
-            </button>
-
+<Link href={product.link}>
+  <button className="border-2 border-blue-600 rounded-full px-5 py-2 sm:px-6 sm:py-3 flex items-center gap-3 text-sm sm:text-lg whitespace-nowrap hover:bg-blue-600 hover:text-white transition-all duration-300">
+    Know More
+    <ArrowRight className="w-4 h-4" />
+  </button>
 </Link>
 
         

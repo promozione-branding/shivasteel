@@ -22,9 +22,9 @@ export const metadata = {
   title: "shivasteel",
   description: "shivasteel",
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
+    icon: "/logo.webp",
+    shortcut:  "/logo.webp",
+    apple:  "/logo.webp",
   },
 };
 

@@ -129,15 +129,9 @@ export default function Footer() {
                 Contact
               </h3>
             <div className="space-y-4 text-[#555]">
-  <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
-    <Phone className="mt-0.5 shrink-0 text-blue-600" size={18} />
-    <a
-      href="tel:+919069906984"
-      className="text-sm sm:text-[15px] hover:text-blue-600 transition-colors"
-    >
-      +91-9069906984
-    </a>
-  </div>
+
+
+
 
   <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
     <Phone className="mt-0.5 shrink-0 text-blue-600" size={18} />
@@ -148,6 +142,22 @@ export default function Footer() {
       +91-98736 56785
     </a>
   </div>
+
+
+
+
+
+  <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
+    <Phone className="mt-0.5 shrink-0 text-blue-600" size={18} />
+    <a
+      href="tel:+919069906984"
+      className="text-sm sm:text-[15px] hover:text-blue-600 transition-colors"
+    >
+      +91-9069906984
+    </a>
+  </div>
+
+
 
   <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
     <MapPin className="mt-0.5 shrink-0 text-blue-600" size={18} />
