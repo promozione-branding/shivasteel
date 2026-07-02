@@ -63,7 +63,7 @@ const handleSubmit = async (e) => {
     setLoading(true);
 
     const payload = {
-      platform: "Shiva Steel  product page form",
+      platform: "Shiva Steel product page form",
       platformEmail: "shivasteel2019@gmail.com", 
 
       name: form.name,
@@ -155,11 +155,7 @@ const features = [
         />
       </Head>
 
-      {/* ================= HERO ================= */}
-
-   
-
-      {/* ================= PRODUCT ================= */}
+     
 
     <section className="relative  md:pt-45 overflow-hidden bg-gradient-to-b from-slate-50 via-white to-slate-100 py-10">
 
