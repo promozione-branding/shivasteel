@@ -9,11 +9,11 @@ export default function TrustedBrands() {
 const brands = [
  
   "/client/1.png",
-  "/client/2.webp",
-    "/client/3.jfif",
-      "/client/4.jfif",
-        "/client/5.jfif",
-          "/client/dee.jfif",
+  "/client/2.png",
+    "/client/3.png",
+      "/client/4.png",
+        "/client/5.png",
+          "/client/6.png",
            
 ];
 
@@ -74,7 +74,7 @@ const brands = [
   width={200}
   height={180}
   className="
-    h-33
+    h-50
     w-auto
     object-cover
  
