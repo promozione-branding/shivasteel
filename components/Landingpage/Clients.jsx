@@ -14,7 +14,7 @@ const brands = [
       "/client/4.png",
         "/client/5.png",
           "/client/6.png",
-           
+            "/client/7.png",
 ];
 
   return (
@@ -76,7 +76,8 @@ const brands = [
   className="
     h-50
     w-auto
-    object-cover
+    object-contain
+    md:object-cover
  
     transition-all
     duration-500
