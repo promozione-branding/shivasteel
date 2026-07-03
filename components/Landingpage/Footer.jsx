@@ -38,7 +38,7 @@ export default function Footer() {
           <div>
             <div className="flex py-0.5 items-center justify-center lg:justify-start">
               <Image
-                src="/logo-removebg-preview (1).png"
+                src="/footerlogo.png"
                 alt="Shiva Steel Fabricators logo"
                 width={160}
                 height={90}
@@ -46,7 +46,7 @@ export default function Footer() {
               />
             </div>
 
-            <p className="md:mt-6 text-md text-center md:text-left text-[#2f2e2e] sm:text-[15px] lg:mt-8">
+            <p className="md:mt-6 text-md text-center md:text-left text-[#2f2e2e] sm:text-[15px] lg:mt-4">
               We at Shiva Steel Fabricators are involved in wholesale trade,
               supplier, and provision of services for a superior quality range
               of MS Sheet, Cable Tray, Colour, GI Decking Sheet, GP Sheet, MS
