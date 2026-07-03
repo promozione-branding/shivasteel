@@ -93,7 +93,7 @@ export default function Navbar() {
 
           {/* LOGO */}
           <Link href="/" className="flex flex-col leading-tight">
-            <Image width={150} height={100} src="/logo.webp"></Image>
+            <Image width={150} height={100} src="/Shiva Steel Fabricators logo.png"></Image>
           </Link>
 
           {/* NAV */}
