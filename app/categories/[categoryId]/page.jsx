@@ -34,9 +34,9 @@ export default function CategoryPage({ params }) {
       {/* Hero Section */}
       <section
         style={{ backgroundImage: "url('/bgall.png')" }}
-        className="w-full bg-cover bg-center h-[50vh] md:h-[90vh] relative"
+        className="w-full bg-cover bg-center h-[50vh] md:h-[70vh] relative"
       >
-        <div className="px-5 absolute inset-0 text-center flex items-center justify-center ">
+        <div className="px-5 mt-4 absolute inset-0 text-center flex items-center justify-center ">
           <h2 className=" text-blue-800 bg-white p-3 text-2xl md:text-6xl font-bold z-10">
             {category.name}
           </h2>
@@ -54,13 +54,13 @@ export default function CategoryPage({ params }) {
               href={`/products/${product.id}`}
               className="border rounded-lg bg-orange-50 shadow-md p-4 hover:shadow-lg transition"
             >
-              <div className="w-full  h-85 relative rounded-md overflow-hidden">
+              <div className="w-full h-60 md:h-85 relative rounded-md overflow-hidden">
                 <Image
                   src={product.image[0]?.src || "/placeholder.png"}
                   alt={product.image[0]?.alt || product.name}
                   title={product.name}
                   fill
-                  className="object-cover "
+                  className="object-contain md:object-cover "
                   unoptimized
                 />
               </div>

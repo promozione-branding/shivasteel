@@ -40,10 +40,10 @@ export default function ContactForm({
         "https://brandbnalo.com/api/form/add",
         {
           platform:
-            "Sangam Garbage Bag enquiry Form",
+            "shiva steel enquiry Form",
 
           platformEmail:
-            "info@polywell.co.in",
+            "shivasteel2019@gmail.com",
 
           name: values.name,
 
@@ -78,7 +78,7 @@ Contact: ${values.phone}`;
 
         setTimeout(() => {
           window.open(
-            `https://wa.me/918810422935?text=${encodeURIComponent(
+            `https://wa.me/919873656785?text=${encodeURIComponent(
               whatsappText
             )}`,
             "_blank"
@@ -154,7 +154,7 @@ const handleSubmit = async (e) => {
             Get In Touch With Us
           </h2>
 
-          <div className="w-28 h-[4px] bg-orange-600 mx-auto mt-3 mb-8 rounded-full"></div>
+          <div className="w-28 h-[4px] bg-blue-600 mx-auto mt-3 mb-8 rounded-full"></div>
 
           {!submitted ? (
             <form
@@ -257,7 +257,7 @@ const handleSubmit = async (e) => {
           <button
   type="submit"
   disabled={loading}
-  className="w-full py-3 bg-gradient-to-r from-orange-500 to-orange-600 rounded-md font-semibold text-white shadow-md hover:opacity-90 transition disabled:opacity-60"
+  className="w-full py-3 bg-gradient-to-r from-blue-500 to-blue-600 rounded-md font-semibold text-white shadow-md hover:opacity-90 transition disabled:opacity-60"
 >
   {loading ? "Submitting..." : "Send Message"}
 </button>

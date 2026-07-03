@@ -99,9 +99,31 @@ export default function ContactPage() {
           <div className="bg-[#1b3583] text-white p-6 md:p-8 rounded-2xl shadow-lg text-center">
             <Phone size={40} className="mx-auto mb-4" />
             <h3 className="text-xl font-bold mb-2">Call Us</h3>
-            <p className="text-lg">+91-97165 21402</p>
-            <p className="text-lg">+91-9810057441</p>
-            <p className="text-lg">+91-98736 56785</p>
+            <div className="space-y-2">
+ <a
+    href="tel:+919873656785"
+    className="block text-lg hover:underline hover:text-blue-200 transition"
+  >
+    +91-98736 56785
+  </a>
+
+
+  <a
+    href="tel:+919716521402"
+    className="block text-lg hover:underline hover:text-blue-200 transition"
+  >
+    +91-97165 21402
+  </a>
+
+  <a
+    href="tel:+919069906984"
+    className="block text-lg hover:underline hover:text-blue-200 transition"
+  >
+    +91-9069906984
+  </a>
+
+ 
+</div>
           </div>
 
           {/* Email */}
@@ -110,7 +132,12 @@ export default function ContactPage() {
             <h3 className="text-xl font-bold text-[bg-[#1b3583]] mb-2">
               Email Address
             </h3>
-            <p className="text-gray-800 text-lg">shivasteel2019@gmail.com</p>
+        <a
+  href="mailto:shivasteel2019@gmail.com"
+  className="text-gray-800 text-lg hover:text-blue-700 hover:underline transition break-all"
+>
+  shivasteel2019@gmail.com
+</a>
           </div>
 
           {/* Address */}

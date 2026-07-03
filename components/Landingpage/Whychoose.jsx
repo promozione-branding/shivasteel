@@ -15,11 +15,11 @@ const Whychoose = () => {
          Trust Factor
         </span>
 
-        <h2 className="mt-4 text-4xl lg:text-5xl font-bold text-black leading-tight">
+        <h2 className="mt-4 text-3xl lg:text-4xl font-bold text-black leading-tight">
           Your Trusted Steel Supply Partner
         </h2>
 
-        <p className="mt-8 text-xl text-gray-900 leading-relaxed">
+        <p className="mt-3 md:mt-8 text-md md:text-xl text-gray-900 leading-relaxed">
           At Shiva Steel Fabricator, we combine quality products, industry
           expertise, and customer-focused service to deliver reliable steel
           solutions for projects of every scale. Whether you require structural

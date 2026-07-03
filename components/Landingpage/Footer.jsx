@@ -31,21 +31,22 @@ const socialIcons = [ FaLinkedinIn];
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#f7f7f7] px-4  ">
+    <footer className="w-full bg-[#f7f7f7] md:px-4  ">
       <div className="mx-auto flex w-full flex-col overflow-hidden rounded-[28px] border border-slate-200 bg-white shadow-[0_20px_60px_rgba(0,0,0,0.06)] lg:flex-row">
-        <div className="flex flex-col justify-between bg-[#eef0f7] px-6  lg:w-[340px] lg:px-8 lg:py-5 xl:w-[380px]">
+        
+        <div className="flex flex-col  justify-between bg-[#eef0f7] px-6  lg:w-[340px] lg:px-8 lg:py-5 xl:w-[380px]">
           <div>
             <div className="flex py-0.5 items-center justify-center lg:justify-start">
               <Image
-                src="/footerlogo.png"
+                src="/logo-removebg-preview (1).png"
                 alt="Shiva Steel Fabricators logo"
-                width={90}
+                width={160}
                 height={90}
-                className="h-40 w-full md:object-contain md:h-40"
+                className="h-20 w-auto sm:h-27 my-4 md:mb-0 "
               />
             </div>
 
-            <p className=" text-sm leading-7 text-[#2f2e2e] sm:text-[15px] ">
+            <p className="md:mt-6 text-md text-center md:text-left text-[#2f2e2e] sm:text-[15px] lg:mt-8">
               We at Shiva Steel Fabricators are involved in wholesale trade,
               supplier, and provision of services for a superior quality range
               of MS Sheet, Cable Tray, Colour, GI Decking Sheet, GP Sheet, MS
@@ -54,7 +55,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="mt-8 rounded-2xl border mb-4 border-white/70 bg-white/70 p-5 backdrop-blur-sm">
+          <div className="mt-3 md:mt-5 rounded-2xl border mb-4 border-white/70 bg-white/70 p-3 backdrop-blur-sm">
             <h4 className="text-center text-lg font-semibold text-[#222] lg:text-left ">
               Connect With Us On LinkedIn
             </h4>
@@ -128,26 +129,65 @@ export default function Footer() {
               <h3 className="mb-4 text-lg font-bold text-[#111] sm:text-[22px]">
                 Contact
               </h3>
-              <div className="space-y-4 text-[#555]">
-                <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
-                  <Phone className="mt-0.5 shrink-0 text-blue-600" size={18} />
-                  <p className="text-sm sm:text-[15px]">+91-9069906984</p>
-                </div>
-                <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
-                  <Phone className="mt-0.5 shrink-0 text-blue-600" size={18} />
-                  <p className="text-sm sm:text-[15px]">+91-98736 56785</p>
-                </div>
-                <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
-                  <MapPin className="mt-0.5 shrink-0 text-blue-600" size={18} />
-                  <p className="text-sm leading-6 sm:text-[15px]">
-                    X-43, Loha Mandi, Naraina Industrial Area, New Delhi
-                  </p>
-                </div>
-                <div className="flex items-start gap-3 pb-1">
-                  <Mail className="mt-0.5 shrink-0 text-blue-600" size={18} />
-                  <p className="text-sm sm:text-[15px]">shivasteel2019@gmail.com</p>
-                </div>
-              </div>
+            <div className="space-y-4 text-[#555]">
+
+
+
+
+  <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
+    <Phone className="mt-0.5 shrink-0 text-blue-600" size={18} />
+    <a
+      href="tel:+919873656785"
+      className="text-sm sm:text-[15px] hover:text-blue-600 transition-colors"
+    >
+      +91-98736 56785
+    </a>
+  </div>
+
+
+  <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
+    <Phone className="mt-0.5 shrink-0 text-blue-600" size={18} />
+    <a
+      href="tel:+919716521402"
+      className="text-sm sm:text-[15px] hover:text-blue-600 transition-colors"
+    >
+      +91-97165 21402
+    </a>
+  </div>
+
+
+  <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
+    <Phone className="mt-0.5 shrink-0 text-blue-600" size={18} />
+    <a
+      href="tel:+919069906984"
+      className="text-sm sm:text-[15px] hover:text-blue-600 transition-colors"
+    >
+      +91-9069906984
+    </a>
+  </div>
+
+
+
+  <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
+    <MapPin className="mt-0.5 shrink-0 text-blue-600" size={18} />
+    <div
+   
+      className="text-sm leading-6 sm:text-[15px]  transition-colors"
+    >
+      X-43, Loha Mandi, Naraina Industrial Area, New Delhi
+    </div>
+  </div>
+
+  <div className="flex items-start gap-3 pb-1">
+    <Mail className="mt-0.5 shrink-0 text-blue-600" size={18} />
+    <a
+      href="mailto:shivasteel2019@gmail.com"
+      className="text-sm sm:text-[15px] hover:text-blue-600 transition-colors"
+    >
+      shivasteel2019@gmail.com
+    </a>
+  </div>
+</div>
             </div>
 
             <div className="flex flex-col items-center rounded-2xl border border-slate-200 bg-[#fffaf1] p-5 text-center shadow-sm lg:items-start lg:text-left">
@@ -199,6 +239,44 @@ export default function Footer() {
           </div>
         </div>
       </div>
+
+
+
+
+
+
+
+
+
+
+
+      {/* Bottom Bar */}
+<div className="mt-2 border-t border-slate-200 bg-[#111827]">
+  <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-6 py-5 text-center text-sm text-slate-300 md:flex-row md:text-left">
+
+    <p>
+     Copyright   © 2026{" "}
+      <span className="font-semibold text-white">
+      Shiva Steel Fabricators
+      </span>
+    
+    </p>
+
+    <p>
+      Website Designed By Inquiry Bazaar Pvt. Ltd. {" "}
+      <a
+        href="https://inquirybazaar.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="font-semibold text-blue-400 transition hover:text-blue-300 hover:underline"
+      >
+       B2B Marketplace
+      </a>{" "}
+   
+    </p>
+
+  </div>
+</div>
     </footer>
   );
 }

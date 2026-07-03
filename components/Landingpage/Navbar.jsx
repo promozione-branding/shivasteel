@@ -23,11 +23,12 @@ export default function Navbar() {
   const [activeCategory, setActiveCategory] = useState(categories[0]?.id);
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [megaOpen, setMegaOpen] = useState(false);
-
+const [mobileProductsOpen, setMobileProductsOpen] = useState(false);
   const pathname = usePathname();
 
   useEffect(() => {
     setMobileOpen(false);
+      setMobileProductsOpen(false);
   }, [pathname]);
 
   return (
@@ -385,20 +386,89 @@ export default function Navbar() {
         {/* MOBILE MENU */}
         {mobileOpen && (
           <div className="md:hidden border-t bg-white">
-            <div className="p-6 flex flex-col gap-4 text-slate-700">
+           <div className="p-6 flex flex-col text-slate-700">
 
-              <Link href="/">Home</Link>
-              <Link href="/about">About</Link>
-              <Link href="/projects">Projects</Link>
-              <Link href="/contact">Contact</Link>
+  <Link
+    href="/"
+    className="py-3 border-b border-slate-200"
+  >
+    Home
+  </Link>
 
-              <button
-                onClick={() => setIsFormOpen(true)}
-                className="bg-slate-900 text-white py-2"
-              >
-                Request Quote
-              </button>
-            </div>
+  <Link
+    href="/about"
+    className="py-3 border-b border-slate-200"
+  >
+    About Us
+  </Link>
+
+  {/* Products Dropdown */}
+  <div className="border-b border-slate-200">
+
+    <button
+      onClick={() =>
+        setMobileProductsOpen(!mobileProductsOpen)
+      }
+      className="w-full flex items-center justify-between py-3 font-medium"
+    >
+      <span>Our Products</span>
+
+      <ChevronDown
+        className={`transition-transform duration-300 ${
+          mobileProductsOpen ? "rotate-180" : ""
+        }`}
+        size={18}
+      />
+    </button>
+
+    {mobileProductsOpen && (
+
+      <div className="pb-3 pl-4 flex flex-col gap-2">
+
+        {categories.map((category) => (
+
+        <Link
+  key={category.id}
+  href={`/categories/${category.id}`}
+  onClick={() => {
+    setMobileOpen(false);
+    setMobileProductsOpen(false);
+  }}
+  className="py-2 text-sm text-slate-600 hover:text-blue-600"
+>
+            {category.name}
+          </Link>
+
+        ))}
+
+      </div>
+
+    )}
+
+  </div>
+
+  <Link
+    href="/our-blogs"
+    className="py-3 border-b border-slate-200"
+  >
+    News & Events
+  </Link>
+
+  <Link
+    href="/contact"
+    className="py-3 border-b border-slate-200"
+  >
+    Contact Us
+  </Link>
+
+  <button
+    onClick={() => setIsFormOpen(true)}
+    className="mt-6 rounded-lg bg-slate-900 py-3 text-white font-semibold"
+  >
+    Request Quote
+  </button>
+
+</div>
           </div>
         )}
       </header>

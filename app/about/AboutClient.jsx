@@ -1,15 +1,23 @@
 "use client";
-
+import {  useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { Building2, Factory, HardHat, Wrench, Phone } from "lucide-react";
-
+import Enquiry from "@/components/Enquiry";
 import Otherpro from "@/components/Landingpage/Otherpro";
 import { Target, Eye } from "lucide-react";
 import Cta from "@/components/Landingpage/Cta";
 import { CheckCircle2 } from "lucide-react";
+
+
 export default function AboutHero() {
+
+
+
+  const [isFormOpen, setIsFormOpen] = useState(false);
+
+
   const points = [
     "Premium Quality Steel Products",
     "Competitive Pricing",
@@ -61,13 +69,13 @@ export default function AboutHero() {
         <div className="absolute -left-32 top-10 h-80 w-80 rounded-full bg-red-600/20 blur-[70px]" />
         <div className="absolute right-0 bottom-0 h-96 w-96 rounded-full bg-red-500/10 blur-[50px]" />
 
-        <div className="relative mx-auto flex h-[100vh] max-w-7xl items-center px-6 py-24">
-          <div className="max-w-4xl">
-            <h2 className="mt-20 text-4xl font-black leading-tight text-white ">
+        <div className="relative mx-auto flex h-[80vh] md:h-[100vh] max-w-7xl items-center px-6 py-24">
+          <div className="max-w-3xl">
+            <h2 className="mt-20 text-center md:text-left text-xl md:text-4xl font-black leading-tight text-white ">
               Building Strong Foundations with Quality Steel Solutions
             </h2>
 
-            <p className="mt-8 max-w-3xl text-left text-lg leading-6 md:leading-9 text-white">
+            <p className="mt-3 text-center md:mt-8 max-w-3xl md:text-left text-sm md:text-lg leading-6 md:leading-9 text-white">
               At Shiva Steel Fabricator, we are committed to delivering
               premium-quality steel products and reliable fabrication solutions
               for construction, engineering, industrial, and infrastructure
@@ -76,16 +84,21 @@ export default function AboutHero() {
               fabricators, and businesses across various industries.
             </p>
 
-            <div className="mt-12 flex flex-wrap gap-5">
-              <button className="bg-blue-800 hover:bg-blue-600 text-white px-6 sm:px-10 py-3 sm:py-4 rounded-md flex items-center justify-center gap-3 font-semibold">
+            <div className="mt-3 md:mt-12   justify-center md:justify-start flex md:flex-wrap gap-2 md:gap-5">
+              <button onClick={()=> setIsFormOpen(true)}  className="bg-blue-800 hover:bg-blue-600 text-white px-6 sm:px-10 py-3 sm:py-4 rounded-md flex items-center justify-center gap-3 font-semibold">
                 Send Inquiry
                 <ArrowRight size={18} />
               </button>
 
-              <button className="border border-white text-white px-6 sm:px-10 py-3 sm:py-4 rounded-md flex items-center justify-center gap-3 font-semibold hover:bg-white/10">
+
+
+<Link href="/contact">
+  <button className="border hidden md:flex border-white text-white px-6 sm:px-10 py-3 sm:py-4 rounded-md  items-center justify-center gap-3 font-semibold hover:bg-white/10">
                 <Phone size={18} />
-                Call Now
+               Contact Us
               </button>
+</Link>
+            
             </div>
           </div>
         </div>
@@ -97,7 +110,7 @@ export default function AboutHero() {
         <div className="absolute -right-24 bottom-0 h-96 w-96 rounded-full bg-slate-100 blur-3xl" />
 
         <div className="relative mx-auto w-full px-7 md:px-24 ">
-          <div className="grid items-center gap-20 lg:grid-cols-2">
+          <div className="grid items-center gap-9 md:gap-20 lg:grid-cols-2">
             {/* Image Side */}
             <div className="relative">
               {/* Main Image */}
@@ -112,7 +125,7 @@ export default function AboutHero() {
               </div>
 
               {/* Floating Card */}
-              <div className="absolute -bottom-8 right-0 md:right-6 rounded-3xl border border-white/60 bg-white/95 p-4 md:p-8 shadow-2xl backdrop-blur-xl">
+              <div className="hidden md:block absolute -bottom-8 right-0 md:right-6 rounded-3xl border border-white/60 bg-white/95 p-4 md:p-8 shadow-2xl backdrop-blur-xl">
                 <h3 className="text-2xl md:text-5xl font-black text-blue-800">
                   Premium
                 </h3>
@@ -128,13 +141,13 @@ export default function AboutHero() {
 
             {/* Content Side */}
             <div>
-              <h2 className="mt-4 text-3xl font-black leading-tight text-slate-900 ">
+              <h2 className="mt-3 text-lg md:text-3xl font-black leading-tight text-slate-900 ">
                 Your Trusted Partner for Quality Steel Products & Fabrication
                 Solutions
               </h2>
 
               {/* YOUR CONTENT - UNCHANGED */}
-              <p className="mt-2 text-lg leading-6 md:leading-9 text-black ">
+              <p className="mt-2 text-md md:text-lg leading-6 md:leading-9 text-black ">
                 Welcome to Shiva Steel Fabricator, a trusted name in the steel
                 industry, dedicated to supplying premium-quality steel products
                 and delivering reliable fabrication solutions for construction,
@@ -186,20 +199,20 @@ export default function AboutHero() {
         <div className="absolute -right-24 bottom-10 h-96 w-96 rounded-full bg-slate-200 blur-3xl" />
 
         <div className="relative mx-auto w-full px-5 md:px-22">
-          <div className="grid items-center gap-20 lg:grid-cols-2">
+          <div className="grid items-center gap-10 md:gap-20 lg:grid-cols-2">
             {/* Content */}
             <div>
               <span className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 font-semibold text-sm uppercase">
                 Who We Are
               </span>
 
-              <h2 className="mt-3 text-3xl md:text-4xl font-black leading-tight text-slate-900 ">
+              <h2 className="mt-3 text-xl md:text-4xl font-black leading-tight text-slate-900 ">
                 Building Strong Relationships Through Quality Steel
               </h2>
 
               {/* ===== ORIGINAL */}
 
-              <p className="mt-5 text-lg leading-6 md:leading-9 text-black ">
+              <p className="mt-4 text-md md:text-lg leading-6 md:leading-9 text-black ">
                 At Shiva Steel Fabricator, we believe that quality materials are
                 the foundation of every successful project. Our team works
                 closely with contractors, builders, fabricators, engineers, and
@@ -213,7 +226,7 @@ export default function AboutHero() {
               </p>
 
               {/* Industries */}
-              <div className="mt-6 grid gap-5 sm:grid-cols-2">
+              <div className="mt-6 grid gap-5 grid-cols-2">
                 {industries.map((item, index) => (
                   <div
                     key={index}
@@ -250,9 +263,7 @@ export default function AboutHero() {
 
               {/* Decorative Card */}
 
-              <div className="absolute -top-6 -left-2 md:-right-6 rounded-3xl bg-blue-800 p-4 md:p-8 text-white shadow-2xl">
-                <Factory size={45} />
-              </div>
+           
             </div>
           </div>
         </div>
@@ -291,11 +302,11 @@ export default function AboutHero() {
                   <Target size={34} />
                 </div>
 
-                <h3 className="mt-5 text-3xl font-black text-slate-900">
+                <h3 className="mt-2 md:mt-5 text-3xl font-black text-slate-900">
                   Our Mission
                 </h3>
 
-                <div className="mt-3  text-lg leading-6 md:leading-9 text-black">
+                <div className="mt-3  text-sm md:text-lg leading-6 md:leading-9 text-black">
                   <p>
                     At Shiva Steel Fabricator, our mission is to provide
                     premium-quality steel products and reliable fabrication
@@ -324,11 +335,11 @@ export default function AboutHero() {
                   <Eye size={34} />
                 </div>
 
-                <h3 className="mt-5 text-3xl font-black text-slate-900">
+                <h3 className="mt-3 md:mt-5 text-3xl font-black text-slate-900">
                   Our Vision
                 </h3>
 
-                <div className="mt-4 space-y-6 text-lg leading-6 md:leading-9 text-black">
+                <div className="mt-4 space-y-6 text-sm md:text-lg leading-6 md:leading-9 text-black">
                   <p>
                     Our vision is to establish Shiva Steel Fabricator as a
                     trusted and recognized leader in the steel supply and
@@ -350,14 +361,14 @@ export default function AboutHero() {
         </div>
       </section>
 
-      <section className="relative py-10 bg-gradient-to-b from-white via-slate-50 to-white overflow-hidden">
+      <section className="relative py-5 md:py-10 bg-gradient-to-b from-white via-slate-50 to-white overflow-hidden">
         {/* Background Effects */}
         <div className="absolute -top-24 -left-24 h-96 w-96 bg-blue-100 blur-3xl opacity-40 rounded-full" />
         <div className="absolute bottom-0 right-0 h-96 w-96 bg-slate-200 blur-3xl opacity-40 rounded-full" />
 
         <div className="relative max-w-7xl mx-auto px-6">
           {/* HEADER */}
-          <div className="text-center mb-14">
+          <div className="text-center mb-5 md:mb-10">
             <span className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 font-semibold text-sm uppercase">
               Why Choose Us
             </span>
@@ -366,7 +377,7 @@ export default function AboutHero() {
               Why Choose Shiva Steel Fabricators?
             </h2>
 
-            <p className="mt-4 text-slate-600 max-w-3xl mx-auto text-sm sm:text-base leading-6 md:leading-7">
+            <p className="mt-2 md:mt-4 text-slate-600 max-w-3xl mx-auto text-base leading-6 md:leading-7">
               Choosing the right steel supplier is essential for the success of
               any project. Here's why customers trust us.
             </p>
@@ -385,7 +396,7 @@ export default function AboutHero() {
 
                 <div className="relative flex justify-center  items-center gap-4">
                   {/* ICON */}
-                  <div className="flex h-11 w-11 items-center justify-center rounded-full bg-blue-50 text-blue-600 shrink-0 group-hover:bg-blue-100 transition">
+                  <div className="hidden md:flex h-11 w-11 items-center justify-center rounded-full bg-blue-50 text-blue-600 shrink-0 group-hover:bg-blue-100 transition">
                     <CheckCircle2 size={20} />
                   </div>
 
@@ -399,6 +410,11 @@ export default function AboutHero() {
           </div>
         </div>
       </section>
+
+
+        {isFormOpen && (
+              <Enquiry isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
+            )}
 
       <Cta />
     </>

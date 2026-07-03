@@ -69,11 +69,11 @@ export default function Testimonials() {
             Client Testimonials
           </span>
 
-          <h2 className="text-4xl mt-4 font-bold text-white md:text-5xl">
+          <h2 className="text-3xl mt-4 font-bold text-white md:text-5xl">
             Trusted by Industry Leaders
           </h2>
 
-          <p className="mt-5 text-lg text-slate-400">
+          <p className="md:mt-5 text-md text-white">
             Delivering premium steel products with reliability, quality, and
             long-term partnerships across construction, infrastructure, and
             industrial projects.
