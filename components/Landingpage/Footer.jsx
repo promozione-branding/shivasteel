@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { ChevronRight, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import { FaFacebookF, FaLinkedinIn, FaSkype, FaTwitter } from "react-icons/fa";
 import {categories} from "@/Data"
 
@@ -55,23 +55,38 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="mt-3 md:mt-5 rounded-2xl border mb-4 border-white/70 bg-white/70 p-3 backdrop-blur-sm">
-            <h4 className="text-center text-lg font-semibold text-[#222] lg:text-left ">
-              Connect With Us On LinkedIn
-            </h4>
-            <div className="mt-4 flex justify-center gap-3 ">
-              {socialIcons.map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  aria-label="Social link"
-                  className="flex h-10 w-10 items-center justify-center rounded-full bg-[#eef0f7] text-blue-600 transition duration-300 hover:-translate-y-1 hover:bg-blue-600 hover:text-white"
-                >
-                  <Icon className="text-lg" />
-                </a>
-              ))}
-            </div>
-          </div>
+          <div className="mt-3 md:mt-5 mb-4 rounded-2xl border border-white/70 bg-white/70 p-3 backdrop-blur-sm">
+  <h4 className="mb-4 text-center text-lg font-semibold text-[#222] lg:text-left">
+    Connect With Us On LinkedIn
+  </h4>
+
+  <Link
+    href="https://www.linkedin.com/company/shiva-steel-fabricator/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group flex items-center justify-between rounded-2xl border border-blue-200 bg-white p-1 transition-all duration-300 hover:border-blue-500 hover:shadow-lg"
+  >
+    <div className="flex items-center gap-4">
+      {/* LinkedIn Icon */}
+      <div className="flex h-13 w-13 items-center justify-center rounded-xl bg-[#0A66C2]">
+        <Linkedin className="h-6 w-6 text-white" />
+      </div>
+
+      {/* Text */}
+      <div>
+        <h3 className="text-base md:text-base font-bold text-gray-900">
+          Follow us on LinkedIn
+        </h3>
+
+        {/* <p className="text-sm text-gray-500">
+          Stay updated with our latest products and updates.
+        </p> */}
+      </div>
+    </div>
+
+    <ChevronRight className="h-7 w-7 text-gray-400 transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#0A66C2]" />
+  </Link>
+</div>
         </div>
 
         <div className="flex-1 px-5 py-8 sm:px-8 sm:py-10 lg:px-10 lg:py-10 xl:px-12">

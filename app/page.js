@@ -19,6 +19,7 @@ import Loactions from "@/components/Locations";
 import ProductCards from "@/components/Landingpage/Categories";
 
 import IndustriesWeServe from "@/components/Landingpage/Industries";
+import CertificateSection from "@/components/Landingpage/Certificate";
 export default function Home() {
   return (
     <>
@@ -40,7 +41,7 @@ export default function Home() {
     
       
          <TestimonialSlider></TestimonialSlider>
-      
+      <CertificateSection/>
 
       {/* <Formsection></Formsection>
       <Process></Process>
