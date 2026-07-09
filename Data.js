@@ -217,7 +217,7 @@ export const categories = [
 
         image: [
           {
-            src: "/GI Plain Sheet.png",
+            src: "/prod/GI Plain Sheet (1).webp",
             alt: "Premium Quality GI Plain Sheet",
           },
         ],
@@ -289,7 +289,7 @@ export const categories = [
         ],
         image: [
           {
-            src: "/0.40mm GI Sheets (1).webp",
+            src: "/prod/0.40mm GI Sheets (1).webp",
             alt: "Premium Quality 0.40mm GI Sheets",
           },
         ],
@@ -361,7 +361,7 @@ export const categories = [
         ],
         image: [
           {
-            src: "/check.webp",
+            src: "/prod/0.5mm GI Sheets (1).webp",
             alt: "Premium Quality 0.5mm GI Sheets",
           },
         ],
@@ -433,7 +433,7 @@ export const categories = [
         ],
         image: [
           {
-            src: "/GI Decking Sheet (1).webp",
+            src: "/prod/GI Decking Sheet (1).webp",
             alt: "Premium Quality GI Decking Sheet",
           },
         ],
@@ -505,7 +505,7 @@ export const categories = [
         ],
         image: [
           {
-            src: "/Galvanized Plain Sheets (1).webp",
+            src: "/prod/Galvanized Plain Sheets (1).webp",
             alt: "Premium Quality Galvanized Plain Sheets",
           },
         ],
@@ -958,7 +958,7 @@ export const categories = [
         ],
         image: [
           {
-            src: "/Rectangular MS Plate.webp",
+            src: "/prod/Rectangular MS Plate.webp",
             alt: "Premium Quality Rectangular MS Plate",
           },
         ],
@@ -1139,7 +1139,7 @@ export const categories = [
 
         image: [
           {
-            src: "/MS Sheet Plate.webp",
+            src: "/prod/MS Sheet Plate.webp",
             alt: "Premium Quality MS Sheet Plate",
           },
         ],
@@ -1247,7 +1247,7 @@ export const categories = [
 
         image: [
           {
-            src: "/Industrial Ms Plates (1).webp",
+            src: "/prod/Industrial Ms Plates (1).webp",
             alt: "Premium Quality Industrial MS Plates",
           },
         ],
@@ -1365,7 +1365,7 @@ export const categories = [
 
         image: [
           {
-            src: "/Industrial GP Sheets (2).webp",
+            src: "/prod/Industrial GP Sheets (2).webp",
             alt: "Premium Quality Industrial GP Sheets",
           },
         ],
@@ -1474,7 +1474,7 @@ export const categories = [
 
         image: [
           {
-            src: "/2mm GP Sheet (1).webp",
+            src: "/prod/2mm GP Sheet (1).webp",
             alt: "Premium Quality 2mm GP Sheet",
           },
         ],
@@ -1583,7 +1583,7 @@ export const categories = [
 
         image: [
           {
-            src: "/Galvanized Plain Sheets (1).webp",
+            src: "/prod/Galvanized Plain Sheets (1).webp",
             alt: "Premium Quality Galvanized Plain Sheet",
           },
         ],
@@ -1692,7 +1692,7 @@ export const categories = [
 
         image: [
           {
-            src: "/GP Metal Sheet.webp",
+            src: "/prod/GP Metal Sheet (2).webp",
             alt: "Premium Quality GP Metal Sheet",
           },
         ],
@@ -1917,7 +1917,7 @@ export const categories = [
 
         image: [
           {
-            src: "/TATA Mild Steel Sheet (1).webp",
+            src: "/prod/TATA Mild Steel Sheet (1).webp",
             alt: "Premium Quality TATA Mild Steel Sheet",
           },
         ],
@@ -2026,7 +2026,7 @@ export const categories = [
 
         image: [
           {
-            src: "/Mild Steel Hot Rolled Sheets (1).webp",
+            src: "/prod/Mild Steel Hot Rolled Sheets (1).webp",
             alt: "Premium Quality Mild Steel Hot Rolled Sheets",
           },
         ],
@@ -2135,7 +2135,7 @@ export const categories = [
 
         image: [
           {
-            src: "/MS CRCA Sheets.webp",
+            src: "/prod/MS CRCA Sheets.webp",
             alt: "Premium Quality MS CRCA Sheets",
           },
         ],
@@ -2208,7 +2208,7 @@ export const categories = [
         ],
         image: [
           {
-            src: "/MS CR Sheets (1).webp",
+            src: "/prod/MS CR Sheets (1).webp",
             alt: "Premium Quality MS CR Sheets",
           },
         ],
@@ -3743,7 +3743,7 @@ export const categories = [
 
   "image": [
     {
-      "src": "/Gi Electrical Cable Tray (1).webp",
+      "src": "/prod/Gi Electrical Cable Tray (1).webp",
       "alt": "GI Perforated Electrical Cable Tray U shape galvanized steel"
     }
   ]
@@ -3854,7 +3854,7 @@ export const categories = [
 
   "image": [
     {
-      "src": "/Stainless Steel Electric Cable Tray (1).webp",
+      "src": "/prod/Stainless Steel Electric Cable Tray (1).webp",
       "alt": "Stainless Steel perforated electric cable tray with galvanized coating"
     }
   ]
