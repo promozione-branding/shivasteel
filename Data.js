@@ -1030,7 +1030,7 @@ export const categories = [
         ],
         image: [
           {
-            src: "/Plain MS Plate.webp",
+            src: "/prod/Plain Ms Plate11.webp",
             alt: "Premium Quality Plain MS Plate",
           },
         ],
@@ -1809,7 +1809,7 @@ export const categories = [
 
         image: [
           {
-            src: "/Mild Steel Sheet (1).webp",
+            src: "/prod/Mild Steel Sheet22.webp",
             alt: "Premium Quality Mild Steel Sheet",
           },
         ],
