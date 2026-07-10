@@ -11,27 +11,27 @@ import "swiper/css/navigation";
 const products = [
   {
     title: "SAIL TMT Bars",
-    image: "/Sail TMT Bars.webp",
+    image: "/bars.webp",
     link: "/products/sail-tmt-bars",
   },
   {
     title: "GI Plain Sheet",
-    image: "/GI Plain Sheet.png",
+    image: "/prod/2mm GP Sheet (1).webp",
     link: "/products/gi-plain-sheet",
   },
   {
     title: "Industrial GP Sheets",
-    image: "/Industrial GP Sheets (2).webp",
+    image: "/prod/Industrial GP Sheets (2).webp",
     link: "/products/industrial-gp-sheets",
   },
   {
     title: "TATA Mild Steel Sheet",
-    image: "/TATA Mild Steel Sheet (1).webp",
+    image: "/prod/TATA Mild Steel Sheet (1).webp",
     link: "/products/tata-mild-steel-sheet",
   },
   {
     title: "Stainless Steel Electric Cable Tray",
-    image: "/Stainless Steel Electric Cable Tray (1).webp",
+    image: "/prod/Stainless Steel Electric Cable Tray (1).webp",
     link: "/products/stainless-steel-electric-cable-tray",
   },
 ];
@@ -85,7 +85,7 @@ export default function ProductShowcase() {
           src={product.image}
           alt={product.title}
           fill
-          className="object-contain transition-transform duration-500 group-hover:scale-105"
+          className="object-fill transition-transform duration-500 group-hover:scale-105"
         />
       </div>
 

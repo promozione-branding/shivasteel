@@ -25,6 +25,7 @@ export default function Home() {
     <>
       <Popup></Popup>
       <Hero />
+      
       <Clients/>
 
       <About />

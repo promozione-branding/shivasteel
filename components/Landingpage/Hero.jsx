@@ -124,23 +124,23 @@ const handleSubmit = async (e) => {
   const [activeSlide, setActiveSlide] = useState(0);
 const [isFormOpen, setIsFormOpen] = useState(false);
   return (
-    <section className="relative mt-6 sm:mt-10 overflow-hidden">
+    <>    <section className="relative mt-6 sm:mt-10 overflow-hidden">
 
       <Swiper
-        modules={[Autoplay, EffectFade]}
+        modules={[Autoplay, EffectFade,Pagination]}
         effect="fade"
         loop
         speed={1200}
-        autoplay={{ delay: 5000, disableOnInteraction: false }}
+        // autoplay={{ delay: 5000, disableOnInteraction: false }}
         pagination={{ clickable: true }}
         onSlideChange={(swiper) => setActiveSlide(swiper.realIndex)}
-        className="h-[650px] sm:h-[750px] lg:h-[800px]"
+        className="h-[530px] sm:h-[750px] lg:h-[800px]"
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
 
             <div
-              className="relative h-[600px] sm:h-[750px] lg:h-[800px] bg-cover bg-center"
+              className="relative h-[570px] sm:h-[750px] lg:h-[800px] bg-cover bg-center"
               style={{ backgroundImage: `url(${slide.image})` }}
             >
 
@@ -298,7 +298,16 @@ const [isFormOpen, setIsFormOpen] = useState(false);
       </Swiper>
 
       {/* STATS BAR */}
-      <div className="absolute bottom-0 left-0 w-full z-30 bg-blue-950 border-t border-white/10">
+     
+
+
+ {isFormOpen && (
+        <Enquiry isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
+      )}
+
+    </section>
+
+     <div className="  w-full z-30 bg-blue-950 border-t border-white/10">
 
   <div className="max-w-[1400px] mx-auto grid grid-cols-4">
 
@@ -332,11 +341,8 @@ const [isFormOpen, setIsFormOpen] = useState(false);
   </div>
 </div>
 
+    </>
 
- {isFormOpen && (
-        <Enquiry isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
-      )}
 
-    </section>
   );
 }

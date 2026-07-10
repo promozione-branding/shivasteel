@@ -55,3 +55,9 @@ ol {
 .animate-rotate-slow {
   animation: rotate-slow 20s linear infinite;
 }
+
+.swiper {
+  --swiper-pagination-color: #fff; /* Active bullet */
+  --swiper-pagination-bullet-inactive-color: #ffffff; /* Inactive bullet */
+  --swiper-pagination-bullet-inactive-opacity: 0.5;
+}

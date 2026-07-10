@@ -31,13 +31,13 @@ const Page = () => {
       </section>
 
       {/* Products Grid */}
-      <div className="max-w-7xl px-10 py-10 mx-auto">
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8">
+      <div className="max-w-7xl px-5 py-10 mx-auto">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8 ">
           {allProducts.map((product) => (
             <Link
               key={product?.id}
               href={`/products/${product?.id}`}
-              className="border w-40 md:w-full rounded-lg overflow-hidden shadow-sm hover:shadow-md transition"
+              className="border w-40 md:w-75 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition"
             >
               <Image
                 src={product?.image[0]?.src || "/placeholder.png"} // ✅ Use first image or placeholder
