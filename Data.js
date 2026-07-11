@@ -1252,6 +1252,87 @@ export const categories = [
           },
         ],
       },
+      {
+  id: "mild-steel-chequered-plate",
+  name: "Mild Steel Chequered Plate",
+  metaTitle:
+    "Mild Steel Chequered Plate – Premium Quality MS Chequered Plates | Shiva Steel Fabricator",
+  metaDescription:
+    "Shiva Steel Fabricator supplies premium-quality Mild Steel Chequered Plates manufactured using Hot Rolled technology. Available in 1.6–3 mm thickness with chequered pattern for construction, industrial, shipping, bridge, and engineering applications.",
+  description: [
+    { type: "h2", text: "Product Overview – Mild Steel Chequered Plate" },
+    {
+      type: "ul",
+      items: [
+        "Mild Steel Chequered Plate is supplied by Shiva Steel Fabricator, a trusted supplier and wholesaler of premium-quality chequered plates for construction, industrial, infrastructure, and engineering applications.",
+        "Manufactured from high-grade Mild Steel (MS) using advanced Hot Rolled technology, the Mild Steel Chequered Plate delivers exceptional strength, durability, and long-lasting performance in demanding environments.",
+        "Available in 1.6–3 mm thickness, the Mild Steel Chequered Plate features a raised chequered pattern that provides superior slip resistance and enhanced safety in high-traffic industrial areas.",
+        "We supply genuine SAIL, JSW, and Local ISI Mild Steel Chequered Plate products, ensuring consistent quality, dimensional accuracy, and dependable performance for diverse industrial applications.",
+        "Manufactured in India using premium-quality raw materials, every Mild Steel Chequered Plate is produced according to strict industry standards for reliable quality and long service life.",
+        "Shiva Steel Fabricator maintains ready stock of Mild Steel Chequered Plates to fulfill bulk and wholesale orders efficiently while offering competitive pricing and timely delivery across India.",
+      ],
+    },
+
+    { type: "h2", text: "Key Features" },
+    {
+      type: "ul",
+      items: [
+        "Premium-quality Mild Steel Chequered Plate manufactured from high-grade Mild Steel (MS), offering superior strength, durability, impact resistance, and long service life.",
+        "Available in 1.6–3 mm thickness with a chequered pattern, manufactured using Hot Rolled technology and available in SAIL, JSW, and Local ISI brands.",
+        "The raised chequered pattern provides excellent anti-slip properties, making the Mild Steel Chequered Plate ideal for flooring, walkways, platforms, ramps, and safety applications.",
+        "Manufactured using advanced Hot Rolled technology, the Mild Steel Chequered Plate offers excellent weldability, machinability, and formability for easy fabrication and installation.",
+        "Designed with high load-bearing capacity and structural strength, the Mild Steel Chequered Plate performs reliably in demanding industrial, commercial, and infrastructure projects.",
+        "Every Mild Steel Chequered Plate undergoes stringent quality inspections to ensure uniform thickness, dimensional accuracy, superior finish, and compliance with industry standards.",
+      ],
+    },
+
+    { type: "h2", text: "Applications" },
+    {
+      type: "ul",
+      items: [
+        "Mild Steel Chequered Plate is widely used in construction projects for industrial flooring, staircases, walkways, platforms, ramps, and structural applications requiring anti-slip surfaces.",
+        "Ideal for building construction, where Mild Steel Chequered Plate is used for mezzanine floors, access platforms, maintenance walkways, and flooring systems.",
+        "Commonly used in the shipping industry for ship decks, loading platforms, gangways, and marine structures because of its strength and slip-resistant chequered pattern.",
+        "Suitable for bridge construction, infrastructure projects, warehouses, factories, and industrial plants requiring durable and safe steel flooring solutions.",
+        "Preferred by contractors, fabricators, and engineers for manufacturing truck bodies, trailers, equipment platforms, machine bases, and heavy-duty industrial structures.",
+        "The versatility of the Mild Steel Chequered Plate makes it suitable for power plants, railway projects, commercial buildings, engineering workshops, and customized fabrication applications.",
+      ],
+    },
+
+    { type: "h2", text: "Why Choose Shiva Steel Fabricator?" },
+    {
+      type: "ul",
+      items: [
+        "Shiva Steel Fabricator is a trusted Mild Steel Chequered Plate supplier and wholesaler, delivering premium-quality products with assured strength, durability, and consistent performance.",
+        "We supply genuine SAIL, JSW, and Local ISI Mild Steel Chequered Plate products that meet industry standards for quality, dimensional accuracy, and long-lasting reliability.",
+        "Our ready inventory enables us to fulfill bulk and wholesale Mild Steel Chequered Plate orders efficiently while ensuring timely delivery and competitive wholesale pricing.",
+        "Every Mild Steel Chequered Plate undergoes stringent quality inspections to verify thickness, chequered pattern quality, dimensional accuracy, structural strength, and long service life before dispatch.",
+        "We provide flexible order quantities, customized supply solutions, and dedicated customer support to meet the requirements of contractors, builders, fabricators, manufacturers, dealers, and industrial clients.",
+        "With years of expertise in the steel industry and a strong commitment to customer satisfaction, Shiva Steel Fabricator has become the preferred destination for bulk Mild Steel Chequered Plate supply across India.",
+      ],
+    },
+  ],
+
+  specs: [
+    { label: "Thickness", value: "1.6–3 mm" },
+    { label: "Material", value: "Mild Steel" },
+    { label: "Technique", value: "Hot Rolled" },
+    {
+      label: "Usage/Application",
+      value: "Construction, Building, Shipping, Bridge & Industrial Applications",
+    },
+    { label: "Brand", value: "SAIL, JSW, Local ISI" },
+    { label: "Pattern", value: "Chequered" },
+    { label: "Country of Origin", value: "Made in India" },
+  ],
+
+  image: [
+    {
+      src: "/prod/Mild-Steel-Chequered-Plate.webp",
+      alt: "Premium Quality Mild Steel Chequered Plate",
+    },
+  ],
+},
     ],
   },
 
