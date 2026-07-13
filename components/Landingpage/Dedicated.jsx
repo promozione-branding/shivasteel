@@ -50,7 +50,7 @@ export default function WhyChooseUs() {
 
   return (
     <section className="py-8 bg-white">
-      <div className="container mx-auto px-5 md:px-16">
+      <div className="container mx-auto px-5 xl:px-16">
         <div className="grid items-center gap-5 md:gap-16 lg:grid-cols-2">
           
           {/* Content Side */}
@@ -59,7 +59,7 @@ export default function WhyChooseUs() {
               Why Choose Us
             </span>
 
-            <h2 className="mt-4 text-2xl font-bold text-slate-900 md:text-5xl leading-tight">
+            <h2 className="mt-4 text-2xl font-bold text-slate-900 lg:text-3xl xl:text-5xl leading-tight">
               Why Businesses Trust Shiva Steel Fabricator
             </h2>
 

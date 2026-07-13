@@ -118,7 +118,7 @@ const products = [
 
       <div className="flex flex-wrap sm:flex-nowrap items-center gap-3 sm:gap-5">
 
-        <button  onClick={() => setIsFormOpen(true)} className="bg-gradient-to-r from-[#0B4F8A] via-[#0A6FB6] to-[#0B8FCC] text-white py-2 px-4 sm:px-8 sm:py-4 rounded-full text-sm sm:text-lg font-medium">
+        <button  onClick={() => setIsFormOpen(true)} className="bg-gradient-to-r from-[#0B4F8A] via-[#0A6FB6] to-[#0B8FCC] text-white py-2 px-4 sm:px-8  whitespace-nowrap lg:px-10 sm:py-4 lg:py-4 rounded-full text-sm sm:text-lg lg:text-lg font-medium">
           Enquire Now
         </button>
 

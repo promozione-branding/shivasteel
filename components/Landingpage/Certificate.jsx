@@ -18,7 +18,7 @@ const certificates = [
 
 export default function CertificateSection() {
   return (
-    <section className="py-6 md:py-13 bg-slate-50">
+    <section className="py-6 xl:py-13 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4">
 
         {/* Heading */}

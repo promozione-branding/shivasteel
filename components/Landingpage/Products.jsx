@@ -39,9 +39,9 @@ const products = [
 export default function ProductShowcase() {
   return (
     <section className="bg-slate-50 py-10">
-      <div className="mx-auto w-full px-5 md:px-19">
+      <div className="mx-auto w-full px-5 lg:px-10 xl::px-19">
         {/* Heading */}
-        <div className="mb-5 md:mb-10 text-center">
+        <div className="mb-5 lg:mb-6 xl::mb-10 text-center">
           <span className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 font-semibold text-sm uppercase mb-2">
             OUR PRODUCTS
           </span>
@@ -74,13 +74,14 @@ export default function ProductShowcase() {
               slidesPerView: 3,
             },
           }}
+          
         >
           {products.map((product, index) => (
          <SwiperSlide key={index}>
   <Link href={product.link}>
-    <div className="group overflow-hidden rounded-2xl bg-white shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl cursor-pointer">
+    <div className="group overflow-hidden rounded-2xl bg-white  transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl cursor-pointer">
       {/* Image */}
-      <div className="relative h-[330px] md:h-[430px] overflow-hidden">
+      <div className="relative h-[330px]  xl:h-[430px] overflow-hidden">
         <Image
           src={product.image}
           alt={product.title}
@@ -90,8 +91,8 @@ export default function ProductShowcase() {
       </div>
 
       {/* Content */}
-      <div className="flex items-center justify-between p-4">
-        <span className="text-black text-xl font-bold">
+      <div className="flex items-center justify-between p-4 lg:p-3">
+        <span className="text-black text-xl lg:text-lg font-bold">
           {product.title}
         </span>
 

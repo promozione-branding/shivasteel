@@ -31,7 +31,7 @@ const socialIcons = [ FaLinkedinIn];
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#f7f7f7] md:px-4  ">
+    <footer className="w-full bg-[#f7f7f7]   ">
       <div className="mx-auto flex w-full flex-col overflow-hidden rounded-[28px] border border-slate-200 bg-white shadow-[0_20px_60px_rgba(0,0,0,0.06)] lg:flex-row">
         
         <div className="flex flex-col  justify-between bg-[#eef0f7] px-6  lg:w-[340px] lg:px-8 lg:py-5 xl:w-[380px]">
@@ -89,8 +89,8 @@ export default function Footer() {
 </div>
         </div>
 
-        <div className="flex-1 px-5 py-8 sm:px-8 sm:py-10 lg:px-10 lg:py-10 xl:px-12">
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 xl:grid-cols-4 xl:gap-6">
+        <div className="flex-1 px-5 py-8 sm:px-8 sm:py-10 lg:px-6 lg:py-7 xl:px-12">
+          <div className="grid grid-cols-1 gap-8 lg:gap-5 sm:grid-cols-2 xl:grid-cols-4 xl:gap-6">
 
 
 
@@ -205,8 +205,8 @@ export default function Footer() {
 </div>
             </div>
 
-            <div className="flex flex-col items-center rounded-2xl border border-slate-200 bg-[#fffaf1] p-5 text-center shadow-sm lg:items-start lg:text-left">
-              <h3 className="text-base text-center font-bold text-[#f9a826] sm:text-[18px]">
+            <div className="flex flex-col items-center rounded-2xl border border-slate-200 bg-[#fffaf1] p-5 text-center shadow-sm lg:items-center lg:text-center">
+              <h3 className="text-base text-center  font-bold text-[#f9a826] sm:text-[18px]">
                 Trust Elite Certificate
               </h3>
 
@@ -266,7 +266,7 @@ export default function Footer() {
 
 
       {/* Bottom Bar */}
-<div className="mt-2 border-t border-slate-200 bg-[#111827]">
+<div className=" border-t border-slate-200 bg-[#111827]">
   <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-6 py-5 text-center text-sm text-slate-300 md:flex-row md:text-left">
 
     <p>

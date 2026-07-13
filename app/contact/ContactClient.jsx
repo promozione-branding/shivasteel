@@ -96,7 +96,7 @@ export default function ContactPage() {
       <section className="bg-gray-100 py-10 md:py-16 px-6 md:px-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-9 md:mb-16">
           {/* Phone */}
-          <div className="bg-[#1b3583] text-white p-6 md:p-8 rounded-2xl shadow-lg text-center">
+          <div className="bg-[#1b3583] text-white p-6 xl:p-8 rounded-2xl shadow-lg text-center">
             <Phone size={40} className="mx-auto mb-4" />
             <h3 className="text-xl font-bold mb-2">Call Us</h3>
             <div className="space-y-2">

@@ -109,8 +109,8 @@ export default function AboutHero() {
         <div className="absolute -left-24 top-0 h-96 w-96 rounded-full bg-blue-50 blur-3xl" />
         <div className="absolute -right-24 bottom-0 h-96 w-96 rounded-full bg-slate-100 blur-3xl" />
 
-        <div className="relative mx-auto w-full px-7 md:px-24 ">
-          <div className="grid items-center gap-9 md:gap-20 lg:grid-cols-2">
+        <div className="relative mx-auto w-full px-7 lg:px-12 xl:px-24 ">
+          <div className="grid items-center gap-9 xl:gap-20 lg:grid-cols-2">
             {/* Image Side */}
             <div className="relative">
               {/* Main Image */}
@@ -147,7 +147,7 @@ export default function AboutHero() {
               </h2>
 
               {/* YOUR CONTENT - UNCHANGED */}
-              <p className="mt-2 text-md md:text-lg leading-6 md:leading-9 text-black ">
+              <p className="mt-2 text-md md:text-lg mb-5 leading-6 xl:leading-9 text-black ">
                 Welcome to Shiva Steel Fabricator, a trusted name in the steel
                 industry, dedicated to supplying premium-quality steel products
                 and delivering reliable fabrication solutions for construction,
@@ -174,13 +174,13 @@ export default function AboutHero() {
                 ].map((item) => (
                   <div
                     key={item}
-                    className="flex justify-center items-center md:items-start gap-4 rounded-2xl border border-slate-200 bg-slate-50 p-2 md:p-5 transition duration-300 hover:-translate-y-2 hover:border-red-200 hover:bg-white hover:shadow-xl"
+                    className="flex justify-center items-center md:items-start gap-4 rounded-2xl border border-slate-200 bg-slate-50 p-2 xl:p-5 transition duration-300 hover:-translate-y-2 hover:border-red-200 hover:bg-white hover:shadow-xl"
                   >
                     <div className="flex h-15 w-15 items-center justify-center rounded-full bg-blue-50">
                       <CheckCircle2 className="text-blue-900" size={18} />
                     </div>
 
-                    <p className=" font-semibold mt-2 leading-7 text-slate-700">
+                    <p className=" font-semibold mt-2 leading-7 lg:leading-6 xl:leading-7 text-slate-700">
                       {item}
                     </p>
                   </div>
@@ -198,7 +198,7 @@ export default function AboutHero() {
         <div className="absolute -left-32 top-20 h-80 w-80 rounded-full bg-blue-100 blur-3xl" />
         <div className="absolute -right-24 bottom-10 h-96 w-96 rounded-full bg-slate-200 blur-3xl" />
 
-        <div className="relative mx-auto w-full px-5 md:px-22">
+        <div className="relative mx-auto w-full px-12 xl:px-22">
           <div className="grid items-center gap-10 md:gap-20 lg:grid-cols-2">
             {/* Content */}
             <div>
@@ -206,13 +206,13 @@ export default function AboutHero() {
                 Who We Are
               </span>
 
-              <h2 className="mt-3 text-xl md:text-4xl font-black leading-tight text-slate-900 ">
+              <h2 className="mt-3 text-xl lg:text-3xl xl:text-4xl font-black leading-tight text-slate-900 ">
                 Building Strong Relationships Through Quality Steel
               </h2>
 
               {/* ===== ORIGINAL */}
 
-              <p className="mt-4 text-md md:text-lg leading-6 md:leading-9 text-black ">
+              <p className="mt-4 text-md md:text-lg leading-6 xl:leading-9 text-black ">
                 At Shiva Steel Fabricator, we believe that quality materials are
                 the foundation of every successful project. Our team works
                 closely with contractors, builders, fabricators, engineers, and
@@ -236,7 +236,7 @@ export default function AboutHero() {
                       {item.icon}
                     </div>
 
-                    <h3 className="mt-2 text-md font-bold text-slate-900">
+                    <h3 className="mt-2 text-md lg:text-sm xl:text-base font-bold text-slate-900">
                       {item.title}
                     </h3>
                   </div>
@@ -274,7 +274,7 @@ export default function AboutHero() {
         <div className="absolute -top-20 -left-20 h-80 w-80 rounded-full bg-blue-100 blur-3xl opacity-60" />
         <div className="absolute -bottom-20 -right-20 h-96 w-96 rounded-full bg-slate-100 blur-3xl opacity-70" />
 
-        <div className="relative mx-auto w-full px-5 md:px-22">
+        <div className="relative mx-auto w-full px-5 lg:px-12 xl:px-22">
           {/* Heading */}
 
           <div className="mx-auto mb-8 max-w-3xl text-center">
@@ -282,7 +282,7 @@ export default function AboutHero() {
               Our Foundation
             </span>
 
-            <h2 className="mt-3 text-4xl font-black text-slate-900 md:text-5xl">
+            <h2 className="mt-3 text-4xl lg:text-3xl xl:text-4xl font-black text-slate-900 md:text-5xl">
               Mission & Vision
             </h2>
 
@@ -306,7 +306,7 @@ export default function AboutHero() {
                   Our Mission
                 </h3>
 
-                <div className="mt-3  text-sm md:text-lg leading-6 md:leading-9 text-black">
+                <div className="mt-3  text-sm md:text-lg leading-6 xl:leading-9 text-black">
                   <p>
                     At Shiva Steel Fabricator, our mission is to provide
                     premium-quality steel products and reliable fabrication
@@ -339,7 +339,7 @@ export default function AboutHero() {
                   Our Vision
                 </h3>
 
-                <div className="mt-4 space-y-6 text-sm md:text-lg leading-6 md:leading-9 text-black">
+                <div className="mt-4 space-y-6 text-sm md:text-lg leading-6 xl:leading-9 text-black">
                   <p>
                     Our vision is to establish Shiva Steel Fabricator as a
                     trusted and recognized leader in the steel supply and
@@ -373,7 +373,7 @@ export default function AboutHero() {
               Why Choose Us
             </span>
 
-            <h2 className="mt-5 text-3xl sm:text-5xl font-bold text-slate-900 leading-tight">
+            <h2 className="mt-5 text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 leading-tight">
               Why Choose Shiva Steel Fabricators?
             </h2>
 
@@ -384,11 +384,11 @@ export default function AboutHero() {
           </div>
 
           {/* GRID */}
-          <div className="grid grid-cols-1 grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid  grid-cols-2 lg:grid-cols-4 gap-6">
             {points.map((item, i) => (
               <div
                 key={i}
-                className="group flex justify-center items-center relative bg-white border border-slate-100 rounded-2xl p-3 md:p-6 shadow-sm
+                className="group flex justify-start items-center relative bg-white border border-slate-100 rounded-2xl p-3 xl:p-6 shadow-sm
                  hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
               >
                 {/* soft hover glow */}
@@ -401,7 +401,7 @@ export default function AboutHero() {
                   </div>
 
                   {/* TEXT */}
-                  <p className="text-slate-700 md:text-[20px] flex justify-center items-center leading-6 text-sm md:font-medium">
+                  <p className="text-slate-700 lg:text-base xl:text-[20px] flex justify-center items-center leading-6 text-sm md:font-medium">
                     {item}
                   </p>
                 </div>

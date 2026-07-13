@@ -37,7 +37,7 @@ const Page = () => {
             <Link
               key={product?.id}
               href={`/products/${product?.id}`}
-              className="border w-40 md:w-75 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition"
+              className="border w-40 lg:w-65 xl:w-75 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition"
             >
               <Image
                 src={product?.image[0]?.src || "/placeholder.png"} // ✅ Use first image or placeholder

@@ -72,7 +72,7 @@ export default function AboutSection() {
 
   return (
     <section className="py-5 md:py-7 bg-white overflow-hidden">
-      <div className="w-full px-5 md:px-20 mx-auto ">
+      <div className="w-full px-5 lg:px-8  xl:px-20 mx-auto ">
 
         <div className="grid lg:grid-cols-2 gap-5 items-center">
 
@@ -91,7 +91,7 @@ export default function AboutSection() {
               </span>
             </h2>
 
-            <p className="mt-2 md:mt-4 text-black text-md md:text-lg leading-7 md:leading-8 ">
+            <p className="mt-2 md:mt-4 text-black text-md md:text-lg leading-7 xl:leading-8 ">
               Welcome to Shiva Steel Fabricator, a trusted name in the
               steel fabrication and supply industry. We specialize in
               providing premium-quality MS Pipe, MS Plate, MS Angle,
@@ -100,7 +100,7 @@ export default function AboutSection() {
               Cable Tray and Perforated Cable Tray.
             </p>
 
-            <p className="mt-2 md:mt-4 text-black text-md md:text-lg leading-7 md:leading-8 ">
+            <p className="mt-2 md:mt-4 text-black text-md md:text-lg leading-7 xl:leading-8 ">
               With years of industry experience, we are committed to
               delivering durable steel products, precision fabrication
               solutions and reliable customer service. Our products are

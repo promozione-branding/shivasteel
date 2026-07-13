@@ -5,8 +5,8 @@ const Whychoose = () => {
     <div>
       
 
-<section className="py-8 md:py-24 bg-white">
-  <div className="w-full mx-auto px-6 lg:px-15">
+<section className="py-8  lg:py-12 xl:py-24 bg-white">
+  <div className="w-full mx-auto px-6 lg:px-8 xl:px-15">
     <div className="grid lg:grid-cols-2 gap-16 items-start">
       
       {/* Left Content */}
@@ -15,11 +15,11 @@ const Whychoose = () => {
          Trust Factor
         </span>
 
-        <h2 className="mt-4 text-3xl lg:text-4xl font-bold text-black leading-tight">
+        <h2 className="mt-4 text-3xl xl:text-4xl font-bold text-black leading-tight">
           Your Trusted Steel Supply Partner
         </h2>
 
-        <p className="mt-3 md:mt-8 text-md md:text-xl text-gray-900 leading-relaxed">
+        <p className="mt-3 lg:mt-5 xl:mt-8 text-md lg:text-lg xl:text-xl text-gray-900 xl:leading-relaxed">
           At Shiva Steel Fabricator, we combine quality products, industry
           expertise, and customer-focused service to deliver reliable steel
           solutions for projects of every scale. Whether you require structural
@@ -67,7 +67,7 @@ const Whychoose = () => {
         ].map((item, index) => (
           <div
             key={index}
-            className="group bg-[#f8f8f8] hover:bg-[#191617] border border-gray-200 rounded-2xl p-6 transition-all duration-300"
+            className="group bg-[#f8f8f8] hover:bg-[#191617] border border-gray-200 rounded-2xl p-6 lg:p-4 xl:p-6 transition-all duration-300"
           >
             <div className="flex items-start gap-4">
               <div className="w-10 h-10 rounded-full bg-blue-500 text-white flex items-center justify-center font-bold flex-shrink-0">
@@ -79,7 +79,7 @@ const Whychoose = () => {
                   {item.title}
                 </h3>
 
-                <p className="mt-2 text-gray-600 group-hover:text-gray-300 leading-relaxed transition-colors">
+                <p className="mt-2 text-gray-600 group-hover:text-gray-300 leading-relaxed lg:leading-6 xl:leading-relaxed transition-colors">
                   {item.description}
                 </p>
               </div>
