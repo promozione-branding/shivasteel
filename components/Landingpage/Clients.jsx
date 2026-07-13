@@ -15,6 +15,7 @@ const brands = [
         "/client/5.png",
           "/client/6.png",
             "/client/7.png",
+            "/client/Logo 1.png",
 ];
 
   return (
@@ -72,12 +73,13 @@ const brands = [
   src={logo}
   alt=""
   width={200}
-  height={180}
+  height={200}
   className="
     h-50
     w-auto
     object-contain
-    md:object-cover
+    md:object-contain 
+    xl:cover
  
     transition-all
     duration-500
