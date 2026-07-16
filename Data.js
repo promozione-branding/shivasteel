@@ -195,15 +195,15 @@ export const categories = [
           },
           {
             label: "Thickness",
-            value: "0.30 mm",
+            value: "0.4-3 mm",
           },
           {
             label: "Brand",
-            value: "TATA",
+            value: "TATA,JWS,AM/NS",
           },
           {
             label: "Dimensions",
-            value: "8 ft Length × 2.5 ft Width",
+            value: "8 ft Length × 4 ft Width",
           },
           {
             label: "Manufacturing Technique",
@@ -425,11 +425,12 @@ export const categories = [
         ],
         specs: [
           { label: "Material", value: "Iron" },
-          { label: "Thickness", value: "4 mm" },
+          { label: "Thickness", value: "2 mm" },
           { label: "Surface Treatment", value: "Galvanized" },
           { label: "Manufacturing Technique", value: "Hot Rolled" },
           { label: "Tensile Strength", value: "550 MPa" },
           { label: "Water Resistance", value: "Water Proof" },
+          { label: "Brand", value: "TATA, JWS, AM/NS" },
         ],
         image: [
           {
@@ -498,8 +499,8 @@ export const categories = [
         specs: [
           { label: "Material", value: "Galvanized Iron (GI)" },
           { label: "Thickness", value: "0.80 mm" },
-          { label: "Brand", value: "TATA" },
-          { label: "Dimensions", value: "8 ft Length × 2.5 ft Width" },
+          { label: "Brand", value: "TATA, JWS, AM/NS" },
+          { label: "Dimensions", value: "8 ft Length × 4 ft Width" },
           { label: "Manufacturing Technique", value: "Cold Rolled" },
           { label: "Surface Treatment", value: "Galvanised" },
         ],
@@ -1022,9 +1023,10 @@ export const categories = [
         ],
         specs: [
           { label: "Material", value: "Mild Steel (MS)" },
-          { label: "Thickness", value: "2–3 mm" },
+          { label: "Thickness", value: "10-15 mm" },
           { label: "Shape", value: "Rectangular" },
           { label: "Surface Treatment", value: "Polished" },
+          { label: "Grade", value: "e250 to e350" },
           { label: "Usage/Application", value: "Industrial" },
           { label: "Type", value: "Plain" },
         ],
@@ -1225,7 +1227,7 @@ export const categories = [
           },
           {
             label: "Thickness",
-            value: "8 mm",
+            value: "8-50 mm",
           },
           {
             label: "Size",
@@ -1233,7 +1235,7 @@ export const categories = [
           },
           {
             label: "Brand",
-            value: "SAIL",
+            value: "SAIL,Jindal",
           },
           {
             label: "Shape",
@@ -1253,86 +1255,87 @@ export const categories = [
         ],
       },
       {
-  id: "mild-steel-chequered-plate",
-  name: "Mild Steel Chequered Plate",
-  metaTitle:
-    "Mild Steel Chequered Plate – Premium Quality MS Chequered Plates | Shiva Steel Fabricator",
-  metaDescription:
-    "Shiva Steel Fabricator supplies premium-quality Mild Steel Chequered Plates manufactured using Hot Rolled technology. Available in 1.6–3 mm thickness with chequered pattern for construction, industrial, shipping, bridge, and engineering applications.",
-  description: [
-    { type: "h2", text: "Product Overview – Mild Steel Chequered Plate" },
-    {
-      type: "ul",
-      items: [
-        "Mild Steel Chequered Plate is supplied by Shiva Steel Fabricator, a trusted supplier and wholesaler of premium-quality chequered plates for construction, industrial, infrastructure, and engineering applications.",
-        "Manufactured from high-grade Mild Steel (MS) using advanced Hot Rolled technology, the Mild Steel Chequered Plate delivers exceptional strength, durability, and long-lasting performance in demanding environments.",
-        "Available in 1.6–3 mm thickness, the Mild Steel Chequered Plate features a raised chequered pattern that provides superior slip resistance and enhanced safety in high-traffic industrial areas.",
-        "We supply genuine SAIL, JSW, and Local ISI Mild Steel Chequered Plate products, ensuring consistent quality, dimensional accuracy, and dependable performance for diverse industrial applications.",
-        "Manufactured in India using premium-quality raw materials, every Mild Steel Chequered Plate is produced according to strict industry standards for reliable quality and long service life.",
-        "Shiva Steel Fabricator maintains ready stock of Mild Steel Chequered Plates to fulfill bulk and wholesale orders efficiently while offering competitive pricing and timely delivery across India.",
-      ],
-    },
+        id: "mild-steel-chequered-plate",
+        name: "Mild Steel Chequered Plate",
+        metaTitle:
+          "Mild Steel Chequered Plate – Premium Quality MS Chequered Plates | Shiva Steel Fabricator",
+        metaDescription:
+          "Shiva Steel Fabricator supplies premium-quality Mild Steel Chequered Plates manufactured using Hot Rolled technology. Available in 1.6–3 mm thickness with chequered pattern for construction, industrial, shipping, bridge, and engineering applications.",
+        description: [
+          { type: "h2", text: "Product Overview – Mild Steel Chequered Plate" },
+          {
+            type: "ul",
+            items: [
+              "Mild Steel Chequered Plate is supplied by Shiva Steel Fabricator, a trusted supplier and wholesaler of premium-quality chequered plates for construction, industrial, infrastructure, and engineering applications.",
+              "Manufactured from high-grade Mild Steel (MS) using advanced Hot Rolled technology, the Mild Steel Chequered Plate delivers exceptional strength, durability, and long-lasting performance in demanding environments.",
+              "Available in 1.6–3 mm thickness, the Mild Steel Chequered Plate features a raised chequered pattern that provides superior slip resistance and enhanced safety in high-traffic industrial areas.",
+              "We supply genuine SAIL, JSW, and Local ISI Mild Steel Chequered Plate products, ensuring consistent quality, dimensional accuracy, and dependable performance for diverse industrial applications.",
+              "Manufactured in India using premium-quality raw materials, every Mild Steel Chequered Plate is produced according to strict industry standards for reliable quality and long service life.",
+              "Shiva Steel Fabricator maintains ready stock of Mild Steel Chequered Plates to fulfill bulk and wholesale orders efficiently while offering competitive pricing and timely delivery across India.",
+            ],
+          },
 
-    { type: "h2", text: "Key Features" },
-    {
-      type: "ul",
-      items: [
-        "Premium-quality Mild Steel Chequered Plate manufactured from high-grade Mild Steel (MS), offering superior strength, durability, impact resistance, and long service life.",
-        "Available in 1.6–3 mm thickness with a chequered pattern, manufactured using Hot Rolled technology and available in SAIL, JSW, and Local ISI brands.",
-        "The raised chequered pattern provides excellent anti-slip properties, making the Mild Steel Chequered Plate ideal for flooring, walkways, platforms, ramps, and safety applications.",
-        "Manufactured using advanced Hot Rolled technology, the Mild Steel Chequered Plate offers excellent weldability, machinability, and formability for easy fabrication and installation.",
-        "Designed with high load-bearing capacity and structural strength, the Mild Steel Chequered Plate performs reliably in demanding industrial, commercial, and infrastructure projects.",
-        "Every Mild Steel Chequered Plate undergoes stringent quality inspections to ensure uniform thickness, dimensional accuracy, superior finish, and compliance with industry standards.",
-      ],
-    },
+          { type: "h2", text: "Key Features" },
+          {
+            type: "ul",
+            items: [
+              "Premium-quality Mild Steel Chequered Plate manufactured from high-grade Mild Steel (MS), offering superior strength, durability, impact resistance, and long service life.",
+              "Available in 1.6–3 mm thickness with a chequered pattern, manufactured using Hot Rolled technology and available in SAIL, JSW, and Local ISI brands.",
+              "The raised chequered pattern provides excellent anti-slip properties, making the Mild Steel Chequered Plate ideal for flooring, walkways, platforms, ramps, and safety applications.",
+              "Manufactured using advanced Hot Rolled technology, the Mild Steel Chequered Plate offers excellent weldability, machinability, and formability for easy fabrication and installation.",
+              "Designed with high load-bearing capacity and structural strength, the Mild Steel Chequered Plate performs reliably in demanding industrial, commercial, and infrastructure projects.",
+              "Every Mild Steel Chequered Plate undergoes stringent quality inspections to ensure uniform thickness, dimensional accuracy, superior finish, and compliance with industry standards.",
+            ],
+          },
 
-    { type: "h2", text: "Applications" },
-    {
-      type: "ul",
-      items: [
-        "Mild Steel Chequered Plate is widely used in construction projects for industrial flooring, staircases, walkways, platforms, ramps, and structural applications requiring anti-slip surfaces.",
-        "Ideal for building construction, where Mild Steel Chequered Plate is used for mezzanine floors, access platforms, maintenance walkways, and flooring systems.",
-        "Commonly used in the shipping industry for ship decks, loading platforms, gangways, and marine structures because of its strength and slip-resistant chequered pattern.",
-        "Suitable for bridge construction, infrastructure projects, warehouses, factories, and industrial plants requiring durable and safe steel flooring solutions.",
-        "Preferred by contractors, fabricators, and engineers for manufacturing truck bodies, trailers, equipment platforms, machine bases, and heavy-duty industrial structures.",
-        "The versatility of the Mild Steel Chequered Plate makes it suitable for power plants, railway projects, commercial buildings, engineering workshops, and customized fabrication applications.",
-      ],
-    },
+          { type: "h2", text: "Applications" },
+          {
+            type: "ul",
+            items: [
+              "Mild Steel Chequered Plate is widely used in construction projects for industrial flooring, staircases, walkways, platforms, ramps, and structural applications requiring anti-slip surfaces.",
+              "Ideal for building construction, where Mild Steel Chequered Plate is used for mezzanine floors, access platforms, maintenance walkways, and flooring systems.",
+              "Commonly used in the shipping industry for ship decks, loading platforms, gangways, and marine structures because of its strength and slip-resistant chequered pattern.",
+              "Suitable for bridge construction, infrastructure projects, warehouses, factories, and industrial plants requiring durable and safe steel flooring solutions.",
+              "Preferred by contractors, fabricators, and engineers for manufacturing truck bodies, trailers, equipment platforms, machine bases, and heavy-duty industrial structures.",
+              "The versatility of the Mild Steel Chequered Plate makes it suitable for power plants, railway projects, commercial buildings, engineering workshops, and customized fabrication applications.",
+            ],
+          },
 
-    { type: "h2", text: "Why Choose Shiva Steel Fabricator?" },
-    {
-      type: "ul",
-      items: [
-        "Shiva Steel Fabricator is a trusted Mild Steel Chequered Plate supplier and wholesaler, delivering premium-quality products with assured strength, durability, and consistent performance.",
-        "We supply genuine SAIL, JSW, and Local ISI Mild Steel Chequered Plate products that meet industry standards for quality, dimensional accuracy, and long-lasting reliability.",
-        "Our ready inventory enables us to fulfill bulk and wholesale Mild Steel Chequered Plate orders efficiently while ensuring timely delivery and competitive wholesale pricing.",
-        "Every Mild Steel Chequered Plate undergoes stringent quality inspections to verify thickness, chequered pattern quality, dimensional accuracy, structural strength, and long service life before dispatch.",
-        "We provide flexible order quantities, customized supply solutions, and dedicated customer support to meet the requirements of contractors, builders, fabricators, manufacturers, dealers, and industrial clients.",
-        "With years of expertise in the steel industry and a strong commitment to customer satisfaction, Shiva Steel Fabricator has become the preferred destination for bulk Mild Steel Chequered Plate supply across India.",
-      ],
-    },
-  ],
+          { type: "h2", text: "Why Choose Shiva Steel Fabricator?" },
+          {
+            type: "ul",
+            items: [
+              "Shiva Steel Fabricator is a trusted Mild Steel Chequered Plate supplier and wholesaler, delivering premium-quality products with assured strength, durability, and consistent performance.",
+              "We supply genuine SAIL, JSW, and Local ISI Mild Steel Chequered Plate products that meet industry standards for quality, dimensional accuracy, and long-lasting reliability.",
+              "Our ready inventory enables us to fulfill bulk and wholesale Mild Steel Chequered Plate orders efficiently while ensuring timely delivery and competitive wholesale pricing.",
+              "Every Mild Steel Chequered Plate undergoes stringent quality inspections to verify thickness, chequered pattern quality, dimensional accuracy, structural strength, and long service life before dispatch.",
+              "We provide flexible order quantities, customized supply solutions, and dedicated customer support to meet the requirements of contractors, builders, fabricators, manufacturers, dealers, and industrial clients.",
+              "With years of expertise in the steel industry and a strong commitment to customer satisfaction, Shiva Steel Fabricator has become the preferred destination for bulk Mild Steel Chequered Plate supply across India.",
+            ],
+          },
+        ],
 
-  specs: [
-    { label: "Thickness", value: "1.6–3 mm" },
-    { label: "Material", value: "Mild Steel" },
-    { label: "Technique", value: "Hot Rolled" },
-    {
-      label: "Usage/Application",
-      value: "Construction, Building, Shipping, Bridge & Industrial Applications",
-    },
-    { label: "Brand", value: "SAIL, JSW, Local ISI" },
-    { label: "Pattern", value: "Chequered" },
-    { label: "Country of Origin", value: "Made in India" },
-  ],
+        specs: [
+          { label: "Thickness", value: "1.6–3 mm" },
+          { label: "Material", value: "Mild Steel" },
+          { label: "Technique", value: "Hot Rolled" },
+          {
+            label: "Usage/Application",
+            value:
+              "Construction, Building, Shipping, Bridge & Industrial Applications",
+          },
+          { label: "Brand", value: "SAIL, JSW, Local ISI" },
+          { label: "Pattern", value: "Chequered" },
+          { label: "Country of Origin", value: "Made in India" },
+        ],
 
-  image: [
-    {
-      src: "/prod/Mild-Steel-Chequered-Plate.webp",
-      alt: "Premium Quality Mild Steel Chequered Plate",
-    },
-  ],
-},
+        image: [
+          {
+            src: "/prod/Mild-Steel-Chequered-Plate.webp",
+            alt: "Premium Quality Mild Steel Chequered Plate",
+          },
+        ],
+      },
     ],
   },
 
@@ -1424,7 +1427,7 @@ export const categories = [
           },
           {
             label: "Thickness",
-            value: "4 mm",
+            value: "3 mm",
           },
           {
             label: "Length",
@@ -1432,7 +1435,7 @@ export const categories = [
           },
           {
             label: "Width",
-            value: "3 ft",
+            value: "4 ft",
           },
           {
             label: "Type",
@@ -1441,6 +1444,10 @@ export const categories = [
           {
             label: "Usage/Application",
             value: "Industry",
+          },
+          {
+            label: "Brand",
+            value: "TATA, JWS, AM/NS",
           },
         ],
 
@@ -1991,6 +1998,10 @@ export const categories = [
             value: "Rectangular",
           },
           {
+            label: "Material Grade",
+            value: "edd",
+          },
+          {
             label: "Manufacturing Technique",
             value: "Hot Rolled",
           },
@@ -2085,7 +2096,7 @@ export const categories = [
           },
           {
             label: "Thickness",
-            value: "10 mm",
+            value: "1.6-8 mm",
           },
           {
             label: "Surface Treatment",
@@ -2093,7 +2104,7 @@ export const categories = [
           },
           {
             label: "Hardness",
-            value: "44 HRC",
+            value: "42 HRC",
           },
           {
             label: "Length",
@@ -2102,6 +2113,10 @@ export const categories = [
           {
             label: "Usage/Application",
             value: "Construction",
+          },
+          {
+            label: "Manufacturing Technique",
+            value: "Hot Rolled",
           },
         ],
 
@@ -2194,7 +2209,7 @@ export const categories = [
           },
           {
             label: "Thickness",
-            value: "5 mm",
+            value: "0.5-3 mm",
           },
           {
             label: "Surface Treatment",
@@ -2207,6 +2222,10 @@ export const categories = [
           {
             label: "Hardness",
             value: "40 HRC",
+          },
+          {
+            label: "Brand",
+            value: "TATA, Bokaro, Jindal",
           },
           {
             label: "Length",
@@ -2384,7 +2403,7 @@ export const categories = [
           },
           {
             label: "Diameter",
-            value: "8 mm",
+            value: "8-40 mm",
           },
           {
             label: "Grade",
@@ -2497,7 +2516,7 @@ export const categories = [
           },
           {
             label: "Diameter",
-            value: "6 mm",
+            value: "10-20 mm",
           },
           {
             label: "Grade",
@@ -2719,7 +2738,7 @@ export const categories = [
           },
           {
             label: "Thickness",
-            value: "7 mm",
+            value: "5-10 mm",
           },
           {
             label: "Grade",
@@ -3226,7 +3245,7 @@ export const categories = [
     ],
   },
 
-   {
+  {
     id: "mild-steel-angle",
     name: "Mild Steel Angle",
     metaTitle: "Shiva Steels",
@@ -3234,298 +3253,302 @@ export const categories = [
 
     products: [
       {
-  id: "ms-slotted-angle",
-  name: "MS Slotted Angle",
-  metaTitle:
-    "MS Slotted Angle – Premium Mild Steel L-Shape Slotted Angle | Shiva Steel Fabricator",
-  metaDescription:
-    "Shiva Steel Fabricator supplies premium-quality MS Slotted Angle manufactured from high-grade Mild Steel (MS) with 5 mm thickness, 6 meter length, hot rolled technology, and polished finish. Ideal for shelving, racks, frames, work benches, and industrial structures.",
+        id: "ms-slotted-angle",
+        name: "MS Slotted Angle",
+        metaTitle:
+          "MS Slotted Angle – Premium Mild Steel L-Shape Slotted Angle | Shiva Steel Fabricator",
+        metaDescription:
+          "Shiva Steel Fabricator supplies premium-quality MS Slotted Angle manufactured from high-grade Mild Steel (MS) with 5 mm thickness, 6 meter length, hot rolled technology, and polished finish. Ideal for shelving, racks, frames, work benches, and industrial structures.",
 
-  description: [
-    {
-      type: "h2",
-      text: "Product Overview – MS Slotted Angle",
-    },
-    {
-      type: "ul",
-      items: [
-        "MS Slotted Angle is supplied by Shiva Steel Fabricator, a trusted supplier and wholesaler of premium-quality slotted angles for shelving systems, storage racks, structural frameworks, and industrial fabrication applications.",
-        "Manufactured from high-grade Mild Steel (MS) using advanced Hot Rolled technology, the MS Slotted Angle delivers exceptional strength, durability, and long-lasting performance in demanding industrial environments.",
-        "Available in 6-meter length with 5 mm thickness, the MS Slotted Angle provides excellent load-bearing capacity and structural stability for a wide range of commercial and industrial applications.",
-        "Designed in an L-shaped profile, the MS Slotted Angle features precision slots that allow quick assembly, easy adjustment, and flexible installation without extensive welding requirements.",
-        "The polished surface finish enhances the appearance of the MS Slotted Angle while improving resistance to wear and supporting efficient fabrication, handling, and installation.",
-        "Shiva Steel Fabricator maintains ready stock of MS Slotted Angle products to fulfill bulk and wholesale orders efficiently while offering competitive pricing and prompt delivery across India.",
-      ],
-    },
+        description: [
+          {
+            type: "h2",
+            text: "Product Overview – MS Slotted Angle",
+          },
+          {
+            type: "ul",
+            items: [
+              "MS Slotted Angle is supplied by Shiva Steel Fabricator, a trusted supplier and wholesaler of premium-quality slotted angles for shelving systems, storage racks, structural frameworks, and industrial fabrication applications.",
+              "Manufactured from high-grade Mild Steel (MS) using advanced Hot Rolled technology, the MS Slotted Angle delivers exceptional strength, durability, and long-lasting performance in demanding industrial environments.",
+              "Available in 6-meter length with 5 mm thickness, the MS Slotted Angle provides excellent load-bearing capacity and structural stability for a wide range of commercial and industrial applications.",
+              "Designed in an L-shaped profile, the MS Slotted Angle features precision slots that allow quick assembly, easy adjustment, and flexible installation without extensive welding requirements.",
+              "The polished surface finish enhances the appearance of the MS Slotted Angle while improving resistance to wear and supporting efficient fabrication, handling, and installation.",
+              "Shiva Steel Fabricator maintains ready stock of MS Slotted Angle products to fulfill bulk and wholesale orders efficiently while offering competitive pricing and prompt delivery across India.",
+            ],
+          },
 
-    {
-      type: "h2",
-      text: "Key Features",
-    },
-    {
-      type: "ul",
-      items: [
-        "Premium-quality MS Slotted Angle manufactured from high-grade Mild Steel (MS) for superior strength, durability, and long service life.",
-        "Material: Mild Steel | Length: 6 Meter | Thickness: 5 mm | Shape: L Shape | Technique: Hot Rolled | Surface Treatment: Polished.",
-        "Accurately punched slots allow quick assembly, easy modification, and secure fastening for customized storage and structural systems.",
-        "Manufactured using advanced Hot Rolled technology, the MS Slotted Angle ensures excellent dimensional accuracy, high load-bearing capacity, and reliable structural performance.",
-        "The polished finish provides a smooth surface that supports easy cutting, drilling, bolting, handling, and fabrication operations.",
-        "Every MS Slotted Angle undergoes strict quality inspections to ensure dimensional accuracy, superior finish, structural strength, and compliance with industrial standards.",
-      ],
-    },
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Premium-quality MS Slotted Angle manufactured from high-grade Mild Steel (MS) for superior strength, durability, and long service life.",
+              "Material: Mild Steel | Length: 6 Meter | Thickness: 5 mm | Shape: L Shape | Technique: Hot Rolled | Surface Treatment: Polished.",
+              "Accurately punched slots allow quick assembly, easy modification, and secure fastening for customized storage and structural systems.",
+              "Manufactured using advanced Hot Rolled technology, the MS Slotted Angle ensures excellent dimensional accuracy, high load-bearing capacity, and reliable structural performance.",
+              "The polished finish provides a smooth surface that supports easy cutting, drilling, bolting, handling, and fabrication operations.",
+              "Every MS Slotted Angle undergoes strict quality inspections to ensure dimensional accuracy, superior finish, structural strength, and compliance with industrial standards.",
+            ],
+          },
 
-    {
-      type: "h2",
-      text: "Applications",
-    },
-    {
-      type: "ul",
-      items: [
-        "MS Slotted Angle is widely used for constructing shelving systems, storage racks, frames, work benches, equipment stands, and customized industrial structures.",
-        "Ideal for warehouses, factories, workshops, retail stores, and distribution centers requiring durable and adjustable storage systems.",
-        "Commonly used in fabrication industries for manufacturing machine frames, support structures, partitions, cable trays, and industrial workstations.",
-        "Suitable for commercial buildings, offices, laboratories, educational institutions, and manufacturing plants requiring strong modular framework solutions.",
-        "Preferred by contractors, fabricators, and engineers for assembling maintenance platforms, display racks, material handling systems, and customized steel structures.",
-        "The versatility of the MS Slotted Angle makes it suitable for construction, infrastructure projects, industrial storage systems, engineering applications, and general fabrication work.",
-      ],
-    },
+          {
+            type: "h2",
+            text: "Applications",
+          },
+          {
+            type: "ul",
+            items: [
+              "MS Slotted Angle is widely used for constructing shelving systems, storage racks, frames, work benches, equipment stands, and customized industrial structures.",
+              "Ideal for warehouses, factories, workshops, retail stores, and distribution centers requiring durable and adjustable storage systems.",
+              "Commonly used in fabrication industries for manufacturing machine frames, support structures, partitions, cable trays, and industrial workstations.",
+              "Suitable for commercial buildings, offices, laboratories, educational institutions, and manufacturing plants requiring strong modular framework solutions.",
+              "Preferred by contractors, fabricators, and engineers for assembling maintenance platforms, display racks, material handling systems, and customized steel structures.",
+              "The versatility of the MS Slotted Angle makes it suitable for construction, infrastructure projects, industrial storage systems, engineering applications, and general fabrication work.",
+            ],
+          },
 
-    {
-      type: "h2",
-      text: "Why Choose Shiva Steel Fabricator?",
-    },
-    {
-      type: "ul",
-      items: [
-        "Shiva Steel Fabricator is a reliable MS Slotted Angle supplier and wholesaler, delivering premium-quality products with assured strength, durability, and consistent performance.",
-        "We maintain ready stock of MS Slotted Angle products to fulfill bulk and wholesale orders efficiently while ensuring timely delivery and competitive wholesale pricing.",
-        "Every MS Slotted Angle is thoroughly inspected for dimensional accuracy, polished finish, structural strength, and long-lasting durability before dispatch.",
-        "We provide flexible order quantities, customized supply solutions, and dedicated customer support to meet the requirements of contractors, builders, fabricators, manufacturers, dealers, and industrial clients.",
-        "Our commitment to supplying genuine, high-quality MS Slotted Angle products and providing dependable service has made Shiva Steel Fabricator a preferred wholesale partner across multiple industries.",
-        "With years of expertise in the steel industry, Shiva Steel Fabricator continues to supply premium MS Slotted Angle products backed by exceptional service, reliable quality, and complete customer satisfaction.",
-      ],
-    },
-  ],
+          {
+            type: "h2",
+            text: "Why Choose Shiva Steel Fabricator?",
+          },
+          {
+            type: "ul",
+            items: [
+              "Shiva Steel Fabricator is a reliable MS Slotted Angle supplier and wholesaler, delivering premium-quality products with assured strength, durability, and consistent performance.",
+              "We maintain ready stock of MS Slotted Angle products to fulfill bulk and wholesale orders efficiently while ensuring timely delivery and competitive wholesale pricing.",
+              "Every MS Slotted Angle is thoroughly inspected for dimensional accuracy, polished finish, structural strength, and long-lasting durability before dispatch.",
+              "We provide flexible order quantities, customized supply solutions, and dedicated customer support to meet the requirements of contractors, builders, fabricators, manufacturers, dealers, and industrial clients.",
+              "Our commitment to supplying genuine, high-quality MS Slotted Angle products and providing dependable service has made Shiva Steel Fabricator a preferred wholesale partner across multiple industries.",
+              "With years of expertise in the steel industry, Shiva Steel Fabricator continues to supply premium MS Slotted Angle products backed by exceptional service, reliable quality, and complete customer satisfaction.",
+            ],
+          },
+        ],
 
-  specs: [
-    {
-      label: "Material",
-      value: "Mild Steel (MS)",
-    },
-    {
-      label: "Size",
-      value: "6 Meter",
-    },
-    {
-      label: "Thickness",
-      value: "5 mm",
-    },
-    {
-      label: "Shape",
-      value: "L Shape",
-    },
-    {
-      label: "Technique",
-      value: "Hot Rolled",
-    },
-    {
-      label: "Surface Treatment",
-      value: "Polished",
-    },
-    {
-      label: "Usage/Application",
-      value:
-        "Shelving, frames, work benches, equipment stands, and structural systems",
-    },
-    {
-      label: "Country of Origin",
-      value: "Made in India",
-    },
-  ],
+        specs: [
+          {
+            label: "Material",
+            value: "Mild Steel (MS)",
+          },
+          {
+            label: "Size",
+            value: "6 Meter",
+          },
+          {
+            label: "Thickness",
+            value: "5 mm",
+          },
+          {
+            label: "Shape",
+            value: "L Shape",
+          },
+          {
+            label: "Technique",
+            value: "Hot Rolled",
+          },
+          {
+            label: "Surface Treatment",
+            value: "Polished",
+          },
+          {
+            label: "Usage/Application",
+            value:
+              "Shelving, frames, work benches, equipment stands, and structural systems",
+          },
+          {
+            label: "Country of Origin",
+            value: "Made in India",
+          },
+        ],
 
-  image: [
-    {
-      src: "/MS Slotted Angle.webp",
-      alt: "Premium Quality MS Slotted Angle",
-    },
-  ],
+        image: [
+          {
+            src: "/MS Slotted Angle.webp",
+            alt: "Premium Quality MS Slotted Angle",
+          },
+        ],
       },
 
       {
-        "id": "mild-steel-ismb-section",
-        "name": "Mild Steel ISMB Section",
-        "metaTitle": "Mild Steel ISMB Section – High Strength I Beam Sections | Shiva Steel Fabricator",
-        "metaDescription": "Shiva Steel Fabricator supplies premium-quality Mild Steel ISMB Sections manufactured from high-grade MS. Designed in I Beam shape with 5 mm thickness for construction, infrastructure, industrial, and structural engineering applications.",
+        id: "mild-steel-ismb-section",
+        name: "Mild Steel ISMB Section",
+        metaTitle:
+          "Mild Steel ISMB Section – High Strength I Beam Sections | Shiva Steel Fabricator",
+        metaDescription:
+          "Shiva Steel Fabricator supplies premium-quality Mild Steel ISMB Sections manufactured from high-grade MS. Designed in I Beam shape with 5 mm thickness for construction, infrastructure, industrial, and structural engineering applications.",
 
-        "description": [
+        description: [
           {
-            "type": "h2",
-            "text": "Product Overview – Mild Steel ISMB Section"
+            type: "h2",
+            text: "Product Overview – Mild Steel ISMB Section",
           },
           {
-            "type": "ul",
-            "items": [
+            type: "ul",
+            items: [
               "Mild Steel ISMB Sections are supplied by Shiva Steel Fabricator, a trusted supplier and wholesaler of premium-quality structural steel sections for construction, infrastructure, industrial, and engineering applications.",
               "Manufactured from high-grade Mild Steel (MS), the Mild Steel ISMB Section provides exceptional strength, durability, and superior load-bearing capacity for heavy structural projects.",
               "Designed in an I Beam shape with 5 mm thickness, the Mild Steel ISMB Section delivers excellent structural stability and reliable performance in demanding construction environments.",
               "The Mild Steel ISMB Section is widely used for exterior structural applications where high strength, dimensional accuracy, and long service life are required.",
               "Manufactured in India under the Shiva Steel Fabricator brand, every ISMB section is produced under strict quality standards to ensure consistent performance and durability.",
-              "Shiva Steel Fabricator maintains ready stock of Mild Steel ISMB Sections to fulfill bulk and wholesale orders with competitive pricing and timely delivery across India."
-            ]
+              "Shiva Steel Fabricator maintains ready stock of Mild Steel ISMB Sections to fulfill bulk and wholesale orders with competitive pricing and timely delivery across India.",
+            ],
           },
           {
-            "type": "h2",
-            "text": "Key Features"
+            type: "h2",
+            text: "Key Features",
           },
           {
-            "type": "ul",
-            "items": [
+            type: "ul",
+            items: [
               "Premium-quality Mild Steel ISMB Section manufactured from high-grade Mild Steel for superior strength, durability, and long service life.",
               "Brand: Shiva Steel Fabricator | Material: Mild Steel | Shape: I Beam | Thickness: 5 mm | Position: Exterior | Country of Origin: Made in India.",
               "The I Beam profile provides excellent load distribution, high bending strength, and strong resistance to structural deformation.",
               "Manufactured with precise dimensions and consistent thickness for reliable performance in heavy-duty construction and engineering projects.",
               "Excellent weldability, machinability, and fabrication properties allow easy cutting, drilling, bolting, and structural assembly.",
-              "Each ISMB section undergoes strict quality inspection to ensure dimensional accuracy, structural integrity, and compliance with industrial standards."
-            ]
+              "Each ISMB section undergoes strict quality inspection to ensure dimensional accuracy, structural integrity, and compliance with industrial standards.",
+            ],
           },
           {
-            "type": "h2",
-            "text": "Applications"
+            type: "h2",
+            text: "Applications",
           },
           {
-            "type": "ul",
-            "items": [
+            type: "ul",
+            items: [
               "Widely used in construction for structural frameworks, support beams, columns, roof structures, and industrial buildings.",
               "Ideal for infrastructure projects such as bridges, flyovers, warehouses, factories, commercial complexes, and multi-storey buildings.",
               "Commonly used in fabrication industries for machinery frames, industrial platforms, equipment supports, and structural components.",
               "Suitable for exterior structural applications requiring high load-bearing capacity and long-term durability.",
               "Preferred by contractors, builders, and engineers for industrial sheds, power plants, manufacturing units, and heavy engineering works.",
-              "Versatile for construction, infrastructure, commercial projects, and customized steel fabrication applications."
-            ]
+              "Versatile for construction, infrastructure, commercial projects, and customized steel fabrication applications.",
+            ],
           },
           {
-            "type": "h2",
-            "text": "Why Choose Shiva Steel Fabricator?"
+            type: "h2",
+            text: "Why Choose Shiva Steel Fabricator?",
           },
           {
-            "type": "ul",
-            "items": [
+            type: "ul",
+            items: [
               "Reliable supplier and wholesaler of premium-quality ISMB sections with assured strength and durability.",
               "Ready stock availability for bulk orders with competitive pricing and timely delivery.",
               "Strict quality inspection for structural strength, dimensional accuracy, and long-lasting performance.",
               "Flexible order quantities with customized supply solutions for contractors, builders, and industrial clients.",
               "Transparent business practices with dependable logistics and consistent supply chain support.",
-              "Years of industry expertise ensuring trusted quality and customer satisfaction."
-            ]
-          }
+              "Years of industry expertise ensuring trusted quality and customer satisfaction.",
+            ],
+          },
         ],
 
-        "specs": [
-          { "label": "Material", "value": "Mild Steel (MS)" },
-          { "label": "Shape", "value": "I Beam" },
-          { "label": "Thickness", "value": "5 mm" },
-          { "label": "Usage/Application", "value": "Construction" },
-          { "label": "Position", "value": "Exterior" },
-          { "label": "Brand", "value": "Shiva Steel Fabricator" },
-          { "label": "Country of Origin", "value": "Made in India" }
+        specs: [
+          { label: "Material", value: "Mild Steel (MS)" },
+          { label: "Shape", value: "I Beam" },
+          { label: "Thickness", value: "5 mm" },
+          { label: "Usage/Application", value: "Construction" },
+          { label: "Position", value: "Exterior" },
+          { label: "Brand", value: "Jindal, Sail" },
+          { label: "Country of Origin", value: "Made in India" },
         ],
 
-        "image": [
+        image: [
           {
-            "src": "/Mild Steel ISMB Section (2).webp",
-            "alt": "Mild Steel ISMB Section I Beam by Shiva Steel Fabricator"
-          }
-        ]
+            src: "/Mild Steel ISMB Section (2).webp",
+            alt: "Mild Steel ISMB Section I Beam by Shiva Steel Fabricator",
+          },
+        ],
       },
 
       {
-        "id": "iron-l-angle",
-        "name": "Iron L Angle",
-        "metaTitle": "Iron L Angle – High Strength Mild Steel L Sections | Shiva Steel Fabricator",
-        "metaDescription": "Shiva Steel Fabricator supplies premium-quality Iron L Angles manufactured from high-grade Mild Steel (MS) using Hot Rolled technology. Available in 5 mm thickness and 6 meter length for construction, fabrication, and structural applications.",
+        id: "iron-l-angle",
+        name: "Iron L Angle",
+        metaTitle:
+          "Iron L Angle – High Strength Mild Steel L Sections | Shiva Steel Fabricator",
+        metaDescription:
+          "Shiva Steel Fabricator supplies premium-quality Iron L Angles manufactured from high-grade Mild Steel (MS) using Hot Rolled technology. Available in 5 mm thickness and 6 meter length for construction, fabrication, and structural applications.",
 
-        "description": [
+        description: [
           {
-            "type": "h2",
-            "text": "Product Overview – Iron L Angle"
+            type: "h2",
+            text: "Product Overview – Iron L Angle",
           },
           {
-            "type": "ul",
-            "items": [
+            type: "ul",
+            items: [
               "Iron L Angles are supplied by Shiva Steel Fabricator, a trusted supplier and wholesaler of premium-quality structural steel products for construction, fabrication, industrial, and engineering applications.",
               "Manufactured from high-grade Mild Steel (MS), the Iron L Angle provides excellent strength, durability, and superior load-bearing capacity for heavy-duty structural applications.",
               "Available in 6-meter length with 5 mm thickness, the Iron L Angle is designed to deliver reliable structural support and long-lasting performance in demanding environments.",
               "Produced using advanced Hot Rolled technology, the Iron L Angle ensures high dimensional accuracy, structural integrity, and resistance to bending under heavy loads.",
               "The L-shaped profile provides strong corner reinforcement, making it ideal for a wide range of fabrication and structural applications.",
-              "Shiva Steel Fabricator maintains ready stock of Iron L Angles to fulfill bulk and wholesale requirements with competitive pricing and timely delivery across India."
-            ]
+              "Shiva Steel Fabricator maintains ready stock of Iron L Angles to fulfill bulk and wholesale requirements with competitive pricing and timely delivery across India.",
+            ],
           },
           {
-            "type": "h2",
-            "text": "Key Features"
+            type: "h2",
+            text: "Key Features",
           },
           {
-            "type": "ul",
-            "items": [
+            type: "ul",
+            items: [
               "Premium-quality Iron L Angle manufactured from high-grade Mild Steel (MS) for superior strength, durability, and long service life.",
               "Material: Mild Steel | Shape: L Shaped | Length: 6 Meter | Thickness: 5 mm | Technique: Hot Rolled.",
               "Hot Rolled manufacturing ensures excellent structural stability, consistent mechanical properties, and precise dimensions.",
               "High load-bearing capacity and strong resistance to deformation under stress make it suitable for heavy-duty applications.",
               "Excellent weldability, machinability, and formability allow easy cutting, drilling, welding, and fabrication.",
-              "Each Iron L Angle undergoes strict quality inspection for dimensional accuracy, strength, and compliance with industrial standards."
-            ]
+              "Each Iron L Angle undergoes strict quality inspection for dimensional accuracy, strength, and compliance with industrial standards.",
+            ],
           },
           {
-            "type": "h2",
-            "text": "Applications"
+            type: "h2",
+            text: "Applications",
           },
           {
-            "type": "ul",
-            "items": [
+            type: "ul",
+            items: [
               "Widely used in construction for structural frameworks, roof trusses, support columns, platforms, and reinforcement work.",
               "Ideal for fabrication of gates, railings, fencing systems, storage racks, machinery frames, and industrial structures.",
               "Commonly used in warehouses, factories, workshops, commercial buildings, and infrastructure projects requiring strong steel sections.",
               "Suitable for shelving systems, workbenches, cable trays, brackets, and customized engineering components.",
               "Preferred by contractors and engineers for industrial sheds, prefabricated structures, bridges, and heavy fabrication projects.",
-              "Versatile for construction, infrastructure, machinery manufacturing, repair work, and general engineering applications."
-            ]
+              "Versatile for construction, infrastructure, machinery manufacturing, repair work, and general engineering applications.",
+            ],
           },
           {
-            "type": "h2",
-            "text": "Why Choose Shiva Steel Fabricator?"
+            type: "h2",
+            text: "Why Choose Shiva Steel Fabricator?",
           },
           {
-            "type": "ul",
-            "items": [
+            type: "ul",
+            items: [
               "Reliable Iron L Angle supplier and wholesaler delivering high-quality steel products with consistent performance.",
               "Ready stock availability for bulk orders with competitive pricing and timely delivery.",
               "Strict quality checks for strength, dimensional accuracy, and durability before dispatch.",
               "Flexible supply options with customized solutions for industrial and construction needs.",
               "Transparent business practices with dependable logistics support.",
-              "Years of expertise in steel manufacturing and supply ensuring customer satisfaction."
-            ]
-          }
+              "Years of expertise in steel manufacturing and supply ensuring customer satisfaction.",
+            ],
+          },
         ],
 
-        "specs": [
-          { "label": "Material", "value": "Mild Steel (MS)" },
-          { "label": "Shape", "value": "L Shaped" },
-          { "label": "Length", "value": "6 Meter" },
-          { "label": "Thickness", "value": "5 mm" },
-          { "label": "Technique", "value": "Hot Rolled" },
-          { "label": "Usage/Application", "value": "Construction" }
+        specs: [
+          { label: "Material", value: "Mild Steel (MS)" },
+          { label: "Shape", value: "L Shaped" },
+          { label: "Length", value: "6 Meter" },
+          { label: "Thickness", value: "5 mm" },
+          { label: "Technique", value: "Hot Rolled" },
+          { label: "Usage/Application", value: "Construction" },
         ],
 
-        "image": [
+        image: [
           {
-            "src": "/Iron L Angle.webp",
-            "alt": "Iron L Angle Mild Steel Hot Rolled Section by Shiva Steel Fabricator"
-          }
-        ]
+            src: "/Iron L Angle.webp",
+            alt: "Iron L Angle Mild Steel Hot Rolled Section by Shiva Steel Fabricator",
+          },
+        ],
       },
-    ]
+    ],
   },
-   {
+  {
     id: "tmt-bars",
     name: "TMT Bars",
     metaTitle: "Shiva Steels",
@@ -3533,193 +3556,197 @@ export const categories = [
 
     products: [
       {
-  "id": "sail-tmt-bars",
-  "name": "SAIL TMT Bars",
-  "metaTitle": "SAIL TMT Bars – Fe 500D High Strength Reinforcement Bars | Shiva Steel Fabricator",
-  "metaDescription": "Shiva Steel Fabricator supplies genuine SAIL TMT Bars manufactured from high-grade Mild Steel (MS) with Fe 500D grade. Available in 6–8 mm diameter and 12–18 meter length for commercial buildings, RCC construction, and infrastructure projects.",
+        id: "sail-tmt-bars",
+        name: "SAIL TMT Bars",
+        metaTitle:
+          "SAIL TMT Bars – Fe 500D High Strength Reinforcement Bars | Shiva Steel Fabricator",
+        metaDescription:
+          "Shiva Steel Fabricator supplies genuine SAIL TMT Bars manufactured from high-grade Mild Steel (MS) with Fe 500D grade. Available in 6–8 mm diameter and 12–18 meter length for commercial buildings, RCC construction, and infrastructure projects.",
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "Product Overview – SAIL TMT Bars"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "SAIL TMT Bars are supplied by Shiva Steel Fabricator, a trusted supplier and wholesaler of premium-quality reinforcement steel for commercial buildings, industrial projects, residential construction, and infrastructure development.",
-        "Manufactured from high-grade Mild Steel (MS) with Fe 500D grade, SAIL TMT Bars deliver superior tensile strength, flexibility, and long-lasting structural performance.",
-        "Available in 6 mm to 8 mm diameter range with 12 meter to 18 meter length options, SAIL TMT Bars are suitable for a wide range of RCC construction and structural reinforcement applications.",
-        "Genuine SAIL TMT Bars are engineered for excellent bonding with concrete, high load-bearing capacity, and improved resistance to seismic forces and structural stress.",
-        "Designed to meet stringent quality standards, SAIL TMT Bars provide outstanding durability, dimensional accuracy, and dependable performance for modern construction requirements.",
-        "Shiva Steel Fabricator maintains ready stock of SAIL TMT Bars to fulfill bulk and wholesale orders with competitive pricing and timely delivery across India."
-      ]
-    },
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Premium-quality SAIL TMT Bars manufactured from high-grade Mild Steel (MS) for exceptional strength, durability, and long service life.",
-        "Material: Mild Steel | Brand: SAIL | Grade: Fe 500D | Diameter: 6 mm – 8 mm | Length: 12 Meter – 18 Meter.",
-        "Fe 500D grade ensures high tensile strength, ductility, and flexibility suitable for RCC and heavy-load construction projects.",
-        "Precision ribbed design improves bonding with concrete, enhancing structural stability and durability.",
-        "Excellent resistance to bending stress, cracking, corrosion, and seismic activity for earthquake-resistant construction.",
-        "Each SAIL TMT Bar undergoes strict quality inspection for dimensional accuracy, mechanical strength, and compliance with industry standards."
-      ]
-    },
-    {
-      "type": "h2",
-      "text": "Applications"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Widely used in commercial buildings for foundations, columns, beams, slabs, roofs, and structural frameworks.",
-        "Ideal for residential apartments, office complexes, malls, hospitals, and educational institutions.",
-        "Commonly used in bridges, flyovers, highways, metro rail projects, dams, and public infrastructure projects.",
-        "Suitable for warehouses, factories, industrial sheds, power plants, and multi-storey buildings requiring strong reinforcement.",
-        "Preferred by contractors, builders, and engineers for RCC construction and precast concrete structures.",
-        "Versatile for earthquake-resistant structures, infrastructure development, and industrial construction projects."
-      ]
-    },
-    {
-      "type": "h2",
-      "text": "Why Choose Shiva Steel Fabricator?"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Reliable supplier of genuine SAIL TMT Bars with assured quality and structural strength.",
-        "Ready stock availability in multiple sizes for bulk and wholesale requirements.",
-        "Strict quality inspection for Fe 500D grade, tensile strength, and dimensional accuracy.",
-        "Flexible supply solutions with timely delivery and competitive pricing.",
-        "Transparent business practices with dependable logistics and customer support.",
-        "Extensive industry experience ensuring consistent quality and customer satisfaction."
-      ]
-    }
-  ],
+        description: [
+          {
+            type: "h2",
+            text: "Product Overview – SAIL TMT Bars",
+          },
+          {
+            type: "ul",
+            items: [
+              "SAIL TMT Bars are supplied by Shiva Steel Fabricator, a trusted supplier and wholesaler of premium-quality reinforcement steel for commercial buildings, industrial projects, residential construction, and infrastructure development.",
+              "Manufactured from high-grade Mild Steel (MS) with Fe 500D grade, SAIL TMT Bars deliver superior tensile strength, flexibility, and long-lasting structural performance.",
+              "Available in 6 mm to 8 mm diameter range with 12 meter to 18 meter length options, SAIL TMT Bars are suitable for a wide range of RCC construction and structural reinforcement applications.",
+              "Genuine SAIL TMT Bars are engineered for excellent bonding with concrete, high load-bearing capacity, and improved resistance to seismic forces and structural stress.",
+              "Designed to meet stringent quality standards, SAIL TMT Bars provide outstanding durability, dimensional accuracy, and dependable performance for modern construction requirements.",
+              "Shiva Steel Fabricator maintains ready stock of SAIL TMT Bars to fulfill bulk and wholesale orders with competitive pricing and timely delivery across India.",
+            ],
+          },
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Premium-quality SAIL TMT Bars manufactured from high-grade Mild Steel (MS) for exceptional strength, durability, and long service life.",
+              "Material: Mild Steel | Brand: SAIL | Grade: Fe 500D | Diameter: 6 mm – 8 mm | Length: 12 Meter – 18 Meter.",
+              "Fe 500D grade ensures high tensile strength, ductility, and flexibility suitable for RCC and heavy-load construction projects.",
+              "Precision ribbed design improves bonding with concrete, enhancing structural stability and durability.",
+              "Excellent resistance to bending stress, cracking, corrosion, and seismic activity for earthquake-resistant construction.",
+              "Each SAIL TMT Bar undergoes strict quality inspection for dimensional accuracy, mechanical strength, and compliance with industry standards.",
+            ],
+          },
+          {
+            type: "h2",
+            text: "Applications",
+          },
+          {
+            type: "ul",
+            items: [
+              "Widely used in commercial buildings for foundations, columns, beams, slabs, roofs, and structural frameworks.",
+              "Ideal for residential apartments, office complexes, malls, hospitals, and educational institutions.",
+              "Commonly used in bridges, flyovers, highways, metro rail projects, dams, and public infrastructure projects.",
+              "Suitable for warehouses, factories, industrial sheds, power plants, and multi-storey buildings requiring strong reinforcement.",
+              "Preferred by contractors, builders, and engineers for RCC construction and precast concrete structures.",
+              "Versatile for earthquake-resistant structures, infrastructure development, and industrial construction projects.",
+            ],
+          },
+          {
+            type: "h2",
+            text: "Why Choose Shiva Steel Fabricator?",
+          },
+          {
+            type: "ul",
+            items: [
+              "Reliable supplier of genuine SAIL TMT Bars with assured quality and structural strength.",
+              "Ready stock availability in multiple sizes for bulk and wholesale requirements.",
+              "Strict quality inspection for Fe 500D grade, tensile strength, and dimensional accuracy.",
+              "Flexible supply solutions with timely delivery and competitive pricing.",
+              "Transparent business practices with dependable logistics and customer support.",
+              "Extensive industry experience ensuring consistent quality and customer satisfaction.",
+            ],
+          },
+        ],
 
-  "specs": [
-    { "label": "Material", "value": "Mild Steel (MS)" },
-    { "label": "Brand", "value": "SAIL" },
-    { "label": "Grade", "value": "Fe 500D" },
-    { "label": "Diameter", "value": "6 mm – 8 mm" },
-    { "label": "Length", "value": "12 Meter – 18 Meter" },
-    { "label": "Usage/Application", "value": "Commercial Buildings" }
-  ],
+        specs: [
+          { label: "Material", value: "Mild Steel (MS)" },
+          { label: "Brand", value: "SAIL" },
+          { label: "Grade", value: "Fe 500D" },
+          { label: "Diameter", value: "10 mm" },
+          { label: "Single Piece Length", value: "6 Meter" },
+          { label: "Usage/Application", value: "Construction" },
+        ],
 
-  "image": [
-    {
-      "src": "/Sail Tmt Bars (1).webp",
-      "alt": "SAIL TMT Bars Fe 500D Reinforcement Steel by Shiva Steel Fabricator"
-    }
-  ]
-},
+        image: [
+          {
+            src: "/Sail Tmt Bars (1).webp",
+            alt: "SAIL TMT Bars Fe 500D Reinforcement Steel by Shiva Steel Fabricator",
+          },
+        ],
+      },
 
-{
-  "id": "kamdhenu-tmt-bars",
-  "name": "Kamdhenu TMT Bars",
-  "metaTitle": "Kamdhenu TMT Bars – Fe 500 Premium Reinforcement Bars | Shiva Steel Fabricator",
-  "metaDescription": "Shiva Steel Fabricator supplies premium Kamdhenu TMT Bars manufactured from high-grade Mild Steel with Fe 500 grade. Available in 12 mm diameter and 6 meter length, ideal for residential, commercial, industrial, and infrastructure construction.",
+      {
+        id: "kamdhenu-tmt-bars",
+        name: "Kamdhenu TMT Bars",
+        metaTitle:
+          "Kamdhenu TMT Bars – Fe 500 Premium Reinforcement Bars | Shiva Steel Fabricator",
+        metaDescription:
+          "Shiva Steel Fabricator supplies premium Kamdhenu TMT Bars manufactured from high-grade Mild Steel with Fe 500 grade. Available in 12 mm diameter and 6 meter length, ideal for residential, commercial, industrial, and infrastructure construction.",
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "Product Overview – Kamdhenu TMT Bars"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Shiva Steel Fabricator is a trusted Kamdhenu TMT Bars supplier and wholesaler, offering premium-quality reinforcement bars for residential, commercial, industrial, and infrastructure construction projects.",
-        "Our Kamdhenu TMT Bars are manufactured from high-grade Mild Steel with Fe 500 grade, ensuring excellent tensile strength, flexibility, and superior structural stability for reinforced concrete applications.",
-        "Available in 12 mm diameter with a 6-meter standard length, the Kamdhenu TMT Bars are designed to provide reliable reinforcement for foundations, beams, columns, slabs, and other structural components.",
-        "Genuine Kamdhenu TMT Bars are engineered to provide excellent bonding with concrete, improved load-bearing capacity, and long-lasting durability under demanding construction conditions.",
-        "Manufactured using advanced production techniques and stringent quality standards, the Kamdhenu TMT Bars offer consistent dimensions, superior mechanical properties, and dependable performance.",
-        "As a leading Kamdhenu TMT Bars wholesaler, Shiva Steel Fabricator maintains ready stock to fulfill bulk and wholesale orders with competitive pricing and prompt delivery across India."
-      ]
-    },
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Premium-quality Kamdhenu TMT Bars manufactured from high-grade Mild Steel for exceptional strength, durability, and long service life.",
-        "Brand: Kamdhenu | Material: Mild Steel | Grade: Fe 500 | Diameter: 12 mm | Single Piece Length: 6 Meter.",
-        "The Fe 500 Kamdhenu TMT Bars provide high tensile strength, excellent ductility, and superior flexibility, making them suitable for RCC structures and heavy-load construction projects.",
-        "Precision ribbed design ensures stronger bonding between the Kamdhenu TMT Bars and concrete, improving the overall strength, stability, and lifespan of reinforced structures.",
-        "The Kamdhenu TMT Bars offer excellent resistance to bending stress, cracking, corrosion, and seismic forces, making them suitable for earthquake-resistant construction.",
-        "Every Kamdhenu TMT Bar undergoes stringent quality inspections to ensure dimensional accuracy, consistent mechanical properties, superior strength, and compliance with industry standards."
-      ]
-    },
-    {
-      "type": "h2",
-      "text": "Applications"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Kamdhenu TMT Bars are widely used in residential, commercial, and industrial construction projects for reinforcing concrete structures and improving structural strength.",
-        "Ideal for constructing foundations, columns, beams, slabs, roofs, retaining walls, and RCC frameworks that require reliable reinforcement steel.",
-        "Commonly used in bridges, flyovers, highways, metro projects, dams, and infrastructure developments where high-strength reinforcement is essential.",
-        "Suitable for factories, warehouses, industrial sheds, commercial complexes, educational institutions, and multi-storey buildings requiring durable reinforcement bars.",
-        "Preferred by contractors, builders, developers, and civil engineers for RCC construction, precast concrete structures, and heavy engineering applications.",
-        "The versatility of Kamdhenu TMT Bars makes them suitable for earthquake-resistant buildings, infrastructure projects, industrial construction, commercial developments, and customized structural reinforcement applications."
-      ]
-    },
-    {
-      "type": "h2",
-      "text": "Why Choose Shiva Steel Fabricator?"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Shiva Steel Fabricator is a reliable Kamdhenu TMT Bars supplier and wholesaler, delivering genuine Kamdhenu products with assured quality, strength, and long-lasting structural performance.",
-        "We maintain ready stock of Kamdhenu TMT Bars to fulfill bulk and wholesale orders efficiently while ensuring timely delivery and competitive wholesale pricing.",
-        "Every Kamdhenu TMT Bar is thoroughly inspected for Fe 500 grade quality, dimensional accuracy, tensile strength, and mechanical performance before dispatch.",
-        "We provide flexible order quantities, customized supply solutions, and dedicated customer support to meet the requirements of contractors, builders, developers, dealers, and industrial clients.",
-        "Our commitment to supplying genuine Kamdhenu TMT Bars, transparent business practices, and dependable logistics has made Shiva Steel Fabricator a preferred wholesale partner across multiple industries.",
-        "With years of expertise in the steel industry, Shiva Steel Fabricator continues to supply premium Kamdhenu TMT Bars backed by exceptional service, reliable quality, and complete customer satisfaction."
-      ]
-    }
-  ],
+        description: [
+          {
+            type: "h2",
+            text: "Product Overview – Kamdhenu TMT Bars",
+          },
+          {
+            type: "ul",
+            items: [
+              "Shiva Steel Fabricator is a trusted Kamdhenu TMT Bars supplier and wholesaler, offering premium-quality reinforcement bars for residential, commercial, industrial, and infrastructure construction projects.",
+              "Our Kamdhenu TMT Bars are manufactured from high-grade Mild Steel with Fe 500 grade, ensuring excellent tensile strength, flexibility, and superior structural stability for reinforced concrete applications.",
+              "Available in 12 mm diameter with a 6-meter standard length, the Kamdhenu TMT Bars are designed to provide reliable reinforcement for foundations, beams, columns, slabs, and other structural components.",
+              "Genuine Kamdhenu TMT Bars are engineered to provide excellent bonding with concrete, improved load-bearing capacity, and long-lasting durability under demanding construction conditions.",
+              "Manufactured using advanced production techniques and stringent quality standards, the Kamdhenu TMT Bars offer consistent dimensions, superior mechanical properties, and dependable performance.",
+              "As a leading Kamdhenu TMT Bars wholesaler, Shiva Steel Fabricator maintains ready stock to fulfill bulk and wholesale orders with competitive pricing and prompt delivery across India.",
+            ],
+          },
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Premium-quality Kamdhenu TMT Bars manufactured from high-grade Mild Steel for exceptional strength, durability, and long service life.",
+              "Brand: Kamdhenu | Material: Mild Steel | Grade: Fe 500 | Diameter: 12 mm | Single Piece Length: 6 Meter.",
+              "The Fe 500 Kamdhenu TMT Bars provide high tensile strength, excellent ductility, and superior flexibility, making them suitable for RCC structures and heavy-load construction projects.",
+              "Precision ribbed design ensures stronger bonding between the Kamdhenu TMT Bars and concrete, improving the overall strength, stability, and lifespan of reinforced structures.",
+              "The Kamdhenu TMT Bars offer excellent resistance to bending stress, cracking, corrosion, and seismic forces, making them suitable for earthquake-resistant construction.",
+              "Every Kamdhenu TMT Bar undergoes stringent quality inspections to ensure dimensional accuracy, consistent mechanical properties, superior strength, and compliance with industry standards.",
+            ],
+          },
+          {
+            type: "h2",
+            text: "Applications",
+          },
+          {
+            type: "ul",
+            items: [
+              "Kamdhenu TMT Bars are widely used in residential, commercial, and industrial construction projects for reinforcing concrete structures and improving structural strength.",
+              "Ideal for constructing foundations, columns, beams, slabs, roofs, retaining walls, and RCC frameworks that require reliable reinforcement steel.",
+              "Commonly used in bridges, flyovers, highways, metro projects, dams, and infrastructure developments where high-strength reinforcement is essential.",
+              "Suitable for factories, warehouses, industrial sheds, commercial complexes, educational institutions, and multi-storey buildings requiring durable reinforcement bars.",
+              "Preferred by contractors, builders, developers, and civil engineers for RCC construction, precast concrete structures, and heavy engineering applications.",
+              "The versatility of Kamdhenu TMT Bars makes them suitable for earthquake-resistant buildings, infrastructure projects, industrial construction, commercial developments, and customized structural reinforcement applications.",
+            ],
+          },
+          {
+            type: "h2",
+            text: "Why Choose Shiva Steel Fabricator?",
+          },
+          {
+            type: "ul",
+            items: [
+              "Shiva Steel Fabricator is a reliable Kamdhenu TMT Bars supplier and wholesaler, delivering genuine Kamdhenu products with assured quality, strength, and long-lasting structural performance.",
+              "We maintain ready stock of Kamdhenu TMT Bars to fulfill bulk and wholesale orders efficiently while ensuring timely delivery and competitive wholesale pricing.",
+              "Every Kamdhenu TMT Bar is thoroughly inspected for Fe 500 grade quality, dimensional accuracy, tensile strength, and mechanical performance before dispatch.",
+              "We provide flexible order quantities, customized supply solutions, and dedicated customer support to meet the requirements of contractors, builders, developers, dealers, and industrial clients.",
+              "Our commitment to supplying genuine Kamdhenu TMT Bars, transparent business practices, and dependable logistics has made Shiva Steel Fabricator a preferred wholesale partner across multiple industries.",
+              "With years of expertise in the steel industry, Shiva Steel Fabricator continues to supply premium Kamdhenu TMT Bars backed by exceptional service, reliable quality, and complete customer satisfaction.",
+            ],
+          },
+        ],
 
-  "specs": [
-    {
-      "label": "Brand",
-      "value": "Kamdhenu"
-    },
-    {
-      "label": "Material",
-      "value": "Mild Steel"
-    },
-    {
-      "label": "Grade",
-      "value": "Fe 500"
-    },
-    {
-      "label": "Diameter",
-      "value": "12 mm"
-    },
-    {
-      "label": "Single Piece Length",
-      "value": "6 meter"
-    }
-  ],
+        specs: [
+          {
+            label: "Brand",
+            value: "Kamdhenu",
+          },
+          {
+            label: "Material",
+            value: "Mild Steel",
+          },
+          {
+            label: "Grade",
+            value: "Fe 500",
+          },
+          {
+            label: "Diameter",
+            value: "8-30 mm",
+          },
+          {
+            label: "Single Piece Length",
+            value: "12 meter",
+          },
+        ],
 
-  "image": [
-    {
-      "src": "/Kamdhenu Tmt Bars.webp",
-      "alt": "Kamdhenu TMT Bars Fe 500 high strength reinforcement bars"
-    }
-  ]
-}
-    ]
+        image: [
+          {
+            src: "/Kamdhenu Tmt Bars.webp",
+            alt: "Kamdhenu TMT Bars Fe 500 high strength reinforcement bars",
+          },
+        ],
+      },
+    ],
   },
-   {
+  {
     id: "cable-tray",
     name: "Cable Tray",
     metaTitle: "Shiva Steels",
@@ -3727,223 +3754,225 @@ export const categories = [
 
     products: [
       {
-  "id": "gi-electrical-cable-tray",
-  "name": "GI Electrical Cable Tray",
-  "metaTitle": "GI Electrical Cable Tray – Perforated U-Shape Cable Management System | Shiva Steel Fabricator",
-  "metaDescription": "Shiva Steel Fabricator supplies premium GI Electrical Cable Trays made from high-quality galvanized steel. Perforated U-shape design with 5.2 mm thickness, ideal for communication and electrical cable management in industrial and commercial applications.",
+        id: "gi-electrical-cable-tray",
+        name: "GI Electrical Cable Tray",
+        metaTitle:
+          "GI Electrical Cable Tray – Perforated U-Shape Cable Management System | Shiva Steel Fabricator",
+        metaDescription:
+          "Shiva Steel Fabricator supplies premium GI Electrical Cable Trays made from high-quality galvanized steel. Perforated U-shape design with 5.2 mm thickness, ideal for communication and electrical cable management in industrial and commercial applications.",
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "Product Overview – GI Electrical Cable Tray"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Shiva Steel Fabricator is a trusted GI Electrical Cable Tray supplier and wholesaler, offering premium-quality cable management solutions for commercial, industrial, and infrastructure projects.",
-        "Our GI Electrical Cable Tray is manufactured from high-quality steel with a durable galvanized finish, ensuring superior strength, corrosion resistance, and long-lasting performance.",
-        "Designed as a perforated cable tray with a U-shaped profile and 5.2 mm sheet thickness, the GI Electrical Cable Tray provides excellent support and ventilation for communication and electrical cable installations.",
-        "The GI Electrical Cable Tray is engineered to organize, protect, and route communication cables efficiently while minimizing cable damage and simplifying maintenance.",
-        "Manufactured in India using advanced fabrication techniques, every GI Electrical Cable Tray delivers accurate dimensions, high load-bearing capacity, and reliable performance in demanding environments.",
-        "As a leading GI Electrical Cable Tray wholesaler, Shiva Steel Fabricator maintains ready stock to fulfill bulk and wholesale orders with competitive pricing and timely delivery across India."
-      ]
-    },
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Premium-quality GI Electrical Cable Tray manufactured from high-grade steel for superior strength, durability, and long service life.",
-        "Tray Type: Perforated Cable Tray | Material: Steel | Shape: U Shape | Sheet Thickness: 5.2 mm | Country of Origin: Made in India.",
-        "The perforated design provides excellent airflow and heat dissipation while preventing moisture buildup and extending cable life.",
-        "The galvanized finish offers outstanding resistance against rust, corrosion, moisture, and harsh environmental conditions.",
-        "High load-bearing capacity ensures safe routing of communication cables with easy installation, inspection, and maintenance.",
-        "Every GI Electrical Cable Tray undergoes strict quality inspections to ensure dimensional accuracy, structural strength, and compliance with industrial standards."
-      ]
-    },
-    {
-      "type": "h2",
-      "text": "Applications"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Widely used for supporting and managing communication cables in commercial buildings, industrial facilities, and infrastructure projects.",
-        "Ideal for data centers, IT parks, office complexes, hospitals, educational institutions, and telecommunication installations.",
-        "Commonly used in factories, warehouses, manufacturing plants, power stations, and industrial units for safe cable routing.",
-        "Suitable for electrical substations, control rooms, utility buildings, shopping malls, airports, and railway stations.",
-        "Preferred by electrical contractors and engineers for structured cabling systems including fiber optics and networking cables.",
-        "Versatile for industrial automation, infrastructure development, commercial construction, and customized cable management systems."
-      ]
-    },
-    {
-      "type": "h2",
-      "text": "Why Choose Shiva Steel Fabricator?"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Shiva Steel Fabricator is a reliable GI Electrical Cable Tray supplier and wholesaler, delivering premium-quality products with assured strength and durability.",
-        "We maintain ready stock to fulfill bulk and wholesale orders efficiently with timely delivery and competitive pricing.",
-        "Every cable tray is inspected for dimensional accuracy, galvanized finish, structural strength, and long-lasting performance.",
-        "We offer flexible order quantities, customized supply solutions, and dedicated customer support for industrial clients and contractors.",
-        "Our transparent business practices and dependable logistics make us a preferred supplier across multiple industries.",
-        "With years of expertise, we continue to deliver premium GI Electrical Cable Tray products backed by quality assurance and customer satisfaction."
-      ]
-    }
-  ],
+        description: [
+          {
+            type: "h2",
+            text: "Product Overview – GI Electrical Cable Tray",
+          },
+          {
+            type: "ul",
+            items: [
+              "Shiva Steel Fabricator is a trusted GI Electrical Cable Tray supplier and wholesaler, offering premium-quality cable management solutions for commercial, industrial, and infrastructure projects.",
+              "Our GI Electrical Cable Tray is manufactured from high-quality steel with a durable galvanized finish, ensuring superior strength, corrosion resistance, and long-lasting performance.",
+              "Designed as a perforated cable tray with a U-shaped profile and 5.2 mm sheet thickness, the GI Electrical Cable Tray provides excellent support and ventilation for communication and electrical cable installations.",
+              "The GI Electrical Cable Tray is engineered to organize, protect, and route communication cables efficiently while minimizing cable damage and simplifying maintenance.",
+              "Manufactured in India using advanced fabrication techniques, every GI Electrical Cable Tray delivers accurate dimensions, high load-bearing capacity, and reliable performance in demanding environments.",
+              "As a leading GI Electrical Cable Tray wholesaler, Shiva Steel Fabricator maintains ready stock to fulfill bulk and wholesale orders with competitive pricing and timely delivery across India.",
+            ],
+          },
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Premium-quality GI Electrical Cable Tray manufactured from high-grade steel for superior strength, durability, and long service life.",
+              "Tray Type: Perforated Cable Tray | Material: Steel | Shape: U Shape | Sheet Thickness: 5.2 mm | Country of Origin: Made in India.",
+              "The perforated design provides excellent airflow and heat dissipation while preventing moisture buildup and extending cable life.",
+              "The galvanized finish offers outstanding resistance against rust, corrosion, moisture, and harsh environmental conditions.",
+              "High load-bearing capacity ensures safe routing of communication cables with easy installation, inspection, and maintenance.",
+              "Every GI Electrical Cable Tray undergoes strict quality inspections to ensure dimensional accuracy, structural strength, and compliance with industrial standards.",
+            ],
+          },
+          {
+            type: "h2",
+            text: "Applications",
+          },
+          {
+            type: "ul",
+            items: [
+              "Widely used for supporting and managing communication cables in commercial buildings, industrial facilities, and infrastructure projects.",
+              "Ideal for data centers, IT parks, office complexes, hospitals, educational institutions, and telecommunication installations.",
+              "Commonly used in factories, warehouses, manufacturing plants, power stations, and industrial units for safe cable routing.",
+              "Suitable for electrical substations, control rooms, utility buildings, shopping malls, airports, and railway stations.",
+              "Preferred by electrical contractors and engineers for structured cabling systems including fiber optics and networking cables.",
+              "Versatile for industrial automation, infrastructure development, commercial construction, and customized cable management systems.",
+            ],
+          },
+          {
+            type: "h2",
+            text: "Why Choose Shiva Steel Fabricator?",
+          },
+          {
+            type: "ul",
+            items: [
+              "Shiva Steel Fabricator is a reliable GI Electrical Cable Tray supplier and wholesaler, delivering premium-quality products with assured strength and durability.",
+              "We maintain ready stock to fulfill bulk and wholesale orders efficiently with timely delivery and competitive pricing.",
+              "Every cable tray is inspected for dimensional accuracy, galvanized finish, structural strength, and long-lasting performance.",
+              "We offer flexible order quantities, customized supply solutions, and dedicated customer support for industrial clients and contractors.",
+              "Our transparent business practices and dependable logistics make us a preferred supplier across multiple industries.",
+              "With years of expertise, we continue to deliver premium GI Electrical Cable Tray products backed by quality assurance and customer satisfaction.",
+            ],
+          },
+        ],
 
-  "specs": [
-    {
-      "label": "Tray Type",
-      "value": "Perforated Cable Tray"
-    },
-    {
-      "label": "Material",
-      "value": "Steel (GI Coated)"
-    },
-    {
-      "label": "Shape",
-      "value": "U Shape"
-    },
-    {
-      "label": "Sheet Thickness",
-      "value": "5.2 mm"
-    },
-    {
-      "label": "Usage/Application",
-      "value": "Communication Cables"
-    },
-    {
-      "label": "Country of Origin",
-      "value": "Made in India"
-    }
-  ],
+        specs: [
+          {
+            label: "Tray Type",
+            value: "Perforated Cable Tray",
+          },
+          {
+            label: "Material",
+            value: "Steel (GI Coated)",
+          },
+          {
+            label: "Shape",
+            value: "U Shape",
+          },
+          {
+            label: "Sheet Thickness",
+            value: "0.8 - 3 mm",
+          },
+          {
+            label: "Usage/Application",
+            value: "Communication Cables",
+          },
+          {
+            label: "Country of Origin",
+            value: "Made in India",
+          },
+        ],
 
-  "image": [
-    {
-      "src": "/prod/Gi Electrical Cable Tray (1).webp",
-      "alt": "GI Perforated Electrical Cable Tray U shape galvanized steel"
-    }
-  ]
-},
-{
-  "id": "stainless-steel-electric-cable-tray",
-  "name": "Stainless Steel Electric Cable Tray",
-  "metaTitle": "Stainless Steel Electric Cable Tray – Perforated 8FT Cable Tray | Shiva Steel Fabricator",
-  "metaDescription": "Shiva Steel Fabricator supplies premium Stainless Steel Electric Cable Trays with galvanized coating. Perforated design, 8 ft size, and multiple thickness options (1 mm to 2 mm) ideal for industrial and commercial cable management.",
+        image: [
+          {
+            src: "/prod/Gi Electrical Cable Tray (1).webp",
+            alt: "GI Perforated Electrical Cable Tray U shape galvanized steel",
+          },
+        ],
+      },
+      {
+        id: "stainless-steel-electric-cable-tray",
+        name: "Stainless Steel Electric Cable Tray",
+        metaTitle:
+          "Stainless Steel Electric Cable Tray – Perforated 8FT Cable Tray | Shiva Steel Fabricator",
+        metaDescription:
+          "Shiva Steel Fabricator supplies premium Stainless Steel Electric Cable Trays with galvanized coating. Perforated design, 8 ft size, and multiple thickness options (1 mm to 2 mm) ideal for industrial and commercial cable management.",
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "Product Overview – Stainless Steel Electric Cable Tray"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Shiva Steel Fabricator is a trusted Stainless Steel Electric Cable Tray supplier and wholesaler, offering premium-quality cable trays for industrial, commercial, IT, and infrastructure cable management applications.",
-        "Our Stainless Steel Electric Cable Tray is manufactured from high-grade stainless steel with a durable galvanized coating, providing excellent corrosion resistance, strength, and long-lasting performance.",
-        "Designed as a perforated cable tray, the Stainless Steel Electric Cable Tray ensures proper ventilation, efficient heat dissipation, and organized cable routing for enhanced system safety.",
-        "Available in a standard 8 ft size with thickness options of 1 mm, 1.2 mm, 1.5 mm, and 2 mm, the Stainless Steel Electric Cable Tray is suitable for light, medium, and heavy-duty cable installations.",
-        "Manufactured with an 80 GSM galvanized coating, the Stainless Steel Electric Cable Tray offers superior protection against rust, moisture, oxidation, and harsh industrial environments.",
-        "As a leading Stainless Steel Electric Cable Tray wholesaler, Shiva Steel Fabricator maintains ready stock to fulfill bulk and wholesale orders with competitive pricing and timely delivery across India."
-      ]
-    },
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Premium-quality Stainless Steel Electric Cable Tray manufactured from high-grade stainless steel for superior durability, structural strength, and extended service life.",
-        "Tray Type: Perforated Cable Tray | Material: Stainless Steel | Cable Tray Coating: Galvanized Coating | Size: 8 FT | Grade: 80 GSM | Thickness: 1 mm, 1.2 mm, 1.5 mm, 2 mm.",
-        "The perforated design improves airflow and heat dissipation while reducing moisture accumulation and extending cable life.",
-        "The 80 GSM galvanized coating provides excellent resistance against corrosion, rust, chemicals, and environmental exposure, making it suitable for demanding industrial conditions.",
-        "Designed with high load-bearing capacity, it supports safe installation of computer, communication, thermocouple, and control cables.",
-        "Every Stainless Steel Electric Cable Tray undergoes stringent quality inspections to ensure dimensional accuracy, superior finish, structural stability, and compliance with industry standards."
-      ]
-    },
-    {
-      "type": "h2",
-      "text": "Applications"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Widely used to support computer cables, communication cables, thermocouple cables, and control cables in commercial and industrial facilities.",
-        "Ideal for data centers, IT parks, office buildings, hospitals, educational institutions, and telecommunication projects requiring organized cable management systems.",
-        "Commonly used in manufacturing plants, factories, power stations, substations, control rooms, and process industries for routing electrical and instrumentation cables.",
-        "Suitable for shopping malls, airports, railway stations, warehouses, pharmaceutical plants, chemical industries, and infrastructure projects requiring corrosion-resistant cable trays.",
-        "Preferred by electrical contractors and engineers for structured cabling systems, networking infrastructure, automation systems, and industrial electrical installations.",
-        "Versatile for commercial construction, industrial automation, infrastructure development, utility projects, and customized cable management solutions."
-      ]
-    },
-    {
-      "type": "h2",
-      "text": "Why Choose Shiva Steel Fabricator?"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Shiva Steel Fabricator is a reliable Stainless Steel Electric Cable Tray supplier and wholesaler, delivering premium-quality products with assured strength and durability.",
-        "We maintain ready stock in multiple thickness options to fulfill bulk and wholesale orders with timely delivery and competitive pricing.",
-        "Every cable tray is thoroughly inspected for dimensional accuracy, coating quality, structural strength, and long-lasting performance before dispatch.",
-        "We offer flexible order quantities, customized supply solutions, and dedicated customer support for industrial clients and contractors.",
-        "Our transparent business practices and dependable logistics make us a preferred supplier across multiple industries.",
-        "With years of expertise, we continue to deliver premium Stainless Steel Electric Cable Tray products backed by quality assurance and customer satisfaction."
-      ]
-    }
-  ],
+        description: [
+          {
+            type: "h2",
+            text: "Product Overview – Stainless Steel Electric Cable Tray",
+          },
+          {
+            type: "ul",
+            items: [
+              "Shiva Steel Fabricator is a trusted Stainless Steel Electric Cable Tray supplier and wholesaler, offering premium-quality cable trays for industrial, commercial, IT, and infrastructure cable management applications.",
+              "Our Stainless Steel Electric Cable Tray is manufactured from high-grade stainless steel with a durable galvanized coating, providing excellent corrosion resistance, strength, and long-lasting performance.",
+              "Designed as a perforated cable tray, the Stainless Steel Electric Cable Tray ensures proper ventilation, efficient heat dissipation, and organized cable routing for enhanced system safety.",
+              "Available in a standard 8 ft size with thickness options of 1 mm, 1.2 mm, 1.5 mm, and 2 mm, the Stainless Steel Electric Cable Tray is suitable for light, medium, and heavy-duty cable installations.",
+              "Manufactured with an 80 GSM galvanized coating, the Stainless Steel Electric Cable Tray offers superior protection against rust, moisture, oxidation, and harsh industrial environments.",
+              "As a leading Stainless Steel Electric Cable Tray wholesaler, Shiva Steel Fabricator maintains ready stock to fulfill bulk and wholesale orders with competitive pricing and timely delivery across India.",
+            ],
+          },
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Premium-quality Stainless Steel Electric Cable Tray manufactured from high-grade stainless steel for superior durability, structural strength, and extended service life.",
+              "Tray Type: Perforated Cable Tray | Material: Stainless Steel | Cable Tray Coating: Galvanized Coating | Size: 8 FT | Grade: 80 GSM | Thickness: 1 mm, 1.2 mm, 1.5 mm, 2 mm.",
+              "The perforated design improves airflow and heat dissipation while reducing moisture accumulation and extending cable life.",
+              "The 80 GSM galvanized coating provides excellent resistance against corrosion, rust, chemicals, and environmental exposure, making it suitable for demanding industrial conditions.",
+              "Designed with high load-bearing capacity, it supports safe installation of computer, communication, thermocouple, and control cables.",
+              "Every Stainless Steel Electric Cable Tray undergoes stringent quality inspections to ensure dimensional accuracy, superior finish, structural stability, and compliance with industry standards.",
+            ],
+          },
+          {
+            type: "h2",
+            text: "Applications",
+          },
+          {
+            type: "ul",
+            items: [
+              "Widely used to support computer cables, communication cables, thermocouple cables, and control cables in commercial and industrial facilities.",
+              "Ideal for data centers, IT parks, office buildings, hospitals, educational institutions, and telecommunication projects requiring organized cable management systems.",
+              "Commonly used in manufacturing plants, factories, power stations, substations, control rooms, and process industries for routing electrical and instrumentation cables.",
+              "Suitable for shopping malls, airports, railway stations, warehouses, pharmaceutical plants, chemical industries, and infrastructure projects requiring corrosion-resistant cable trays.",
+              "Preferred by electrical contractors and engineers for structured cabling systems, networking infrastructure, automation systems, and industrial electrical installations.",
+              "Versatile for commercial construction, industrial automation, infrastructure development, utility projects, and customized cable management solutions.",
+            ],
+          },
+          {
+            type: "h2",
+            text: "Why Choose Shiva Steel Fabricator?",
+          },
+          {
+            type: "ul",
+            items: [
+              "Shiva Steel Fabricator is a reliable Stainless Steel Electric Cable Tray supplier and wholesaler, delivering premium-quality products with assured strength and durability.",
+              "We maintain ready stock in multiple thickness options to fulfill bulk and wholesale orders with timely delivery and competitive pricing.",
+              "Every cable tray is thoroughly inspected for dimensional accuracy, coating quality, structural strength, and long-lasting performance before dispatch.",
+              "We offer flexible order quantities, customized supply solutions, and dedicated customer support for industrial clients and contractors.",
+              "Our transparent business practices and dependable logistics make us a preferred supplier across multiple industries.",
+              "With years of expertise, we continue to deliver premium Stainless Steel Electric Cable Tray products backed by quality assurance and customer satisfaction.",
+            ],
+          },
+        ],
 
-  "specs": [
-    {
-      "label": "Tray Type",
-      "value": "Perforated Cable Tray"
-    },
-    {
-      "label": "Material",
-      "value": "Stainless Steel"
-    },
-    {
-      "label": "Cable Tray Coating",
-      "value": "Galvanized Coating (80 GSM)"
-    },
-    {
-      "label": "Size",
-      "value": "8 FT"
-    },
-    {
-      "label": "Thickness",
-      "value": "1 mm, 1.2 mm, 1.5 mm, 2 mm"
-    },
-    {
-      "label": "Grade",
-      "value": "80 GSM"
-    },
-    {
-      "label": "Usage/Application",
-      "value": "Computer, communication, thermocouple and control cables"
-    },
-    {
-      "label": "Country of Origin",
-      "value": "Made in India"
-    }
-  ],
+        specs: [
+          {
+            label: "Tray Type",
+            value: "Perforated Cable Tray",
+          },
+          {
+            label: "Material",
+            value: "Stainless Steel",
+          },
+          {
+            label: "Cable Tray Coating",
+            value: "Galvanized Coating (80 GSM)",
+          },
+          {
+            label: "Size",
+            value: "8 FT",
+          },
+          {
+            label: "Thickness",
+            value: "1 mm, 1.2 mm, 1.5 mm, 2 mm",
+          },
+          {
+            label: "Grade",
+            value: "80 GSM",
+          },
+          {
+            label: "Usage/Application",
+            value: "Computer, communication, thermocouple and control cables",
+          },
+          {
+            label: "Country of Origin",
+            value: "Made in India",
+          },
+        ],
 
-  "image": [
-    {
-      "src": "/prod/Stainless Steel Electric Cable Tray (1).webp",
-      "alt": "Stainless Steel perforated electric cable tray with galvanized coating"
-    }
-  ]
-}
-    ]
-  }
-
-
+        image: [
+          {
+            src: "/prod/Stainless Steel Electric Cable Tray (1).webp",
+            alt: "Stainless Steel perforated electric cable tray with galvanized coating",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export const serviceLocations = [
