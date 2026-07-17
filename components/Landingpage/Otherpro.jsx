@@ -207,7 +207,7 @@ const products = [
 
         {/* DECORATION */}
         <Image
-          src="/ChatGPT Image Jun 25, 2026, 02_37_20 PM.png"
+          src="/round.png"
           alt="Decoration"
           width={160}
           height={160}
