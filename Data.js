@@ -4,15 +4,9 @@ export const categories = [
     id: "gi-sheet",
     name: "GI Sheet",
     metaTitle:
-<<<<<<< HEAD
       "GI Sheet Supplier | Premium Galvanized Iron Sheets | Shiva Steel Fabricator",
     metaDescription:
       "Looking for high-quality GI Sheets? Shiva Steel Fabricator offers durable and corrosion-resistant Galvanized Iron Sheets in various sizes and thicknesses for roofing, fabrication, and industrial projects.",
-=======
-      "Shiva Steels",
-    metaDescription:
-      "Shiva Steels",
->>>>>>> 24a7e34a5da98bfd5f1c65ed80715e6cbd409007
 
     products: [
       // dymmy
