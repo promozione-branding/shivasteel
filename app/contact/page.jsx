@@ -1,8 +1,8 @@
 import ContactClient from "./ContactClient";
 
 export const metadata = {
-  title: "Contact Us – Get in Touch | Sangam Plastic Industries",
-  description: "Contact Sangam Plastic Industries for enquiries about premium quality garbage bags, waste management solutions, bulk orders and customer support. We're here to help!",
+  title: "Contact Shiva Steel Fabricator | Get a Free Quote Today",
+  description: "Contact Shiva Steel Fabricator for premium-quality MS Pipes, MS Plates, GI Sheets, GP Sheets, Cable Trays, and other steel products. Get expert assistance, competitive pricing, and a free quote for your project requirements.",
 };
 
 export default function BlogsPage() {

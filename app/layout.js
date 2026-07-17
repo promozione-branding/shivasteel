@@ -19,8 +19,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "shivasteel",
-  description: "shivasteel",
+  title: "MS Pipe, GI Sheet, GP Sheet & Cable Tray Supplier | Shiva Steel Fabricator",
+  description: "Shiva Steel Fabricator is a trusted supplier of MS Pipe, MS Plate, MS Angle, MS Beam, MS Channel, GI Sheet, GP Sheet, Cable Tray, Perforated Cable Tray, Boiler Plates, Heavy Plates, and Chequered Plates. Quality products, competitive prices, and timely delivery.",
   icons: {
     icon: "/logo.webp",
     shortcut:  "/logo.webp",

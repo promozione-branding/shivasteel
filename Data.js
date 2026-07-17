@@ -4,9 +4,9 @@ export const categories = [
     id: "gi-sheet",
     name: "GI Sheet",
     metaTitle:
-      "Biodegradable Garbage Bags – Eco-Friendly Waste Solutions | Sangam Plastic Industries",
+      "GI Sheet Supplier | Premium Galvanized Iron Sheets | Shiva Steel Fabricator",
     metaDescription:
-      "Explore premium biodegradable garbage bags designed for eco-friendly waste management. Strong, compostable and sustainable bags for home, office, and industrial use.",
+      "Looking for high-quality GI Sheets? Shiva Steel Fabricator offers durable and corrosion-resistant Galvanized Iron Sheets in various sizes and thicknesses for roofing, fabrication, and industrial projects.",
 
     products: [
       // dymmy
@@ -118,9 +118,9 @@ export const categories = [
         id: "gi-plain-sheet",
         name: "GI Plain Sheet",
         metaTitle:
-          "GI Plain Sheet – Premium Quality Galvanized Iron Sheets | Shiva Steel Fabricator",
+          "GI Plain Sheet Supplier | Premium Galvanized Iron Sheets | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality GI Plain Sheets manufactured using advanced cold rolled technology. Available in 0.30 mm thickness with superior corrosion resistance for construction, fabrication, industrial, and commercial applications.",
+          "Shiva Steel Fabricator supplies premium-quality GI Plain Sheets for roofing, cladding, fabrication, construction, and industrial applications. Explore durable Galvanized Iron Sheets at competitive prices with timely delivery.",
 
         description: [
           {
@@ -226,9 +226,9 @@ export const categories = [
         id: "0-40mm-gi-sheets",
         name: "0.40mm GI Sheets",
         metaTitle:
-          "0.40mm GI Sheets – Premium Quality Galvanized Iron Sheets | Shiva Steel Fabricator",
+          "0.40mm GI Sheet Supplier | Galvanized Iron Sheets | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality 0.40mm GI Sheets manufactured using advanced hot rolled technology. Available in 10 ft length and 2 ft width with color-coated surface treatment for industrial, commercial, and construction applications.",
+          "Shiva Steel Fabricator supplies premium-quality 0.40mm GI Sheets for roofing, fabrication, cladding, and industrial applications. Explore corrosion-resistant Galvanized Iron Sheets at competitive prices with timely delivery.",
         description: [
           { type: "h2", text: "Product Overview – 0.40mm GI Sheets" },
           {
@@ -298,9 +298,9 @@ export const categories = [
         id: "0-5mm-gi-sheets",
         name: "0.5mm GI Sheets",
         metaTitle:
-          "0.5mm GI Sheets – Premium Quality Galvanized Iron Sheets | Shiva Steel Fabricator",
+          "0.5mm GI Sheet Supplier | Premium GI Sheets | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality 0.5mm GI Sheets manufactured using advanced cold rolled technology. Available in 8 ft length and 2 ft width for industrial, commercial, construction, and fabrication applications.",
+          "Shiva Steel Fabricator supplies premium-quality 0.5mm GI Sheets for roofing, construction, fabrication, and industrial applications. Explore durable Galvanized Iron Sheets with competitive pricing and timely delivery.",
         description: [
           { type: "h2", text: "Product Overview – 0.5mm GI Sheets" },
           {
@@ -370,9 +370,9 @@ export const categories = [
         id: "gi-decking-sheet",
         name: "GI Decking Sheet",
         metaTitle:
-          "GI Decking Sheet – Premium Quality Galvanized Decking Sheets | Shiva Steel Fabricator",
+          "GI Decking Sheet Supplier | Galvanized Deck Sheets | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality GI Decking Sheets manufactured using advanced hot rolled technology. Featuring galvanized surface treatment, 4 mm thickness, and 550 MPa tensile strength for industrial, commercial, and infrastructure applications.",
+          "Shiva Steel Fabricator supplies premium-quality GI Decking Sheets for roofing, composite flooring, warehouses, commercial buildings, and industrial projects. Explore durable galvanized deck sheets at competitive prices.",
         description: [
           { type: "h2", text: "Product Overview – GI Decking Sheet" },
           {
@@ -443,9 +443,9 @@ export const categories = [
         id: "galvanized-plain-sheets",
         name: "Galvanized Plain Sheets",
         metaTitle:
-          "Galvanized Plain Sheets – Premium Quality GI Sheets | Shiva Steel Fabricator",
+          "Galvanized Plain Sheet Supplier | Premium GP Sheets | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality Galvanized Plain Sheets manufactured using advanced cold rolled technology. Available in 0.80 mm thickness with galvanised surface treatment for industrial, commercial, and construction applications.",
+          "Shiva Steel Fabricator supplies premium-quality Galvanized Plain Sheets for roofing, fabrication, construction, engineering, and industrial applications. Explore durable GP Sheets with excellent corrosion resistance and timely delivery.",
         description: [
           { type: "h2", text: "Product Overview – Galvanized Plain Sheets" },
           {
@@ -517,17 +517,17 @@ export const categories = [
   {
     id: "mild-steel-pipe",
     name: "Mild Steel Pipe",
-    metaTitle: "Shiva Steels",
-    metaDescription: "Shiva steels",
+    metaTitle: "Mild Steel Pipe Supplier for Construction & Industrial Use | Shiva Steel Fabricator",
+    metaDescription: "Looking for high-quality Mild Steel Pipes? Shiva Steel Fabricator offers durable MS Pipes for structural, engineering, fabrication, and industrial projects with reliable quality, competitive pricing, and timely delivery.",
 
     products: [
       {
         id: "apollo-ms-pipe",
         name: "Apollo MS Pipe",
         metaTitle:
-          "Apollo MS Pipe – Premium Quality Mild Steel Pipes | Shiva Steel Fabricator",
+          "Apollo MS Pipe Supplier | Premium Mild Steel Pipes | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies genuine Apollo MS Pipes manufactured using advanced hot rolled technology. Available in 1 mm to 6 mm thickness with 6 m standard length for construction, plumbing, engineering, and industrial applications.",
+          "Shiva Steel Fabricator supplies premium-quality Apollo MS Pipes for construction, fabrication, structural, and industrial applications. Explore durable Apollo Mild Steel Pipes at competitive prices with timely delivery.",
         description: [
           { type: "h2", text: "Product Overview – Apollo MS Pipe" },
           {
@@ -598,9 +598,9 @@ export const categories = [
         id: "apl-apollo-ms-pipe",
         name: "APL Apollo MS Pipe",
         metaTitle:
-          "APL Apollo MS Pipe – Premium Quality Mild Steel Square Pipes | Shiva Steel Fabricator",
+          "APL Apollo MS Pipe Supplier | Premium MS Pipes | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies genuine APL Apollo MS Pipes manufactured from premium-quality mild steel. Available in square pipe sections for construction, fabrication, engineering, and industrial applications.",
+          "Shiva Steel Fabricator supplies premium-quality APL Apollo MS Pipes for construction, engineering, fabrication, and industrial applications. Explore durable APL Apollo Mild Steel Pipes with competitive pricing and timely delivery.",
         description: [
           { type: "h2", text: "Product Overview – APL Apollo MS Pipe" },
           {
@@ -670,9 +670,9 @@ export const categories = [
         id: "square-hollow-section-pipe",
         name: "Square Hollow Section Pipe",
         metaTitle:
-          "Square Hollow Section Pipe – Premium Quality Mild Steel Hollow Pipes | Shiva Steel Fabricator",
+          "Square Hollow Section Pipe Supplier | SHS Pipes | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality Square Hollow Section Pipes manufactured from high-grade mild steel. Genuine Apollo hollow section pipes available in square and round shapes for domestic, commercial, and industrial applications.",
+          "Shiva Steel Fabricator supplies premium-quality Square Hollow Section (SHS) Pipes for structural fabrication, construction, engineering, and industrial applications. Explore durable SHS Pipes at competitive prices.",
         description: [
           { type: "h2", text: "Product Overview – Square Hollow Section Pipe" },
           {
@@ -741,9 +741,9 @@ export const categories = [
         id: "mild-steel-round-pipe",
         name: "Mild Steel Round Pipe",
         metaTitle:
-          "Mild Steel Round Pipe – Premium Quality MS Round Pipe | Shiva Steel Fabricator",
+          "MS Round Pipe Supplier | Mild Steel Round Pipes | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality Mild Steel Round Pipes manufactured from high-grade mild steel. Genuine Apollo MS Round Pipes available in 3-inch size with 6-meter length for residential, commercial, and industrial applications.",
+          "Shiva Steel Fabricator supplies premium-quality Mild Steel Round Pipes for construction, fabrication, engineering, and industrial applications. Explore durable MS Round Pipes in various sizes at competitive prices.",
         description: [
           { type: "h2", text: "Product Overview – Mild Steel Round Pipe" },
           {
@@ -814,9 +814,9 @@ export const categories = [
         id: "apl-apollo-ms-black-pipe",
         name: "APL Apollo MS Black Pipe",
         metaTitle:
-          "APL Apollo MS Black Pipe – Premium Quality Mild Steel Pipes | Shiva Steel Fabricator",
+          "APL Apollo MS Black Pipe Supplier | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies genuine APL Apollo MS Black Pipes manufactured from premium-quality mild steel. Available with 1–2 mm thickness, 15 NB nominal bore, and 6 m length for construction, engineering, plumbing, and industrial applications.",
+          "Shiva Steel Fabricator supplies premium-quality APL Apollo MS Black Pipes for construction, structural, engineering, and industrial applications. Explore durable MS Black Pipes with reliable quality, competitive pricing, and timely delivery.",
         description: [
           { type: "h2", text: "Product Overview – APL Apollo MS Black Pipe" },
           {
@@ -888,17 +888,17 @@ export const categories = [
   {
     id: "ms-plates",
     name: "MS Plates",
-    metaTitle: "Shiva Steels",
-    metaDescription: "Shiva steels",
+    metaTitle: "MS Plate Supplier | Premium Mild Steel Plates | Shiva Steel Fabricator",
+    metaDescription: "Shiva Steel Fabricator supplies premium-quality Mild Steel (MS) Plates for construction, fabrication, engineering, and industrial applications. Explore durable MS Plates in various sizes and thicknesses at competitive prices.",
 
     products: [
       {
         id: "rectangular-ms-plate",
         name: "Rectangular MS Plate",
         metaTitle:
-          "Rectangular MS Plate – Premium Quality Mild Steel Plates | Shiva Steel Fabricator",
+          "Rectangular MS Plate Supplier | Premium Mild Steel Plates | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality Rectangular MS Plates manufactured from high-grade mild steel. Available in 1–2 mm thickness with a polished finish for construction, fabrication, engineering, and industrial applications.",
+          "Shiva Steel Fabricator supplies premium-quality Rectangular MS Plates for fabrication, construction, engineering, and industrial applications. Explore durable Mild Steel Plates in various sizes and thicknesses at competitive prices.",
         description: [
           { type: "h2", text: "Product Overview – Rectangular MS Plate" },
           {
@@ -968,9 +968,9 @@ export const categories = [
         id: "plain-ms-plate",
         name: "Plain MS Plate",
         metaTitle:
-          "Plain MS Plate – Premium Quality Mild Steel Plates | Shiva Steel Fabricator",
+          "Plain MS Plate Supplier | Premium Mild Steel Plates | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality Plain MS Plates manufactured from high-grade mild steel. Available in 2–3 mm thickness with a polished finish for industrial, fabrication, engineering, and construction applications.",
+          "Shiva Steel Fabricator supplies premium-quality Plain MS Plates for fabrication, construction, engineering, and industrial applications. Explore durable Mild Steel Plates in various sizes and thicknesses at competitive prices with timely delivery.",
         description: [
           { type: "h2", text: "Product Overview – Plain MS Plate" },
           {
@@ -1042,9 +1042,9 @@ export const categories = [
         id: "ms-sheet-plate",
         name: "MS Sheet Plate",
         metaTitle:
-          "MS Sheet Plate – Premium Quality Mild Steel Sheet Plates | Shiva Steel Fabricator",
+          "Mild Steel Sheet Plate Supplier | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality MS Sheet Plates manufactured from high-grade mild steel. Available in 1–2 mm thickness with a polished finish for construction, fabrication, engineering, and industrial applications.",
+          "Looking for high-quality MS Sheet Plates? Shiva Steel Fabricator offers strong and durable Mild Steel Sheet Plates for structural fabrication, engineering, manufacturing, and construction projects with reliable quality, competitive pricing, and timely delivery.",
 
         description: [
           {
@@ -1150,9 +1150,9 @@ export const categories = [
         id: "industrial-ms-plates",
         name: "Industrial MS Plates",
         metaTitle:
-          "Industrial MS Plates – Premium Quality IS 2062 Mild Steel Plates | Shiva Steel Fabricator",
+          "Industrial MS Plate Supplier | Mild Steel Plates | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality Industrial MS Plates manufactured from IS 2062 grade mild steel. Genuine SAIL MS Plates available in 8 mm thickness and 1250 × 2500 mm size for construction, fabrication, infrastructure, and heavy engineering applications.",
+          "Shiva Steel Fabricator supplies premium-quality Industrial MS Plates for construction, fabrication, engineering, manufacturing, and heavy industrial applications. Explore durable Mild Steel Plates at competitive prices with timely delivery.",
 
         description: [
           {
@@ -1258,9 +1258,9 @@ export const categories = [
         id: "mild-steel-chequered-plate",
         name: "Mild Steel Chequered Plate",
         metaTitle:
-          "Mild Steel Chequered Plate – Premium Quality MS Chequered Plates | Shiva Steel Fabricator",
+          "MS Chequered Plate Supplier | Mild Steel Chequered Plates | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality Mild Steel Chequered Plates manufactured using Hot Rolled technology. Available in 1.6–3 mm thickness with chequered pattern for construction, industrial, shipping, bridge, and engineering applications.",
+          "Shiva Steel Fabricator supplies premium-quality Mild Steel Chequered Plates for flooring, staircases, platforms, walkways, and industrial applications. Explore durable anti-slip MS Chequered Plates at competitive prices.",
         description: [
           { type: "h2", text: "Product Overview – Mild Steel Chequered Plate" },
           {
@@ -1342,17 +1342,17 @@ export const categories = [
   {
     id: "gp-sheets",
     name: "GP Sheets",
-    metaTitle: "Shiva Steels",
-    metaDescription: "Shiva steels",
+    metaTitle: "GP Sheet Supplier | Premium Galvanized Plain Sheets | Shiva Steel Fabricator",
+    metaDescription: "Shiva Steel Fabricator supplies premium-quality GP Sheets for roofing, cladding, fabrication, construction, and industrial applications. Explore durable Galvanized Plain Sheets in various sizes and thicknesses at competitive prices.",
 
     products: [
       {
         id: "industrial-gp-sheets",
         name: "Industrial GP Sheets",
         metaTitle:
-          "Industrial GP Sheets – Premium Quality IS 277 Galvanized Plain Sheets | Shiva Steel Fabricator",
+          "Industrial GP Sheet Supplier | Premium Galvanized Plain Sheets | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality Industrial GP Sheets manufactured from IS 277 grade material. Available in 4 mm thickness with 8 ft × 3 ft dimensions for industrial, fabrication, engineering, and construction applications.",
+          "Shiva Steel Fabricator supplies premium-quality Industrial GP Sheets for roofing, fabrication, construction, engineering, and manufacturing applications. Explore durable Galvanized Plain Sheets with competitive pricing and timely delivery.",
 
         description: [
           {
@@ -1463,9 +1463,9 @@ export const categories = [
         id: "2mm-gp-sheet",
         name: "2mm GP Sheet",
         metaTitle:
-          "2mm GP Sheet – Premium Quality IS 277 Galvanized Plain Sheets | Shiva Steel Fabricator",
+          "2mm GP Sheet Supplier | Premium Galvanized Plain Sheets | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality 2mm GP Sheets manufactured from IS 277 grade material. Available in 8 ft × 2 ft size for industrial, fabrication, engineering, and commercial applications with superior corrosion resistance.",
+          "Shiva Steel Fabricator supplies premium-quality 2mm GP Sheets for roofing, fabrication, construction, engineering, and industrial applications. Explore durable Galvanized Plain Sheets with excellent corrosion resistance at competitive prices.",
 
         description: [
           {
@@ -1572,9 +1572,9 @@ export const categories = [
         id: "galvanized-plain-sheet",
         name: "Galvanized Plain Sheet",
         metaTitle:
-          "Galvanized Plain Sheet – Premium Quality IS 277 GP Sheets | Shiva Steel Fabricator",
+          "Galvanized Plain Sheet Supplier | Premium GP Sheets | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality Galvanized Plain Sheets manufactured from IS 277 grade material. Available in 2 mm thickness with TATA brand quality for industrial, fabrication, construction, and engineering applications.",
+          "Shiva Steel Fabricator supplies premium-quality Galvanized Plain (GP) Sheets for roofing, fabrication, construction, engineering, and industrial applications. Explore durable GP Sheets with excellent corrosion resistance and competitive pricing.",
 
         description: [
           {
@@ -1681,9 +1681,9 @@ export const categories = [
         id: "gp-metal-sheet",
         name: "GP Metal Sheet",
         metaTitle:
-          "GP Metal Sheet – Premium Quality Galvanized Plain Sheets | Shiva Steel Fabricator",
+          "GP Metal Sheet Supplier | Premium Galvanized Plain Sheets | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality GP Metal Sheets manufactured from galvanized plain material using Hot Rolled technology. Available for roofing, fabrication, industrial, and commercial applications with superior corrosion resistance.",
+          "Shiva Steel Fabricator supplies premium-quality GP Metal Sheets for roofing, fabrication, construction, engineering, and industrial applications. Explore durable Galvanized Plain Metal Sheets at competitive prices with timely delivery.",
 
         description: [
           {
@@ -1790,8 +1790,8 @@ export const categories = [
   {
     id: "ms-sheets",
     name: "MS Sheets",
-    metaTitle: "Shiva Steels",
-    metaDescription: "Shiva steels",
+    metaTitle: "MS Sheet Supplier | Premium Mild Steel Sheets | Shiva Steel Fabricator",
+    metaDescription: "Shiva Steel Fabricator supplies premium-quality Mild Steel (MS) Sheets for construction, fabrication, engineering, manufacturing, and industrial applications. Available in various sizes and thicknesses with competitive pricing and timely delivery.",
 
     products: [
       {
@@ -1906,9 +1906,9 @@ export const categories = [
         id: "tata-mild-steel-sheet",
         name: "TATA Mild Steel Sheet",
         metaTitle:
-          "TATA Mild Steel Sheet – Premium Quality Hot Rolled MS Sheets | Shiva Steel Fabricator",
+          "TATA Mild Steel Sheet Supplier | Premium MS Sheets | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality TATA Mild Steel Sheets manufactured from high-grade MS using Hot Rolled technology. Available in 8 ft length for construction, fabrication, engineering, and industrial applications.",
+          "Shiva Steel Fabricator supplies premium-quality TATA Mild Steel Sheets for fabrication, construction, engineering, manufacturing, and industrial applications. Explore durable TATA MS Sheets in various sizes and thicknesses at competitive prices.",
 
         description: [
           {
@@ -2019,9 +2019,9 @@ export const categories = [
         id: "mild-steel-hot-rolled-sheets",
         name: "Mild Steel Hot Rolled Sheets",
         metaTitle:
-          "Mild Steel Hot Rolled Sheets – Premium Quality MS HR Sheets | Shiva Steel Fabricator",
+          "MS Hot Rolled Sheet Supplier | Mild Steel HR Sheets | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality Mild Steel Hot Rolled Sheets manufactured from high-grade MS with a polished finish. Available in 10 mm thickness for construction, heavy engineering, fabrication, and industrial applications.",
+          "Shiva Steel Fabricator supplies premium-quality Mild Steel Hot Rolled Sheets for fabrication, construction, engineering, and industrial applications. Explore durable MS HR Sheets in various sizes and thicknesses at competitive prices with timely delivery.",
 
         description: [
           {
@@ -2132,9 +2132,9 @@ export const categories = [
         id: "ms-crca-sheets",
         name: "MS CRCA Sheets",
         metaTitle:
-          "MS CRCA Sheets – Premium Quality Mild Steel Sheets | Shiva Steel Fabricator",
+          "MS CRCA Sheet Supplier | Premium CRCA Sheets | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality MS CRCA Sheets manufactured from high-grade Mild Steel with a polished finish. Available in 5 mm thickness for industrial, fabrication, engineering, and construction applications.",
+          "Shiva Steel Fabricator supplies premium-quality MS CRCA Sheets for fabrication, automotive, engineering, electrical, and industrial applications. Explore precision Cold Rolled Close Annealed (CRCA) Sheets at competitive prices with timely delivery.",
 
         description: [
           {
@@ -2245,9 +2245,9 @@ export const categories = [
         id: "ms-cr-sheets",
         name: "MS CR Sheets",
         metaTitle:
-          "MS CR Sheets – Premium Quality Cold Rolled Mild Steel Sheets | Shiva Steel Fabricator",
+          "MS CR Sheet Supplier | Premium Cold Rolled Steel Sheets | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality MS CR Sheets manufactured from high-grade Mild Steel using Cold Rolled technology. Available in 4 mm thickness for automobile, fabrication, engineering, and industrial applications.",
+          "Shiva Steel Fabricator supplies premium-quality MS CR Sheets for fabrication, engineering, automotive, manufacturing, and industrial applications. Explore durable Cold Rolled Steel Sheets with excellent finish at competitive prices.",
         description: [
           { type: "h2", text: "Product Overview – MS CR Sheets" },
           {
@@ -2318,17 +2318,17 @@ export const categories = [
   {
     id: "mild-steel-bars",
     name: "Mild Steel Bars",
-    metaTitle: "Shiva Steels",
-    metaDescription: "Shiva steels",
+    metaTitle: "MS Bar Supplier | Premium Mild Steel Bars | Shiva Steel Fabricator",
+    metaDescription: "Shiva Steel Fabricator supplies premium-quality Mild Steel (MS) Bars for construction, fabrication, engineering, and industrial applications. Explore durable MS Bars in various sizes and specifications at competitive prices.",
 
     products: [
       {
         id: "mild-steel-tmt-bar",
         name: "Mild Steel TMT Bar",
         metaTitle:
-          "Mild Steel TMT Bar – Fe 500 Grade Reinforcement Bars | Shiva Steel Fabricator",
+          "Mild Steel TMT Bar Supplier | Premium MS TMT Bars | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality Mild Steel TMT Bars in Fe 500 grade with galvanized surface treatment. Available in 8 mm diameter and 6 meter length for residential, commercial, industrial, and infrastructure construction applications.",
+          "Shiva Steel Fabricator supplies premium-quality Mild Steel TMT Bars for residential, commercial, industrial, and infrastructure projects. Explore high-strength, corrosion-resistant MS TMT Bars at competitive prices with timely delivery.",
 
         description: [
           {
@@ -2439,9 +2439,9 @@ export const categories = [
         id: "mild-steel-round-bright-bar",
         name: "Mild Steel Round Bright Bar",
         metaTitle:
-          "Mild Steel Round Bright Bar – Fe 500 Grade Bright Bar | Shiva Steel Fabricator",
+          "MS Round Bright Bar Supplier | Mild Steel Bright Bars | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality Mild Steel Round Bright Bars manufactured from high-grade MS with Fe 500 grade. Available in 6 mm diameter and 6 meter length for machining, welding, engineering, and industrial applications.",
+          "Shiva Steel Fabricator supplies premium-quality Mild Steel Round Bright Bars for machining, fabrication, engineering, and industrial applications. Explore durable MS Bright Bars in various sizes at competitive prices with timely delivery.",
 
         description: [
           {
@@ -2552,9 +2552,9 @@ export const categories = [
         id: "sail-tmt-bars",
         name: "SAIL TMT Bars",
         metaTitle:
-          "SAIL TMT Bars – Fe 550D Mild Steel Reinforcement Bars | Shiva Steel Fabricator",
+          "SAIL TMT Bars Supplier | High-Strength TMT Bars | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality SAIL TMT Bars manufactured from high-grade Mild Steel with Fe 550D grade. Available in 10 mm diameter and 6 meter length for residential, commercial, industrial, and infrastructure construction applications.",
+          "Shiva Steel Fabricator supplies premium-quality SAIL TMT Bars for residential, commercial, industrial, and infrastructure projects. Explore high-strength, earthquake-resistant TMT Bars at competitive prices with timely delivery.",
 
         description: [
           {
@@ -2661,9 +2661,9 @@ export const categories = [
         id: "mild-steel-flat-bar",
         name: "Mild Steel Flat Bar",
         metaTitle:
-          "Mild Steel Flat Bar – Fe 500 Grade Flat Bar | Shiva Steel Fabricator",
+          "MS Flat Bar Supplier | Premium Mild Steel Flat Bars | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality Mild Steel Flat Bars manufactured from high-grade Mild Steel with Fe 500 grade. Available in 7 mm thickness and 6 meter length for construction, fabrication, engineering, and industrial applications.",
+          "Shiva Steel Fabricator supplies premium-quality Mild Steel Flat Bars for fabrication, construction, engineering, and industrial applications. Explore durable MS Flat Bars in various sizes and specifications at competitive prices with timely delivery.",
 
         description: [
           {
@@ -2780,17 +2780,17 @@ export const categories = [
   {
     id: "metal-coil",
     name: "Metal Coil",
-    metaTitle: "Shiva Steels",
-    metaDescription: "Shiva steels",
+    metaTitle: "Metal Coil Supplier | Premium Steel Coils | Shiva Steel Fabricator",
+    metaDescription: "Shiva Steel Fabricator supplies premium-quality Metal Coils for roofing, fabrication, construction, engineering, and industrial applications. Explore durable steel coils with excellent strength, quality, and competitive pricing.",
 
     products: [
       {
         id: "gp-sheet-coil",
         name: "GP Sheet Coil",
         metaTitle:
-          "GP Sheet Coil – Premium Galvanized Plain Coil | Tata GP Sheet Coil | Shiva Steel Fabricator",
+          "GP Sheet Coil Supplier | Premium Galvanized Plain Coils | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality Tata GP Sheet Coil manufactured from high-grade galvanized plain material with 3 mm thickness, 200 MPa tensile strength, and galvanized surface treatment. Ideal for AC vents, HVAC ducting, fabrication, industrial, and construction applications.",
+          "Shiva Steel Fabricator supplies premium-quality GP Sheet Coils for roofing, fabrication, construction, and industrial applications. Explore durable Galvanized Plain (GP) Coils with excellent corrosion resistance, competitive pricing, and timely delivery.",
 
         description: [
           {
@@ -2905,9 +2905,9 @@ export const categories = [
         id: "gp-slit-coils",
         name: "GP Slit Coils",
         metaTitle:
-          "GP Slit Coils – Premium JSW Galvanized Plain Slit Coils | Shiva Steel Fabricator",
+          "GP Slit Coil Supplier | Premium Galvanized Plain Slit Coils | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality JSW GP Slit Coils manufactured from high-grade galvanized plain material with 4 mm thickness, cold rolled processing, and polished finish. Ideal for construction, fabrication, engineering, and industrial applications.",
+          "Shiva Steel Fabricator supplies premium-quality GP Slit Coils for fabrication, roll forming, manufacturing, and industrial applications. Explore durable Galvanized Plain Slit Coils in various widths and thicknesses at competitive prices.",
 
         description: [
           {
@@ -3017,9 +3017,9 @@ export const categories = [
         id: "galvanized-steel-coils",
         name: "Galvanized Steel Coils",
         metaTitle:
-          "Galvanized Steel Coils – Premium Jindal GI Coils | Shiva Steel Fabricator",
+          "Galvanized Steel Coil Supplier | Premium GI Steel Coils | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality Jindal Galvanized Steel Coils manufactured from high-grade Galvanized Iron (GI). Available in 1250 mm width with 4000 kg coil weight, ideal for industrial, fabrication, construction, and manufacturing applications.",
+          "Shiva Steel Fabricator supplies premium-quality Galvanized Steel Coils for roofing, fabrication, construction, manufacturing, and industrial applications. Explore durable GI Steel Coils with excellent corrosion resistance and competitive pricing.",
 
         description: [
           {
@@ -3130,9 +3130,9 @@ export const categories = [
         id: "ms-hot-rolled-coil",
         name: "MS Hot Rolled Coil",
         metaTitle:
-          "MS Hot Rolled Coil – Premium Mild Steel HR Coil | Shiva Steel Fabricator",
+          "MS Hot Rolled Coil Supplier | Premium HR Coils | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality MS Hot Rolled Coil manufactured from high-grade Mild Steel with 1.5 mm–4 mm thickness, polished finish, and excellent corrosion resistance. Ideal for construction, fabrication, engineering, and industrial applications.",
+          "Shiva Steel Fabricator supplies premium-quality MS Hot Rolled Coils for fabrication, construction, engineering, manufacturing, and industrial applications. Explore durable HR Coils in various sizes and thicknesses at competitive prices.",
 
         description: [
           {
@@ -3248,17 +3248,17 @@ export const categories = [
   {
     id: "mild-steel-angle",
     name: "Mild Steel Angle",
-    metaTitle: "Shiva Steels",
-    metaDescription: "Shiva steels",
+    metaTitle: "MS Angle Supplier | Premium Mild Steel Angles | Shiva Steel Fabricator",
+    metaDescription: "Shiva Steel Fabricator supplies premium-quality Mild Steel (MS) Angles for construction, structural fabrication, engineering, and industrial applications. Explore durable MS Angles in various sizes with competitive pricing and timely delivery.",
 
     products: [
       {
         id: "ms-slotted-angle",
         name: "MS Slotted Angle",
         metaTitle:
-          "MS Slotted Angle – Premium Mild Steel L-Shape Slotted Angle | Shiva Steel Fabricator",
+          "MS Slotted Angle Supplier | Mild Steel Slotted Angles | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality MS Slotted Angle manufactured from high-grade Mild Steel (MS) with 5 mm thickness, 6 meter length, hot rolled technology, and polished finish. Ideal for shelving, racks, frames, work benches, and industrial structures.",
+          "Shiva Steel Fabricator supplies premium-quality MS Slotted Angles for shelving, storage racks, industrial structures, fabrication, and construction applications. Explore durable Mild Steel Slotted Angles at competitive prices with timely delivery.",
 
         description: [
           {
@@ -3374,9 +3374,9 @@ export const categories = [
         id: "mild-steel-ismb-section",
         name: "Mild Steel ISMB Section",
         metaTitle:
-          "Mild Steel ISMB Section – High Strength I Beam Sections | Shiva Steel Fabricator",
+          "MS ISMB Section Supplier | Mild Steel ISMB Beams | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality Mild Steel ISMB Sections manufactured from high-grade MS. Designed in I Beam shape with 5 mm thickness for construction, infrastructure, industrial, and structural engineering applications.",
+          "Shiva Steel Fabricator supplies premium-quality Mild Steel ISMB Sections for construction, structural fabrication, engineering, and industrial applications. Explore durable MS ISMB Beams in various sizes at competitive prices with timely delivery.",
 
         description: [
           {
@@ -3463,9 +3463,9 @@ export const categories = [
         id: "iron-l-angle",
         name: "Iron L Angle",
         metaTitle:
-          "Iron L Angle – High Strength Mild Steel L Sections | Shiva Steel Fabricator",
+          "Iron L Angle Supplier | Mild Steel L Angle | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium-quality Iron L Angles manufactured from high-grade Mild Steel (MS) using Hot Rolled technology. Available in 5 mm thickness and 6 meter length for construction, fabrication, and structural applications.",
+          "Looking for high-quality Iron L Angles? Shiva Steel Fabricator offers strong and durable Mild Steel L Angles for structural frameworks, fabrication, engineering, and industrial projects with reliable quality, competitive pricing, and prompt delivery.",
 
         description: [
           {
@@ -3551,8 +3551,8 @@ export const categories = [
   {
     id: "tmt-bars",
     name: "TMT Bars",
-    metaTitle: "Shiva Steels",
-    metaDescription: "Shiva steels",
+    metaTitle: "Premium TMT Bar Supplier for Construction | Shiva Steel Fabricator",
+    metaDescription: "Shiva Steel Fabricator supplies premium-quality TMT Bars for residential, commercial, industrial, and infrastructure projects. Explore high-strength, corrosion-resistant TMT Bars at competitive prices with timely delivery.",
 
     products: [
       {
@@ -3647,9 +3647,9 @@ export const categories = [
         id: "kamdhenu-tmt-bars",
         name: "Kamdhenu TMT Bars",
         metaTitle:
-          "Kamdhenu TMT Bars – Fe 500 Premium Reinforcement Bars | Shiva Steel Fabricator",
+          "Kamdhenu TMT Bars for Construction | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium Kamdhenu TMT Bars manufactured from high-grade Mild Steel with Fe 500 grade. Available in 12 mm diameter and 6 meter length, ideal for residential, commercial, industrial, and infrastructure construction.",
+          "Shiva Steel Fabricator supplies premium-quality Kamdhenu TMT Bars for residential, commercial, industrial, and infrastructure projects. Explore high-strength, corrosion-resistant TMT Bars at competitive prices with timely delivery.",
 
         description: [
           {
@@ -3749,17 +3749,17 @@ export const categories = [
   {
     id: "cable-tray",
     name: "Cable Tray",
-    metaTitle: "Shiva Steels",
-    metaDescription: "Shiva steels",
+    metaTitle: "Cable Tray Supplier | Perforated & Industrial Cable Trays | Shiva Steel Fabricator",
+    metaDescription: "Looking for high-quality Cable Trays? Shiva Steel Fabricator offers durable Cable Trays and Perforated Cable Trays for safe and efficient cable management in industrial, commercial, and infrastructure projects.",
 
     products: [
       {
         id: "gi-electrical-cable-tray",
         name: "GI Electrical Cable Tray",
         metaTitle:
-          "GI Electrical Cable Tray – Perforated U-Shape Cable Management System | Shiva Steel Fabricator",
+          "GI Electrical Cable Tray Supplier | Galvanized Cable Trays | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium GI Electrical Cable Trays made from high-quality galvanized steel. Perforated U-shape design with 5.2 mm thickness, ideal for communication and electrical cable management in industrial and commercial applications.",
+          "Shiva Steel Fabricator supplies premium-quality GI Electrical Cable Trays for industrial, commercial, and infrastructure projects. Explore durable galvanized cable trays with superior corrosion resistance, competitive pricing, and timely delivery.",
 
         description: [
           {
@@ -3862,9 +3862,9 @@ export const categories = [
         id: "stainless-steel-electric-cable-tray",
         name: "Stainless Steel Electric Cable Tray",
         metaTitle:
-          "Stainless Steel Electric Cable Tray – Perforated 8FT Cable Tray | Shiva Steel Fabricator",
+          "Stainless Steel Cable Tray Supplier | SS Electric Cable Trays | Shiva Steel Fabricator",
         metaDescription:
-          "Shiva Steel Fabricator supplies premium Stainless Steel Electric Cable Trays with galvanized coating. Perforated design, 8 ft size, and multiple thickness options (1 mm to 2 mm) ideal for industrial and commercial cable management.",
+          "Shiva Steel Fabricator supplies premium-quality Stainless Steel Electric Cable Trays for industrial, commercial, and infrastructure applications. Explore durable SS Cable Trays with superior corrosion resistance, high strength, and competitive pricing.",
 
         description: [
           {

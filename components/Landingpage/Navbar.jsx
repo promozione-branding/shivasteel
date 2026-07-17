@@ -103,7 +103,7 @@ export default function Navbar() {
             >
               {/* TRIGGER */}
               <div className="flex items-center gap-1 cursor-pointer py-6 hover:text-slate-900">
-                Our Products <ChevronDown size={16} />
+                <Link href="/products" className="flex items-center justify-center">Our Products <ChevronDown size={16} /></Link>
               </div>
 
               {/* HOVER BRIDGE */}
