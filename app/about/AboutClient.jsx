@@ -92,7 +92,7 @@ export default function AboutHero() {
 
 
 
-<Link href="/contact">
+<Link href="tel:+919873656785">
   <button className="border hidden md:flex border-white text-white px-6 sm:px-10 py-3 sm:py-4 rounded-md  items-center justify-center gap-3 font-semibold hover:bg-white/10">
                 <Phone size={18} />
                Contact Us
