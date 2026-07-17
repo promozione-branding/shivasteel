@@ -12,7 +12,7 @@ async function getAllBlogs() {
 }
 
 export async function GET() {
-  const baseUrl = "https://garbagebagmanufacturer.in"; 
+  const baseUrl = "https://shivasteelfabricators.com"; 
 
   // Flatten all products
   const allProducts = categories.flatMap((c) => c.products);

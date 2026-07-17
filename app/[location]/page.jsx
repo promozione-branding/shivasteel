@@ -12,8 +12,8 @@ export async function generateMetadata({ params }) {
         .join(" ");
 
     return {
-        title: `Garbage Bag Manufacturer in ${city} | Sangam Plastic Industries`,
-        description: `Sangam Plastic Industries is a trusted garbage bag manufacturer in ${city} offering durable, leak-proof garbage bags for homes, hospitals, offices & waste management.`,
+        title: `shivasteel ${city} `,
+        description: `shivasteel ${city} .`,
     };
 }
 
