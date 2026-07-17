@@ -2,12 +2,13 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ChevronRight, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { ChevronRight, Linkedin, Mail, MapPin, Phone, X } from "lucide-react";
 import { FaFacebookF, FaLinkedinIn, FaSkype, FaTwitter } from "react-icons/fa";
-import {categories} from "@/Data"
+import { categories } from "@/Data";
+import { useState } from "react";
 
 const quickLinks = [
-   { label: "Home", href: "/" },
+  { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
   { label: "Our Products", href: "/products" },
   { label: "News & Events", href: "/our-blogs" },
@@ -27,13 +28,13 @@ const productLinks = [
   { label: "Cable Tray", href: "/products/cable-tray" },
 ];
 
-const socialIcons = [ FaLinkedinIn];
+const socialIcons = [FaLinkedinIn];
 
 export default function Footer() {
+  const [showTrustElite, setShowTrustElite] = useState(false);
   return (
     <footer className="w-full bg-[#f7f7f7]   ">
       <div className="mx-auto flex w-full flex-col overflow-hidden rounded-[28px] border border-slate-200 bg-white shadow-[0_20px_60px_rgba(0,0,0,0.06)] lg:flex-row">
-        
         <div className="flex flex-col  justify-between bg-[#eef0f7] px-6  lg:w-[340px] lg:px-8 lg:py-5 xl:w-[380px]">
           <div>
             <div className="flex py-0.5 items-center justify-center lg:justify-start">
@@ -56,69 +57,59 @@ export default function Footer() {
           </div>
 
           <div className="mt-3 md:mt-5 mb-4 rounded-2xl border border-white/70 bg-white/70 p-3 backdrop-blur-sm">
-  <h4 className="mb-4 text-center text-lg font-semibold text-[#222] lg:text-left">
-    Connect With Us On LinkedIn
-  </h4>
+            <h4 className="mb-4 text-center text-lg font-semibold text-[#222] lg:text-left">
+              Connect With Us On LinkedIn
+            </h4>
 
-  <Link
-    href="https://www.linkedin.com/company/shiva-steel-fabricator/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="group flex items-center justify-between rounded-2xl border border-blue-200 bg-white p-1 transition-all duration-300 hover:border-blue-500 hover:shadow-lg"
-  >
-    <div className="flex items-center gap-4">
-      {/* LinkedIn Icon */}
-      <div className="flex h-13 w-13 items-center justify-center rounded-xl bg-[#0A66C2]">
-        <Linkedin className="h-6 w-6 text-white" />
-      </div>
+            <Link
+              href="https://www.linkedin.com/company/shiva-steel-fabricator/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center justify-between rounded-2xl border border-blue-200 bg-white p-1 transition-all duration-300 hover:border-blue-500 hover:shadow-lg"
+            >
+              <div className="flex items-center gap-4">
+                {/* LinkedIn Icon */}
+                <div className="flex h-13 w-13 items-center justify-center rounded-xl bg-[#0A66C2]">
+                  <Linkedin className="h-6 w-6 text-white" />
+                </div>
 
-      {/* Text */}
-      <div>
-        <h3 className="text-base md:text-base font-bold text-gray-900">
-          Follow us on LinkedIn
-        </h3>
+                {/* Text */}
+                <div>
+                  <h3 className="text-base md:text-base font-bold text-gray-900">
+                    Follow us on LinkedIn
+                  </h3>
 
-        {/* <p className="text-sm text-gray-500">
+                  {/* <p className="text-sm text-gray-500">
           Stay updated with our latest products and updates.
         </p> */}
-      </div>
-    </div>
+                </div>
+              </div>
 
-    <ChevronRight className="h-7 w-7 text-gray-400 transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#0A66C2]" />
-  </Link>
-</div>
+              <ChevronRight className="h-7 w-7 text-gray-400 transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#0A66C2]" />
+            </Link>
+          </div>
         </div>
 
         <div className="flex-1 px-5 py-8 sm:px-8 sm:py-10 lg:px-6 lg:py-7 xl:px-12">
           <div className="grid grid-cols-1 gap-8 lg:gap-5 sm:grid-cols-2 xl:grid-cols-4 xl:gap-6">
-
-
-
-
-
-
             <div>
               <h3 className="mb-4 text-lg font-bold text-[#111] sm:text-[22px]">
                 Our Products
               </h3>
-           <ul className="space-y-3 text-[15px] text-[#555] sm:text-[16px]">
-  {categories.map((item) => (
-    <li key={`/categories/${item.id}`}>
-      <Link
-        href={`/categories/${item.id}`}
-        className="flex items-center gap-3 transition hover:text-blue-600"
-      >
-        <span className="h-2.5 w-2.5 rounded-full bg-blue-600" />
-        {item.name}
-      </Link>
-    </li>
-  ))}
-</ul>
+              <ul className="space-y-3 text-[15px] text-[#555] sm:text-[16px]">
+                {categories.map((item) => (
+                  <li key={`/categories/${item.id}`}>
+                    <Link
+                      href={`/categories/${item.id}`}
+                      className="flex items-center gap-3 transition hover:text-blue-600"
+                    >
+                      <span className="h-2.5 w-2.5 rounded-full bg-blue-600" />
+                      {item.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
-
-
-
-
 
             <div>
               <h3 className="mb-4 text-lg font-bold text-[#111] sm:text-[22px]">
@@ -139,70 +130,58 @@ export default function Footer() {
               </ul>
             </div>
 
-
             <div>
               <h3 className="mb-4 text-lg font-bold text-[#111] sm:text-[22px]">
                 Contact
               </h3>
-            <div className="space-y-4 text-[#555]">
+              <div className="space-y-4 text-[#555]">
+                <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
+                  <Phone className="mt-0.5 shrink-0 text-blue-600" size={18} />
+                  <a
+                    href="tel:+919873656785"
+                    className="text-sm sm:text-[15px] hover:text-blue-600 transition-colors"
+                  >
+                    +91-98736 56785
+                  </a>
+                </div>
 
+                <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
+                  <Phone className="mt-0.5 shrink-0 text-blue-600" size={18} />
+                  <a
+                    href="tel:+919716521402"
+                    className="text-sm sm:text-[15px] hover:text-blue-600 transition-colors"
+                  >
+                    +91-97165 21402
+                  </a>
+                </div>
 
+                <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
+                  <Phone className="mt-0.5 shrink-0 text-blue-600" size={18} />
+                  <a
+                    href="tel:+919069906984"
+                    className="text-sm sm:text-[15px] hover:text-blue-600 transition-colors"
+                  >
+                    +91-9069906984
+                  </a>
+                </div>
 
+                <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
+                  <MapPin className="mt-0.5 shrink-0 text-blue-600" size={18} />
+                  <div className="text-sm leading-6 sm:text-[15px]  transition-colors">
+                    X-43, Loha Mandi, Naraina Industrial Area, New Delhi
+                  </div>
+                </div>
 
-  <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
-    <Phone className="mt-0.5 shrink-0 text-blue-600" size={18} />
-    <a
-      href="tel:+919873656785"
-      className="text-sm sm:text-[15px] hover:text-blue-600 transition-colors"
-    >
-      +91-98736 56785
-    </a>
-  </div>
-
-
-  <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
-    <Phone className="mt-0.5 shrink-0 text-blue-600" size={18} />
-    <a
-      href="tel:+919716521402"
-      className="text-sm sm:text-[15px] hover:text-blue-600 transition-colors"
-    >
-      +91-97165 21402
-    </a>
-  </div>
-
-
-  <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
-    <Phone className="mt-0.5 shrink-0 text-blue-600" size={18} />
-    <a
-      href="tel:+919069906984"
-      className="text-sm sm:text-[15px] hover:text-blue-600 transition-colors"
-    >
-      +91-9069906984
-    </a>
-  </div>
-
-
-
-  <div className="flex items-start gap-3 border-b border-slate-200 pb-3">
-    <MapPin className="mt-0.5 shrink-0 text-blue-600" size={18} />
-    <div
-   
-      className="text-sm leading-6 sm:text-[15px]  transition-colors"
-    >
-      X-43, Loha Mandi, Naraina Industrial Area, New Delhi
-    </div>
-  </div>
-
-  <div className="flex items-start gap-3 pb-1">
-    <Mail className="mt-0.5 shrink-0 text-blue-600" size={18} />
-    <a
-      href="mailto:shivasteel2019@gmail.com"
-      className="text-sm sm:text-[15px] hover:text-blue-600 transition-colors"
-    >
-      shivasteel2019@gmail.com
-    </a>
-  </div>
-</div>
+                <div className="flex items-start gap-3 pb-1">
+                  <Mail className="mt-0.5 shrink-0 text-blue-600" size={18} />
+                  <a
+                    href="mailto:shivasteel2019@gmail.com"
+                    className="text-sm sm:text-[15px] hover:text-blue-600 transition-colors"
+                  >
+                    shivasteel2019@gmail.com
+                  </a>
+                </div>
+              </div>
             </div>
 
             <div className="flex flex-col items-center rounded-2xl border border-slate-200 bg-[#fffaf1] p-5 text-center shadow-sm lg:items-center lg:text-center">
@@ -210,7 +189,10 @@ export default function Footer() {
                 Trust Elite Certificate
               </h3>
 
-              <div className="mt-4 flex justify-center items-center mx-auto ">
+              <div
+                onClick={() => setShowTrustElite(true)}
+                className="mt-4 flex justify-center items-center mx-auto "
+              >
                 <Image
                   src="/TRUST-ELITE.webp"
                   alt="Trust Elite"
@@ -221,15 +203,14 @@ export default function Footer() {
               </div>
 
               <p className="mt-4 text-center text-sm leading-6 text-[#333] sm:text-[15px]">
-                We are proud to present the Trust Elite Certificate of Excellence
-                to Shiva Steel Fabricators for exceptional service and trust.
+                We are proud to present the Trust Elite Certificate of
+                Excellence to Shiva Steel Fabricators for exceptional service
+                and trust.
               </p>
             </div>
           </div>
 
           <div className="relative overflow-hidden rounded-[22px]">
-         
-
             <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 px-4 text-center sm:flex-row sm:justify-between sm:px-6 lg:px-8">
               <p className="rounded-full bg-white/80 px-4 py-2 text-xs font-medium text-[#444] sm:text-sm">
                 Copyright © 2026
@@ -255,43 +236,48 @@ export default function Footer() {
         </div>
       </div>
 
-
-
-
-
-
-
-
-
-
-
       {/* Bottom Bar */}
-<div className=" border-t border-slate-200 bg-[#111827]">
-  <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-6 py-5 text-center text-sm text-slate-300 md:flex-row md:text-left">
+      <div className=" border-t border-slate-200 bg-[#111827]">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-6 py-5 text-center text-sm text-slate-300 md:flex-row md:text-left">
+          <p>
+            Copyright © 2026{" "}
+            <span className="font-semibold text-white">
+              Shiva Steel Fabricators
+            </span>
+          </p>
 
-    <p>
-     Copyright   © 2026{" "}
-      <span className="font-semibold text-white">
-      Shiva Steel Fabricators
-      </span>
-    
-    </p>
+          <p>
+            Website Designed By Inquiry Bazaar Pvt. Ltd.{" "}
+            <a
+              href="https://inquirybazaar.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-blue-400 transition hover:text-blue-300 hover:underline"
+            >
+              B2B Marketplace
+            </a>{" "}
+          </p>
+        </div>
+      </div>
 
-    <p>
-      Website Designed By Inquiry Bazaar Pvt. Ltd. {" "}
-      <a
-        href="https://inquirybazaar.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="font-semibold text-blue-400 transition hover:text-blue-300 hover:underline"
-      >
-       B2B Marketplace
-      </a>{" "}
-   
-    </p>
+      {showTrustElite && (
+        <div onClick={() => setShowTrustElite(false)} className="fixed inset-0 z-[9999] bg-black/90 flex items-center justify-center p-4">
+          {/* Close Button */}
+          
 
-  </div>
-</div>
+          {/* Image */}
+          <div className="relative w-full h-full flex items-center justify-center">
+            <Image
+              src="/Shiva-trust.webp" 
+              alt="Trust Elite"
+              width={800}
+              height={800}
+              className="max-w-full max-h-full object-contain"
+              priority
+            />
+          </div>
+        </div>
+      )}
     </footer>
   );
 }
