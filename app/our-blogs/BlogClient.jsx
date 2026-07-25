@@ -39,9 +39,9 @@ export default function BlogsPage() {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center ">
            <p className="text-white text-lg ">Home / Blogs</p>
-          <h2 className="text-white text-6xl font-bold z-10 ">
+          <h1 className="text-white text-6xl font-bold z-10 ">
             Our Blogs
-          </h2>
+          </h1>
         </div>
       </section>
 

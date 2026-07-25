@@ -100,10 +100,10 @@ export default async function BlogDetail({ params }) {
   <div className="absolute inset-0 bg-black/40 z-[1]"></div>
   
         <div className="relative  z-10 flex h-full items-center justify-center max-w-6xl mx-auto px-6">
-          <div className="text-blue-900 max-w-6xl bg-white p-2 rounded">
+          <div className="text-blue-900 max-w-6xl bg-white opacity-80 p-2 rounded">
        
 
-            <h1 className="text-xl md:text-4xl font-bold leading-tight mt-15">
+            <h1 className="text-xl text-blue-900 md:text-4xl text-center font-bold leading-tight mt-15">
               {blog.title}
             </h1>
 
