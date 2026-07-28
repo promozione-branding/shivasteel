@@ -9,11 +9,11 @@ import Whychoose from "@/components/Landingpage/Whychoose";
 import TestimonialSlider from "@/components/Landingpage/Testimonials";
 
 import Popup from "@/components/Popup";
-// import CityPage from "../components/City";
+import CityPage from "../components/City";
 import Dedicated from "@/components/Landingpage/Dedicated";
 import Otherproduct from "@/components/Landingpage/Otherpro";
 import Clients from "@/components/Landingpage/Clients";
-import Loactions from "@/components/Locations";
+// import Loactions from "@/components/Locations";
 
 import IndustriesWeServe from "@/components/Landingpage/Industries";
 import CertificateSection from "@/components/Landingpage/Certificate";
@@ -47,7 +47,7 @@ export default function Home() {
       <Faq></Faq> */}
       {/* <Loactions /> */}
 
-      {/* <CityPage /> */}
+      <CityPage />
     </>
   );
 }
