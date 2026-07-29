@@ -15,21 +15,21 @@ import "swiper/css/effect-fade";
 import Enquiry from "@/components/Enquiry";
 const slides = [
   {
-    image: "/check.jfif",
+    image: "/check.webp",
     tag: "INDUSTRIAL EXCELLENCE",
     title: "Premium TMT Bars & Rods ",
     highlight: "for Every Industry",
     desc: "High-quality GI Sheets for roofing, fabrication, cladding, and construction applications with superior corrosion resistance and long-lasting durability.",
   },
   {
-    image: "/cabletray.jpeg",
+    image: "/cabletray.webp",
     tag: "TRUSTED SUPPLIER",
     title: "Strong & Reliable",
     highlight: " Cable Tray Solutions",
     desc: "Quality Cable Trays and Perforated Cable Trays for safe, organized, and efficient cable management in industrial and commercial projects.",
   },
   {
-    image: "/bg4.jfif",
+    image: "/bg4.webp",
     tag: "QUALITY ASSURED",
     title: "Premium Steel Pipes for ",
     highlight: "Industrial Applications",

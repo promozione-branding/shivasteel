@@ -197,7 +197,7 @@ Contact: ${phone}`;
     <div className="fixed z-[99999] inset-0 flex items-center justify-center bg-black/40">
       <div
         className="relative rounded-3xl shadow-2xl p-10 max-w-sm md:max-w-2xl text-white bg-cover bg-center"
-        style={{ backgroundImage: "url(/formbg.jfif)" }}
+        style={{ backgroundImage: "url(/formbg2.webp)" }}
       >
         {/* Close button */}
         <button

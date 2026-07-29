@@ -11,19 +11,19 @@ import "swiper/css/navigation";
 const industries = [
   {
     title: "Construction & Infrastructure",
-    image: "/Construction.jfif",
+    image: "/Construction.webp",
   },
   {
     title: "Industrial Manufacturing",
-    image: "/indus.jfif",
+    image: "/indus.webp",
   },
   {
     title: "Engineering Projects",
-    image: "/eng.jfif",
+    image: "/eng.webp",
   },
   {
     title: "Warehousing & Logistics",
-    image: "/warehouse.png",
+    image: "/warehouse.webp",
   },
   {
     title: "Power & Energy Sector",
@@ -31,7 +31,7 @@ const industries = [
   },
   {
     title: "Oil & Gas Industry",
-    image: "/oil.jfif",
+    image: "/oil.webp",
   },
 ];
 

@@ -8,7 +8,7 @@ export default function ConstructionCTA() {
       {/* RIGHT IMAGE PANEL */}
       <div className="absolute top-0 right-0 h-full w-full sm:w-[42%] opacity-40 sm:opacity-100">
         <Image
-          src="/cta.avif"
+          src="/cta.webp"
           alt=""
           fill
           className="object-cover"
