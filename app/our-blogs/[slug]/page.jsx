@@ -103,7 +103,7 @@ export default async function BlogDetail({ params }) {
           <div className="text-blue-900 max-w-6xl bg-white opacity-80 p-2 rounded">
        
 
-            <h1 className="text-xl text-blue-900 md:text-4xl text-center font-bold leading-tight mt-15">
+            <h1 className="text-xl text-blue-900 md:text-4xl text-center font-bold leading-tight ">
               {blog.title}
             </h1>
 
