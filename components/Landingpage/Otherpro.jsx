@@ -101,7 +101,7 @@ const products = [
   {/* dark shape behind cards */}
   <div className="absolute left-0 right-0 bottom-0 h-[380px] bg-[#191617]" />
 
-  <div className="max-w-[1650px] mx-auto px-10 relative z-10">
+  <div className="max-w-[1650px] mx-auto px-6 md:px-10 relative z-10">
 
     {/* HEADER */}
     <div className="flex flex-col sm:flex-row justify-between items-start gap-6 mb-8">
