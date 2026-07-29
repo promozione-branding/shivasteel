@@ -128,8 +128,10 @@ const handleSubmit = async (e) => {
 };
 
   return (
-    <div className="fixed inset-0 z-[99999] flex items-center justify-center bg-black/50 p-4 overflow-y-auto">
+    <div    onClick={ handleClose}  className="fixed inset-0 z-[99999] flex items-center justify-center p-4 overflow-y-auto">
+      
       <div
+      onClick={(e) => (e.stopPropagation())}
         className="relative border-2 border-white z-[1000] rounded-3xl shadow-2xl p-6 md:p-10 w-full max-w-[570px] text-white bg-cover bg-center"
         style={{
           backgroundImage:
