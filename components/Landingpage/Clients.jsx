@@ -8,14 +8,14 @@ import "swiper/css";
 export default function TrustedBrands() {
 const brands = [
  
-  "/client/1.png",
-  "/client/2.png",
-    "/client/3.png",
-      "/client/4.png",
-        "/client/5.png",
-          "/client/6.png",
-            "/client/7.png",
-            "/client/Logo 1.png",
+  "/client/1.webp",
+  "/client/2.webp",
+    "/client/3.webp",
+      "/client/4.webp",
+        "/client/5.webp",
+          "/client/6.webp",
+            "/client/7.webp",
+            "/client/Logo 1.webp",
 ];
 
   return (
