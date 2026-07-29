@@ -25,10 +25,10 @@ export default function ContactForm() {
   const [confirmationResult, setConfirmationResult] = useState(null);
   const [isPhoneVerified, setIsPhoneVerified] = useState(false);
 
-  useEffect(() => {
-    const timer = setTimeout(() => setIsOpen(true), 15000);
-    return () => clearTimeout(timer);
-  }, []);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => setIsOpen(true), 15000);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
   // FIREBASE RECAPTCHA
   useEffect(() => {
@@ -57,7 +57,6 @@ export default function ContactForm() {
     };
   }, [isOpen]);
 
-  if (!isOpen) return null;
 
   const handleClose = () => setIsOpen(false);
 
@@ -192,6 +191,29 @@ Contact: ${phone}`;
     // SEND OTP FIRST
     await sendOTP();
   };
+
+
+  useEffect(() => {
+  const handleScroll = () => {
+    const scrollTop = window.scrollY;
+    const windowHeight = window.innerHeight;
+    const fullHeight = document.documentElement.scrollHeight;
+
+    const scrolled = (scrollTop + windowHeight) / fullHeight;
+
+    if (scrolled >= 0.3) {
+      setIsOpen(true);
+      window.removeEventListener("scroll", handleScroll); 
+    }
+  };
+
+  window.addEventListener("scroll", handleScroll);
+
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
+
+  if (!isOpen) return null;
+
 
   return (
     <div className="fixed z-[99999] inset-0 flex items-center justify-center bg-black/40">
