@@ -517,8 +517,10 @@ export const categories = [
   {
     id: "mild-steel-pipe",
     name: "Mild Steel Pipe",
-    metaTitle: "Mild Steel Pipe Supplier for Construction & Industrial Use | Shiva Steel Fabricator",
-    metaDescription: "Looking for high-quality Mild Steel Pipes? Shiva Steel Fabricator offers durable MS Pipes for structural, engineering, fabrication, and industrial projects with reliable quality, competitive pricing, and timely delivery.",
+    metaTitle:
+      "Mild Steel Pipe Supplier for Construction & Industrial Use | Shiva Steel Fabricator",
+    metaDescription:
+      "Looking for high-quality Mild Steel Pipes? Shiva Steel Fabricator offers durable MS Pipes for structural, engineering, fabrication, and industrial projects with reliable quality, competitive pricing, and timely delivery.",
 
     products: [
       {
@@ -813,8 +815,7 @@ export const categories = [
       {
         id: "apl-apollo-ms-black-pipe",
         name: "APL Apollo MS Black Pipe",
-        metaTitle:
-          "APL Apollo MS Black Pipe Supplier | Shiva Steel Fabricator",
+        metaTitle: "APL Apollo MS Black Pipe Supplier | Shiva Steel Fabricator",
         metaDescription:
           "Shiva Steel Fabricator supplies premium-quality APL Apollo MS Black Pipes for construction, structural, engineering, and industrial applications. Explore durable MS Black Pipes with reliable quality, competitive pricing, and timely delivery.",
         description: [
@@ -888,8 +889,10 @@ export const categories = [
   {
     id: "ms-plates",
     name: "MS Plates",
-    metaTitle: "MS Plate Supplier | Premium Mild Steel Plates | Shiva Steel Fabricator",
-    metaDescription: "Shiva Steel Fabricator supplies premium-quality Mild Steel (MS) Plates for construction, fabrication, engineering, and industrial applications. Explore durable MS Plates in various sizes and thicknesses at competitive prices.",
+    metaTitle:
+      "MS Plate Supplier | Premium Mild Steel Plates | Shiva Steel Fabricator",
+    metaDescription:
+      "Shiva Steel Fabricator supplies premium-quality Mild Steel (MS) Plates for construction, fabrication, engineering, and industrial applications. Explore durable MS Plates in various sizes and thicknesses at competitive prices.",
 
     products: [
       {
@@ -1041,8 +1044,7 @@ export const categories = [
       {
         id: "ms-sheet-plate",
         name: "MS Sheet Plate",
-        metaTitle:
-          "Mild Steel Sheet Plate Supplier | Shiva Steel Fabricator",
+        metaTitle: "Mild Steel Sheet Plate Supplier | Shiva Steel Fabricator",
         metaDescription:
           "Looking for high-quality MS Sheet Plates? Shiva Steel Fabricator offers strong and durable Mild Steel Sheet Plates for structural fabrication, engineering, manufacturing, and construction projects with reliable quality, competitive pricing, and timely delivery.",
 
@@ -1342,8 +1344,10 @@ export const categories = [
   {
     id: "gp-sheets",
     name: "GP Sheets",
-    metaTitle: "GP Sheet Supplier | Premium Galvanized Plain Sheets | Shiva Steel Fabricator",
-    metaDescription: "Shiva Steel Fabricator supplies premium-quality GP Sheets for roofing, cladding, fabrication, construction, and industrial applications. Explore durable Galvanized Plain Sheets in various sizes and thicknesses at competitive prices.",
+    metaTitle:
+      "GP Sheet Supplier | Premium Galvanized Plain Sheets | Shiva Steel Fabricator",
+    metaDescription:
+      "Shiva Steel Fabricator supplies premium-quality GP Sheets for roofing, cladding, fabrication, construction, and industrial applications. Explore durable Galvanized Plain Sheets in various sizes and thicknesses at competitive prices.",
 
     products: [
       {
@@ -1790,8 +1794,10 @@ export const categories = [
   {
     id: "ms-sheets",
     name: "MS Sheets",
-    metaTitle: "MS Sheet Supplier | Premium Mild Steel Sheets | Shiva Steel Fabricator",
-    metaDescription: "Shiva Steel Fabricator supplies premium-quality Mild Steel (MS) Sheets for construction, fabrication, engineering, manufacturing, and industrial applications. Available in various sizes and thicknesses with competitive pricing and timely delivery.",
+    metaTitle:
+      "MS Sheet Supplier | Premium Mild Steel Sheets | Shiva Steel Fabricator",
+    metaDescription:
+      "Shiva Steel Fabricator supplies premium-quality Mild Steel (MS) Sheets for construction, fabrication, engineering, manufacturing, and industrial applications. Available in various sizes and thicknesses with competitive pricing and timely delivery.",
 
     products: [
       {
@@ -2318,8 +2324,10 @@ export const categories = [
   {
     id: "mild-steel-bars",
     name: "Mild Steel Bars",
-    metaTitle: "MS Bar Supplier | Premium Mild Steel Bars | Shiva Steel Fabricator",
-    metaDescription: "Shiva Steel Fabricator supplies premium-quality Mild Steel (MS) Bars for construction, fabrication, engineering, and industrial applications. Explore durable MS Bars in various sizes and specifications at competitive prices.",
+    metaTitle:
+      "MS Bar Supplier | Premium Mild Steel Bars | Shiva Steel Fabricator",
+    metaDescription:
+      "Shiva Steel Fabricator supplies premium-quality Mild Steel (MS) Bars for construction, fabrication, engineering, and industrial applications. Explore durable MS Bars in various sizes and specifications at competitive prices.",
 
     products: [
       {
@@ -2780,8 +2788,10 @@ export const categories = [
   {
     id: "metal-coil",
     name: "Metal Coil",
-    metaTitle: "Metal Coil Supplier | Premium Steel Coils | Shiva Steel Fabricator",
-    metaDescription: "Shiva Steel Fabricator supplies premium-quality Metal Coils for roofing, fabrication, construction, engineering, and industrial applications. Explore durable steel coils with excellent strength, quality, and competitive pricing.",
+    metaTitle:
+      "Metal Coil Supplier | Premium Steel Coils | Shiva Steel Fabricator",
+    metaDescription:
+      "Shiva Steel Fabricator supplies premium-quality Metal Coils for roofing, fabrication, construction, engineering, and industrial applications. Explore durable steel coils with excellent strength, quality, and competitive pricing.",
 
     products: [
       {
@@ -3248,8 +3258,10 @@ export const categories = [
   {
     id: "mild-steel-angle",
     name: "Mild Steel Angle",
-    metaTitle: "MS Angle Supplier | Premium Mild Steel Angles | Shiva Steel Fabricator",
-    metaDescription: "Shiva Steel Fabricator supplies premium-quality Mild Steel (MS) Angles for construction, structural fabrication, engineering, and industrial applications. Explore durable MS Angles in various sizes with competitive pricing and timely delivery.",
+    metaTitle:
+      "MS Angle Supplier | Premium Mild Steel Angles | Shiva Steel Fabricator",
+    metaDescription:
+      "Shiva Steel Fabricator supplies premium-quality Mild Steel (MS) Angles for construction, structural fabrication, engineering, and industrial applications. Explore durable MS Angles in various sizes with competitive pricing and timely delivery.",
 
     products: [
       {
@@ -3551,8 +3563,10 @@ export const categories = [
   {
     id: "tmt-bars",
     name: "TMT Bars",
-    metaTitle: "Premium TMT Bar Supplier for Construction | Shiva Steel Fabricator",
-    metaDescription: "Shiva Steel Fabricator supplies premium-quality TMT Bars for residential, commercial, industrial, and infrastructure projects. Explore high-strength, corrosion-resistant TMT Bars at competitive prices with timely delivery.",
+    metaTitle:
+      "Premium TMT Bar Supplier for Construction | Shiva Steel Fabricator",
+    metaDescription:
+      "Shiva Steel Fabricator supplies premium-quality TMT Bars for residential, commercial, industrial, and infrastructure projects. Explore high-strength, corrosion-resistant TMT Bars at competitive prices with timely delivery.",
 
     products: [
       {
@@ -3749,8 +3763,10 @@ export const categories = [
   {
     id: "cable-tray",
     name: "Cable Tray",
-    metaTitle: "Cable Tray Supplier | Perforated & Industrial Cable Trays | Shiva Steel Fabricator",
-    metaDescription: "Looking for high-quality Cable Trays? Shiva Steel Fabricator offers durable Cable Trays and Perforated Cable Trays for safe and efficient cable management in industrial, commercial, and infrastructure projects.",
+    metaTitle:
+      "Cable Tray Supplier | Perforated & Industrial Cable Trays | Shiva Steel Fabricator",
+    metaDescription:
+      "Looking for high-quality Cable Trays? Shiva Steel Fabricator offers durable Cable Trays and Perforated Cable Trays for safe and efficient cable management in industrial, commercial, and infrastructure projects.",
 
     products: [
       {
@@ -3976,208 +3992,208 @@ export const categories = [
 ];
 
 export const serviceLocations = [
-  { href: "/shiva-steel-in-delhi", label: "Delhi", id: 1 },
-  { href: "/shiva-steel-in-mumbai", label: "Mumbai", id: 2 },
-  { href: "/shiva-steel-in-kolkata", label: "Kolkata", id: 3 },
-  { href: "/shiva-steel-in-chennai", label: "Chennai", id: 4 },
-  { href: "/shiva-steel-in-bangalore", label: "Bangalore", id: 5 },
-  { href: "/shiva-steel-in-hyderabad", label: "Hyderabad", id: 6 },
-  { href: "/shiva-steel-in-pune", label: "Pune", id: 7 },
-  { href: "/shiva-steel-in-ahmedabad", label: "Ahmedabad", id: 8 },
-  { href: "/shiva-steel-in-jaipur", label: "Jaipur", id: 9 },
-  { href: "/shiva-steel-in-lucknow", label: "Lucknow", id: 10 },
-  { href: "/shiva-steel-in-surat", label: "Surat", id: 11 },
-  { href: "/shiva-steel-in-kanpur", label: "Kanpur", id: 12 },
-  { href: "/shiva-steel-in-nagpur", label: "Nagpur", id: 13 },
-  { href: "/shiva-steel-in-indore", label: "Indore", id: 14 },
-  { href: "/shiva-steel-in-thane", label: "Thane", id: 15 },
-  { href: "/shiva-steel-in-bhopal", label: "Bhopal", id: 16 },
+  { href: "/gi-sheet-in-delhi", label: "Delhi", id: 1 },
+  { href: "/gi-sheet-in-mumbai", label: "Mumbai", id: 2 },
+  { href: "/gi-sheet-in-kolkata", label: "Kolkata", id: 3 },
+  { href: "/gi-sheet-in-chennai", label: "Chennai", id: 4 },
+  { href: "/gi-sheet-in-bangalore", label: "Bangalore", id: 5 },
+  { href: "/gi-sheet-in-hyderabad", label: "Hyderabad", id: 6 },
+  { href: "/gi-sheet-in-pune", label: "Pune", id: 7 },
+  { href: "/gi-sheet-in-ahmedabad", label: "Ahmedabad", id: 8 },
+  { href: "/gi-sheet-in-jaipur", label: "Jaipur", id: 9 },
+  { href: "/gi-sheet-in-lucknow", label: "Lucknow", id: 10 },
+  { href: "/gi-sheet-in-surat", label: "Surat", id: 11 },
+  { href: "/gi-sheet-in-kanpur", label: "Kanpur", id: 12 },
+  { href: "/gi-sheet-in-nagpur", label: "Nagpur", id: 13 },
+  { href: "/gi-sheet-in-indore", label: "Indore", id: 14 },
+  { href: "/gi-sheet-in-thane", label: "Thane", id: 15 },
+  { href: "/gi-sheet-in-bhopal", label: "Bhopal", id: 16 },
   {
-    href: "/shiva-steel-visakhapatnam",
+    href: "/gi-sheet-in-visakhapatnam",
     label: "Visakhapatnam",
     id: 17,
   },
   {
-    href: "/shiva-steel-pimpri-chinchwad",
+    href: "/gi-sheet-in-pimpri-chinchwad",
     label: "Pimpri-Chinchwad",
     id: 18,
   },
-  { href: "/shiva-steel-patna", label: "Patna", id: 19 },
-  { href: "/shiva-steel-vadodara", label: "Vadodara", id: 20 },
+  { href: "/gi-sheet-in-patna", label: "Patna", id: 19 },
+  { href: "/gi-sheet-in-vadodara", label: "Vadodara", id: 20 },
   {
-    href: "/shiva-steel-ghaziabad",
+    href: "/gi-sheet-in-ghaziabad",
     label: "Ghaziabad",
     id: 21,
   },
-  { href: "/shiva-steel-ludhiana", label: "Ludhiana", id: 22 },
-  { href: "/shiva-steel-agra", label: "Agra", id: 23 },
-  { href: "/shiva-steel-nashik", label: "Nashik", id: 24 },
+  { href: "/gi-sheet-in-ludhiana", label: "Ludhiana", id: 22 },
+  { href: "/gi-sheet-in-agra", label: "Agra", id: 23 },
+  { href: "/gi-sheet-in-nashik", label: "Nashik", id: 24 },
   {
-    href: "/shiva-steel-faridabad",
+    href: "/gi-sheet-in-faridabad",
     label: "Faridabad",
     id: 25,
   },
-  { href: "/shiva-steel-meerut", label: "Meerut", id: 26 },
-  { href: "/shiva-steel-rajkot", label: "Rajkot", id: 27 },
+  { href: "/gi-sheet-in-meerut", label: "Meerut", id: 26 },
+  { href: "/gi-sheet-in-rajkot", label: "Rajkot", id: 27 },
   {
-    href: "/shiva-steel-kalyan-dombivli",
+    href: "/gi-sheet-in-kalyan-dombivli",
     label: "Kalyan-Dombivli",
     id: 28,
   },
   {
-    href: "/shiva-steel-vasai-virar",
+    href: "/gi-sheet-in-vasai-virar",
     label: "Vasai-Virar",
     id: 29,
   },
-  { href: "/shiva-steel-varanasi", label: "Varanasi", id: 30 },
-  { href: "/shiva-steel-srinagar", label: "Srinagar", id: 31 },
+  { href: "/gi-sheet-in-varanasi", label: "Varanasi", id: 30 },
+  { href: "/gi-sheet-in-srinagar", label: "Srinagar", id: 31 },
   {
-    href: "/shiva-steel-aurangabad",
+    href: "/gi-sheet-in-aurangabad",
     label: "Aurangabad",
     id: 32,
   },
-  { href: "/shiva-steel-dhanbad", label: "Dhanbad", id: 33 },
-  { href: "/shiva-steel-amritsar", label: "Amritsar", id: 34 },
+  { href: "/gi-sheet-in-dhanbad", label: "Dhanbad", id: 33 },
+  { href: "/gi-sheet-in-amritsar", label: "Amritsar", id: 34 },
   {
-    href: "/shiva-steel-navi-mumbai",
+    href: "/gi-sheet-in-navi-mumbai",
     label: "Navi Mumbai",
     id: 35,
   },
   {
-    href: "/shiva-steel-prayagraj",
+    href: "/gi-sheet-in-prayagraj",
     label: "Allahabad (Prayagraj)",
     id: 36,
   },
-  { href: "/shiva-steel-howrah", label: "Howrah", id: 37 },
-  { href: "/shiva-steel-ranchi", label: "Ranchi", id: 38 },
-  { href: "/shiva-steel-gwalior", label: "Gwalior", id: 39 },
-  { href: "/shiva-steel-jabalpur", label: "Jabalpur", id: 40 },
+  { href: "/gi-sheet-in-howrah", label: "Howrah", id: 37 },
+  { href: "/gi-sheet-in-ranchi", label: "Ranchi", id: 38 },
+  { href: "/gi-sheet-in-gwalior", label: "Gwalior", id: 39 },
+  { href: "/gi-sheet-in-jabalpur", label: "Jabalpur", id: 40 },
   {
-    href: "/shiva-steel-coimbatore",
+    href: "/gi-sheet-in-coimbatore",
     label: "Coimbatore",
     id: 41,
   },
   {
-    href: "/shiva-steel-vijayawada",
+    href: "/gi-sheet-in-vijayawada",
     label: "Vijayawada",
     id: 42,
   },
-  { href: "/shiva-steel-jodhpur", label: "Jodhpur", id: 43 },
-  { href: "/shiva-steel-madurai", label: "Madurai", id: 44 },
-  { href: "/shiva-steel-raipur", label: "Raipur", id: 45 },
-  { href: "/shiva-steel-kota", label: "Kota", id: 46 },
-  { href: "/shiva-steel-guwahati", label: "Guwahati", id: 47 },
+  { href: "/gi-sheet-in-jodhpur", label: "Jodhpur", id: 43 },
+  { href: "/gi-sheet-in-madurai", label: "Madurai", id: 44 },
+  { href: "/gi-sheet-in-raipur", label: "Raipur", id: 45 },
+  { href: "/gi-sheet-in-kota", label: "Kota", id: 46 },
+  { href: "/gi-sheet-in-guwahati", label: "Guwahati", id: 47 },
   {
-    href: "/shiva-steel-chandigarh",
+    href: "/gi-sheet-in-chandigarh",
     label: "Chandigarh",
     id: 48,
   },
-  { href: "/shiva-steel-solapur", label: "Solapur", id: 49 },
+  { href: "/gi-sheet-in-solapur", label: "Solapur", id: 49 },
   {
-    href: "/shiva-steel-hubli-dharwad",
+    href: "/gi-sheet-in-hubli-dharwad",
     label: "Hubli-Dharwad",
     id: 50,
   },
-  { href: "/shiva-steel-mysore", label: "Mysore", id: 51 },
-  { href: "/shiva-steel-bareilly", label: "Bareilly", id: 52 },
+  { href: "/gi-sheet-in-mysore", label: "Mysore", id: 51 },
+  { href: "/gi-sheet-in-bareilly", label: "Bareilly", id: 52 },
   {
-    href: "/shiva-steel-moradabad",
+    href: "/gi-sheet-in-moradabad",
     label: "Moradabad",
     id: 53,
   },
-  { href: "/shiva-steel-gurgaon", label: "Gurgaon", id: 54 },
-  { href: "/shiva-steel-aligarh", label: "Aligarh", id: 55 },
+  { href: "/gi-sheet-in-gurgaon", label: "Gurgaon", id: 54 },
+  { href: "/gi-sheet-in-aligarh", label: "Aligarh", id: 55 },
   {
-    href: "/shiva-steel-jalandhar",
+    href: "/gi-sheet-in-jalandhar",
     label: "Jalandhar",
     id: 56,
   },
   {
-    href: "/shiva-steel-tiruchirappalli",
+    href: "/gi-sheet-in-tiruchirappalli",
     label: "Tiruchirappalli",
     id: 57,
   },
   {
-    href: "/shiva-steel-bhubaneswar",
+    href: "/gi-sheet-in-bhubaneswar",
     label: "Bhubaneswar",
     id: 58,
   },
-  { href: "/shiva-steel-salem", label: "Salem", id: 59 },
+  { href: "/gi-sheet-in-salem", label: "Salem", id: 59 },
   {
-    href: "/shiva-steel-mira-bhayandar",
+    href: "/gi-sheet-in-mira-bhayandar",
     label: "Mira-Bhayandar",
     id: 60,
   },
   {
-    href: "/shiva-steel-thiruvananthapuram",
+    href: "/gi-sheet-in-thiruvananthapuram",
     label: "Thiruvananthapuram",
     id: 61,
   },
-  { href: "/shiva-steel-bhiwandi", label: "Bhiwandi", id: 62 },
+  { href: "/gi-sheet-in-bhiwandi", label: "Bhiwandi", id: 62 },
   {
-    href: "/shiva-steel-saharanpur",
+    href: "/gi-sheet-in-saharanpur",
     label: "Saharanpur",
     id: 63,
   },
   {
-    href: "/shiva-steel-gorakhpur",
+    href: "/gi-sheet-in-gorakhpur",
     label: "Gorakhpur",
     id: 64,
   },
-  { href: "/shiva-steel-bikaner", label: "Bikaner", id: 65 },
-  { href: "/shiva-steel-amravati", label: "Amravati", id: 66 },
-  { href: "/shiva-steel-noida", label: "Noida", id: 67 },
+  { href: "/gi-sheet-in-bikaner", label: "Bikaner", id: 65 },
+  { href: "/gi-sheet-in-amravati", label: "Amravati", id: 66 },
+  { href: "/gi-sheet-in-noida", label: "Noida", id: 67 },
   {
-    href: "/shiva-steel-jamshedpur",
+    href: "/gi-sheet-in-jamshedpur",
     label: "Jamshedpur",
     id: 68,
   },
-  { href: "/shiva-steel-bhilai", label: "Bhilai", id: 69 },
-  { href: "/shiva-steel-cuttack", label: "Cuttack", id: 70 },
+  { href: "/gi-sheet-in-bhilai", label: "Bhilai", id: 69 },
+  { href: "/gi-sheet-in-cuttack", label: "Cuttack", id: 70 },
   {
-    href: "/shiva-steel-firozabad",
+    href: "/gi-sheet-in-firozabad",
     label: "Firozabad",
     id: 71,
   },
-  { href: "/shiva-steel-kochi", label: "Kochi", id: 72 },
+  { href: "/gi-sheet-in-kochi", label: "Kochi", id: 72 },
   {
-    href: "/shiva-steel-bhavnagar",
+    href: "/gi-sheet-in-bhavnagar",
     label: "Bhavnagar",
     id: 73,
   },
-  { href: "/shiva-steel-dehradun", label: "Dehradun", id: 74 },
-  { href: "/shiva-steel-durgapur", label: "Durgapur", id: 75 },
-  { href: "/shiva-steel-asansol", label: "Asansol", id: 76 },
-  { href: "/shiva-steel-nanded", label: "Nanded", id: 77 },
-  { href: "/shiva-steel-kolhapur", label: "Kolhapur", id: 78 },
-  { href: "/shiva-steel-ajmer", label: "Ajmer", id: 79 },
-  { href: "/shiva-steel-akola", label: "Akola", id: 80 },
-  { href: "/shiva-steel-gulbarga", label: "Gulbarga", id: 81 },
-  { href: "/shiva-steel-jamnagar", label: "Jamnagar", id: 82 },
-  { href: "/shiva-steel-ujjain", label: "Ujjain", id: 83 },
-  { href: "/shiva-steel-latur", label: "Latur", id: 84 },
-  { href: "/shiva-steel-dhule", label: "Dhule", id: 85 },
-  { href: "/shiva-steel-panipat", label: "Panipat", id: 86 },
-  { href: "/shiva-steel-ambala", label: "Ambala", id: 87 },
+  { href: "/gi-sheet-in-dehradun", label: "Dehradun", id: 74 },
+  { href: "/gi-sheet-in-durgapur", label: "Durgapur", id: 75 },
+  { href: "/gi-sheet-in-asansol", label: "Asansol", id: 76 },
+  { href: "/gi-sheet-in-nanded", label: "Nanded", id: 77 },
+  { href: "/gi-sheet-in-kolhapur", label: "Kolhapur", id: 78 },
+  { href: "/gi-sheet-in-ajmer", label: "Ajmer", id: 79 },
+  { href: "/gi-sheet-in-akola", label: "Akola", id: 80 },
+  { href: "/gi-sheet-in-gulbarga", label: "Gulbarga", id: 81 },
+  { href: "/gi-sheet-in-jamnagar", label: "Jamnagar", id: 82 },
+  { href: "/gi-sheet-in-ujjain", label: "Ujjain", id: 83 },
+  { href: "/gi-sheet-in-latur", label: "Latur", id: 84 },
+  { href: "/gi-sheet-in-dhule", label: "Dhule", id: 85 },
+  { href: "/gi-sheet-in-panipat", label: "Panipat", id: 86 },
+  { href: "/gi-sheet-in-ambala", label: "Ambala", id: 87 },
   {
-    href: "/shiva-steel-tirunelveli",
+    href: "/gi-sheet-in-tirunelveli",
     label: "Tirunelveli",
     id: 88,
   },
-  { href: "/shiva-steel-alwar", label: "Alwar", id: 89 },
-  { href: "/shiva-steel-jagraon", label: "Jagraon", id: 90 },
-  { href: "/shiva-steel-siliguri", label: "Siliguri", id: 91 },
+  { href: "/gi-sheet-in-alwar", label: "Alwar", id: 89 },
+  { href: "/gi-sheet-in-jagraon", label: "Jagraon", id: 90 },
+  { href: "/gi-sheet-in-siliguri", label: "Siliguri", id: 91 },
   {
-    href: "/shiva-steel-muzaffarpur",
+    href: "/gi-sheet-in-muzaffarpur",
     label: "Muzaffarpur",
     id: 92,
   },
-  { href: "/shiva-steel-guntur", label: "Guntur", id: 93 },
-  { href: "/shiva-steel-warangal", label: "Warangal", id: 94 },
-  { href: "/shiva-steel-jhansi", label: "Jhansi", id: 95 },
-  { href: "/shiva-steel-satara", label: "Satara", id: 96 },
-  { href: "/shiva-steel-karnal", label: "Karnal", id: 97 },
-  { href: "/shiva-steel-shimla", label: "Shimla", id: 98 },
-  { href: "/shiva-steel-anand", label: "Anand", id: 99 },
-  { href: "/shiva-steel-rewari", label: "Rewari", id: 100 },
+  { href: "/gi-sheet-in-guntur", label: "Guntur", id: 93 },
+  { href: "/gi-sheet-in-warangal", label: "Warangal", id: 94 },
+  { href: "/gi-sheet-in-jhansi", label: "Jhansi", id: 95 },
+  { href: "/gi-sheet-in-satara", label: "Satara", id: 96 },
+  { href: "/gi-sheet-in-karnal", label: "Karnal", id: 97 },
+  { href: "/gi-sheet-in-shimla", label: "Shimla", id: 98 },
+  { href: "/gi-sheet-in-anand", label: "Anand", id: 99 },
+  { href: "/gi-sheet-in-rewari", label: "Rewari", id: 100 },
 ];
