@@ -12,8 +12,8 @@ export async function generateMetadata({ params }) {
         .join(" ");
 
     return {
-        title: `shivasteel ${city} `,
-        description: `shivasteel ${city} .`,
+        title: `GI Sheet in ${city} | Premium Galvanized Iron Sheets | Shiva Steel `,
+        description: `Looking for premium GI Sheets in ${city}? Shiva Steel Fabricators offers durable galvanized iron sheets for roofing, fabrication, and industrial applications.`,
     };
 }
 
