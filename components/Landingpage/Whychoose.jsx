@@ -20,7 +20,7 @@ const Whychoose = () => {
         </h2>
 
         <p className="mt-3 lg:mt-5 xl:mt-8 text-md lg:text-lg xl:text-xl text-gray-900 xl:leading-relaxed">
-          At Shiva Steel Fabricator, we combine quality products, industry
+          At Shiva Steel Fabricator, we combine quality <a className="text-blue-600" href="/products">products</a>, industry
           expertise, and customer-focused service to deliver reliable steel
           solutions for projects of every scale. Whether you require structural
           steel materials for construction, fabrication, engineering, or

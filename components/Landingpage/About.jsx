@@ -94,8 +94,8 @@ export default function AboutSection() {
             <p className="mt-2 md:mt-4 text-black text-md md:text-lg leading-7 xl:leading-8 ">
               Welcome to Shiva Steel Fabricator, a trusted name in the
               steel fabrication and supply industry. We specialize in
-              providing premium-quality MS Pipe, MS Plate, MS Angle,
-              MS Beam, MS Channel, MS GP Sheet, MS GI Sheet,
+              providing premium-quality <a className="text-blue-600" href="/categories/mild-steel-pipe">MS Pipe</a>, <a className="text-blue-600" href="/categories/ms-plates">MS Plate</a>, <a className="text-blue-600" href="/categories/mild-steel-angle">MS Angle</a>,
+              MS Beam, MS Channel, <a className="text-blue-600" href="/categories/gp-sheets">MS GP Sheet</a> ,<a className="text-blue-600" href="/categories/gi-sheet">MS GI Sheet</a> ,
               Chequered Plates, Heavy Plates, Boiler Plates,
               Cable Tray and Perforated Cable Tray.
             </p>
