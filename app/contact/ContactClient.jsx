@@ -24,6 +24,7 @@ export default function ContactPage() {
       const formData = {
         platform: "Shiva Steel Fabricator Contact page form",
         platformEmail: "shivasteel2019@gmail.com",
+        supplierToken: "6a9bc52a79bd32ac5164a446",
         name,
         phone,
         email,

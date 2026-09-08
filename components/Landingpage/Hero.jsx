@@ -73,6 +73,7 @@ export default function HeroSection() {
       const formData = {
         platform: "Steel Hero Form",
         platformEmail: "care@inquirybazaar.com",
+        supplierToken: "6a9bc52a79bd32ac5164a446",
         name: form.name,
         phone: form.phone,
         email: form.email || "N/A",
