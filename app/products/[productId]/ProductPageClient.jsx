@@ -220,7 +220,7 @@ const features = [
         </h2>
 
         <p className="mt-4 text-slate-500 leading-6 text-center md:text-start xl::leading-8">
-          Every product supplied by Shiva Steel Fabricators undergoes
+          Every product supplied by Shiva Steel Fabricator undergoes
           stringent quality inspection to ensure durability, precision,
           and long-term industrial performance.
         </p>
@@ -526,7 +526,7 @@ const features = [
     <div className="text-center mb-10">
 
       <span className="inline-flex rounded-full border border-blue-300/30 bg-white/5 px-5 py-2 text-sm font-semibold tracking-widest uppercase text-blue-200 backdrop-blur">
-        Why Choose Shiva Steel Fabricators
+        Why Choose Shiva Steel Fabricator
       </span>
 
       <h2 className="mt-5 text-2xl lg:text-4xl xl:text-5xl font-bold text-white">

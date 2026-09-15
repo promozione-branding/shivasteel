@@ -40,7 +40,7 @@ export default function Footer() {
             <div className="flex py-0.5 items-center justify-center lg:justify-start">
               <Image
                 src="/footerlogo.png"
-                alt="Shiva Steel Fabricators logo"
+                alt="Shiva Steel Fabricator logo"
                 width={160}
                 height={90}
                 className="h-20 w-auto sm:h-27 my-4 md:mb-0 "
@@ -48,7 +48,7 @@ export default function Footer() {
             </div>
 
             <p className="md:mt-6 text-md text-center md:text-left text-[#2f2e2e] sm:text-[15px] lg:mt-4">
-              We at Shiva Steel Fabricators are involved in wholesale trade,
+              We at Shiva Steel Fabricator are involved in wholesale trade,
               supplier, and provision of services for a superior quality range
               of MS Sheet, Cable Tray, Colour, GI Decking Sheet, GP Sheet, MS
               Pipe, MS Heavy Plate, Mild Steel Chequered Plate, MS Cold Rolled
@@ -204,7 +204,7 @@ export default function Footer() {
 
               <p className="mt-4 text-center text-sm leading-6 text-[#333] sm:text-[15px]">
                 We are proud to present the Trust Elite Certificate of
-                Excellence to Shiva Steel Fabricators for exceptional service
+                Excellence to Shiva Steel Fabricator for exceptional service
                 and trust.
               </p>
             </div>
@@ -215,7 +215,7 @@ export default function Footer() {
               <p className="rounded-full bg-white/80 px-4 py-2 text-xs font-medium text-[#444] sm:text-sm">
                 Copyright © 2026
                 <span className="ml-1 font-bold text-[#111]">
-                  Shiva Steel Fabricators
+                  Shiva Steel Fabricator
                 </span>
               </p>
 
@@ -242,7 +242,7 @@ export default function Footer() {
           <p>
             Copyright © 2026{" "}
             <span className="font-semibold text-white">
-              Shiva Steel Fabricators
+              Shiva Steel Fabricator
             </span>
           </p>
 

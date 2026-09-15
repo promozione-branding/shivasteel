@@ -83,7 +83,7 @@ const Services = ({city}) => {
         </h2>
 
         <p className="text-gray-600 text-sm md:text-base mt-4 leading-relaxed">
-          At Shiva Steel Fabricators, we are a trusted GI Sheet Supplier in {city}.
+          At Shiva Steel Fabricator, we are a trusted GI Sheet Supplier in {city}.
         </p>
       </div>
 

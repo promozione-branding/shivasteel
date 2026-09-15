@@ -62,7 +62,7 @@ const Whychoose = () => {
           {
             title: "Trusted Partner for Businesses",
             description:
-              "Contractors, fabricators, builders, and industries trust us for quality products and long-term business relationships.",
+              "Contractors, fabricator, builders, and industries trust us for quality products and long-term business relationships.",
           },
         ].map((item, index) => (
           <div

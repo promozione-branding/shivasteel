@@ -81,7 +81,7 @@ export default function AboutHero() {
               for construction, engineering, industrial, and infrastructure
               projects. With a focus on quality, competitive pricing, and timely
               delivery, we have earned the trust of contractors, builders,
-              fabricators, and businesses across various industries.
+              fabricator, and businesses across various industries.
             </p>
 
             <div className="mt-3 md:mt-12   justify-center md:justify-start flex md:flex-wrap gap-2 md:gap-5">
@@ -215,7 +215,7 @@ export default function AboutHero() {
               <p className="mt-4 text-md md:text-lg leading-6 xl:leading-9 text-black ">
                 At Shiva Steel Fabricator, we believe that quality materials are
                 the foundation of every successful project. Our team works
-                closely with contractors, builders, fabricators, engineers, and
+                closely with contractors, builders, fabricator, engineers, and
                 industrial clients to understand their requirements and provide
                 the right steel products for every application. Whether you
                 require materials for a residential construction project, a
@@ -374,7 +374,7 @@ export default function AboutHero() {
             </span>
 
             <h2 className="mt-5 text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 leading-tight">
-              Why Choose Shiva Steel Fabricators?
+              Why Choose Shiva Steel Fabricator?
             </h2>
 
             <p className="mt-2 md:mt-4 text-slate-600 max-w-3xl mx-auto text-base leading-6 md:leading-7">

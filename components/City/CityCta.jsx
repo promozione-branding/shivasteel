@@ -19,7 +19,7 @@ const CityCta = ({city}) => {
 
         {/* Description */}
         <p className="mt-4 text-sm md:text-base text-gray-200 leading-relaxed max-w-3xl mx-auto">
-          Looking for high-quality GI Sheets in {city}? Shiva Steel Fabricators offers
+          Looking for high-quality GI Sheets in {city}? Shiva Steel Fabricator offers
           durable GI Sheets in various sizes and specifications at competitive prices.
           Contact us today for expert assistance and a free quote for your project.
         </p>

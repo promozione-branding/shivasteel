@@ -27,9 +27,9 @@ const Faq = ({city}) => {
         "Absolutely. Our GI Sheets are available in multiple thicknesses, widths, and dimensions to meet the specific requirements of your project.",
     },
     {
-      question: `Why choose Shiva Steel Fabricators for GI Sheets in ${city}?`,
+      question: `Why choose Shiva Steel Fabricator for GI Sheets in ${city}?`,
       answer:
-        `Shiva Steel Fabricators is committed to delivering premium-quality GI Sheets in ${city}, competitive pricing, timely delivery, and reliable customer support, making us a trusted choice for construction, fabrication, and industrial needs.`,
+        `Shiva Steel Fabricator is committed to delivering premium-quality GI Sheets in ${city}, competitive pricing, timely delivery, and reliable customer support, making us a trusted choice for construction, fabrication, and industrial needs.`,
     },
   ];
 

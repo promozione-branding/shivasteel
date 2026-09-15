@@ -68,7 +68,7 @@ export default function WhyChooseUs() {
               steel products and exceptional service that businesses can rely on.
               Our dedication to product quality, customer satisfaction, and
               timely delivery has helped us build long-lasting relationships
-              with contractors, fabricators, builders, and industrial clients.
+              with contractors, fabricator, builders, and industrial clients.
             </p>
 
             <div className="mt-6 space-y-5">

@@ -40,7 +40,7 @@ const ApplicationsCity = ({city}) => {
         </h2>
 
         <p className="text-gray-600 mt-4 text-sm md:text-base leading-relaxed">
-          GI Sheets are widely used across residential, commercial, and industrial sectors due to their exceptional strength, corrosion resistance, and long-lasting performance. At Shiva Steel Fabricators, our premium-quality GI Sheets in {city} are designed to meet the diverse requirements of construction, fabrication, and engineering projects.
+          GI Sheets are widely used across residential, commercial, and industrial sectors due to their exceptional strength, corrosion resistance, and long-lasting performance. At Shiva Steel Fabricator, our premium-quality GI Sheets in {city} are designed to meet the diverse requirements of construction, fabrication, and engineering projects.
         </p>
       </div>
 
