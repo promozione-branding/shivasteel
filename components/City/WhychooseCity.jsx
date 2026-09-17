@@ -23,7 +23,7 @@ const WhychooseCity = ({city}) => {
           Shiva Steel Fabricator is known for offering premium-quality GI Sheets in {city} for construction, roofing, fabrication, and industrial applications. We are committed to providing durable products, competitive prices, and reliable service, making us a trusted choice for businesses and contractors across {city}.
         </p>
 
-        <Image className='mt-6' width={700} height={700} src="/whychoose.jpg"></Image>
+        <Image className='mt-6' alt="GI Sheet Supplier" width={700} height={700} src="/whychoose.jpg"></Image>
       </div>
 
       {/* Right Features */}
