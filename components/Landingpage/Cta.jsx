@@ -9,7 +9,7 @@ export default function ConstructionCTA() {
       <div className="absolute top-0 right-0 h-full w-full sm:w-[42%] opacity-40 sm:opacity-100">
         <Image
           src="/cta.webp"
-          alt=""
+          alt="MS Pipe Supplier"
           fill
           className="object-cover"
         />

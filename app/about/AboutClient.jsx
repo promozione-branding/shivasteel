@@ -117,7 +117,7 @@ export default function AboutHero() {
               <div className="overflow-hidden rounded-[35px] shadow-[0_30px_80px_rgba(0,0,0,0.12)]">
                 <Image
                   src="/aboutimg.avif" // Replace with your image
-                  alt="Shiva Steel Fabricator"
+                  alt="GP Sheet Supplier"
                   width={650}
                   height={750}
                   className="h-full w-full object-cover transition duration-700 hover:scale-105"
@@ -252,7 +252,7 @@ export default function AboutHero() {
               <div className="overflow-hidden rounded-[35px] shadow-[0_30px_80px_rgba(0,0,0,0.15)]">
                 <Image
                   src="/tmt.jpg"
-                  alt="Who We Are"
+                  alt="TMT bars"
                   width={1000}
                   height={750}
                   className="h-full w-full object-cover transition duration-700 hover:scale-105"

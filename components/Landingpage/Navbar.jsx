@@ -81,6 +81,7 @@ export default function Navbar() {
             <Image
               width={150}
               height={100}
+              alt="Shiva Steel Fabricator"
               src="/Shiva Steel Fabricators logo.png"
             ></Image>
           </Link>

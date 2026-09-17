@@ -28,7 +28,7 @@ const Whychoose = () => {
           pricing, and timely delivery to help keep your projects on track.
         </p>
 
-        <Image className='mt-6' width={700} height={700} src="/whychoose.jpg"></Image>
+        <Image className='mt-6' width={700} alt='GI Sheet Supplier' height={700} src="/whychoose.jpg"></Image>
       </div>
 
       {/* Right Features */}

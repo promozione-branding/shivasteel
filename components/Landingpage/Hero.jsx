@@ -141,12 +141,12 @@ export default function HeroSection() {
                         {slide.tag}
                       </span>
 
-                      <h1 className="mt-4 text-white text-3xl sm:text-5xl lg:text-[64px] leading-tight font-extrabold">
+                      <h2 className="mt-4 text-white text-3xl sm:text-5xl lg:text-[64px] leading-tight font-extrabold">
                         {slide.title}{" "}
                         <span className="bg-gradient-to-r from-sky-400 via-blue-500 to-sky-500 bg-clip-text text-transparent">
                           {slide.highlight}
                         </span>
-                      </h1>
+                      </h2>
 
                       <p className="mt-5 sm:mt-8 text-white text-sm sm:text-lg max-w-full lg:max-w-[600px] leading-7 sm:leading-8 mx-auto lg:mx-0">
                         {slide.desc}

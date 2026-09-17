@@ -64,7 +64,7 @@ export default function CertificateSection() {
                 <div className="relative h-[240px] md:h-[420px] bg-white">
                   <Image
                     src={item.image}
-                    alt={item.title}
+                    alt="Justdial"
                     fill
                     className="object-contain p-3 md:p-6 hover:scale-105 transition duration-500"
                   />

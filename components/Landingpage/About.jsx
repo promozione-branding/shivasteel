@@ -2,13 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const videos = [
-  "/v1.mp4",
-   "/v2.mp4",
-   "/v3.mp4",
-     "/v4.mp4",
-       "/v5.mp4",
-];
+const videos = ["/v1.mp4", "/v2.mp4", "/v3.mp4", "/v4.mp4", "/v5.mp4"];
 
 export default function AboutSection() {
   const [active, setActive] = useState(0);
@@ -21,61 +15,55 @@ export default function AboutSection() {
     return () => clearInterval(timer);
   }, []);
 
- const getPosition = (index) => {
-  const pos = (index - active + videos.length) % videos.length;
+  const getPosition = (index) => {
+    const pos = (index - active + videos.length) % videos.length;
 
-  switch (pos) {
-    case 0:
-      // Front
-      return {
-        z: "z-40",
-        scale: "scale-100",
-        translate: "translate-x-0 translate-y-0",
-        opacity: "opacity-100",
-   
-      };
+    switch (pos) {
+      case 0:
+        // Front
+        return {
+          z: "z-40",
+          scale: "scale-100",
+          translate: "translate-x-0 translate-y-0",
+          opacity: "opacity-100",
+        };
 
-    case 1:
-      // Second
-      return {
-        z: "z-30",
-        scale: "scale-95",
-        translate: "translate-x-20 translate-y-8",
-        opacity: "opacity-90",
-      
-      };
+      case 1:
+        // Second
+        return {
+          z: "z-30",
+          scale: "scale-95",
+          translate: "translate-x-20 translate-y-8",
+          opacity: "opacity-90",
+        };
 
-    case 2:
-      // Third
-      return {
-        z: "z-20",
-        scale: "scale-90",
-        translate: "translate-x-40 translate-y-16",
-        opacity: "opacity-75",
-        
-      };
+      case 2:
+        // Third
+        return {
+          z: "z-20",
+          scale: "scale-90",
+          translate: "translate-x-40 translate-y-16",
+          opacity: "opacity-75",
+        };
 
-    case 3:
-      // Fourth
-      return {
-        z: "z-10",
-        scale: "scale-[0.85]",
-        translate: "translate-x-60 translate-y-24",
-        opacity: "opacity-60",
-      
-      };
+      case 3:
+        // Fourth
+        return {
+          z: "z-10",
+          scale: "scale-[0.85]",
+          translate: "translate-x-60 translate-y-24",
+          opacity: "opacity-60",
+        };
 
-    default:
-      return {};
-  }
-};
+      default:
+        return {};
+    }
+  };
 
   return (
     <section className="py-5 md:py-7 bg-white overflow-hidden">
       <div className="w-full px-5 lg:px-8  xl:px-20 mx-auto ">
-
         <div className="grid lg:grid-cols-2 gap-5 items-center">
-
           {/* LEFT CONTENT */}
 
           <div>
@@ -84,73 +72,88 @@ export default function AboutSection() {
             </span>
 
             <h2 className="mt-4 text-2xl md:text-4xl  font-bold text-slate-900 leading-tight">
-              One-Stop Destination for
+              Complete{" "}
               <span className="text-blue-700">
-                {" "}Steel Products &
-                Fabrication Solutions
-              </span>
+                {" "}
+                MS Pipe, GI Sheet, GP Sheet & Cable Tray{" "}
+              </span>{" "}
+              Solutions
             </h2>
 
             <p className="mt-2 md:mt-4 text-black text-md md:text-lg leading-7 xl:leading-8 ">
-              Welcome to Shiva Steel Fabricator, a trusted name in the
-              steel fabrication and supply industry. We specialize in
-              providing premium-quality <a className="text-blue-600" href="/categories/mild-steel-pipe">MS Pipe</a>, <a className="text-blue-600" href="/categories/ms-plates">MS Plate</a>, <a className="text-blue-600" href="/categories/mild-steel-angle">MS Angle</a>,
-              MS Beam, MS Channel, <a className="text-blue-600" href="/categories/gp-sheets">MS GP Sheet</a> ,<a className="text-blue-600" href="/categories/gi-sheet">MS GI Sheet</a> ,
-              Chequered Plates, Heavy Plates, Boiler Plates,
-              Cable Tray and Perforated Cable Tray.
+              Welcome to Shiva Steel Fabricator, a trusted name in the steel
+              fabrication and supply industry. We specialize in providing
+              premium-quality{" "}
+              <a className="text-blue-600" href="/categories/mild-steel-pipe">
+                MS Pipe
+              </a>
+              ,{" "}
+              <a className="text-blue-600" href="/categories/ms-plates">
+                MS Plate
+              </a>
+              ,{" "}
+              <a className="text-blue-600" href="/categories/mild-steel-angle">
+                MS Angle
+              </a>
+              , MS Beam, MS Channel,{" "}
+              <a className="text-blue-600" href="/categories/gp-sheets">
+                MS GP Sheet
+              </a>{" "}
+              ,
+              <a className="text-blue-600" href="/categories/gi-sheet">
+                MS GI Sheet
+              </a>{" "}
+              , Chequered Plates, Heavy Plates, Boiler Plates, Cable Tray and
+              Perforated Cable Tray.
             </p>
 
             <p className="mt-2 md:mt-4 text-black text-md md:text-lg leading-7 xl:leading-8 ">
-              With years of industry experience, we are committed to
-              delivering durable steel products, precision fabrication
-              solutions and reliable customer service. Our products are
-              sourced from reputed manufacturers and meet the highest
-              industry standards to ensure strength, performance and
-              longevity.
+              With years of industry experience, we are committed to delivering
+              durable steel products, precision fabrication solutions and
+              reliable customer service. Our products are sourced from reputed
+              manufacturers and meet the highest industry standards to ensure
+              strength, performance and longevity.
             </p>
 
             <div className="grid grid-cols-3 sm:grid-cols-3 gap-6 mt-10 text-center">
+              <div>
+                <h4 className="text-3xl sm:text-4xl font-bold text-blue-800">
+                  25+
+                </h4>
+                <p className="text-black text-sm sm:text-base">
+                  Years Experience
+                </p>
+              </div>
 
-  <div>
-    <h4 className="text-3xl sm:text-4xl font-bold text-blue-800">
-      25+
-    </h4>
-    <p className="text-black text-sm sm:text-base">
-      Years Experience
-    </p>
-  </div>
+              <div>
+                <h4 className="text-3xl sm:text-4xl font-bold text-blue-800">
+                  500+
+                </h4>
+                <p className="text-black text-sm sm:text-base">
+                  Projects Delivered
+                </p>
+              </div>
 
-  <div>
-    <h4 className="text-3xl sm:text-4xl font-bold text-blue-800">
-      500+
-    </h4>
-    <p className="text-black text-sm sm:text-base">
-      Projects Delivered
-    </p>
-  </div>
-
-  <div>
-    <h4 className="text-3xl sm:text-4xl font-bold text-blue-800">
-      100+
-    </h4>
-    <p className="text-black text-sm sm:text-base">
-      Quality Satisfaction
-    </p>
-  </div>
-
-</div>
+              <div>
+                <h4 className="text-3xl sm:text-4xl font-bold text-blue-800">
+                  100+
+                </h4>
+                <p className="text-black text-sm sm:text-base">
+                  Quality Satisfaction
+                </p>
+              </div>
+            </div>
           </div>
 
           {/* RIGHT VIDEOS */}
 
           <div className="hidden md:flex relative h-[650px] px-3  items-center mr-13 justify-center">
-
             {videos.map((video, index) => {
               const pos = getPosition(index);
 
               return (
-              <div
-  className={`
+                <div
+                  className={`
     absolute
     w-[450px]
     h-[560px]
@@ -166,11 +169,12 @@ export default function AboutSection() {
     ${pos.opacity}
     ${pos.rotate}
   `}
->
+                >
                   <video
                     src={video}
                     autoPlay
                     muted
+                    
                     loop
                     playsInline
                     className="w-full h-full object-cover"
@@ -181,9 +185,7 @@ export default function AboutSection() {
               );
             })}
           </div>
-
         </div>
-
       </div>
     </section>
   );

@@ -57,7 +57,7 @@ export default function CategoryPage({ params }) {
               <div className="w-full h-60 md:h-85 relative rounded-md overflow-hidden">
                 <Image
                   src={product.image[0]?.src || "/placeholder.png"}
-                  alt={product.image[0]?.alt || product.name}
+                  alt={product.name}
                   title={product.name}
                   fill
                   className="object-contain md:object-cover "
