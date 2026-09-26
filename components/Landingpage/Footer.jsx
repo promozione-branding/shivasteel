@@ -39,7 +39,7 @@ export default function Footer() {
           <div>
             <div className="flex py-0.5 items-center justify-center lg:justify-start">
               <Image
-                src="/footerlogo.png"
+                  src="/newlogoshiva.webp"
                 alt="Shiva Steel Fabricator"
                 width={160}
                 height={90}
