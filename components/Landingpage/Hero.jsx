@@ -13,6 +13,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 import Enquiry from "@/components/Enquiry";
+import { handleCallClick } from "@/lib/tracking";
 const slides = [
   {
     image: "/check.webp",
@@ -165,6 +166,7 @@ export default function HeroSection() {
                         <a
                           href="tel:+919069906984"
                           className="border border-white text-white px-6 sm:px-10 py-3 sm:py-4 rounded-md flex items-center justify-center gap-3 font-semibold hover:bg-white/10"
+                          onClick={() => handleCallClick({ source: "Website" })}
                         >
                           <Phone size={18} />
                           Call Now

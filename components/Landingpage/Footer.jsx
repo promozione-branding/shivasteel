@@ -6,6 +6,7 @@ import { ChevronRight, Linkedin, Mail, MapPin, Phone, X } from "lucide-react";
 import { FaFacebookF, FaLinkedinIn, FaSkype, FaTwitter } from "react-icons/fa";
 import { categories } from "@/Data";
 import { useState } from "react";
+import { handleCallClick } from "@/lib/tracking";
 
 const quickLinks = [
   { label: "Home", href: "/" },
@@ -140,7 +141,8 @@ export default function Footer() {
                   <a
                     href="tel:+919873656785"
                     className="text-sm sm:text-[15px] hover:text-blue-600 transition-colors"
-                  >
+                  onClick={() => handleCallClick({ source: "Website" })}
+                 >
                     +91-98736 56785
                   </a>
                 </div>
@@ -150,6 +152,7 @@ export default function Footer() {
                   <a
                     href="tel:+919716521402"
                     className="text-sm sm:text-[15px] hover:text-blue-600 transition-colors"
+                  onClick={() => handleCallClick({ source: "Website" })}
                   >
                     +91-97165 21402
                   </a>
@@ -160,6 +163,7 @@ export default function Footer() {
                   <a
                     href="tel:+919069906984"
                     className="text-sm sm:text-[15px] hover:text-blue-600 transition-colors"
+                  onClick={() => handleCallClick({ source: "Website" })}
                   >
                     +91-9069906984
                   </a>

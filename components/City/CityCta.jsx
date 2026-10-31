@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Enquiry from "@/components/Enquiry";
+import { handleCallClick } from "@/lib/tracking";
 
 
 const CityCta = ({city}) => {
@@ -31,6 +32,7 @@ const CityCta = ({city}) => {
           <a
             href="tel:+919873656785"
             className="bg-white text-[#1a327b] px-6 py-3 rounded-md font-semibold text-sm hover:bg-gray-200 transition"
+          onClick={() => handleCallClick({ source: "Website" })}
           >
             📞 Call Now
           </a>

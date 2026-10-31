@@ -8,6 +8,7 @@ import { Autoplay } from "swiper/modules";
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import { handleWhatsappClick } from "@/lib/tracking";
 
 const ProductCity = ({city}) => {
         const [isFormOpen, setIsFormOpen] = useState(false);
@@ -62,6 +63,7 @@ const ProductCity = ({city}) => {
           <a
             href="https://wa.me/+919873656785"
             target="_blank"
+            onClick={() => handleWhatsappClick({ source: "Website" })}
             className="border border-green-600 text-green-600 px-4 py-2 rounded-md text-sm hover:bg-green-600 hover:text-white transition"
           >
             WhatsApp

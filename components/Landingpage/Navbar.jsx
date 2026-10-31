@@ -11,6 +11,7 @@ import { categories } from "@/Data";
 import { Phone, Mail, MapPin, BadgeCheck } from "lucide-react";
 
 import Enquiry from "@/components/Enquiry";
+import { handleCallClick, handleWhatsappClick } from "@/lib/tracking";
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -36,6 +37,7 @@ export default function Navbar() {
               <a
                 href="tel:+919873656785"
                 className="flex items-center gap-2 hover:text-blue-200 transition"
+                onClick={() => handleCallClick({ source: "Website" })}
               >
                 <Phone className="h-3.5 w-3.5" />
                 +91-9873656785
@@ -44,6 +46,7 @@ export default function Navbar() {
               <a
                 href="tel:+919069906984"
                 className="flex items-center gap-2 hover:text-blue-200 transition"
+                onClick={() => handleCallClick({ source: "Website" })}
               >
                 <Phone className="h-3.5 w-3.5" />
                 +91-9069906984
@@ -287,6 +290,7 @@ export default function Navbar() {
               href="https://wa.me/919873656785"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => handleWhatsappClick({ source: "Website" })}
               className="group relative flex h-16 w-16 items-center justify-center overflow-hidden rounded-full border border-green-200 bg-gradient-to-br from-green-500 to-emerald-600 text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-2xl"
             >
               {/* Shine Effect */}
