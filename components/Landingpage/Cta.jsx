@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { Settings, ArrowRight } from "lucide-react";
 import { handleCallClick } from "@/lib/tracking";

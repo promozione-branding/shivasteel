@@ -7,9 +7,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { categories } from "@/Data";
-
 import { Phone, Mail, MapPin, BadgeCheck } from "lucide-react";
-
 import Enquiry from "@/components/Enquiry";
 import { handleCallClick, handleWhatsappClick } from "@/lib/tracking";
 
