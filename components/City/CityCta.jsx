@@ -36,7 +36,7 @@ const CityCta = ({city}) => {
           >
             📞 Call Now
           </a>
- 
+  
           {/* Quote Button */}
           <button
             onClick={() => setIsFormOpen(true)}
