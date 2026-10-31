@@ -267,13 +267,14 @@ const features = [
           </button>
 
           <a
-            href={`https://wa.me/919873656785?text=Hello I am interested in ${product.name}`}
-            target="_blank"
-            className="rounded-2xl px-4 border border-green-500 py-4 text-center font-semibold text-green-600 text-sm transition hover:bg-green-500 hover:text-white"
-            onClick={() => handleWhatsappClick({ obj: { name: product.title }, source: 'Website' })} 
-          >
-            WhatsApp Enquiry
-          </a>
+  href={`https://wa.me/919873656785?text=${encodeURIComponent(`Hello I am interested in ${product.name}`)}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-2xl px-4 border border-green-500 py-4 text-center font-semibold text-green-600 text-sm transition hover:bg-green-500 hover:text-white"
+  onClick={() => handleWhatsappClick({ obj: { name: product.name }, source: 'Website' })}
+>
+  WhatsApp Enquiry
+</a>
 
           <a
             href="/brochure.pdf"
