@@ -113,9 +113,9 @@ export default function ContactForm() {
   const submitForm = async () => {
     try {
       setLoading(true);
-
+      const webisteUrl = window.location.hostname + window.location.pathname;
       const formData = {
-        platform: "shiva steel popup Form",
+        platform: webisteUrl || "shiva steel popup Form",
         platformEmail: "shivasteel2019@gmail.com",
         supplierToken: "6a9bc52a79bd32ac5164a446",
         name,
@@ -195,23 +195,23 @@ Contact: ${phone}`;
 
 
   useEffect(() => {
-  const handleScroll = () => {
-    const scrollTop = window.scrollY;
-    const windowHeight = window.innerHeight;
-    const fullHeight = document.documentElement.scrollHeight;
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      const windowHeight = window.innerHeight;
+      const fullHeight = document.documentElement.scrollHeight;
 
-    const scrolled = (scrollTop + windowHeight) / fullHeight;
+      const scrolled = (scrollTop + windowHeight) / fullHeight;
 
-    if (scrolled >= 0.3) {
-      setIsOpen(true);
-      window.removeEventListener("scroll", handleScroll); 
-    }
-  };
+      if (scrolled >= 0.3) {
+        setIsOpen(true);
+        window.removeEventListener("scroll", handleScroll);
+      }
+    };
 
-  window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
-  return () => window.removeEventListener("scroll", handleScroll);
-}, []);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   if (!isOpen) return null;
 
@@ -258,37 +258,37 @@ Contact: ${phone}`;
               onChange={(e) => setProduct(e.target.value)}
               className="w-1/2 max-md:w-full p-3 rounded-md text-black text-sm border-2 focus:outline-none bg-blue-50"
             >
-             <option value="">Select Product</option>
-                  <option value="GI Sheet">
-                    GI Sheet
-                  </option>
-                  <option value="Mild Steel Pipe">
-                    Mild Steel Pipe
-                  </option>
-                  <option value="MS Plates">
-                    MS Plates
-                  </option>
-                  <option value="GP Sheets">
-                    MS Sheets
-                  </option>
-                  <option value="Mild Steel Bars">
-                    Mild Steel Bars
-                  </option>
-                  <option value="Metal Coil">
-                   Metal Coil
-                  </option>
-                  <option value="Mild Steel Angle">
-                    Mild Steel Angle
-                  </option>
-                  <option value="TMT Bars">
-                   TMT Bars
-                  </option>
-                  <option value="Cable Tray">
-                   Cable Tray
-                  </option>
-                  <option value="TMT Bars">
-                   TMT Bars
-                  </option>
+              <option value="">Select Product</option>
+              <option value="GI Sheet">
+                GI Sheet
+              </option>
+              <option value="Mild Steel Pipe">
+                Mild Steel Pipe
+              </option>
+              <option value="MS Plates">
+                MS Plates
+              </option>
+              <option value="GP Sheets">
+                MS Sheets
+              </option>
+              <option value="Mild Steel Bars">
+                Mild Steel Bars
+              </option>
+              <option value="Metal Coil">
+                Metal Coil
+              </option>
+              <option value="Mild Steel Angle">
+                Mild Steel Angle
+              </option>
+              <option value="TMT Bars">
+                TMT Bars
+              </option>
+              <option value="Cable Tray">
+                Cable Tray
+              </option>
+              <option value="TMT Bars">
+                TMT Bars
+              </option>
             </select>
           </div>
 
@@ -362,19 +362,18 @@ Contact: ${phone}`;
             {loading
               ? "Loading..."
               : !showOtpBox
-              ? "Send OTP"
-              : !isPhoneVerified
-              ? "Verify OTP First"
-              : "Send Message"}
+                ? "Send OTP"
+                : !isPhoneVerified
+                  ? "Verify OTP First"
+                  : "Send Message"}
           </button>
 
           {status && (
             <p
-              className={`text-center text-sm mt-2 font-medium ${
-                status.startsWith("✅")
+              className={`text-center text-sm mt-2 font-medium ${status.startsWith("✅")
                   ? "text-green-600"
                   : "text-red-600"
-              }`}
+                }`}
             >
               {status}
             </p>

@@ -35,16 +35,13 @@ export default function ContactForm({
   const submitForm = async (values) => {
     try {
       setLoading(true);
-
+      const webisteUrl = window.location.hostname + window.location.pathname;
       const { data } = await axios.post(
         "https://brandbnalo.com/api/form/add",
         {
-          platform:
-            "shiva steel enquiry Form",
-
-          platformEmail:
-            "shivasteel2019@gmail.com",
-            supplierToken: "6a9bc52a79bd32ac5164a446",
+          platform: webisteUrl || "shiva steel enquiry Form",
+          platformEmail: "shivasteel2019@gmail.com",
+          supplierToken: "6a9bc52a79bd32ac5164a446",
 
           name: values.name,
 
@@ -108,31 +105,31 @@ Contact: ${values.phone}`;
   };
 
   // HANDLE SUBMIT
-const handleSubmit = async (e) => {
-  e.preventDefault();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
 
-  const form = e.target;
+    const form = e.target;
 
-  const values = {
-    name: form.name.value,
-    phone: form.phone.value,
-    email: form.email.value,
-    product: form.products.value,
-    message: form.message.value,
+    const values = {
+      name: form.name.value,
+      phone: form.phone.value,
+      email: form.email.value,
+      product: form.products.value,
+      message: form.message.value,
+    };
+
+    if (!values.phone || values.phone.length < 10) {
+      return toast.error("Enter Valid Phone Number");
+    }
+
+    await submitForm(values);
   };
 
-  if (!values.phone || values.phone.length < 10) {
-    return toast.error("Enter Valid Phone Number");
-  }
-
-  await submitForm(values);
-};
-
   return (
-    <div    onClick={ handleClose}  className="fixed inset-0 z-[99999] flex items-center justify-center p-4 overflow-y-auto">
-      
+    <div onClick={handleClose} className="fixed inset-0 z-[99999] flex items-center justify-center p-4 overflow-y-auto">
+
       <div
-      onClick={(e) => (e.stopPropagation())}
+        onClick={(e) => (e.stopPropagation())}
         className="relative border-2 border-white z-[1000] rounded-3xl shadow-2xl p-6 md:p-10 w-full max-w-[570px] text-white bg-cover bg-center"
         style={{
           backgroundImage:
@@ -182,7 +179,7 @@ const handleSubmit = async (e) => {
                   defaultValue=""
                   className="w-full md:w-1/2 p-3 rounded-md text-black text-sm border-2 border-white focus:outline-none bg-blue-50"
                 >
-                 <option value="">Select Product</option>
+                  <option value="">Select Product</option>
                   <option value="GI Sheet">
                     GI Sheet
                   </option>
@@ -199,19 +196,19 @@ const handleSubmit = async (e) => {
                     Mild Steel Bars
                   </option>
                   <option value="Metal Coil">
-                   Metal Coil
+                    Metal Coil
                   </option>
                   <option value="Mild Steel Angle">
                     Mild Steel Angle
                   </option>
                   <option value="TMT Bars">
-                   TMT Bars
+                    TMT Bars
                   </option>
                   <option value="Cable Tray">
-                   Cable Tray
+                    Cable Tray
                   </option>
                   <option value="TMT Bars">
-                   TMT Bars
+                    TMT Bars
                   </option>
                 </select>
               </div>
@@ -234,7 +231,7 @@ const handleSubmit = async (e) => {
                 />
               </div>
 
-       
+
 
 
               {/* EMAIL */}
@@ -257,13 +254,13 @@ const handleSubmit = async (e) => {
               ></textarea>
 
               {/* BUTTON */}
-          <button
-  type="submit"
-  disabled={loading}
-  className="w-full py-3 bg-gradient-to-r from-blue-500 to-blue-600 rounded-md font-semibold text-white shadow-md hover:opacity-90 transition disabled:opacity-60"
->
-  {loading ? "Submitting..." : "Send Message"}
-</button>
+              <button
+                type="submit"
+                disabled={loading}
+                className="w-full py-3 bg-gradient-to-r from-blue-500 to-blue-600 rounded-md font-semibold text-white shadow-md hover:opacity-90 transition disabled:opacity-60"
+              >
+                {loading ? "Submitting..." : "Send Message"}
+              </button>
             </form>
           ) : (
             <p className="text-center text-white font-semibold text-lg">

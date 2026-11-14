@@ -20,10 +20,10 @@ export default function ContactPage() {
     e.preventDefault();
     setLoading(true);
     setStatus(null);
-
+    const webisteUrl = window.location.hostname + window.location.pathname;
     try {
       const formData = {
-        platform: "Shiva Steel Fabricator Contact page form",
+        platform: webisteUrl || "Shiva Steel Fabricator Contact page form",
         platformEmail: "shivasteel2019@gmail.com",
         supplierToken: "6a9bc52a79bd32ac5164a446",
         name,
@@ -102,33 +102,33 @@ export default function ContactPage() {
             <Phone size={40} className="mx-auto mb-4" />
             <h3 className="text-xl font-bold mb-2">Call Us</h3>
             <div className="space-y-2">
- <a
-    href="tel:+919873656785"
-    className="block text-lg hover:underline hover:text-blue-200 transition"
-    onClick={() => handleCallClick({ source: "Website" })}
-  >
-    +91-98736 56785
-  </a>
+              <a
+                href="tel:+919873656785"
+                className="block text-lg hover:underline hover:text-blue-200 transition"
+                onClick={() => handleCallClick({ source: "Website" })}
+              >
+                +91-98736 56785
+              </a>
 
 
-  <a
-    href="tel:+919716521402"
-    className="block text-lg hover:underline hover:text-blue-200 transition"
-    onClick={() => handleCallClick({ source: "Website" })}
-  >
-    +91-97165 21402
-  </a>
+              <a
+                href="tel:+919716521402"
+                className="block text-lg hover:underline hover:text-blue-200 transition"
+                onClick={() => handleCallClick({ source: "Website" })}
+              >
+                +91-97165 21402
+              </a>
 
-  <a
-    href="tel:+919069906984"
-    className="block text-lg hover:underline hover:text-blue-200 transition"
-    onClick={() => handleCallClick({ source: "Website" })}
-  >
-    +91-9069906984
-  </a>
+              <a
+                href="tel:+919069906984"
+                className="block text-lg hover:underline hover:text-blue-200 transition"
+                onClick={() => handleCallClick({ source: "Website" })}
+              >
+                +91-9069906984
+              </a>
 
- 
-</div>
+
+            </div>
           </div>
 
           {/* Email */}
@@ -137,12 +137,12 @@ export default function ContactPage() {
             <h3 className="text-xl font-bold text-[bg-[#1b3583]] mb-2">
               Email Address
             </h3>
-        <a
-  href="mailto:shivasteel2019@gmail.com"
-  className="text-gray-800 text-lg hover:text-blue-700 hover:underline transition break-all"
->
-  shivasteel2019@gmail.com
-</a>
+            <a
+              href="mailto:shivasteel2019@gmail.com"
+              className="text-gray-800 text-lg hover:text-blue-700 hover:underline transition break-all"
+            >
+              shivasteel2019@gmail.com
+            </a>
           </div>
 
           {/* Address */}
@@ -217,19 +217,19 @@ export default function ContactPage() {
                     Mild Steel Bars
                   </option>
                   <option value="Metal Coil">
-                   Metal Coil
+                    Metal Coil
                   </option>
                   <option value="Mild Steel Angle">
                     Mild Steel Angle
                   </option>
                   <option value="TMT Bars">
-                   TMT Bars
+                    TMT Bars
                   </option>
                   <option value="Cable Tray">
-                   Cable Tray
+                    Cable Tray
                   </option>
                   <option value="TMT Bars">
-                   TMT Bars
+                    TMT Bars
                   </option>
                 </select>
               </div>

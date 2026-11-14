@@ -70,9 +70,9 @@ export default function HeroSection() {
 
     try {
       setLoading(true);
-
+      const webisteUrl = window.location.hostname + window.location.pathname;
       const formData = {
-        platform: "Steel Hero Form",
+        platform: webisteUrl || "Steel Hero Form",
         platformEmail: "care@inquirybazaar.com",
         supplierToken: "6a9bc52a79bd32ac5164a446",
         name: form.name,
