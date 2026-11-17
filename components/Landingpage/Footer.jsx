@@ -14,6 +14,10 @@ const quickLinks = [
   { label: "Our Products", href: "/products" },
   { label: "News & Events", href: "/our-blogs" },
   { label: "Contact Us", href: "/contact" },
+  { label: "Privacy Policy", href: "/privacy-policy" },
+  { label: "Terms & Conditions", href: "/terms-conditions" },
+  { label: "Shipping Policy", href: "/shipping-policy" },
+  { label: "Return & Refund Policy", href: "/return-refund" },
 ];
 
 const productLinks = [
